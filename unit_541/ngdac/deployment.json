@@ -1,0 +1,17 @@
+{
+    "glider": "Sverdrup",
+    "global_attributes": {
+        "deployment": "Sverdrup-20180509T0000",
+        "wmo_id": "4801924"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "Sverdrup",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider Sverdrup",
+        "type": "platform",
+        "wmo_id": "4801924"
+    },
+    "trajectory_datetime": " ",
+    "trajectory_name": "Sverdrup-20180509T0000"
+}
