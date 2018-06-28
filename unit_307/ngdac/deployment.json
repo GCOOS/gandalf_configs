@@ -1,0 +1,20 @@
+{
+    "glider": "Reveille",
+    "global_attributes": {
+        "deployment": "Reveille-20180627T1500",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": " ",
+        "id": "Reveille",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider Reveille",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": " ",
+    "trajectory_name": "Reveille-20180627T1500",
+    "gandalf" : {
+      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/allgcoos_dmacGliders.csv?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cprofile_id%2Ctime_uv%2Clat_uv%2Clon_uv%2Cu%2Cv&distinct()"
+    }
+}
