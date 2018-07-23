@@ -17,6 +17,7 @@
     "gandalf" : {
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
+      "deployment_date" : "2018-06-27 15:00",
       "PI" : "DiMarco, S",
       "operator" : "TAMU GERG",
       "project" : "GOMRI_GOMIX",
