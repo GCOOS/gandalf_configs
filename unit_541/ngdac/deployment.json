@@ -15,6 +15,8 @@
     "trajectory_datetime": " ",
     "trajectory_name": "Sverdrup-20180509T0000",
     "gandalf" : {
+      "vehicle_type" : "Slocum G2",
+      "dash_status" : "Deployed",
       "PI" : "DiMarco, S",
       "operator" : "TAMU GERG",
       "project" : "GOMRI_GOMIX",
