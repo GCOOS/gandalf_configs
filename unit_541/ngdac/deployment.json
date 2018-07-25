@@ -12,15 +12,18 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": " ",
+    "trajectory_datetime": "20180509T000",
     "trajectory_name": "Sverdrup-20180509T0000",
     "gandalf" : {
+      "data_source" : "GliderDAC",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
+      "deployment_date" : "2018-05-09 12:00",
       "PI" : "DiMarco, S",
       "operator" : "TAMU GERG",
       "project" : "GOMRI_GOMIX",
       "public_name" : "Sverdrup",
+      "vehicle" : "unit_541",
       "logo_file" : "/data/gandalf/static/images/logos/tamu_logo.png",
       "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/Sverdrup-20180509T1742.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&distinct()",
       "style" : {

@@ -15,6 +15,7 @@
     "trajectory_datetime": "20180627T1500",
     "trajectory_name": "Reveille-20180627T1500",
     "gandalf" : {
+      "data_source" : "Gandalf",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
       "deployment_date" : "2018-06-27 15:00",
@@ -22,6 +23,7 @@
       "operator" : "TAMU GERG",
       "project" : "GOMRI_GOMIX",
       "public_name" : "Reveille",
+      "vehicle" : "unit_307",
       "logo_file" : "/data/gandalf/static/images/logos/tamu_logo.png",
       "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/Reveille-20180627T1500.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Cconductivity%2Cdensity%2Cprofile_id%2Csalinity%2Ctemperature&trajectory=%22Reveille-20180627T1500%22&wmo_id=%224801938%22",
       "style" : {
