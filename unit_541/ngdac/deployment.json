@@ -15,7 +15,7 @@
     "trajectory_datetime": "20180509T000",
     "trajectory_name": "Sverdrup-20180509T0000",
     "gandalf" : {
-      "data_source" : "Gandalf",
+      "data_source" : "GliderDAC",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
       "deployment_date" : "2018-05-09 12:00",
