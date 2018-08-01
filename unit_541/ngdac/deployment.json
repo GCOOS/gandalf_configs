@@ -15,9 +15,11 @@
     "trajectory_datetime": "20180509T000",
     "trajectory_name": "Sverdrup-20180509T0000",
     "gandalf" : {
+      "debug" : "True",
+
       "data_source" : "GliderDAC",
       "vehicle_type" : "Slocum G2",
-      "dash_status" : "Deployed",
+      "dash_status" : "Recovered",
       "deployment_date" : "2018-05-09 12:00",
       "PI" : "DiMarco, S",
       "operator" : "TAMU GERG",
@@ -33,7 +35,23 @@
       },
       "currPosIcon" : "/static/images/slocum_stop.png",
       "iconSize" : [20, 20],
+      "dbd2asc" : "/opt/dinkum/dbd2asc",
+      "dba_sensor_filter" : "/opt/dinkum/dba_sensor_filter",
+      "dba_merge" : "/opt/dinkum/dba_merge",
       "deployed_data_dir" : "/data/gandalf/deployments/tamu/unit_541",
-      "post_data_dir_root" : "/data/gandalf/deployments/tamu/unit_541"
+      "post_data_dir_root" : "/data/gandalf/tamu/unit_541/2018/2018_05_09",
+      "flight_sensor_list" : ["m_present_time", "m_depth",
+      "m_water_depth", "m_lat", "m_lon", "m_gps_lat", "m_gps_lon",
+      "m_tot_horz_dist", "m_battery"],
+      "science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
+      "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
+      "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
+      "postprocess_flight_sensor_list" : ["m_present_time", "m_depth",
+      "m_water_depth", "m_lat", "m_lon", "m_gps_lat", "m_gps_lon",
+      "m_tot_horz_dist", "m_battery", "m_lithium_battery_relative_charge",
+      "m_water_vx", "m_water_vy"],
+      "postprocess_science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
+      "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
+      "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"]
     }
 }
