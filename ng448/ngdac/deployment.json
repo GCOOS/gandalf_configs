@@ -25,7 +25,7 @@
       "public_name" : "ng448",
       "vehicle" : "ng448",
       "logo_file" : "/data/gandalf/static/images/logos/usn_logo.png",
-      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/ng448-20180701T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clatitude_qc%2Clongitude%2Clongitude_qc%2Ctime_qc%2Cdepth%2Cdepth_qc%2Cpressure%2Cpressure_qc%2Cconductivity%2Cconductivity_qc%2Cdensity%2Cdensity_qc%2Cprecise_lat%2Cprecise_lon%2Cprecise_time%2Cprofile_id%2Cprecise_lat_qc%2Cprecise_lon_qc%2Cprecise_time_qc%2Csalinity%2Csalinity_qc%2Ctemperature%2Ctemperature_qc%2Ctime_uv%2Ctime_uv_qc%2Clat_uv%2Clat_uv_qc%2Clon_uv%2Clon_uv_qc%2Cu%2Cu_qc%2Cv%2Cv_qc%2Cplatform_meta%2Cinstrument_ctd&time%3E=2018-08-06T00%3A00%3A00Z&time%3C=2018-08-13T02%3A57%3A01Z",
+      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/ng448-20180701T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&time%3E=2018-08-06T00%3A00%3A00Z&time%3C=2018-08-13T13%3A49%3A50Z&depth%3C2",
       "style" : {
         "color": "#0000ff",
         "weight": 2,
@@ -34,6 +34,8 @@
       "currPosIcon" : "/static/images/slocum_stop.png",
       "iconSize" : [20, 20],
       "deployed_data_dir" : "/data/gandalf/deployments/usn/ng448",
-      "post_data_dir_root" : "/data/gandalf/deployments/usn/ng448"
+      "post_data_dir_root" : "/data/gandalf/deployments/usn/ng448",
+      "plot_url" : "",
+      "kmz_url" : ""
     }
 }

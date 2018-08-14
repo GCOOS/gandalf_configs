@@ -50,6 +50,8 @@
       "m_water_vx", "m_water_vy"],
       "postprocess_science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
-      "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"]
+      "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
+      "plot_url" : "",
+      "kmz_url" : ""
     }
 }
