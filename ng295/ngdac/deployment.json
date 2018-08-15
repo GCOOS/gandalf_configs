@@ -25,7 +25,7 @@
       "public_name" : "ng295",
       "vehicle" : "ng295",
       "logo_file" : "/data/gandalf/static/images/logos/usn_logo.png",
-      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/ng295-20180701T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&time%3E=2018-07-01T00%3A00%3A00Z",
+      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/ng295-20180701T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth&time%3E=2018-07-01T00%3A00%3A00Z&depth%3C2",
       "style" : {
         "color": "#0000ff",
         "weight": 2,
