@@ -1,32 +1,32 @@
 {
-    "glider": "usf-bass",
+    "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "bass-20180808T0000",
-        "wmo_id": "4801924"
+        "deployment": "sam-20180824T0000",
+        "wmo_id": ""
     },
     "platform": {
         "comment": " ",
-        "id": "usf-bass",
+        "id": "usf-sam",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider usf-bass",
+        "long_name": "Slocum Glider usf-sam",
         "type": "platform",
-        "wmo_id": "4801924"
+        "wmo_id": ""
     },
-    "trajectory_datetime": "20180808T0000",
-    "trajectory_name": "bass-20180808T0000",
+    "trajectory_datetime": "20180824T0000",
+    "trajectory_name": "sam-20180824T0000",
     "gandalf" : {
       "debug" : "True",
       "data_source" : "IOOS GDAC",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
-      "deployment_date" : "2018-08-08 00:00",
-      "PI" : "Lembke/Edwards",
+      "deployment_date" : "2018-08-24 00:00",
+      "PI" : "Lembke",
       "operator" : "USF",
-      "project" : "SECOORA",
-      "public_name" : "usf-bass",
-      "vehicle" : "usf-bass",
+      "project" : "USF",
+      "public_name" : "usf-sam",
+      "vehicle" : "usf-sam",
       "logo_file" : "/data/gandalf/static/images/logos/usf_logo.png",
-      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/bass-20180808T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth&time%3E=2018-08-08T00%3A00%3A00Z&depth%3C2",
+      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/sam-20180808T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth&time%3E=2018-08-08T00%3A00%3A00Z&depth%3C2",
       "style" : {
         "color": "#FF00FF",
         "weight": 2,
@@ -34,12 +34,12 @@
       },
       "currPosIcon" : "/static/images/slocum_stop.png",
       "iconSize" : [20, 20],
-      "dbd2asc" : "/opt/dinkum/dbd2asc",
+      "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
       "dba_sensor_filter" : "/opt/dinkum/dba_sensor_filter",
       "dba_merge" : "/opt/dinkum/dba_merge",
-      "deployed_data_dir" : "/data/gandalf/deployments/usf/usf-bass",
-      "post_data_dir_root" : "/data/gandalf/deployments/usf/usf-bass",
-      "post_data_dir_root" : "/data/gandalf/tamu/unit_541/2018/2018_05_09",
+      "deployed_data_dir" : "/data/gandalf/deployments/usf/usf-sam",
+      "post_data_dir_root" : "/data/gandalf/deployments/usf/usf-sam",
+      "post_data_dir_root" : "/data/gandalf/usf/usf-sam/2018/2018_08_24",
       "flight_sensor_list" : ["m_present_time", "m_depth", "m_water_depth"],
       "science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
@@ -51,7 +51,7 @@
       "postprocess_science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
       "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
-      "plot_url" : "http://gcoos4.tamu.edu/data/gandalf/deployments/usf/usf-bass/plots/index.html",
-      "kmz_url" : "http://gcoos4.tamu.edu/data/gandalf/deployments/usf/usf-bass/kmz/usf-bass.kmz"
+      "plot_url" : "http://gcoos4.tamu.edu/data/gandalf/deployments/usf/usf-sam/plots/index.html",
+      "kmz_url" : "http://gcoos4.tamu.edu/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz"
     }
 }

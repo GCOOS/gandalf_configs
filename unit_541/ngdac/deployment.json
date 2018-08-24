@@ -16,7 +16,6 @@
     "trajectory_name": "Sverdrup-20180509T0000",
     "gandalf" : {
       "debug" : "True",
-
       "data_source" : "GliderDAC",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
