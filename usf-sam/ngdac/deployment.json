@@ -16,7 +16,7 @@
     "trajectory_name": "sam-20180824T0000",
     "gandalf" : {
       "debug" : "True",
-      "data_source" : "IOOS GDAC",
+      "data_source" : "Local",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
       "deployment_date" : "2018-08-24 00:00",

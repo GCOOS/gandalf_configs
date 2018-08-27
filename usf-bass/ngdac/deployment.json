@@ -34,7 +34,7 @@
       },
       "currPosIcon" : "/static/images/slocum_stop.png",
       "iconSize" : [20, 20],
-      "dbd2asc" : "/opt/dinkum/dbd2asc",
+      "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
       "dba_sensor_filter" : "/opt/dinkum/dba_sensor_filter",
       "dba_merge" : "/opt/dinkum/dba_merge",
       "deployed_data_dir" : "/data/gandalf/deployments/usf/usf-bass",
