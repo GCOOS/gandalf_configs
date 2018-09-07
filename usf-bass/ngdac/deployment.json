@@ -18,7 +18,7 @@
       "debug" : "True",
       "data_source" : "IOOS GDAC",
       "vehicle_type" : "Slocum G2",
-      "dash_status" : "Deployed",
+      "dash_status" : "Recovered",
       "deployment_date" : "2018-08-08 00:00",
       "PI" : "Lembke/Edwards",
       "operator" : "USF",
