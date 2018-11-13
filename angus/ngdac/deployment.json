@@ -1,7 +1,7 @@
 {
     "glider": "Angus",
     "global_attributes": {
-        "deployment": "Angus-20180509T0000",
+        "deployment": "Angus-20181031T0000",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -12,11 +12,11 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": "20180509T000",
-    "trajectory_name": "Angus-20180509T0000",
+    "trajectory_datetime": "20181031T000",
+    "trajectory_name": "Angus-20181031T0000",
     "gandalf" : {
       "debug" : "True",
-      "data_source" : "GliderDAC",
+      "data_source" : "SKIO Dockserver",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
       "deployment_date" : "2018-11-08 12:00",
@@ -51,7 +51,7 @@
       "postprocess_science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
       "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
-      "plot_url" : "",
+      "plot_url" : "http://gandalf.gcoos.org/data/gandalf/deployments/skio/angus/plots",
       "kmz_url" : ""
     }
 }
