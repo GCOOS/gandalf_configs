@@ -16,6 +16,7 @@
     "trajectory_name": "Angus-20181031T0000",
     "gandalf" : {
       "debug" : "True",
+      "deployed" : "True",
       "data_source" : "SKIO Dockserver",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
@@ -39,6 +40,7 @@
       "dba_sensor_filter" : "/opt/dinkum/dba_sensor_filter",
       "dba_merge" : "/opt/dinkum/dba_merge",
       "deployed_data_dir" : "/data/gandalf/deployments/skio/angus",
+      "sensors_csv" : "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
       "post_data_dir_root" : "/data/gandalf/skio/angus/2018/2018_11_08",
       "flight_sensor_list" : ["m_present_time", "m_depth", "m_water_depth"],
       "science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
@@ -51,7 +53,13 @@
       "postprocess_science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
       "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
-      "plot_url" : "http://gandalf.gcoos.org/data/gandalf/deployments/skio/angus/plots",
+      "plots" : {
+        "plot_sensor_list" : ["sci_water_temp", "calc_density",
+        "sci_flbbcd_cdom_units", "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
+        "deployed_plot_dir" : "/data/gandalf/deployments/skio/angus/plots",
+        "use_bottom" : "True",
+        "alt_colormap" : "True"
+      },
       "kmz_url" : ""
     }
 }
