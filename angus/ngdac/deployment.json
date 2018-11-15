@@ -54,7 +54,7 @@
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
       "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
       "plots" : {
-        "plot_sensor_list" : ["sci_water_temp", "calc_density",
+        "plot_sensor_list" : ["sci_water_temp", "calc_density", "calc_salinity",
         "sci_flbbcd_cdom_units", "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
         "deployed_plot_dir" : "/data/gandalf/deployments/skio/angus/plots",
         "use_bottom" : "True",
