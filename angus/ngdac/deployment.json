@@ -26,7 +26,6 @@
       "project" : "PEACHES",
       "public_name" : "Angus",
       "vehicle" : "angus",
-      "logo_file" : "/data/gandalf/static/images/logos/skio_logo.png",
       "gdac_url": "",
       "style" : {
         "color": "#500000",
@@ -54,6 +53,8 @@
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
       "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
       "plots" : {
+        "logo_file" : "/data/gandalf/static/images/logos/skio_logo.png",
+        "logo_loc" : [175, 90],
         "plot_sensor_list" : ["sci_water_temp", "calc_density", "calc_salinity",
         "sci_flbbcd_cdom_units", "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
         "deployed_plot_dir" : "/data/gandalf/deployments/skio/angus/plots",
