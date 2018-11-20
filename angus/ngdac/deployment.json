@@ -18,7 +18,7 @@
       "debug" : "True",
       "deployed" : "True",
       "data_source" : "SKIO Dockserver",
-      "vehicle_type" : "Slocum G2",
+      "vehicle_type" : "Slocum G3",
       "dash_status" : "Deployed",
       "deployment_date" : "2018-11-08 12:00",
       "PI" : "Edwards, C",
