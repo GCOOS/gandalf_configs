@@ -46,5 +46,37 @@
     "sensor_plot_min" : 100.0,
     "sensor_plot_max" : 500.0,
     "alt_colormap" : "cmocean.cm.oxygen"
+  },
+  {
+    "sensor" :  "sci_bbfl2s_cdom_scaled",
+    "unit_string" : "PPB (10$^{-9}$)",
+    "sensor_name" : "CDOM",
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max" :  5.0,
+    "alt_colormap" : "cmocean.cm.matter"
+  },
+  {
+    "sensor" :  "sci_bbfl2s_chlor_scaled",
+    "unit_string" : "($_u gm/L$)",
+    "sensor_name" : "Chlorophyll",
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max" :  5.0,
+    "alt_colormap" : "cmocean.cm.algae"
+  },
+  {
+    "sensor" :  "sci_bbfl2s_bb_scaled",
+    "unit_string" : "($_u gm/L$)",
+    "sensor_name" : "Chlorophyll",
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max" :  5.0,
+    "alt_colormap" : "cmocean.cm.algae"
+  },
+  {
+    "sensor" : "sci_oxy3835_oxygen",
+    "unit_string" : "($_u mol/L$)",
+    "sensor_name" : "Dissolved Oxygen",
+    "sensor_plot_min" : 100.0,
+    "sensor_plot_max" : 500.0,
+    "alt_colormap" : "cmocean.cm.oxygen"
   }
 ]
