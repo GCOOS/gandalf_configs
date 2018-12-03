@@ -3,24 +3,24 @@
     "sensor" :  "sci_water_temp",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Water Temperature",
-    "sensor_plot_min" : 16,
-    "sensor_plot_max" : 40.0,
+    "sensor_plot_min" : 20,
+    "sensor_plot_max" : 23.0,
     "alt_colormap" : "cmocean.cm.thermal"
   },
   {
     "sensor" :  "calc_salinity",
     "unit_string" : "PPT (10$^{-3}$)",
     "sensor_name" : "Salinity",
-    "sensor_plot_min" : 29.0,
-    "sensor_plot_max" :  37.0,
+    "sensor_plot_min" : 33.0,
+    "sensor_plot_max" :  36.0,
     "alt_colormap" : "cmocean.cm.haline"
   },
   {
     "sensor" :  "calc_density",
     "unit_string" : "(kg/m$^{3}$)",
     "sensor_name" : "Sigma-t",
-    "sensor_plot_min" : 0,
-    "sensor_plot_max" :  40.0,
+    "sensor_plot_min" : 15,
+    "sensor_plot_max" :  22.0,
     "alt_colormap" : "cmocean.cm.dense"
   },
   {
@@ -28,7 +28,7 @@
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" :  1.5,
     "alt_colormap" : "cmocean.cm.matter"
   },
   {
@@ -36,7 +36,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" :  1.5,
     "alt_colormap" : "cmocean.cm.algae"
   },
   { 
@@ -44,7 +44,7 @@
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,
-    "sensor_plot_max" : 500.0,
+    "sensor_plot_max" : 200.0,
     "alt_colormap" : "cmocean.cm.oxygen"
   },
   {
@@ -52,7 +52,7 @@
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" :  1.5,
     "alt_colormap" : "cmocean.cm.matter"
   },
   {
@@ -60,7 +60,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" :  1.5,
     "alt_colormap" : "cmocean.cm.algae"
   },
   {
@@ -68,7 +68,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" :  1.5,
     "alt_colormap" : "cmocean.cm.algae"
   },
   {
@@ -76,7 +76,7 @@
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,
-    "sensor_plot_max" : 500.0,
+    "sensor_plot_max" : 200.0,
     "alt_colormap" : "cmocean.cm.oxygen"
   }
 ]
