@@ -75,8 +75,17 @@
     "sensor" : "sci_oxy3835_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
-    "sensor_plot_min" : 100.0,
+    "sensor_plot_min" : 175.0,
+    "sensor_plot_max" : 200.0,
+    "alt_colormap" : "cmocean.cm.oxygen"
+  },
+{
+    "sensor" : "sci_water_pressure",
+    "unit_string" : "(bars)",
+    "sensor_name" : "Pressure",
+    "sensor_plot_min" : 0,
     "sensor_plot_max" : 200.0,
     "alt_colormap" : "cmocean.cm.oxygen"
   }
+
 ]

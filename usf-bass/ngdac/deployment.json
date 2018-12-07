@@ -54,7 +54,7 @@
         "logo_loc" : [175, 90],
         "plot_sensor_list" : ["sci_water_temp", "calc_density", "calc_salinity",
         "sci_bbfl2s_chlor_scaled","sci_bbfl2s_cdom_scaled","sci_bbfl2s_bb_scaled",
-        "sci_oxy3835_oxygen"],
+        "sci_oxy3835_oxygen","sci_water_pressure"],
         "deployed_plot_dir" : "/data/gandalf/deployments/usf/usf-bass/plots",
         "use_bottom" : "False",
         "alt_colormap" : "False"
