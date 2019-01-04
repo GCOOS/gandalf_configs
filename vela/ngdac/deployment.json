@@ -1,0 +1,56 @@
+{
+    "glider": "",
+    "global_attributes": {
+        "deployment": "vela-20181230T0000",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": " ",
+        "id": "vela",
+        "instruments": "instrument_ctd",
+        "long_name": "Navocean S3 vela",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20181230T0000",
+    "trajectory_name": "vela-20181230T0000",
+    "gandalf" : {
+      "debug" : "True",
+      "deployed" : "True",
+      "data_source" : "Navocean",
+      "vehicle_type" : "Navocean S3",
+      "dash_status" : "Deployed",
+      "deployment_date" : "2018-12-30 00:00",
+      "PI" : "Beckler",
+      "operator" : "FAU/HBOI",
+      "project" : "Okeechobee",
+      "public_name" : "Vela",
+      "vehicle" : "vela",
+      "logo_file" : "/data/gandalf/static/images/logos/fau_logo.png",
+      "vela_url" : "http://portal.navocean.com/services/nav.php?mission=okee-trial1&req=all-vitals",
+      "style" : {
+        "color": "#2244FF",
+        "weight": 2,
+        "opacity": 1
+      },
+      "currPosIcon" : "/static/images/vela.png",
+      "wpIcon" : "/static/images/wp_icon.png",
+      "iconSize" : [40, 40],
+      "deployed_data_dir" : "/data/gandalf/deployments/hboi/vela",
+      "sensors_csv" : "/data/gandalf/deployments/hboi/vela/processed_data/sensors.csv",
+      "post_data_dir_root" : "/data/gandalf/deployments/hboi/vela",
+      "post_data_dir_root" : "/data/gandalf/hboi/vela/2018/2018_12_30",
+      "flight_sensor_list" : [""],
+      "science_sensor_list" : [""],
+      "postprocess_flight_sensor_list" : [],
+      "postprocess_science_sensor_list" : [],
+      "plots" : {
+        "logo_file" : "/data/gandalf/static/images/logos/fau_logo.png",
+        "logo_loc" : [175, 90],
+        "plot_sensor_list" : [""],
+        "deployed_plot_dir" : "/data/gandalf/deployments/hboi/vela/plots",
+        "alt_colormap" : "False"
+      },
+      "kmz_url" : ""
+    }
+}
