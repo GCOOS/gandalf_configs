@@ -1,7 +1,7 @@
 {
     "glider": "",
     "global_attributes": {
-        "deployment": "vela-20181230T0000",
+        "deployment": "vela-20190126T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -12,22 +12,22 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20181230T0000",
-    "trajectory_name": "vela-20181230T0000",
+    "trajectory_datetime": "20190126T0000",
+    "trajectory_name": "vela-20190126T0000",
     "gandalf" : {
       "debug" : "True",
       "deployed" : "True",
       "data_source" : "Navocean",
       "vehicle_type" : "Navocean S3",
       "dash_status" : "Deployed",
-      "deployment_date" : "2018-12-30 00:00",
+      "deployment_date" : "2019-01-26 00:00",
       "PI" : "Beckler",
       "operator" : "FAU/HBOI",
       "project" : "Okeechobee",
       "public_name" : "Vela",
       "vehicle" : "vela",
       "logo_file" : "/data/gandalf/static/images/logos/fau_logo.png",
-      "vela_url" : "http://portal.navocean.com/services/nav.php?mission=okee-trial1&req=all-vitals",
+      "vela_url" : "http://portal.navocean.com/services/nav.php?navID=VELA&req=all-vitals",
       "style" : {
         "color": "#2244FF",
         "weight": 2,
