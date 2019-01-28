@@ -27,7 +27,7 @@
       "public_name" : "Vela",
       "vehicle" : "vela",
       "logo_file" : "/data/gandalf/static/images/logos/fau_logo.png",
-      "vela_url" : "http://portal.navocean.com/services/nav.php?navID=VELA&req=all-vitals",
+      "vela_url" : "http://portal.navocean.com/services/nav.php?navID=VELA&req=all-vitals&start=2019-01-26%2005:00:00&limit=1000",
       "style" : {
         "color": "#2244FF",
         "weight": 2,
