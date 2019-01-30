@@ -1,0 +1,16 @@
+[
+  {
+    "pi" : "Beckler, J",
+    "vehicle" : "Vela",
+    "type" : "Navocean S3",
+    "operator" : "FAU/HBOI",
+    "project" : "Banana River Lagoon",
+    "deployed" : "2019-01-26",
+    "recovered" : "2019-01-29",
+    "days_wet" : 4,
+    "distance" : 100,
+    "map" : "",
+    "plots" : "",
+    "kmz" : ""
+  }
+]
