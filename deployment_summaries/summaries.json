@@ -105,6 +105,21 @@
     "kmz_url" : ""
   },
 {
+    "pi" : "DiMarco, S",
+    "vehicle" : "Reveille",
+    "type" : "Slocum G2",
+    "operator" : "TAMU",
+    "project" : "GERG",
+    "deployed" : "2018-06-27",
+    "recovered" : "2018-07-27",
+    "days_wet" : 30,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "",
+    "plot_url" : "/data/gandalf/tamu/unit_307/2018/2018_06_27/plots",
+    "kmz_url" : ""
+  },
+{
     "pi" : "Beckler, J",
     "vehicle" : "mote-genie",
     "type" : "Slocum G2",
