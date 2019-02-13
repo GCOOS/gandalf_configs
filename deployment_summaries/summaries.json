@@ -30,6 +30,37 @@
     "kmz_url" : ""
   },
 {
+    "pi" : "Edwards, C",
+    "vehicle" : "Angus",
+    "type" : "Slocum G3",
+    "operator" : "UGA/Skidaway",
+    "project" : "PEACH",
+    "deployed" : "2018-10-31",
+    "recovered" : "2018-11-26",
+    "days_wet" : 27,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/skio/angus/2018/2018_10_31",
+    "plot_url" : "/data/gandalf/skio/angus/2018/2018_10_31/plots",
+    "kmz_url" : ""
+  },
+{
+    "pi" : "Edwards, C",
+    "vehicle" : "Ramses",
+    "type" : "Slocum G1",
+    "operator" : "UGA/Skidaway",
+    "project" : "PEACH",
+    "deployed" : "2018-11-19",
+    "recovered" : "2018-12-10",
+    "days_wet" : 21,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/skio/ramses/2018/2018_11_19",
+    "plot_url" : "/data/gandalf/skio/ramses/2018/2018_11_19/plots",
+    "kmz_url" : ""
+  },
+
+{
     "pi" : "Lembke, C",
     "vehicle" : "usf-sam",
     "type" : "Slocum G1",
