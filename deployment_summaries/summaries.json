@@ -86,7 +86,7 @@
     "days_wet" : 17,
     "distance" : 0,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/usf/usf-sam/2017/2017_09_27",
     "plot_url" : "/data/gandalf/usf/usf-sam/2017/2017_09_27/plots",
     "kmz_url" : ""
   },
@@ -101,7 +101,7 @@
     "days_wet" : 26,
     "distance" : 506,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/tamu/unit_541/2018/2018_05_09",
     "plot_url" : "/data/gandalf/tamu/unit_541/2018/2018_05_09/plots",
     "kmz_url" : ""
   },
@@ -116,7 +116,7 @@
     "days_wet" : 7,
     "distance" : 80,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/tamu/unit_540/2018/2018_01_24",
     "plot_url" : "/data/gandalf/tamu/unit_540/2018/2018_01_24/plots",
     "kmz_url" : ""
   },
@@ -131,7 +131,7 @@
     "days_wet" : 17,
     "distance" : 203,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/tamu/unit_307/2017/2017_12_18",
     "plot_url" : "/data/gandalf/tamu/unit_307/2017/2017_12_18/plots",
     "kmz_url" : ""
   },
@@ -146,7 +146,7 @@
     "days_wet" : 30,
     "distance" : 0,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/tamu/unit_307/2018/2018_06_27",
     "plot_url" : "/data/gandalf/tamu/unit_307/2018/2018_06_27/plots",
     "kmz_url" : ""
   },
@@ -161,7 +161,7 @@
     "days_wet" : 9,
     "distance" : 90,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/mote/mote-genie/2017/2017_10_27",
     "plot_url" : "/data/gandalf/mote/mote-genie/2017/2017_10_27/plots",
     "kmz_url" : ""
   },
@@ -176,7 +176,7 @@
     "days_wet" : 17,
     "distance" : 0,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/usf/usf-sam/2017/2017_09_27",
     "plot_url" : "/data/gandalf/usf/usf-sam/2017/2017_09_27/plots",
     "kmz_url" : ""
   },
@@ -191,7 +191,7 @@
     "days_wet" : 7,
     "distance" : 0,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/tamu/unit_541/2017/2017_09_02",
     "plot_url" : "/data/gandalf/tamu/unit_541/2017/2017_09_02/plots",
     "kmz_url" : ""
   },
@@ -206,7 +206,7 @@
     "days_wet" : 15,
     "distance" : 0,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/mote/mote-genie/2017/2017_06_23",
     "plot_url" : "/data/gandalf/mote/mote-genie/2017/2017_06_23/plots",
     "kmz_url" : ""
   },{
@@ -220,7 +220,7 @@
     "days_wet" : 13,
     "distance" : 0,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/mote/mote-genie/2017/2017_04_04",
     "plot_url" : "/data/gandalf/mote/mote-genie/2017/2017_04_04/plots",
     "kmz_url" : ""
   },{
@@ -234,7 +234,7 @@
     "days_wet" : 17,
     "distance" : 0,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/mote/mote-genie/2017/2017_02_23",
     "plot_url" : "/data/gandalf/mote/mote-genie/2017/2017_02_23/plots",
     "kmz_url" : ""
   },
@@ -249,7 +249,7 @@
     "days_wet" : 106,
     "distance" : 1074,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/tamu/unit_540/2017/2017_01_20",
     "plot_url" : "/data/gandalf/tamu/unit_540/2017/2017_01_20/plots",
     "kmz_url" : ""
   },
@@ -264,7 +264,7 @@
     "days_wet" : 10,
     "distance" : 138,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/mote/mote-genie/2016/2016_12_12",
     "plot_url" : "/data/gandalf/mote/mote-genie/2016/2016_12_12/plots",
     "kmz_url" : ""
   },
@@ -279,7 +279,7 @@
     "days_wet" : 5,
     "distance" : 68,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/mote/mote-genie/2016/2016_10_15",
     "plot_url" : "/data/gandalf/mote/mote-genie/2016/2016_10_15/plots",
     "kmz_url" : ""
   },
@@ -294,8 +294,53 @@
     "days_wet" : 32,
     "distance" : 1121,
     "map_url" : "",
-    "data_url" : "",
+    "data_url" : "/data/gandalf/usm/roxy/2016/2016_09_14",
     "plot_url" : "/data/gandalf/usm/roxy/2016/2016_09_14/plots",
+    "kmz_url" : ""
+  },
+{
+    "pi" : "DiMarco, S",
+    "vehicle" : "Howdy",
+    "type" : "Slocum G2",
+    "operator" : "TAMU",
+    "project" : "GERG",
+    "deployed" : "2016-09-02",
+    "recovered" : "2016-09-09",
+    "days_wet" : 7,
+    "distance" : 124,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/tamu/unit_308/2016/2016_09_02",
+    "plot_url" : "/data/gandalf/tamu/unit_308/2016/2016_09_02/plots",
+    "kmz_url" : ""
+  },
+{
+    "pi" : "Beckler, J",
+    "vehicle" : "mote-genie",
+    "type" : "Slocum G2",
+    "operator" : "Mote",
+    "project" : "FWRI",
+    "deployed" : "2016-08-15",
+    "recovered" : "2016-08-26",
+    "days_wet" : 11,
+    "distance" : 136,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/mote/mote-genie/2016/2016_08_15",
+    "plot_url" : "/data/gandalf/mote/mote-genie/2016/2016_08_15/plots",
+    "kmz_url" : ""
+  },
+{
+    "pi" : "Lembke, C",
+    "vehicle" : "usf-murphy",
+    "type" : "Slocum G1",
+    "operator" : "USF",
+    "project" : "USF",
+    "deployed" : "2016-08-10",
+    "recovered" : "2016-08-17",
+    "days_wet" : 7,
+    "distance" : 162,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/usf/usf-murphy/2016/2016_08_10",
+    "plot_url" : "/data/gandalf/usf/usf-murphy/2016/2016_08_10/plots",
     "kmz_url" : ""
   }
 ]
