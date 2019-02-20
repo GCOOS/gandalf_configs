@@ -1,8 +1,8 @@
 {
     "glider": "Reveille",
     "global_attributes": {
-        "deployment": "Reveille-20180627T1500",
-        "wmo_id": "4801938"
+        "deployment": "Reveille-20180627T0000",
+        "wmo_id": ""
     },
     "platform": {
         "comment": " ",
@@ -10,22 +10,23 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider Reveille",
         "type": "platform",
-        "wmo_id": "4801938"
+        "wmo_id": ""
     },
-    "trajectory_datetime": "20180627T1500",
-    "trajectory_name": "Reveille-20180627T1500",
+    "trajectory_datetime": "20180627T000",
+    "trajectory_name": "Reveille-20180627T0000",
     "gandalf" : {
-      "data_source" : "Gandalf",
+      "debug" : "True",
+      "data_source" : "GliderDAC",
       "vehicle_type" : "Slocum G2",
-      "dash_status" : "Deployed",
-      "deployment_date" : "2018-06-27 15:00",
+      "dash_status" : "Recovered",
+      "deployment_date" : "2018-06-27 12:00",
       "PI" : "DiMarco, S",
       "operator" : "TAMU GERG",
       "project" : "GOMRI_GOMIX",
       "public_name" : "Reveille",
       "vehicle" : "unit_307",
       "logo_file" : "/data/gandalf/static/images/logos/tamu_logo.png",
-      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/Reveille-20180627T1500.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Cconductivity%2Cdensity%2Cprofile_id%2Csalinity%2Ctemperature&trajectory=%22Reveille-20180627T1500%22&wmo_id=%224801938%22",
+      "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/Reveille-20180509T1742.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&distinct()",
       "style" : {
         "color": "#500000",
         "weight": 2,
@@ -33,7 +34,34 @@
       },
       "currPosIcon" : "/static/images/slocum_stop.png",
       "iconSize" : [20, 20],
+      "dbd2asc" : "/opt/dinkum/dbd2asc",
+      "dba_sensor_filter" : "/opt/dinkum/dba_sensor_filter",
+      "dba_merge" : "/opt/dinkum/dba_merge",
+      "sensors_csv" : "/data/gandalf/tamu/unit_307/2018/2018_06_27/processed_data/sensors.csv",
       "deployed_data_dir" : "/data/gandalf/deployments/tamu/unit_307",
-      "post_data_dir_root" : "/data/gandalf/deployments/tamu/unit_307"
+      "post_data_dir_root" : "/data/gandalf/tamu/unit_307/2018/2018_06_27",
+      "flight_sensor_list" : ["m_present_time", "m_depth", "m_water_depth"],
+      "science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
+      "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
+      "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
+      "postprocess_flight_sensor_list" : ["m_present_time", "m_depth",
+      "m_water_depth", "m_lat", "m_lon", "m_gps_lat", "m_gps_lon",
+      "m_tot_horz_dist", "m_battery", "m_lithium_battery_relative_charge",
+      "m_water_vx", "m_water_vy"],
+      "postprocess_science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
+      "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
+      "sci_flbbcd_chlor_units"],
+      "plots" : {
+        "logo_file" : "/data/gandalf/static/images/logos/tamu_logo.png",
+        "logo_loc" : [175, 90],
+        "plot_sensor_list" : ["sci_water_temp", "calc_density", "calc_salinity",
+        "sci_flbbcd_chlor_units","sci_flbbcd_cdom_units"],
+        "deployed_plot_dir" : "/data/gandalf/deployments/tamu/unit_541/plots",
+        "postprocess_plot_dir" : "/data/gandalf/tamu/unit_307/2018/2018_06_27/plots",
+        "use_bottom" : "False",
+        "alt_colormap" : "True"
+      },
+      "plot_url" : "",
+      "kmz_url" : ""
     }
 }
