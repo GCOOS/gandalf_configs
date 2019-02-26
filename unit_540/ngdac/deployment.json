@@ -25,6 +25,7 @@
         "operator": "TAMU GERG",
         "plot_url": "",
         "plots": {
+            "cmap": "jet",
             "alt_colormap": "True",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_540/plots",
             "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
