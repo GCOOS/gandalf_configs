@@ -41,7 +41,7 @@
                 "sci_flbbcd_cdom_units"
             ],
             "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_01_14/plots",
-            "use_bottom": "False"
+            "use_bottom": "True"
         },
         "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_01_14",
         "postprocess_flight_sensor_list": [
