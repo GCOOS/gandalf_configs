@@ -1,15 +1,15 @@
 {
     "gandalf": {
-        "PI": "Beckler, J",
+        "PI": "Pierce, R",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Recovered",
+        "dash_status": "Deployed",
         "data_source": "Local",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
-        "deployment_date": "2019-02-23 12:00",
+        "deployment_date": "2019-02-27 12:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -40,10 +40,10 @@
                 "sci_flbbcd_chlor_units",
                 "sci_flbbcd_cdom_units"
             ],
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_01_14/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_02_27/plots",
             "use_bottom": "True"
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_01_14",
+        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_02_27",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -76,18 +76,19 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units"
         ],
-        "sensors_csv": "/data/gandalf/mote/mote-genie/2019/2019_01_14/processed_data/sensors.csv",
+        "sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
             "weight": 2
         },
         "vehicle": "mote-genie",
-        "vehicle_type": "Slocum G2"
+        "vehicle_type": "Slocum G2",
+        "wpIcon": "/static/images/wp_icon.png"
     },
     "glider": "mote-genie",
     "global_attributes": {
-        "deployment": "mote-genie-20190114T0000",
+        "deployment": "mote-genie-20190227T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -98,6 +99,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20190114T000",
-    "trajectory_name": "mote-genie-20190114T0000"
+    "trajectory_datetime": "20190227T000",
+    "trajectory_name": "mote-genie-20190227T0000"
 }
