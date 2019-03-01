@@ -30,8 +30,8 @@
             "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-genie/plots",
             "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
             "logo_loc": [
-                175,
-                90
+                178,
+                91
             ],
             "plot_sensor_list": [
                 "sci_water_temp",
