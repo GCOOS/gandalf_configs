@@ -2,7 +2,22 @@
   {
     "pi" : "Beckler, J",
     "vehicle" : "Vela",
-    "type" : "Navocean S3",
+    "type" : "Navocean S2",
+    "operator" : "FAU/HBOI",
+    "project" : "Lake Okeechobee",
+    "deployed" : "2019-02_05",
+    "recovered" : "2019-02_13",
+    "days_wet" : 8,
+    "distance" : 100,
+    "map_url" : "/hboi/vela/2019/2019_02_05",
+    "data_url" : "",
+    "plot_url" : "",
+    "kmz_url" : ""
+  },
+  {
+    "pi" : "Beckler, J",
+    "vehicle" : "Vela",
+    "type" : "Navocean S2",
     "operator" : "FAU/HBOI",
     "project" : "Banana River Lagoon",
     "deployed" : "2019-01-26",
@@ -32,7 +47,7 @@
 {
     "pi" : "Beckler, J",
     "vehicle" : "Vela",
-    "type" : "Navocean S3",
+    "type" : "Navocean S2",
     "operator" : "FAU/HBOI",
     "project" : "Lake Okeechobee",
     "deployed" : "2018-12-30",
@@ -145,7 +160,7 @@
     "recovered" : "2018-01-05",
     "days_wet" : 17,
     "distance" : 203,
-    "map_url" : "",
+    "map_url" : "/tamu/unit_307/2017/2017_12_18",
     "data_url" : "/data/gandalf/tamu/unit_307/2017/2017_12_18",
     "plot_url" : "/data/gandalf/tamu/unit_307/2017/2017_12_18/plots",
     "kmz_url" : ""

@@ -7,7 +7,7 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        debug": "True",
+        "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_307",
         "deployment_date": "2017-12-18 12:00",
         "flight_sensor_list": [
@@ -15,7 +15,7 @@
             "m_depth",
             "m_water_depth"
         ],
-        "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/Reveille-20170509T1742.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&distinct()",
+        "gdac_url": "",
         "iconSize": [
             20,
             20
@@ -84,7 +84,8 @@
             "weight": 2
         },
         "vehicle": "unit_307",
-        "vehicle_type": "Slocum G2"
+        "vehicle_type": "Slocum G2",
+        "wpIcon": "/static/images/wp_icon.png"
     },
     "glider": "Reveille",
     "global_attributes": {

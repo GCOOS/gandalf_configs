@@ -87,7 +87,8 @@
             "weight": 2
         },
         "vehicle": "unit_541",
-        "vehicle_type": "Slocum G2"
+        "vehicle_type": "Slocum G2",
+        "wpIcon": "/static/images/wp_icon.png"
     },
     "glider": "Sverdrup",
     "global_attributes": {
