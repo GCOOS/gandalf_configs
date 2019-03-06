@@ -23,8 +23,8 @@
     "deployed" : "2019-01-26",
     "recovered" : "2019-01-29",
     "days_wet" : 4,
-    "distance" : 100,
-    "map_url" : "",
+    "distance" : 50,
+    "map_url" : "/hboi/vela/2019/2019_01_26",
     "data_url" : "",
     "plot_url" : "",
     "kmz_url" : ""
@@ -40,7 +40,7 @@
     "days_wet" : 4,
     "distance" : 42,
     "map_url" : "",
-    "data_url" : "/data/gandalf/mote/mote-genie/2019/2019_01_14/",
+    "data_url" : "/data/gandalf/mote/mote-genie/2019/2019_01_14",
     "plot_url" : "/data/gandalf/mote/mote-genie/2019/2019_01_14/plots",
     "kmz_url" : ""
   },
@@ -53,8 +53,8 @@
     "deployed" : "2018-12-30",
     "recovered" : "2019-01-03",
     "days_wet" : 4,
-    "distance" : 0,
-    "map_url" : "",
+    "distance" : 50,
+    "map_url" : "/hboi/vela/2018/2018_12_30",
     "data_url" : "",
     "plot_url" : "",
     "kmz_url" : ""
