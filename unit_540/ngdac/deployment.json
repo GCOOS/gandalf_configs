@@ -6,7 +6,7 @@
         "data_source": "GliderDAC",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
-        "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_540",
         "deployment_date": "2017-01-20 12:00",
@@ -25,8 +25,8 @@
         "operator": "TAMU GERG",
         "plot_url": "",
         "plots": {
-            "cmap": "jet",
             "alt_colormap": "True",
+            "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_540/plots",
             "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
             "logo_loc": [
@@ -86,7 +86,8 @@
             "weight": 2
         },
         "vehicle": "unit_540",
-        "vehicle_type": "Slocum G2"
+        "vehicle_type": "Slocum G2",
+        "wpIcon": "/static/images/wp_icon.png"
     },
     "glider": "Stommel",
     "global_attributes": {

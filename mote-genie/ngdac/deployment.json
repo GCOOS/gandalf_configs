@@ -23,10 +23,10 @@
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
         "operator": "Mote",
-        "plot_url": "",
         "plots": {
+            "deployed_plot_url": "/plots/mote-genie",
             "cmap": "jet",
-            "alt_colormap": "True",
+            "alt_colormap": "False",
             "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-genie/plots",
             "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
             "logo_loc": [
