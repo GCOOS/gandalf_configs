@@ -1,4 +1,18 @@
-[
+[{
+    "pi" : "Pierce, R",
+    "vehicle" : "mote-genie",
+    "type" : "Slocum G2",
+    "operator" : "Mote",
+    "project" : "FWRI",
+    "deployed" : "2019-02-27",
+    "recovered" : "2019-03-11",
+    "days_wet" : 13,
+    "distance" : 0,
+    "map_url" : "/mote/mote-genie/2019/2019_02_27",
+    "data_url" : "/data/gandalf/mote/mote-genie/2019/2019_02_27",
+    "plot_url" : "/data/gandalf/mote/mote-genie/2019/2019_02_27/plots",
+    "kmz_url" : ""
+  },
   {
     "pi" : "Beckler, J",
     "vehicle" : "Vela",

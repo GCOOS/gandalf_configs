@@ -76,7 +76,7 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units"
         ],
-        "sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
+        "sensors_csv": "/data/gandalf/mote/mote-genie/2019/2019_02_27/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
