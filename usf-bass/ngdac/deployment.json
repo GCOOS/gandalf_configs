@@ -10,7 +10,7 @@
         "debug": "True",
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
-        "deployment_date": "2018-11-29 00:00",
+        "deployment_date": "2018-10-29 00:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -46,7 +46,7 @@
             ],
             "use_bottom": "False"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2018/2018_11_29",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2019/2019_04_09",
         "postprocess_flight_sensor_list": [],
         "postprocess_science_sensor_list": [],
         "project": "GCOOS",
@@ -73,7 +73,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "bass-20181129T0000",
+        "deployment": "bass-20190409T0000",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -84,6 +84,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20181129T0000",
-    "trajectory_name": "bass-20181129T0000"
+    "trajectory_datetime": "20181031T0000",
+    "trajectory_name": "bass-20190409T0000"
 }
