@@ -3,30 +3,32 @@
         "PI": "Lembke",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
-        "data_source": "Local",
+        "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
+        "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
-        "deployment_date": "2018-08-24 00:00",
+        "deployment_date": "2019-10-28 00:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
-            "m_water_depth"
+            "m_gps_lat",
+            "m_gps_lon"
         ],
-        "gdac_url": "https://data.ioos.us/gliders/erddap/tabledap/sam-20180808T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth&time%3E=2018-08-08T00%3A00%3A00Z&depth%3C2",
+        "gdac_url": "",
         "iconSize": [
             20,
             20
         ],
-        "kmz_url": "http://gcoos4.tamu.edu/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
+        "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
             "cmap": "jet",
             "alt_colormap": "False",
-            "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-bass/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-sam/plots",
             "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
             "logo_loc": [
                 175,
@@ -42,57 +44,38 @@
                 "sci_oxy3835_oxygen",
                 "sci_water_pressure"
             ],
-            "use_bottom": "False"
+            "use_bottom": "False",
+            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/"
         },
-        "plot_url": "http://gcoos4.tamu.edu/data/gandalf/deployments/usf/usf-sam/plots/index.html",
-        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2018/2018_08_24",
-        "postprocess_flight_sensor_list": [
-            "m_present_time",
-            "m_depth",
-            "m_water_depth",
-            "m_lat",
-            "m_lon",
-            "m_gps_lat",
-            "m_gps_lon",
-            "m_tot_horz_dist",
-            "m_battery",
-            "m_lithium_battery_relative_charge",
-            "m_water_vx",
-            "m_water_vy"
-        ],
-        "postprocess_science_sensor_list": [
-            "sci_m_present_time",
-            "sci_water_temp",
-            "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy4_oxygen"
-        ],
-        "project": "USF",
+        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2019/2019_05_27",
+        "postprocess_flight_sensor_list": [],
+        "postprocess_science_sensor_list": [],
+        "project": "GCOOS",
         "public_name": "usf-sam",
         "science_sensor_list": [
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
             "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy4_oxygen"
+            "sci_bbfl2s_chlor_scaled",
+            "sci_bbfl2s_cdom_scaled",
+            "sci_bbfl2s_bb_scaled",
+            "sci_oxy3835_oxygen"
         ],
+        "sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
         "style": {
             "color": "#FF00FF",
             "opacity": 1,
             "weight": 2
         },
         "vehicle": "usf-sam",
-        "vehicle_type": "Slocum G2",
+        "vehicle_type": "Slocum G1",
         "wpIcon": "/static/images/wp_icon.png"
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "sam-20180824T0000",
-        "wmo_id": ""
+        "deployment": "sam-20190527T0000",
+        "wmo_id": "4801942"
     },
     "platform": {
         "comment": " ",
@@ -100,8 +83,8 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider usf-sam",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "4801942"
     },
-    "trajectory_datetime": "20180824T0000",
-    "trajectory_name": "sam-20180824T0000"
+    "trajectory_datetime": "20190527T0000",
+    "trajectory_name": "sam-20190527T0000"
 }

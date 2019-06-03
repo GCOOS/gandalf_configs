@@ -1,19 +1,19 @@
 {
-    "glider": "angus",
+    "glider": "franklin",
     "global_attributes": {
-        "deployment": "angus-20190522T0000",
+        "deployment": "franklin-20190522T0000",
         "wmo_id": ""
     },
     "platform": {
         "comment": " ",
-        "id": "angus",
+        "id": "franklin",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider angus",
+        "long_name": "Slocum Glider franklin",
         "type": "platform",
         "wmo_id": ""
     },
     "trajectory_datetime": "20190522T0000",
-    "trajectory_name": "angus-20190522T0000",
+    "trajectory_name": "franklin-20190522T0000",
     "gandalf" : {
       "debug" : "True",
       "deployed" : "True",
@@ -24,8 +24,8 @@
       "PI" : "Edwards, C",
       "operator" : "SKIO",
       "project" : "SECOORA",
-      "public_name" : "angus",
-      "vehicle" : "angus",
+      "public_name" : "franklin",
+      "vehicle" : "franklin",
       "gdac_url": "",
       "style" : {
         "color": "#500000",
@@ -38,9 +38,9 @@
       "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
       "dba_sensor_filter" : "/opt/dinkum/dba_sensor_filter",
       "dba_merge" : "/opt/dinkum/dba_merge",
-      "deployed_data_dir" : "/data/gandalf/deployments/skio/angus",
-      "sensors_csv" : "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
-      "post_data_dir_root" : "/data/gandalf/skio/angus/2019/2019_05_22",
+      "deployed_data_dir" : "/data/gandalf/deployments/skio/franklin",
+      "sensors_csv" : "/data/gandalf/deployments/skio/franklin/processed_data/sensors.csv",
+      "post_data_dir_root" : "/data/gandalf/skio/franklin/2019/2019_05_22",
       "flight_sensor_list" : ["m_present_time", "m_depth", "m_water_depth"],
       "science_sensor_list" : ["sci_m_present_time", "sci_water_temp",
       "sci_water_cond", "sci_water_pressure", "sci_flbbcd_cdom_units",
@@ -57,10 +57,10 @@
         "logo_loc" : [175, 90],
         "plot_sensor_list" : ["sci_water_temp", "calc_density", "calc_salinity",
         "sci_flbbcd_cdom_units", "sci_flbbcd_chlor_units", "sci_oxy4_oxygen"],
-        "deployed_plot_dir" : "/data/gandalf/deployments/skio/angus/plots",
+        "deployed_plot_dir" : "/data/gandalf/deployments/skio/franklin/plots",
         "use_bottom" : "True",
         "alt_colormap" : "False",
-        "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/skio/angus/plots/"
+        "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/skio/franklin/plots/"
       },
       "kmz_url" : ""
     }
