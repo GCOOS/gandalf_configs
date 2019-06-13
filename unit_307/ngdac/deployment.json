@@ -3,13 +3,13 @@
         "PI": "DiMarco, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Recovered",
-        "data_source": "GliderDAC",
+        "data_source": "TAMU Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_307",
-        "deployment_date": "2017-12-18 12:00",
+        "deployment_date": "2019-06-13 18:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -40,7 +40,7 @@
                 "sci_flbbcd_chlor_units",
                 "sci_flbbcd_cdom_units"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_307/2017/2017_12_18/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_307/2019/2019_06_13/plots",
             "use_bottom": "False"
         },
         "post_data_dir_root": "/data/gandalf/tamu/unit_307/2017/2017_12_18",
@@ -66,7 +66,7 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units"
         ],
-        "project": "GOMRI_GOMIX",
+        "project": "GERG",
         "public_name": "Reveille",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -77,7 +77,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "sensors_csv": "/data/gandalf/tamu/unit_307/2017/2017_12_18/processed_data/sensors.csv",
+        "sensors_csv": "/data/gandalf/deployments/tamu/unit_307/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
@@ -100,6 +100,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20170627T000",
-    "trajectory_name": "Reveille-20170627T0000"
+    "trajectory_datetime": "20190613T1800",
+    "trajectory_name": "Reveille-20190613T1800"
 }
