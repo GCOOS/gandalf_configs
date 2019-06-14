@@ -40,7 +40,7 @@
                 "sci_flbbcd_cdom_units"
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_307/2019/2019_06_13/plots",
-            "use_bottom": "False"
+            "use_bottom": "False",
             "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/plots/"
         },
         "post_data_dir_root": "/data/gandalf/tamu/unit_307/2017/2017_12_18",
