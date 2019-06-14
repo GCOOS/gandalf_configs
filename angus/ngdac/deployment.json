@@ -62,6 +62,6 @@
         "alt_colormap" : "False",
         "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/skio/angus/plots/"
       },
-      "kmz_url" : ""
+      "kmz_url" : "/dev/null"
     }
 }
