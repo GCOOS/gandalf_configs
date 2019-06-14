@@ -22,6 +22,7 @@
             20,
             20
         ],
+        "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",

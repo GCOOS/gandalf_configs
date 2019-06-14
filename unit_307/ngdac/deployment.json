@@ -20,6 +20,7 @@
             20,
             20
         ],
+        "kml_file": "/data/gandalf/deployments/tamu/unit_307/kmz/unit_307.kml",
         "kmz_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/kmz/reveille.kmz",
         "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
         "operator": "TAMU GERG",
