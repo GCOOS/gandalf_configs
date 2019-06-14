@@ -90,7 +90,7 @@
     "glider": "Reveille",
     "global_attributes": {
         "deployment": "Reveille-20170627T0000",
-        "wmo_id": ""
+        "wmo_id": "4801938"
     },
     "platform": {
         "comment": " ",
@@ -98,7 +98,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider Reveille",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "4801938"
     },
     "trajectory_datetime": "20190613T0000",
     "trajectory_name": "Reveille-20190613T0000"
