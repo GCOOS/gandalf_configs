@@ -62,6 +62,7 @@
         "alt_colormap" : "False",
         "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/skio/franklin/plots/"
       },
-      "kmz_url" : "/dev/null"
+      "kml_file": "/dev/null",
+      "kmz_url" : ""
     }
 }
