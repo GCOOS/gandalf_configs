@@ -9,7 +9,7 @@
         "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_307",
-        "deployment_date": "2019-06-13 18:00",
+        "deployment_date": "2019-06-13 00:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -100,6 +100,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20190613T1800",
-    "trajectory_name": "Reveille-20190613T1800"
+    "trajectory_datetime": "20190613T0000",
+    "trajectory_name": "Reveille-20190613T0000"
 }
