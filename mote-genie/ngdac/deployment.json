@@ -89,7 +89,7 @@
     "glider": "mote-genie",
     "global_attributes": {
         "deployment": "mote-genie-20190227T0000",
-        "wmo_id": ""
+        "wmo_id": "4801944"
     },
     "platform": {
         "comment": "",
@@ -97,7 +97,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider mote-genie",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "4801944"
     },
     "trajectory_datetime": "20190617T1200",
     "trajectory_name": "mote-genie-20190617T1200"
