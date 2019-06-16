@@ -13,7 +13,9 @@
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
-            "m_water_depth"
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
         ],
         "gdac_url": "",
         "iconSize": [
