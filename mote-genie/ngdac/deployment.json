@@ -3,24 +3,27 @@
         "PI": "Pierce, R",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
-        "data_source": "Local",
+        "data_source": "TWR Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
-        "deployment_date": "2019-06-17 12:00",
+        "deployment_date": "2019-06-13 12:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
-            "m_water_depth"
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
         ],
         "gdac_url": "",
         "iconSize": [
             20,
             20
         ],
-        "kmz_url": "",
+        "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kmz",
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
         "operator": "Mote",
         "plots": {
@@ -40,10 +43,11 @@
                 "sci_flbbcd_chlor_units",
                 "sci_flbbcd_cdom_units"
             ],
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_02_27/plots",
-            "use_bottom": "True"
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_06_17/plots",
+            "use_bottom": "True",
+            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/"
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_02_27",
+        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_06_17",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -76,7 +80,7 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units"
         ],
-        "sensors_csv": "/data/gandalf/mote/mote-genie/2019/2019_02_27/processed_data/sensors.csv",
+        "sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
@@ -88,7 +92,7 @@
     },
     "glider": "mote-genie",
     "global_attributes": {
-        "deployment": "mote-genie-20190227T0000",
+        "deployment": "mote-genie-20190617T1300",
         "wmo_id": "4801944"
     },
     "platform": {
@@ -99,6 +103,6 @@
         "type": "platform",
         "wmo_id": "4801944"
     },
-    "trajectory_datetime": "20190617T1200",
-    "trajectory_name": "mote-genie-20190617T1200"
+    "trajectory_datetime": "20190617T1300",
+    "trajectory_name": "mote-genie-20190617T1300"
 }
