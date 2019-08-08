@@ -15,7 +15,9 @@
             "m_depth",
             "m_water_depth",
             "m_gps_lat",
-            "m_gps_lon"
+            "m_gps_lon",
+            "m_avg_climb_rate",
+            "m_avg_dive_rate"
         ],
         "gdac_url": "",
         "iconSize": [
@@ -41,7 +43,9 @@
                 "calc_density",
                 "calc_salinity",
                 "sci_flbbcd_chlor_units",
-                "sci_flbbcd_cdom_units"
+                "sci_flbbcd_cdom_units",
+                "m_avg_climb_rate",
+                "m_avg_dive_rate"
             ],
             "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_07_19/plots",
             "use_bottom": "True",

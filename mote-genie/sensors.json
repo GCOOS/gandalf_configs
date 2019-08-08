@@ -1,5 +1,21 @@
 [
   {
+    "sensor" :  "m_avg_dive_rate",
+    "unit_string" : "(m/s)",
+    "sensor_name" : "Avg Dive Rate",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 0.25,
+    "alt_colormap" : "thermal"
+  },
+  {
+    "sensor" :  "m_avg_climb_rate",
+    "unit_string" : "(m/s)",
+    "sensor_name" : "Avg Climb Rate",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 0.25,
+    "alt_colormap" : "thermal"
+  },
+  {
     "sensor" :  "sci_water_temp",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Water Temperature",
