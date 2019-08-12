@@ -10,7 +10,7 @@
         "debug": "True",
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
-        "deployment_date": "2019-10-28 00:00",
+        "deployment_date": "2019-05-27 00:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -46,11 +46,27 @@
                 "sci_water_pressure"
             ],
             "use_bottom": "False",
-            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/"
+            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
+            "postprocess_plot_dir" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/plots"
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-sam/2019/2019_05_27",
-        "postprocess_flight_sensor_list": [],
-        "postprocess_science_sensor_list": [],
+        "postprocess_flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_tot_horz_dist"
+        ],
+        "postprocess_science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_bbfl2s_chlor_scaled",
+            "sci_bbfl2s_cdom_scaled",
+            "sci_bbfl2s_bb_scaled",
+            "sci_oxy3835_oxygen",
+            "sci_water_pressure"
+        ],
         "project": "GCOOS",
         "public_name": "usf-sam",
         "science_sensor_list": [
@@ -63,7 +79,7 @@
             "sci_bbfl2s_bb_scaled",
             "sci_oxy3835_oxygen"
         ],
-        "sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
+        "sensors_csv": "/data/gandalf/usf/usf-sam/2019/2019_05_27/processed_data/sensors.csv",
         "style": {
             "color": "#FF00FF",
             "opacity": 1,
