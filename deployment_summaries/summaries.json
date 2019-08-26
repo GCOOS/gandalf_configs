@@ -12,7 +12,7 @@
     "map_url" : "/usf/usf-sam/2019/2019_05_27",
     "data_url" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/",
     "plot_url" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/plots",
-    "kmz_url" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/kmz/mote-genie.kml"
+    "kmz_url" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/kmz/usf-sam.kml"
   },
  
  {
@@ -59,7 +59,7 @@
     "map_url" : "/mote/mote-genie/2019/2019_02_27",
     "data_url" : "/data/gandalf/mote/mote-genie/2019/2019_02_27",
     "plot_url" : "/data/gandalf/mote/mote-genie/2019/2019_02_27/plots",
-    "kmz_url" : ""
+    "kmz_url" : "/data/gandalf/mote/mote-genie/2019/2019_02_27/kmz/mote-genie.kml"
   },
   {
     "pi" : "Beckler, J",

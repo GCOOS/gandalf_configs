@@ -9,7 +9,7 @@
         "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
-        "deployment_date": "2019-07-19 12:00",
+        "deployment_date": "2019-08-19 12:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -47,11 +47,12 @@
                 "m_avg_climb_rate",
                 "m_avg_dive_rate"
             ],
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_07_19/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_08_19/plots",
             "use_bottom": "True",
-            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/"
+            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
+            "max_plot_depth" : 35
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_07_19",
+        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_08_19",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -85,6 +86,8 @@
             "sci_flbbcd_chlor_units"
         ],
         "sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
+        "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
+        "post_sensors_csv": "/data/gandalf/mote/mote-genie/",
         "style": {
             "color": "#500000",
             "opacity": 1,
@@ -96,7 +99,7 @@
     },
     "glider": "mote-genie",
     "global_attributes": {
-        "deployment": "mote-genie-20190719T1200",
+        "deployment": "mote-genie-20190819T1200",
         "wmo_id": "4801944"
     },
     "platform": {
@@ -107,6 +110,6 @@
         "type": "platform",
         "wmo_id": "4801944"
     },
-    "trajectory_datetime": "20190719T1200",
-    "trajectory_name": "mote-genie-20190719T1200"
+    "trajectory_datetime": "20190819T1200",
+    "trajectory_name": "mote-genie-20190819T1200"
 }
