@@ -41,6 +41,7 @@
                 "calc_salinity",
                 "sci_flbbcd_cdom_units",
                 "sci_flbbcd_chlor_units",
+                "sci_flbbcd_bb_units",
                 "sci_oxy3835_oxygen",
                 "sci_water_pressure"
             ],
@@ -73,6 +74,7 @@
             "sci_water_pressure",
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
+            "sci_flbbcd_bb_units",
             "sci_oxy3835_oxygen"
         ],
          "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",

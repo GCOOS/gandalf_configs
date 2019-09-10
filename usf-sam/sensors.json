@@ -39,6 +39,15 @@
     "sensor_plot_max" :  5.0,
     "alt_colormap" : "cmocean.cm.algae"
   },
+ {
+    "sensor" :  "sci_flbbcd_bb_units",
+    "unit_string" : "($_u gm/L$)",
+    "sensor_name" : "Backscatter",
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max" :  5.0,
+    "alt_colormap" : "cmocean.cm.algae"
+  },
+
   { 
     "sensor" : "sci_oxy4_oxygen",
     "unit_string" : "($_u mol/L$)",
