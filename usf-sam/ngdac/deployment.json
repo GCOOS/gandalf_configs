@@ -10,7 +10,7 @@
         "debug": "True",
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
-        "deployment_date": "2019-05-27 00:00",
+        "deployment_date": "2019-09-09 00:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -39,17 +39,17 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_salinity",
-                "sci_bbfl2s_chlor_scaled",
-                "sci_bbfl2s_cdom_scaled",
-                "sci_bbfl2s_bb_scaled",
+                "sci_flbbcd_cdom_units",
+                "sci_flbbcd_chlor_units",
                 "sci_oxy3835_oxygen",
                 "sci_water_pressure"
             ],
             "use_bottom": "False",
             "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
-            "postprocess_plot_dir" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/plots"
+            "max_plot_depth" : 50,
+            "postprocess_plot_dir" : "/data/gandalf/usf/usf-sam/2019/2019_09_09/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2019/2019_05_27",
+        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2019/2019_09_09",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -61,25 +61,22 @@
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
-            "sci_bbfl2s_chlor_scaled",
-            "sci_bbfl2s_cdom_scaled",
-            "sci_bbfl2s_bb_scaled",
             "sci_oxy3835_oxygen",
             "sci_water_pressure"
         ],
-        "project": "GCOOS",
+        "project": "USF",
         "public_name": "usf-sam",
         "science_sensor_list": [
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
             "sci_water_pressure",
-            "sci_bbfl2s_chlor_scaled",
-            "sci_bbfl2s_cdom_scaled",
-            "sci_bbfl2s_bb_scaled",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
             "sci_oxy3835_oxygen"
         ],
-        "sensors_csv": "/data/gandalf/usf/usf-sam/2019/2019_05_27/processed_data/sensors.csv",
+         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
+         "post_sensors_csv": "/data/gandalf/mote/mote-genie/",
         "style": {
             "color": "#FF00FF",
             "opacity": 1,
@@ -91,7 +88,7 @@
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "sam-20190527T0000",
+        "deployment": "sam-20190909T0000",
         "wmo_id": "4801942"
     },
     "platform": {
@@ -102,6 +99,6 @@
         "type": "platform",
         "wmo_id": "4801942"
     },
-    "trajectory_datetime": "20190527T0000",
-    "trajectory_name": "sam-20190527T0000"
+    "trajectory_datetime": "20190909T0000",
+    "trajectory_name": "sam-20190909T0000"
 }
