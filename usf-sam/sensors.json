@@ -36,7 +36,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" :  3.0,
     "alt_colormap" : "cmocean.cm.algae"
   },
  {
@@ -44,7 +44,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" :  0.001,
     "alt_colormap" : "cmocean.cm.algae"
   },
 
