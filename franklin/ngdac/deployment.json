@@ -1,7 +1,7 @@
 {
     "glider": "franklin",
     "global_attributes": {
-        "deployment": "franklin-20190522T0000",
+        "deployment": "franklin-20190910T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -12,15 +12,15 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20190522T0000",
-    "trajectory_name": "franklin-20190522T0000",
+    "trajectory_datetime": "20190910T0000",
+    "trajectory_name": "franklin-20190910T0000",
     "gandalf" : {
       "debug" : "True",
       "deployed" : "True",
       "data_source" : "SKIO Dockserver",
       "vehicle_type" : "Slocum G3",
       "dash_status" : "Deployed",
-      "deployment_date" : "2019-05-22 12:00",
+      "deployment_date" : "2019-09-10 12:00",
       "PI" : "Edwards, C",
       "operator" : "SKIO",
       "project" : "SECOORA",
@@ -60,6 +60,8 @@
         "deployed_plot_dir" : "/data/gandalf/deployments/skio/franklin/plots",
         "use_bottom" : "True",
         "alt_colormap" : "False",
+        "use_max_plot_depth" : "False",
+        "max_plot_depth" : 50,
         "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/skio/franklin/plots/"
       },
       "kml_file": "/dev/null",

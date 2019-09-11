@@ -47,6 +47,7 @@
             ],
             "use_bottom": "False",
             "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
+            "use_max_plot_depth" : "False",
             "max_plot_depth" : 50,
             "postprocess_plot_dir" : "/data/gandalf/usf/usf-sam/2019/2019_09_09/plots"
         },
