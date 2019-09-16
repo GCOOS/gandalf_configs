@@ -66,7 +66,7 @@
             "sci_oxy3835_oxygen",
             "sci_water_pressure"
         ],
-        "project": "USF",
+        "project": "SECOORA Hurricane Gliders",
         "public_name": "usf-sam",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -79,7 +79,7 @@
             "sci_oxy3835_oxygen"
         ],
          "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
-         "post_sensors_csv": "/data/gandalf/mote/mote-genie/",
+         "post_sensors_csv": "/data/gandalf/usf/usf-sam/2019/",
         "style": {
             "color": "#FF00FF",
             "opacity": 1,
