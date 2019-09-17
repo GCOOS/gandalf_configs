@@ -33,6 +33,7 @@
         "opacity": 1
       },
       "currPosIcon" : "/static/images/slocum_stop.png",
+      "infoBoxImage" : "/static/images/slocum_infobox.png",
       "wpIcon" : "/static/images/wp_icon.png",
       "iconSize" : [20, 20],
       "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",

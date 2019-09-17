@@ -9,7 +9,7 @@
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
-        "deployment_date": "2017-08-21 12:00",
+        "deployment_date": "2019-08-21 12:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -20,19 +20,21 @@
             20,
             20
         ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
         "operator": "TAMU GERG",
         "plot_url": "",
         "plots": {
-            "cmap" : "jet",
             "alt_colormap": "True",
+            "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_541/plots",
             "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
             "logo_loc": [
                 175,
                 90
             ],
+            "max_plot_depth": 50,
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
@@ -42,10 +44,11 @@
                 "sci_oxy4_oxygen",
                 "sci_water_pressure"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2017/2017_08_21/plots",
-            "use_bottom": "False"
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2019/2019_08_21/plots",
+            "use_bottom": "False",
+            "use_max_plot_depth": "False"
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2017/2017_08_21",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2019/2019_08_21",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -80,7 +83,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "sensors_csv": "/data/gandalf/tamu/unit_541/2017/2017_08_21/processed_data/sensors.csv",
+        "sensors_csv": "/data/gandalf/tamu/unit_541/2019/2019_08_21/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
@@ -92,7 +95,7 @@
     },
     "glider": "Sverdrup",
     "global_attributes": {
-        "deployment": "Sverdrup-20170821T0000",
+        "deployment": "Sverdrup-20190821T0000",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -103,6 +106,6 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": "20170821T000",
-    "trajectory_name": "Sverdrup-20170821T0000"
+    "trajectory_datetime": "20190821T000",
+    "trajectory_name": "Sverdrup-20190821T0000"
 }

@@ -10,6 +10,7 @@
         "debug": "True",
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
+        "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
         "deployment_date": "2019-09-09 00:00",
         "flight_sensor_list": [
             "m_present_time",
@@ -22,19 +23,21 @@
             20,
             20
         ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
-            "cmap": "jet",
             "alt_colormap": "False",
+            "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-sam/plots",
             "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
             "logo_loc": [
                 175,
                 90
             ],
+            "max_plot_depth": 50,
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
@@ -45,13 +48,13 @@
                 "sci_oxy3835_oxygen",
                 "sci_water_pressure"
             ],
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2019/2019_09_09/plots",
             "use_bottom": "False",
-            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
-            "use_max_plot_depth" : "False",
-            "max_plot_depth" : 50,
-            "postprocess_plot_dir" : "/data/gandalf/usf/usf-sam/2019/2019_09_09/plots"
+            "use_max_plot_depth": "False"
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-sam/2019/2019_09_09",
+        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2019/",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -78,8 +81,6 @@
             "sci_flbbcd_bb_units",
             "sci_oxy3835_oxygen"
         ],
-         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
-         "post_sensors_csv": "/data/gandalf/usf/usf-sam/2019/",
         "style": {
             "color": "#FF00FF",
             "opacity": 1,
