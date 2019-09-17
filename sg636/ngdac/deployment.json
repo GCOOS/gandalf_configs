@@ -4,6 +4,7 @@
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
+        "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usm/sg636",
         "deployment_date": "2019-09-11 00:00",
         "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG636-20190911T1702.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Ctemperature%2Csalinity%2Cdensity&time%3E=2019-09-09T00%3A00%3A00Z",
@@ -15,16 +16,23 @@
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/usm_logo.png",
         "operator": "USM",
-        "plot_url": "https://gliders.ioos.us/map/api/gliderdac/profiles/rutgers/sg636-20190901T0000?parameter=sea_water_temperature",
+        "plot_url": "",
         "plots": {
             "alt_colormap": "False",
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/navy/sg636/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/usm/sg636/plots",
             "logo_file": "/data/gandalf/static/images/logos/usm_logo.png",
             "logo_loc": [
                 175,
                 90
-            ]
+            ],
+            "max_plot_depth": 50,
+            "plot_sensor_list": [
+                "sci_water_temp",
+                "calc_density",
+                "calc_salinity"
+            ],
+            "use_max_plot_depth": "False"
         },
         "post_data_dir_root": "/data/gandalf/deployments/usm/sg636",
         "project": "USM",
@@ -50,6 +58,6 @@
         "type": "platform",
         "wmo_id": "4802961"
     },
-    "trajectory_datetime": "20190901T0000",
+    "trajectory_datetime": "20190911T0000",
     "trajectory_name": "sg636-20190911T0000"
 }

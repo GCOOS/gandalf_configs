@@ -4,19 +4,18 @@
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
-        "deployed_data_dir": "/data/gandalf/deployments/usn/ng289",
+        "debug": "True",
+        "deployed_data_dir": "/data/gandalf/deployments/navy/ng289",
         "deployment_date": "2019-09-01 00:00",
-        "gdac_old_url": "https://gliders.ioos.us/erddap/tabledap/ng289-20190901T0000.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth&time%3E=2019-09-09T00%3A00%3A00Z",
         "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng289-20190901T0000.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2019-09-09T00%3A00%3A00Z",
         "iconSize": [
             20,
             20
         ],
-        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "infoBoxImage": "/data/gandalf/static/images/slocum_infobox.png",
         "kmz_url": "",
-        "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
         "operator": "USN",
-        "plot_url": "https://gliders.ioos.us/map/api/gliderdac/profiles/rutgers/ng289-20190901T0000?parameter=sea_water_temperature",
+        "plot_url" : "",
         "plots": {
             "alt_colormap": "False",
             "cmap": "jet",
@@ -25,9 +24,16 @@
             "logo_loc": [
                 175,
                 90
-            ]
+            ],
+	    "plot_sensor_list": [
+                "sci_water_temp",
+                "calc_density",
+                "calc_salinity"
+            ],
+            "max_plot_depth": 50,
+            "use_max_plot_depth": "False"
         },
-        "post_data_dir_root": "/data/gandalf/deployments/usn/ng289",
+        "post_data_dir_root": "/data/gandalf/navy/ng289",
         "project": "USN",
         "public_name": "ng289",
         "style": {
