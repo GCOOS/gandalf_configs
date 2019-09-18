@@ -18,7 +18,7 @@
         "operator": "USM",
         "plot_url": "",
         "plots": {
-            "alt_colormap": "False",
+            "alt_colormap": "True",
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/usm/sg636/plots",
             "logo_file": "/data/gandalf/static/images/logos/usm_logo.png",

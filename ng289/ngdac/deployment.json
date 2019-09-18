@@ -17,7 +17,7 @@
         "operator": "USN",
         "plot_url" : "",
         "plots": {
-            "alt_colormap": "False",
+            "alt_colormap": "True",
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/navy/ng289/plots",
             "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
