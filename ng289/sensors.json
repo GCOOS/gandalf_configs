@@ -3,7 +3,7 @@
     "sensor" :  "sci_water_temp",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Water Temperature",
-    "sensor_plot_min" : 20,
+    "sensor_plot_min" : 5,
     "sensor_plot_max" : 34,
     "alt_colormap" : "thermal"
   },
