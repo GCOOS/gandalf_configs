@@ -6,7 +6,7 @@
         "data_source": "IOOS GDAC",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/navy/ng289",
-        "deployment_date": "2019-09-01 00:00",
+        "deployment_date": "2019-09-11 00:00",
         "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng289-20190901T0000.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2019-09-09T00%3A00%3A00Z",
         "iconSize": [
             20,
@@ -46,7 +46,7 @@
     },
     "glider": "ng289",
     "global_attributes": {
-        "deployment": "ng288-20190901T0000",
+        "deployment": "ng288-20190911T0000",
         "wmo_id": "4802922"
     },
     "platform": {
@@ -57,6 +57,6 @@
         "type": "platform",
         "wmo_id": "4802922"
     },
-    "trajectory_datetime": "20190901T0000",
-    "trajectory_name": "ng289-20190901T0000"
+    "trajectory_datetime": "20190911T0000",
+    "trajectory_name": "ng289-20190911T0000"
 }
