@@ -12,7 +12,7 @@
             20,
             20
         ],
-        "infoBoxImage": "/data/gandalf/static/images/slocum_infobox.png",
+        "infoBoxImage": "/static/images/slocum_infobox.png",
         "kmz_url": "",
         "operator": "USN",
         "plot_url" : "",
