@@ -6,9 +6,10 @@
         "data_source": "TWR Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
-        "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
+        "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
         "deployment_date": "2019-08-19 12:00",
         "flight_sensor_list": [
             "m_present_time",
@@ -24,20 +25,22 @@
             20,
             20
         ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kmz",
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
         "operator": "Mote",
         "plots": {
-            "deployed_plot_url": "/plots/mote-genie",
-            "cmap": "jet",
             "alt_colormap": "False",
+            "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-genie/plots",
+            "deployed_plot_url": "/plots/mote-genie",
             "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
             "logo_loc": [
                 178,
                 91
             ],
+            "max_plot_depth": 35,
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
@@ -47,12 +50,13 @@
                 "m_avg_climb_rate",
                 "m_avg_dive_rate"
             ],
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
             "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_08_19/plots",
             "use_bottom": "True",
-            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
-            "max_plot_depth" : 35
+            "use_max_plot_depth": "True"
         },
         "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_08_19",
+        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2019/2019_08_19",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -65,6 +69,8 @@
             "m_battery",
             "m_lithium_battery_relative_charge",
             "m_water_vx",
+            "m_avg_climb_rate",
+            "m_avg_dive_rate",
             "m_water_vy"
         ],
         "postprocess_science_sensor_list": [
@@ -85,9 +91,6 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units"
         ],
-        "sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
-        "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
-        "post_sensors_csv": "/data/gandalf/mote/mote-genie/",
         "style": {
             "color": "#500000",
             "opacity": 1,
