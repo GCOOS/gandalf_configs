@@ -24,6 +24,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-bass/kmz/usf-bass.kmz",
+        "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
