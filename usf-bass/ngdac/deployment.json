@@ -10,7 +10,7 @@
         "debug": "True",
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
-        "deployment_date": "2018-10-29 00:00",
+        "deployment_date": "2019-09-18 00:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -22,18 +22,20 @@
             20,
             20
         ],
-        "kmz_url": "",
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-bass/kmz/usf-bass.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
-            "cmap": "jet",
             "alt_colormap": "False",
+            "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-bass/plots",
             "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
             "logo_loc": [
                 175,
                 90
             ],
+            "max_plot_depth": 50,
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
@@ -44,9 +46,10 @@
                 "sci_oxy3835_oxygen",
                 "sci_water_pressure"
             ],
-            "use_bottom": "False"
+            "use_bottom": "False",
+            "use_max_plot_depth": "False"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2019/2019_04_09",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2019/2019_09_18",
         "postprocess_flight_sensor_list": [],
         "postprocess_science_sensor_list": [],
         "project": "GCOOS",
@@ -73,7 +76,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "bass-20190409T0000",
+        "deployment": "bass-20190918T0000",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -84,6 +87,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20181031T0000",
-    "trajectory_name": "bass-20190409T0000"
+    "trajectory_datetime": "20190918T0000",
+    "trajectory_name": "bass-20190918T0000"
 }
