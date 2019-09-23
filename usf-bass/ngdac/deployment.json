@@ -10,21 +10,24 @@
         "debug": "True",
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
-        "deployment_date": "2019-09-18 00:00",
+        "deployment_date": "2019-09-19 00:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
             "m_gps_lat",
             "m_gps_lon"
         ],
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
+        "gdac_user": "gcoos_dmac",
         "iconSize": [
             20,
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
-        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-bass/kmz/usf-bass.kmz",
         "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-bass/kmz/usf-bass.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
@@ -77,7 +80,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "bass-20190918T0000",
+        "deployment": "usf-bass-20190919T1200",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -88,6 +91,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20190918T0000",
-    "trajectory_name": "bass-20190918T0000"
+    "trajectory_datetime": "20190919T1200",
+    "trajectory_name": "usf-bass-20190919T1200"
 }
