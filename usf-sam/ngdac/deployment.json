@@ -42,11 +42,11 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_salinity",
+                "calc_soundvel",
                 "sci_flbbcd_cdom_units",
                 "sci_flbbcd_chlor_units",
                 "sci_flbbcd_bb_units",
-                "sci_oxy3835_oxygen",
-                "sci_water_pressure"
+                "sci_oxy3835_oxygen"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
             "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2019/2019_09_09/plots",

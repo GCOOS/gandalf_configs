@@ -44,11 +44,11 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_salinity",
+                "calc_soundvel",
                 "sci_bbfl2s_chlor_scaled",
                 "sci_bbfl2s_cdom_scaled",
                 "sci_bbfl2s_bb_scaled",
-                "sci_oxy3835_oxygen",
-                "sci_water_pressure"
+                "sci_oxy3835_oxygen"
             ],
             "use_bottom": "False",
             "use_max_plot_depth": "False"
