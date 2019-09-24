@@ -24,6 +24,14 @@
     "alt_colormap" : "dense"
   },
   {
+    "sensor" :  "calc_soundvel",
+    "unit_string" : "(m/s)",
+    "sensor_name" : "Sound Velocity",
+    "sensor_plot_min" : 1400,
+    "sensor_plot_max" : 1600,
+    "alt_colormap" : "speed"
+  },
+  {
     "sensor" :  "sci_flbbcd_cdom_units",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",

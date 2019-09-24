@@ -7,7 +7,7 @@
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/navy/ng289",
         "deployment_date": "2019-09-11 00:00",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng289-20190901T0000.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2019-09-09T00%3A00%3A00Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng289-20190901T0000.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2019-09-17T00%3A00%3A00Z",
         "iconSize": [
             20,
             20
@@ -28,7 +28,8 @@
 	    "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
-                "calc_salinity"
+                "calc_salinity",
+                "calc_soundvel"
             ],
             "max_plot_depth": 50,
             "use_max_plot_depth": "False"
