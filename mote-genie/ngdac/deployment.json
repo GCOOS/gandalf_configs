@@ -10,7 +10,7 @@
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
-        "deployment_date": "2019-08-19 12:00",
+        "deployment_date": "2019-09-25 12:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -102,7 +102,7 @@
     },
     "glider": "mote-genie",
     "global_attributes": {
-        "deployment": "mote-genie-20190819T1200",
+        "deployment": "mote-genie-20190925T1200",
         "wmo_id": "4801944"
     },
     "platform": {
@@ -113,6 +113,6 @@
         "type": "platform",
         "wmo_id": "4801944"
     },
-    "trajectory_datetime": "20190819T1200",
-    "trajectory_name": "mote-genie-20190819T1200"
+    "trajectory_datetime": "20190925T1200",
+    "trajectory_name": "mote-genie-20190925T1200"
 }
