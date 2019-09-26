@@ -20,6 +20,10 @@
             "m_avg_climb_rate",
             "m_avg_dive_rate"
         ],
+        "ftp_send" : "False",
+        "gdac_user" : "gcoos_dmac",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
         "iconSize": [
             20,

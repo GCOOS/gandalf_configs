@@ -18,7 +18,11 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
+        "ftp_send" : "False",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
+        "gdac_user" : "gcoos_dmac",
         "iconSize": [
             20,
             20
