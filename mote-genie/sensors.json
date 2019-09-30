@@ -5,7 +5,8 @@
     "sensor_name" : "Avg Dive Rate",
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 0.25,
-    "alt_colormap" : "thermal"
+    "alt_colormap" : "thermal",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "m_avg_climb_rate",
@@ -13,7 +14,8 @@
     "sensor_name" : "Avg Climb Rate",
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 0.25,
-    "alt_colormap" : "thermal"
+    "alt_colormap" : "thermal",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "sci_water_temp",
@@ -21,7 +23,8 @@
     "sensor_name" : "Water Temperature",
     "sensor_plot_min" : 28,
     "sensor_plot_max" : 32,
-    "alt_colormap" : "thermal"
+    "alt_colormap" : "thermal",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "calc_salinity",
@@ -29,7 +32,8 @@
     "sensor_name" : "Salinity",
     "sensor_plot_min" : 35.0,
     "sensor_plot_max" :  37.0,
-    "alt_colormap" : "haline"
+    "alt_colormap" : "haline",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "calc_density",
@@ -37,7 +41,8 @@
     "sensor_name" : "Sigma-t",
     "sensor_plot_min" : 22,
     "sensor_plot_max" :  28.0,
-    "alt_colormap" : "dense"
+    "alt_colormap" : "dense",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "sci_flbbcd_cdom_units",
@@ -45,7 +50,8 @@
     "sensor_name" : "CDOM",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  5.0,
-    "alt_colormap" : "matter"
+    "alt_colormap" : "matter",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "sci_flbbcd_chlor_units",
@@ -53,7 +59,8 @@
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" : 5.0,
-    "alt_colormap" : "algae"
+    "alt_colormap" : "algae",
+    "log_scale" : "True"
   },
   {
     "sensor" : "sci_oxy4_oxygen",
@@ -61,7 +68,8 @@
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,
     "sensor_plot_max" : 500.0,
-    "alt_colormap" : "oxy"
+    "alt_colormap" : "oxy",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "sci_bbfl2s_cdom_scaled",
@@ -69,7 +77,8 @@
     "sensor_name" : "CDOM",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  5.0,
-    "alt_colormap" : "matter"
+    "alt_colormap" : "matter",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "sci_bbfl2s_chlor_scaled",
@@ -77,7 +86,8 @@
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  5.0,
-    "alt_colormap" : "algae"
+    "alt_colormap" : "algae",
+    "log_scale" : "False"
   },
   {
     "sensor" :  "sci_bbfl2s_bb_scaled",
@@ -85,7 +95,8 @@
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  0.001,
-    "alt_colormap" : "algae"
+    "alt_colormap" : "algae",
+    "log_scale" : "False"
   },
   {
     "sensor" : "sci_oxy3835_oxygen",
@@ -93,7 +104,8 @@
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,
     "sensor_plot_max" : 250.0,
-    "alt_colormap" : "oxy"
+    "alt_colormap" : "oxy",
+    "log_scale" : "False"
   },
 {
     "sensor" : "sci_water_pressure",
@@ -101,7 +113,16 @@
     "sensor_name" : "Pressure",
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 200.0,
-    "alt_colormap" : "dense"
+    "alt_colormap" : "dense",
+    "log_scale" : "False"
+  },
+{
+    "sensor" :  "calc_soundvel",
+    "unit_string" : "(m/s)",
+    "sensor_name" : "Sound Velocity",
+    "sensor_plot_min" : 1400,
+    "sensor_plot_max" : 1600,
+    "alt_colormap" : "speed",
+    "log_scale" : "False"
   }
-
 ]
