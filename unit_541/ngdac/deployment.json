@@ -9,18 +9,26 @@
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
+        "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
         "deployment_date": "2019-09-26 12:00",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
-            "m_water_depth"
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
         ],
+        "ftp_send": "False",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
+        "gdac_user": "gcoos_dmac",
         "iconSize": [
             20,
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
+        "kml_file": "/data/gandalf/deployments/tamu/unit_541/kmz/unit_541.kml",
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
         "operator": "TAMU GERG",
@@ -41,8 +49,7 @@
                 "calc_salinity",
                 "sci_flbbcd_chlor_units",
                 "sci_flbbcd_cdom_units",
-                "sci_oxy4_oxygen",
-                "sci_water_pressure"
+                "sci_oxy4_oxygen"
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2019/2019_09_26/plots",
             "use_bottom": "False",
@@ -83,7 +90,6 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "sensors_csv": "/data/gandalf/tamu/unit_541/2019/2019_08_21/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
