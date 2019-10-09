@@ -11,6 +11,12 @@
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
         "deployment_date": "2019-09-26 12:00",
+        "dockfromfilter": "unit_541-2019*",
+        "dockfrompath": "",
+        "docklogfilter": "unit_541_network_net_0_2019*",
+        "docklogpath": "",
+        "dockserver": "http://tabs.gerg.tamu.edu/~woody/glider_541",
+        "dockuser": "",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -23,6 +29,7 @@
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
         "gdac_user": "gcoos_dmac",
+        "harvest_method": "wget",
         "iconSize": [
             20,
             20

@@ -11,6 +11,10 @@
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/skio/franklin",
         "deployment_date": "2019-09-10 12:00",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider/",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/logs/",
+        "dockserver": "sfmc.skio.uga.edu",
+        "dockuser": "secoora",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -20,6 +24,7 @@
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
+        "harvest_method": "rsync",
         "iconSize": [
             20,
             20

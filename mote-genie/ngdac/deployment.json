@@ -11,6 +11,10 @@
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
         "deployment_date": "2019-09-25 12:00",
+        "dockfrompath": "/var/opt/gmc/mote/gliders/mote-genie/from-glider",
+        "docklogpath": "/var/opt/gmc/mote/gliders/mote-genie/logs",
+        "dockserver": "sfmc.webbresearch.com",
+        "dockuser": "rcurrier",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -20,11 +24,12 @@
             "m_avg_climb_rate",
             "m_avg_dive_rate"
         ],
-        "ftp_send" : "False",
-        "gdac_user" : "gcoos_dmac",
+        "ftp_send": "False",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/mote-genie-20190925T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2019-09-24T00%3A00%3A00Z&time%3C=2019-10-01T07%3A58%3A54Z",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
         "iconSize": [
             20,
             20
@@ -39,6 +44,7 @@
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-genie/plots",
             "deployed_plot_url": "/plots/mote-genie",
+            "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
             "logo_loc": [
                 178,
@@ -49,18 +55,17 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_salinity",
-                "sci_flbbcd_chlor_units",
                 "sci_flbbcd_cdom_units",
-                "m_avg_climb_rate",
-                "m_avg_dive_rate"
+                "sci_flbbcd_chlor_units"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_08_19/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_09_25/plots",
             "use_bottom": "True",
-            "use_max_plot_depth": "True"
+            "use_max_plot_depth": "True",
+            "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_08_19",
-        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2019/2019_08_19",
+        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2019/2019_09_25",
+        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2019/2019_09_25",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",

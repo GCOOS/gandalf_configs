@@ -21,8 +21,8 @@
     "sensor" :  "sci_water_temp",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Water Temperature",
-    "sensor_plot_min" : 28,
-    "sensor_plot_max" : 32,
+    "sensor_plot_min" : 26,
+    "sensor_plot_max" : 28,
     "alt_colormap" : "thermal",
     "log_scale" : false
   },
