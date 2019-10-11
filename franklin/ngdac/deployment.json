@@ -7,8 +7,8 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": "True",
-        "deployed": "True",
+        "debug": false,
+        "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/franklin",
         "deployment_date": "2019-09-10 12:00",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider/",
@@ -20,7 +20,7 @@
             "m_depth",
             "m_water_depth"
         ],
-        "ftp_send": "False",
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -34,7 +34,7 @@
         "kmz_url": "",
         "operator": "SKIO",
         "plots": {
-            "alt_colormap": "False",
+            "alt_colormap": false,
             "deployed_plot_dir": "/data/gandalf/deployments/skio/franklin/plots",
             "logo_file": "/data/gandalf/static/images/logos/skio_logo.png",
             "logo_loc": [
@@ -51,8 +51,8 @@
                 "sci_oxy4_oxygen"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/franklin/plots/",
-            "use_bottom": "True",
-            "use_max_plot_depth": "False"
+            "use_bottom": true,
+            "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/skio/franklin/2019/2019_05_22",
         "postprocess_flight_sensor_list": [

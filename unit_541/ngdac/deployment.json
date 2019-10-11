@@ -7,7 +7,7 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": "True",
+        "debug": false,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
         "deployment_date": "2019-09-26 12:00",
@@ -24,7 +24,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": "True",
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -41,7 +41,7 @@
         "operator": "TAMU GERG",
         "plot_url": "",
         "plots": {
-            "alt_colormap": "True",
+            "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_541/plots",
             "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
@@ -59,8 +59,8 @@
                 "sci_oxy4_oxygen"
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2019/2019_09_26/plots",
-            "use_bottom": "False",
-            "use_max_plot_depth": "False"
+            "use_bottom": false,
+            "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/tamu/unit_541/2019/2019_09_26",
         "postprocess_flight_sensor_list": [
