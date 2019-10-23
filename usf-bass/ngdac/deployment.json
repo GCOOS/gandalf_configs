@@ -7,10 +7,14 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": true,
+        "debug": false,
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
-        "deployment_date": "2019-09-19 00:00",
+        "deployment_date": "2019-10-22 00:00",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
+        "dockserver": "usfgliderserver.marine.usf.edu",
+        "dockuser": "gcoos",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -22,6 +26,7 @@
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
         "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
         "iconSize": [
             20,
             20
@@ -54,7 +59,7 @@
             "use_bottom": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2019/2019_09_18",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2019/2019_10_22",
         "postprocess_flight_sensor_list": [],
         "postprocess_science_sensor_list": [],
         "project": "GCOOS",
@@ -81,7 +86,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20190919T1200",
+        "deployment": "usf-bass-20191022T1200",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -92,6 +97,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20190919T1200",
-    "trajectory_name": "usf-bass-20190919T1200"
+    "trajectory_datetime": "20191022T1200",
+    "trajectory_name": "usf-bass-20191022T1200"
 }
