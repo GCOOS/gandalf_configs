@@ -58,9 +58,9 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" : 5.0,
+    "sensor_plot_max" : 0.2,
     "alt_colormap" : "algae",
-    "log_scale" : "True"
+    "log_scale" : false
   },
   {
     "sensor" : "sci_oxy4_oxygen",
@@ -85,7 +85,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_max" : 0.15,
     "alt_colormap" : "algae",
     "log_scale" : false
   },

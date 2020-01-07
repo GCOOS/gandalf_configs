@@ -37,7 +37,7 @@
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
-            "alt_colormap": false,
+            "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-bass/plots",
             "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
@@ -50,7 +50,6 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_salinity",
-                "calc_soundvel",
                 "sci_bbfl2s_chlor_scaled",
                 "sci_bbfl2s_cdom_scaled",
                 "sci_bbfl2s_bb_scaled",
