@@ -19,7 +19,8 @@
             "m_present_time",
             "m_depth",
             "m_gps_lat",
-            "m_gps_lon"
+            "m_gps_lon",
+            "m_water_depth"
         ],
         "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
@@ -55,7 +56,7 @@
                 "sci_bbfl2s_bb_scaled",
                 "sci_oxy3835_oxygen"
             ],
-            "use_bottom": false,
+            "use_bottom": true,
             "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-bass/2020/2020_02_03",
