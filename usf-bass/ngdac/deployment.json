@@ -56,6 +56,7 @@
                 "sci_bbfl2s_bb_scaled",
                 "sci_oxy3835_oxygen"
             ],
+            "plot_depth_padding": 5,
             "use_bottom": true,
             "use_max_plot_depth": false
         },

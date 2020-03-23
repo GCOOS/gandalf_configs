@@ -58,6 +58,7 @@
                 "sci_oxy3835_oxygen"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
+            "plot_depth_padding": 5,
             "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2019/2019_09_09/plots",
             "use_bottom": false,
             "use_max_plot_depth": false

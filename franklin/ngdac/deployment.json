@@ -50,6 +50,7 @@
                 "sci_flbbcd_chlor_units",
                 "sci_oxy4_oxygen"
             ],
+            "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/franklin/plots/",
             "use_bottom": true,
             "use_max_plot_depth": false

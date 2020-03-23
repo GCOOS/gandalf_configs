@@ -58,6 +58,7 @@
                 "sci_flbbcd_cdom_units",
                 "sci_flbbcd_chlor_units"
             ],
+            "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
             "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2019/2019_09_25/plots",
             "use_bottom": true,
