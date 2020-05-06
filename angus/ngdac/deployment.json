@@ -1,7 +1,7 @@
 {
     "glider": "angus",
     "global_attributes": {
-        "deployment": "angus-20200320T0000",
+        "deployment": "angus-20200421T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -12,18 +12,18 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20200320T0000",
-    "trajectory_name": "angus-20200320T0000",
+    "trajectory_datetime": "20200421T0000",
+    "trajectory_name": "angus-20200421T0000",
     "gandalf": {
         "debug": "True",
         "deployed": "True",
         "data_source": "SKIO Dockserver",
         "vehicle_type": "Slocum G3",
         "dash_status": "Deployed",
-        "deployment_date": "2020-03-20 12:00",
+        "deployment_date": "2020-04-21 12:00",
         "PI": "Edwards, C",
         "operator": "SKIO",
-        "project": "SoundScapes",
+        "project": "Navy/NOAA SoundScapes",
         "public_name": "angus",
         "vehicle": "angus",
         "gdac_url": "",
@@ -50,7 +50,7 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "deployed_data_dir": "/data/gandalf/deployments/skio/angus",
         "sensors_csv": "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
-        "post_data_dir_root": "/data/gandalf/skio/angus/2020/2020_03_20",
+        "post_data_dir_root": "/data/gandalf/skio/angus/2020/2020_04_21",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -62,7 +62,8 @@
             "sci_water_cond",
             "sci_water_pressure",
             "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units"
+            "sci_flbbcd_chlor_units",
+            "sci_flbbcd_bb_units"
         ],
         "postprocess_flight_sensor_list": [
             "m_present_time",
@@ -97,7 +98,8 @@
                 "calc_density",
                 "calc_salinity",
                 "sci_flbbcd_cdom_units",
-                "sci_flbbcd_chlor_units"
+                "sci_flbbcd_chlor_units",
+                "sci_flbbcd_bb_units"
             ],
             "deployed_plot_dir": "/data/gandalf/deployments/skio/angus/plots",
             "use_bottom": "True",

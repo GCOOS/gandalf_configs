@@ -7,7 +7,7 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": false,
+        "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
         "deployment_date": "2019-09-26 12:00",
@@ -50,6 +50,7 @@
                 90
             ],
             "max_plot_depth": 50,
+            "plot_depth_padding": 5,
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
@@ -58,11 +59,11 @@
                 "sci_flbbcd_cdom_units",
                 "sci_oxy4_oxygen"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2019/2019_09_26/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2018/2018_05_09/plots",
             "use_bottom": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2019/2019_09_26",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2018/2018_05_09",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
