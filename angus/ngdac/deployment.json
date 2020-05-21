@@ -21,6 +21,7 @@
         "vehicle_type": "Slocum G3",
         "dash_status": "Deployed",
         "deployment_date": "2020-04-21 12:00",
+        "data_start_date" : "20200421T1200",
         "PI": "Edwards, C",
         "operator": "SKIO",
         "project": "Navy/NOAA SoundScapes",

@@ -11,6 +11,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
         "deployment_date": "2020-05-05 12:00",
+        "data_start_date" : "20200508T1200",
         "dockfrompath": "/var/opt/gmc/mote/gliders/mote-genie/from-glider",
         "docklogpath": "/var/opt/gmc/mote/gliders/mote-genie/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -22,7 +23,9 @@
             "m_gps_lat",
             "m_gps_lon",
             "m_avg_climb_rate",
-            "m_avg_dive_rate"
+            "m_avg_dive_rate",
+            "m_lat",
+            "m_lon"
         ],
         "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
