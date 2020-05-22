@@ -2,7 +2,7 @@
     "gandalf": {
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Aborted -- Leak",
+        "dash_status": "Deployed",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -21,7 +21,9 @@
             "m_depth",
             "m_water_depth",
             "m_gps_lat",
-            "m_gps_lon"
+            "m_gps_lon",
+            "m_lat",
+            "m_lon"
         ],
         "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
@@ -57,6 +59,7 @@
             	"sci_flbbcd_chlor_units",
            	"sci_oxy3835_oxygen"
             ],
+            "plot_depth_padding": 5,
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
