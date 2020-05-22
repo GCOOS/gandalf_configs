@@ -10,7 +10,8 @@
         "debug": false,
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
-        "deployment_date": "2020-02-11 00:00",
+        "deployment_date": "2020-05-19 00:00",
+        "data_start_date" : "20200520T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -59,7 +60,7 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2020/2020_02_11",
+        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2020/2020_05_19",
         "postprocess_flight_sensor_list": [],
         "postprocess_science_sensor_list": [],
         "project": "Florida Red Tide Research",
@@ -86,7 +87,7 @@
     },
     "glider": "usf-gansett",
     "global_attributes": {
-        "deployment": "usf-gansett-20200211T1200",
+        "deployment": "usf-gansett-20200519T1200",
         "wmo_id": "4802969"
     },
     "platform": {
@@ -97,6 +98,6 @@
         "type": "platform",
         "wmo_id": "4802969"
     },
-    "trajectory_datetime": "20200211T1200",
-    "trajectory_name": "usf-gansett-20200211T1200"
+    "trajectory_datetime": "20200519T1200",
+    "trajectory_name": "usf-gansett-20200519T1200"
 }
