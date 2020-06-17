@@ -1,5 +1,20 @@
 [
  {
+ "pi" : "Pierce, R",
+    "vehicle" : "mote-genie",
+    "type" : "Slocum G2",
+    "operator" : "Mote",
+    "project" : "FWRI",
+    "deployed" : "2020-05-05",
+    "recovered" : "2020-05-27",
+    "days_wet" : 22,
+    "distance" : 380,
+    "map_url" : "/mote/mote-genie/2020/2020_05_05",
+    "data_url" : "/data/gandalf/mote/mote-genie/2020/2020_05_05/",
+    "plot_url" : "/data/gandalf/mote/mote-genie/2020/2020_05_05/plots",
+    "kmz_url" : "/data/gandalf/mote/mote-genie/2020/2020_05_05/kmz/mote-genie.kml"
+  },
+ {
     "pi" : "Pierce, R",
     "vehicle" : "mote-genie",
     "type" : "Slocum G2",
