@@ -23,9 +23,10 @@
             "m_gps_lat",
             "m_gps_lon",
             "m_lat",
-            "m_lon"
+            "m_lon",
+            "m_tot_horz_dist"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -64,8 +65,23 @@
             "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2020/2020_05_19",
-        "postprocess_flight_sensor_list": [],
-        "postprocess_science_sensor_list": [],
+        "postprocess_flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_lat",
+            "m_lon",
+            "m_tot_horz_dist"],
+        "postprocess_science_sensor_list": [
+            "sci_water_temp",
+            "calc_density",
+            "calc_salinity",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy3835_oxygen"],
         "project": "Florida Red Tide Research",
         "public_name": "usf-gansett",
         "science_sensor_list": [
