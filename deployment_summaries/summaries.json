@@ -197,7 +197,21 @@
     "plot_url" : "/data/gandalf/skio/ramses/2018/2018_11_19/plots",
     "kmz_url" : ""
   },
-
+  {
+    "pi" : "Lembke, C",
+    "vehicle" : "usf-bass",
+    "type" : "Slocum G1",
+    "operator" : "USF",
+    "project" : "GCOOS",
+    "deployed" : "2018-11-29",
+    "recovered" : "2018-12-28",
+    "days_wet" : 31,
+    "distance" : 174,
+    "map_url" : "/usf/usf-bass/2018/2018_11_29",
+    "data_url" : "/data/gandalf/usf/usf-bass/2018/2018_11_29",
+    "plot_url" : "/data/gandalf/usf/usf-bass/2018/2018_11_29/plots",
+    "kmz_url" : "/data/gandalf/usf/usf-bass/2018/2018_11_29/kmz/usf-bass.kml"
+  },
 {
     "pi" : "Lembke, C",
     "vehicle" : "usf-sam",
