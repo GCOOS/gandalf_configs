@@ -7,10 +7,11 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": false,
-        "deployed": true,
+        "debug": true,
+        "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
         "deployment_date": "2020-02-03 00:00",
+        "data_start_date" : "20200203T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -57,12 +58,31 @@
                 "sci_oxy3835_oxygen"
             ],
             "plot_depth_padding": 5,
-            "use_bottom": true,
-            "use_max_plot_depth": false
+            "use_bottom": false,
+            "use_max_plot_depth": false,
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2020/2020_02_03/plots"
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-bass/2020/2020_02_03",
-        "postprocess_flight_sensor_list": [],
-        "postprocess_science_sensor_list": [],
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2020/2020_02_03",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2020/2020_02_03/kmz/usf-bass.kml",
+        "postprocess_flight_sensor_list": [
+          "m_present_time",
+          "m_depth",
+          "m_gps_lat",
+          "m_gps_lon",
+          "m_water_depth",
+          "m_tot_horz_dist"
+        ],
+        "postprocess_science_sensor_list": [
+          "sci_m_present_time",
+          "sci_water_temp",
+          "sci_water_cond",
+          "sci_water_pressure",
+          "sci_bbfl2s_chlor_scaled",
+          "sci_bbfl2s_cdom_scaled",
+          "sci_bbfl2s_bb_scaled",
+          "sci_oxy3835_oxygen"
+        ],
         "project": "USF",
         "public_name": "usf-bass",
         "science_sensor_list": [

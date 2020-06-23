@@ -12,6 +12,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
         "deployment_date": "2019-09-09 00:00",
+        "data_start_date" : "20190909T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -64,7 +65,7 @@
             "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-sam/2019/2019_09_09",
-        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2019/",
+        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2019/2019_09_09",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",

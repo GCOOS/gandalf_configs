@@ -65,6 +65,7 @@
             "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2020/2020_05_19",
+        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2020/2020_05_19",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",

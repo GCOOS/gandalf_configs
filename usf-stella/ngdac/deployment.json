@@ -11,6 +11,7 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-stella",
         "deployment_date": "2020-03-27 00:00",
+        "data_start_date" : "20200327T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",

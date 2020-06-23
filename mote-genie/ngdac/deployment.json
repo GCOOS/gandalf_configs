@@ -39,7 +39,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kml",
-        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kmz",
+        "kmz_url": "/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kml",
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
         "operator": "Mote",
         "plots": {
