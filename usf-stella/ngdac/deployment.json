@@ -7,7 +7,7 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": false,
+        "debug": true,
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-stella",
         "deployment_date": "2020-03-27 00:00",
@@ -34,7 +34,7 @@
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
-        "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
+        "kml_file": "/data/gandalf/deployments/usf/usf-stella/kmz/usf-stella.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-stella/kmz/usf-stella.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
@@ -50,20 +50,40 @@
             "max_plot_depth": 50,
             "plot_depth_padding": 5,
             "plot_sensor_list": [
-                "sci_water_temp",
-                "calc_density",
-                "calc_salinity",
-		"sci_flbbcd_bb_units",
-            	"sci_flbbcd_cdom_units",
-            	"sci_flbbcd_chlor_units",
-           	"sci_oxy3835_oxygen"
+              "sci_water_temp",
+              "calc_density",
+              "calc_salinity",
+		          "sci_flbbcd_bb_units",
+              "sci_flbbcd_cdom_units",
+              "sci_flbbcd_chlor_units",
+           	  "sci_oxy3835_oxygen"
             ],
-            "use_bottom": "True",
-            "use_max_plot_depth": false
+            "use_bottom": false,
+            "use_max_plot_depth": true,
+            "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2020/2020_03_27/plots"
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2020_03_27",
-        "postprocess_flight_sensor_list": [],
-        "postprocess_science_sensor_list": [],
+        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2020_03_27",
+        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2020_03_27/kmz/usf-stella.kml",
+        "postprocess_flight_sensor_list": [
+          "m_present_time",
+          "m_depth",
+          "m_water_depth",
+          "m_gps_lat",
+          "m_gps_lon",
+          "m_tot_horz_dist"
+        ],
+        "postprocess_science_sensor_list": [
+          "sci_m_present_time",
+          "sci_water_temp",
+          "sci_water_cond",
+          "sci_water_pressure",
+          "sci_flbbcd_bb_units",
+          "sci_flbbcd_cdom_units",
+          "sci_flbbcd_chlor_units",
+          "sci_oxy3835_oxygen"
+        ],
         "project": "Florida Red Tide Research",
         "public_name": "usf-stella",
         "science_sensor_list": [

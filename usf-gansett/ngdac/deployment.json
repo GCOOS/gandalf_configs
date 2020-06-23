@@ -10,8 +10,8 @@
         "debug": false,
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
-        "deployment_date": "2020-05-19 00:00",
-        "data_start_date" : "20200520T1200",
+        "deployment_date": "2020-02-11 00:00",
+        "data_start_date" : "20200211T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -38,7 +38,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
-        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-gansett/kmz/usf-gansett.kmz",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-gansett/kmz/usf-gansett.kml",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
@@ -64,8 +64,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2020/2020_05_19",
-        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2020/2020_05_19",
+        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2020/2020_02_11",
+        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2020/2020_02_11",
+        "post_kml_file": "/data/gandalf/usf/usf-gansett/2020/2020_02_11/kmz/usf-gansett.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -74,7 +75,8 @@
             "m_gps_lon",
             "m_lat",
             "m_lon",
-            "m_tot_horz_dist"],
+            "m_tot_horz_dist"
+          ],
         "postprocess_science_sensor_list": [
             "sci_water_temp",
             "calc_density",
@@ -82,7 +84,8 @@
             "sci_flbbcd_bb_units",
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
-            "sci_oxy3835_oxygen"],
+            "sci_oxy3835_oxygen"
+          ],
         "project": "Florida Red Tide Research",
         "public_name": "usf-gansett",
         "science_sensor_list": [
