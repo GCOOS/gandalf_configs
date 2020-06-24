@@ -1,5 +1,14 @@
 [
   {
+    "sensor" :  "sci_moteopd_corr1",
+    "unit_string" : "",
+    "sensor_name" : "Similarity Index",
+    "sensor_plot_min" : -1,
+    "sensor_plot_max" : 1,
+    "alt_colormap" : "thermal",
+    "log_scale" : false
+  },
+  {
     "sensor" :  "m_avg_dive_rate",
     "unit_string" : "(m/s)",
     "sensor_name" : "Avg Dive Rate",

@@ -554,5 +554,20 @@
     "data_url" : "/data/gandalf/usf/usf-murphy/2016/2016_08_10",
     "plot_url" : "/data/gandalf/usf/usf-murphy/2016/2016_08_10/plots",
     "kmz_url" : ""
+  },
+  {
+    "pi" : "Kirkpatrick, G",
+    "vehicle" : "waldo",
+    "type" : "Slocum G1",
+    "operator" : "Mote",
+    "project" : "FWRI",
+    "deployed" : "2011-09-14",
+    "recovered" : "2020-09-19",
+    "days_wet" : 5,
+    "distance" : 44,
+    "map_url" : "/mote/waldo/2011/2011_09_14",
+    "data_url" : "/data/gandalf/mote/waldo/2011/2011_09_14/",
+    "plot_url" : "/data/gandalf/mote/waldo/2011/2011_09_14/plots",
+    "kmz_url" : "/data/gandalf/mote/waldo/2011/2011_09_14/kmz/waldo.kml"
   }
 ]
