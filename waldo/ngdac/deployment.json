@@ -8,12 +8,12 @@
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
-        "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
-        "deployment_date": "2020-06-15 12:00",
-        "data_start_date" : "20200615T1200",
-        "dockfrompath": "/var/opt/gmc/mote/gliders/mote-genie/from-glider",
-        "docklogpath": "/var/opt/gmc/mote/gliders/mote-genie/logs",
+        "deployed_data_dir": "/data/gandalf/deployments/mote/waldo",
+        "deployed_sensors_csv": "/data/gandalf/deployments/mote/waldo/processed_data/sensors.csv",
+        "deployment_date": "2010-08-16 12:00",
+        "data_start_date" : "201008016T1200",
+        "dockfrompath": "/var/opt/gmc/mote/gliders/waldo/from-glider",
+        "docklogpath": "/var/opt/gmc/mote/gliders/waldo/logs",
         "dockserver": "sfmc.webbresearch.com",
         "dockuser": "rcurrier",
         "flight_sensor_list": [
@@ -30,7 +30,7 @@
         "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/mote-genie-20200615T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2020-09-24T00%3A00%3A00Z&time%3C=2020-10-01T07%3A58%3A54Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/waldo-20100615T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2010-09-24T00%3A00%3A00Z&time%3C=2010-10-01T07%3A58%3A54Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -38,15 +38,15 @@
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
-        "kml_file": "/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kml",
-        "kmz_url": "/data/gandalf/deployments/mote/mote-genie/kmz/mote-genie.kml",
+        "kml_file": "/data/gandalf/deployments/mote/waldo/kmz/waldo.kml",
+        "kmz_url": "/data/gandalf/deployments/mote/waldo/kmz/waldo.kml",
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
         "operator": "Mote",
         "plots": {
             "alt_colormap": false,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-genie/plots",
-            "deployed_plot_url": "/plots/mote-genie",
+            "deployed_plot_dir": "/data/gandalf/deployments/mote/waldo/plots",
+            "deployed_plot_url": "/plots/waldo",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
             "logo_loc": [
@@ -62,15 +62,15 @@
                 "sci_flbbcd_chlor_units"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2020/2020_06_15/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/waldo/plots/",
+            "postprocess_plot_dir": "/data/gandalf/mote/waldo/2010/2010_06_15/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2020/2020_06_15",
-        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2020/2020_06_15",
-        "post_kml_file": "/data/gandalf/mote/mote-genie/2020/2020_06_15/kmz/usf-gansett.kml",
+        "post_data_dir_root": "/data/gandalf/mote/waldo/2010/2010_08_16",
+        "post_sensors_csv": "/data/gandalf/mote/waldo/20210/2010_08_16",
+        "post_kml_file": "/data/gandalf/mote/waldo/2010/2010_08_16/kmz/waldo.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -81,7 +81,6 @@
             "m_gps_lon",
             "m_tot_horz_dist",
             "m_battery",
-            "m_lithium_battery_relative_charge",
             "m_water_vx",
             "m_avg_climb_rate",
             "m_avg_dive_rate",
@@ -96,7 +95,7 @@
             "sci_flbbcd_chlor_units"
         ],
         "project": "FWRI",
-        "public_name": "mote-genie",
+        "public_name": "waldo",
         "science_sensor_list": [
             "sci_m_present_time",
             "sci_water_temp",
@@ -110,23 +109,23 @@
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "mote-genie",
+        "vehicle": "waldo",
         "vehicle_type": "Slocum G2",
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "mote-genie",
+    "glider": "waldo",
     "global_attributes": {
-        "deployment": "mote-genie-20200615T1200",
+        "deployment": "waldo-20100615T1200",
         "wmo_id": "4801944"
     },
     "platform": {
         "comment": "",
-        "id": "mote-genie",
+        "id": "waldo",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider mote-genie",
+        "long_name": "Slocum Glider waldo",
         "type": "platform",
         "wmo_id": "4801944"
     },
-    "trajectory_datetime": "20200615T1200",
-    "trajectory_name": "mote-genie-20200615T1200"
+    "trajectory_datetime": "20100816T1200",
+    "trajectory_name": "waldo-2010081615T1200"
 }
