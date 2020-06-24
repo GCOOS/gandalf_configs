@@ -59,6 +59,21 @@
     "plot_url" : "/data/gandalf/usf/usf-bass/2020/2020_02_03/plots",
     "kmz_url" : "/data/gandalf/usf/usf-bass/2020/2020_02_03/kmz/usf-bass.kml"
   },
+  {
+    "pi" : "Lembke, C",
+    "vehicle" : "usf-bass",
+    "type" : "Slocum G2",
+    "operator" : "USF",
+    "project" : "GCOOS",
+    "deployed" : "2019-10-22",
+    "recovered" : "2019-11-07",
+    "days_wet" : 16,
+    "distance" : 269,
+    "map_url" : "/usf/usf-bass/2019/2019_10_22",
+    "data_url" : "/data/gandalf/usf/usf-bass/2019/2019_10_22/",
+    "plot_url" : "/data/gandalf/usf/usf-bass/2019/2019_10_22/plots",
+    "kmz_url" : "/data/gandalf/usf/usf-bass/2019/2019_10_22/kmz/usf-bass.kml"
+  },
  {
     "pi" : "Pierce, R",
     "vehicle" : "mote-genie",

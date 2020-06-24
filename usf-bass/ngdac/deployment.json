@@ -10,8 +10,8 @@
         "debug": true,
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
-        "deployment_date": "2020-02-03 00:00",
-        "data_start_date" : "20200203T0000",
+        "deployment_date": "2019-10-22 00:00",
+        "data_start_date" : "20191022T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -60,11 +60,11 @@
             "plot_depth_padding": 5,
             "use_bottom": false,
             "use_max_plot_depth": false,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2020/2020_02_03/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2019/2019_10_22/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2020/2020_02_03",
-        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2020/2020_02_03",
-        "post_kml_file": "/data/gandalf/usf/usf-bass/2020/2020_02_03/kmz/usf-bass.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2019/2019_10_22",
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2019/2019_10_22",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2019/2019_10_22/kmz/usf-bass.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -107,7 +107,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20200203T1200",
+        "deployment": "usf-bass-20191022T1200",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -118,6 +118,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20200203T1200",
-    "trajectory_name": "usf-bass-20200203T1200"
+    "trajectory_datetime": "20191022T1200",
+    "trajectory_name": "usf-bass-20191022T1200"
 }
