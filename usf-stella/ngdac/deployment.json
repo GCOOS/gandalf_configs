@@ -58,7 +58,7 @@
               "sci_flbbcd_chlor_units",
            	  "sci_oxy3835_oxygen"
             ],
-            "use_bottom": false,
+            "use_bottom": true,
             "use_max_plot_depth": true,
             "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
             "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2020/2020_03_27/plots"
