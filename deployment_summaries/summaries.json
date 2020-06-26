@@ -19,7 +19,7 @@
     "vehicle" : "usf-stella",
     "type" : "Slocum G2",
     "operator" : "USF",
-    "project" : "GCOOS",
+    "project" : "SPGULF",
     "deployed" : "2020-03-27",
     "recovered" : "2020-04-05",
     "days_wet" : 9,
@@ -34,7 +34,7 @@
     "vehicle" : "usf-gansett",
     "type" : "Slocum G3",
     "operator" : "USF",
-    "project" : "GCOOS",
+    "project" : "SPGULF",
     "deployed" : "2020-02-11",
     "recovered" : "2020-03-01",
     "days_wet" : 19,
@@ -49,7 +49,7 @@
     "vehicle" : "usf-bass",
     "type" : "Slocum G2",
     "operator" : "USF",
-    "project" : "GCOOS",
+    "project" : "SECOORA",
     "deployed" : "2020-02-03",
     "recovered" : "2020-03-02",
     "days_wet" : 28,
@@ -104,6 +104,21 @@
     "plot_url" : "/data/gandalf/mote/mote-genie/2019/2019_09_25/plots",
     "kmz_url" : "/data/gandalf/mote/mote-genie/2019/2019_09_25/kmz/mote-genie.kml"
   },
+  {
+     "pi" : "Lembke, C",
+     "vehicle" : "usf-sam",
+     "type" : "Slocum G2",
+     "operator" : "USF",
+     "project" : "SECOORA Hurricane",
+     "deployed" : "2019-09-09",
+     "recovered" : "2019-10-14",
+     "days_wet" : 35,
+     "distance" : 878,
+     "map_url" : "/usf/usf-sam/2019/2019_09_09",
+     "data_url" : "/data/gandalf/usf/usf-sam/2019/2019_09_27/",
+     "plot_url" : "/data/gandalf/usf/usf-sam/2019/2019_09_09/plots",
+     "kmz_url" : "/data/gandalf/usf/usf-sam/2019/2019_09_09/kmz/usf-sam.kml"
+   },
  {
     "pi" : "Pierce, R",
     "vehicle" : "mote-genie",
@@ -119,7 +134,7 @@
     "plot_url" : "/data/gandalf/mote/mote-genie/2019/2019_08_19/plots",
     "kmz_url" : "/data/gandalf/mote/mote-genie/2019/2019_08_19/kmz/mote-genie.kml"
   },
- 
+
  {
     "pi" : "Lembke, C",
     "vehicle" : "usf-sam",
@@ -135,7 +150,7 @@
     "plot_url" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/plots",
     "kmz_url" : "/data/gandalf/usf/usf-sam/2019/2019_05_27/kmz/usf-sam.kml"
   },
- 
+
  {
     "pi" : "Pierce, R",
     "vehicle" : "mote-genie",
@@ -151,7 +166,7 @@
     "plot_url" : "/data/gandalf/mote/mote-genie/2019/2019_07_19/plots",
     "kmz_url" : "/data/gandalf/mote/mote-genie/2019/2019_07_19/kmz/mote-genie.kml"
   },
-       
+
   {
     "pi" : "Pierce, R",
     "vehicle" : "mote-genie",
