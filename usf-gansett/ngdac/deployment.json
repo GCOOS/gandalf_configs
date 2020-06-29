@@ -12,6 +12,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
         "deployment_date": "2020-02-11 00:00",
         "data_start_date" : "20200211T1200",
+        "data_end_date" : "20200227T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",

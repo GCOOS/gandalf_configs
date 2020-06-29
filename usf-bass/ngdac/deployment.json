@@ -12,6 +12,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
         "deployment_date": "2018-11-29 00:00",
         "data_start_date" : "20181129T0000",
+        "data_end_date" : "20181228T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
