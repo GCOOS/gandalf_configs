@@ -60,7 +60,7 @@
     "sensor_plot_min" : 0.0001,
     "sensor_plot_max" :  0.1,
     "alt_colormap" : "algae",
-    "log_scale" : true
+    "log_scale" : false
   },
   {
     "sensor" :  "sci_flbbcd_chlor_units",
@@ -69,7 +69,7 @@
     "sensor_plot_min" : 0.01,
     "sensor_plot_max" : 5.0,
     "alt_colormap" : "algae",
-    "log_scale" : true
+    "log_scale" : false
   },
   {
     "sensor" : "sci_oxy4_oxygen",
