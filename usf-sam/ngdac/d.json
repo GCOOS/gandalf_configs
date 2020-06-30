@@ -51,13 +51,14 @@
             ],
             "max_plot_depth": 50,
             "plot_sensor_list": [
-              "sci_water_temp",
-              "calc_density",
-              "calc_salinity",
-              "sci_bbfl2s_bb_scaled",
-              "sci_bbfl2s_cdom_scaled",
-              "sci_bbfl2s_chlor_scaled",
-              "sci_oxy3835_oxygen"
+                "sci_water_temp",
+                "calc_density",
+                "calc_salinity",
+                "calc_soundvel",
+                "sci_bbfl2s_bb_scaled",
+                "sci_bbfl2s_cdom_scaled",
+                "sci_bbfl2s_chlor_scaled",
+                "sci_oxy3835_oxygen"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
             "plot_depth_padding": 5,
@@ -67,6 +68,9 @@
         },
         "post_data_dir_root": "/data/gandalf/usf/usf-sam/2018/2018_08_24",
         "post_sensors_csv": "/data/gandalf/usf/usf-sam/2018/2018_08_24",
+        "post_kml_file": "/data/gandalf/usf/usf-sam/2018/2018_08_24/kmz/usf-sam.kml",
+        "use_bottom": true,
+        "use_max_plot_depth": false
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_water_depth",
@@ -83,22 +87,21 @@
             "sci_water_pressure",
             "sci_bbfl2s_bb_scaled",
             "sci_bbfl2s_cdom_scaled",
-            "sci_bbfl2s_chlor_scaled",
-            "sci_water_pressure"
+            "sci_bbfl2s_chlor_scaled"
         ],
         "project": "SECOORA Hurricane Gliders",
         "public_name": "usf-sam",
         "science_sensor_list": [
-          "sci_water_pressure",
-          "sci_water_temp",
-          "calc_density",
-          "calc_salinity",
-          "calc_soundvel",
-          "sci_bbfl2s_bb_scaled",
-          "sci_bbfl2s_cdom_scaled",
-          "sci_bbfl2s_chlor_scaled",
-          "sci_oxy3835_oxygen"
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_bbfl2s_bb_scaled", 
+            "sci_bbfl2s_cdom_scaled",
+            "sci_bbfl2s_chlor_scaled",
+            "sci_oxy3835_oxygen"
         ],
+        "sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
         "style": {
             "color": "#FF00FF",
             "opacity": 1,
@@ -106,21 +109,20 @@
         },
         "vehicle": "usf-sam",
         "vehicle_type": "Slocum G1",
-        "wpIcon": "/static/images/wp_icon.png"
-    },
-    "glider": "usf-sam",
-    "global_attributes": {
+        "wpIcon": "/static/images/wp_icon.png" ,
+    	"glider": "usf-sam",
+    	"global_attributes": {
         "deployment": "sam-20180824T0000",
         "wmo_id": "4801942"
-    },
-    "platform": {
-        "comment": " ",
-        "id": "usf-sam",
-        "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider usf-sam",
-        "type": "platform",
-        "wmo_id": "4801942"
-    },
-    "trajectory_datetime": "20180824T0000",
-    "trajectory_name": "sam-20180824T0000"
+    	},
+    	"platform": {
+        	"comment": " ",
+        	"id": "usf-sam",
+        	"instruments": "instrument_ctd",
+        	"long_name": "Slocum Glider usf-sam",
+        	"type": "platform",
+        	"wmo_id": "4801942"
+    	},
+  "trajectory_datetime": "20180824T0000",
+  "trajectory_name": "sam-20180824T0000"
 }
