@@ -407,6 +407,21 @@
     "plot_url" : "/data/gandalf/mote/mote-genie/2017/2017_10_27/plots",
     "kmz_url" : ""
   },
+  {
+    "pi" : "Lembke, C",
+    "vehicle" : "usf-bass",
+    "type" : "Slocum G2",
+    "operator" : "USF",
+    "project" : "SECOORA",
+    "deployed" : "2018-08-08",
+    "recovered" : "2018-09-04",
+    "days_wet" : 27,
+    "distance" : 1258,
+    "map_url" : "/usf/usf-bass/2018/2018_08_08",
+    "data_url" : "/data/gandalf/usf/usf-bass/2018/2018_08_08",
+    "plot_url" : "/data/gandalf/usf/usf-bass/2018/2018_08_08/plots",
+    "kmz_url" : ""
+  },
 {
     "pi" : "Lembke, C",
     "vehicle" : "usf-sam",
