@@ -69,6 +69,9 @@
         "post_data_dir_root": "/data/gandalf/usf/usf-sam/2018/2018_08_24",
         "post_sensors_csv": "/data/gandalf/usf/usf-sam/2018/2018_08_24",
         "post_kml_file": "/data/gandalf/usf/usf-sam/2018/2018_08_24/kmz/usf-sam.kml",
+        "use_bottom": true,
+        "use_max_plot_depth": false
+        },
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_water_depth",
