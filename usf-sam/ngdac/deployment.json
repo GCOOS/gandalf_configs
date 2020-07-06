@@ -11,9 +11,9 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
-        "deployment_date": "2018-08-24 00:00",
-        "data_start_date" : "20180824T1200",
-        "data_end_date" : "20180917T1200",
+        "deployment_date": "2017-09-27 00:00",
+        "data_start_date" : "20170927T1200",
+        "data_end_date" : "20171012T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -36,7 +36,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
-        "post_kml_file": "/data/gandalf/usf/usf-sam/2018/2018_08_24/kmz/usf-sam.kml",
+        "post_kml_file": "/data/gandalf/usf/usf-sam/2017/2017_09_27/kmz/usf-sam.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
@@ -61,12 +61,12 @@
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
             "plot_depth_padding": 5,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2018/2018_08_24/plots",
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2017/2017_09_27/plots",
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2018/2018_08_24",
-        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2018/2018_08_24",
+        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2017/2017_09_27",
+        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2017/2017_09_27",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_water_depth",
@@ -110,7 +110,7 @@
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "sam-20180824T0000",
+        "deployment": "sam-20170927T0000",
         "wmo_id": "4801942"
     },
     "platform": {
@@ -121,6 +121,6 @@
         "type": "platform",
         "wmo_id": "4801942"
     },
-    "trajectory_datetime": "20180824T0000",
-    "trajectory_name": "sam-20180824T0000"
+    "trajectory_datetime": "20170927T0000",
+    "trajectory_name": "sam-20170927T0000"
 }

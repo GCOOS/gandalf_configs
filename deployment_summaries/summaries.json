@@ -354,13 +354,13 @@
     "operator" : "USF",
     "project" : "USF",
     "deployed" : "2017-09-27",
-    "recovered" : "2017-10-13",
-    "days_wet" : 17,
-    "distance" : 0,
-    "map_url" : "",
+    "recovered" : "2017-10-12",
+    "days_wet" : 15,
+    "distance" : 245,
+    "map_url" : "/usf/usf-sam/2017/2017_09_27",
     "data_url" : "/data/gandalf/usf/usf-sam/2017/2017_09_27",
     "plot_url" : "/data/gandalf/usf/usf-sam/2017/2017_09_27/plots",
-    "kmz_url" : ""
+    "kmz_url" : "/data/gandalf/usf/usf-sam/2017_09_27/kmz/usf-sam.kml"
   },
 {
     "pi" : "DiMarco, S",
