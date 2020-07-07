@@ -12,6 +12,7 @@
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
         "deployment_date": "2020-06-15 12:00",
         "data_start_date" : "20200615T1200",
+        "data_end_date" : "20200702T1200",
         "dockfrompath": "/var/opt/gmc/mote/gliders/mote-genie/from-glider",
         "docklogpath": "/var/opt/gmc/mote/gliders/mote-genie/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -43,7 +44,7 @@
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
         "operator": "Mote",
         "plots": {
-            "alt_colormap": false,
+            "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-genie/plots",
             "deployed_plot_url": "/plots/mote-genie",
@@ -70,7 +71,7 @@
         },
         "post_data_dir_root": "/data/gandalf/mote/mote-genie/2020/2020_06_15",
         "post_sensors_csv": "/data/gandalf/mote/mote-genie/2020/2020_06_15",
-        "post_kml_file": "/data/gandalf/mote/mote-genie/2020/2020_06_15/kmz/usf-gansett.kml",
+        "post_kml_file": "/data/gandalf/mote/mote-genie/2020/2020_06_15/kmz/mote-genie.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
