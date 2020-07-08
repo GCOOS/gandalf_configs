@@ -2,7 +2,7 @@
     "gandalf": {
         "PI": "Lembke",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Aborted -- Low Battery",
+        "dash_status": "Deployed",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -10,9 +10,9 @@
         "debug": true,
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
-        "deployment_date": "2017-11-01 00:00",
-        "data_start_date" : "20171101T0000",
-        "data_end_date" : "20171105T1200",
+        "deployment_date": "2020-07-07 00:00",
+        "data_start_date" : "20200707T0000",
+        "data_end_date" : "20200801T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -55,17 +55,16 @@
                 "calc_salinity",
                 "sci_bbfl2s_chlor_scaled",
                 "sci_bbfl2s_cdom_scaled",
-                "sci_bbfl2s_bb_scaled",
                 "sci_oxy3835_oxygen"
             ],
             "plot_depth_padding": 5,
             "use_bottom": true,
             "use_max_plot_depth": false,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2017/2017_11_01/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2020/2020_07_07/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2017/2017_11_01",
-        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2017/2017_11_01",
-        "post_kml_file": "/data/gandalf/usf/usf-bass/2017/2017_11_01/kmz/usf-bass.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2020/2020_07_07",
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2020/2020_07_07",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2020/2020_07_07/kmz/usf-bass.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -81,7 +80,6 @@
           "sci_water_pressure",
           "sci_bbfl2s_chlor_scaled",
           "sci_bbfl2s_cdom_scaled",
-          "sci_bbfl2s_bb_scaled",
           "sci_oxy3835_oxygen"
         ],
         "project": "USF",
@@ -93,7 +91,6 @@
             "sci_water_pressure",
             "sci_bbfl2s_chlor_scaled",
             "sci_bbfl2s_cdom_scaled",
-            "sci_bbfl2s_bb_scaled",
             "sci_oxy3835_oxygen"
         ],
         "sensors_csv": "/data/gandalf/deployments/usf/usf-bass/processed_data/sensors.csv",
@@ -108,7 +105,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20171101T1200",
+        "deployment": "usf-bass-20200707T1200",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -119,6 +116,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20171101T1200",
-    "trajectory_name": "usf-bass-20171101T1200"
+    "trajectory_datetime": "20200707T1200",
+    "trajectory_name": "usf-bass-20200707T1200"
 }
