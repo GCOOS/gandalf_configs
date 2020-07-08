@@ -82,7 +82,7 @@
           "sci_bbfl2s_cdom_scaled",
           "sci_oxy3835_oxygen"
         ],
-        "project": "USF",
+        "project": "SECOORA Hurricane Gliders",
         "public_name": "usf-bass",
         "science_sensor_list": [
             "sci_m_present_time",
