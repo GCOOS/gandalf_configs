@@ -1,7 +1,7 @@
 {
     "glider": "ng357",
     "global_attributes": {
-        "deployment": "ng357-20180701T0000",
+        "deployment": "ng357-20200704T0000",
         "wmo_id": "4802924"
     },
     "platform": {
@@ -12,20 +12,40 @@
         "type": "platform",
         "wmo_id": "4802924"
     },
-    "trajectory_datetime": "20180701T0000",
-    "trajectory_name": "ng357-20180731T1919",
+    "trajectory_datetime": "20200704T0000",
+    "trajectory_name": "ng357-20200704T1919",
     "gandalf" : {
+      "debug" : "True",
       "data_source" : "IOOS GDAC",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
-      "deployment_date" : "2018-07-01 00:00",
+      "deployment_date" : "2020-07-01 00:00",
       "PI" : "US Navy",
       "operator" : "USN",
+      "plot_url" : "",
+      "plots": {
+          "alt_colormap": "True",
+          "cmap": "jet",
+          "deployed_plot_dir": "/data/gandalf/deployments/navy/ng357/plots",
+          "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
+          "logo_loc": [
+              175,
+              90
+          ],
+    "plot_sensor_list": [
+              "sci_water_temp",
+              "calc_density",
+              "calc_salinity",
+              "calc_soundvel"
+          ],
+          "max_plot_depth": 50,
+          "use_max_plot_depth": false
+      },
       "project" : "USN",
       "public_name" : "ng357",
       "vehicle" : "ng357",
       "logo_file" : "/data/gandalf/static/images/logos/usn_logo.png",
-      "gdac_url": "",
+      "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng357-20200704T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-01T00%3A00%3A00Z&time%3C=2020-07-08T17%3A04%3A13Z",
       "style" : {
         "color": "#0000ff",
         "weight": 2,
@@ -33,6 +53,7 @@
       },
       "currPosIcon" : "/static/images/slocum_stop.png",
       "iconSize" : [20, 20],
+      "infoBoxImage": "/static/images/slocum_infobox.png",
       "deployed_data_dir" : "/data/gandalf/deployments/usn/ng357",
       "post_data_dir_root" : "/data/gandalf/deployments/usn/ng357",
       "plot_url" : "",
