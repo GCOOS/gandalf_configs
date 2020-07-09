@@ -21,7 +21,7 @@
     "sensor" :  "sci_water_temp",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Water Temperature",
-    "sensor_plot_min" : 15,
+    "sensor_plot_min" : 2,
     "sensor_plot_max" : 35,
     "alt_colormap" : "thermal",
     "log_scale" : false
@@ -30,8 +30,8 @@
     "sensor" :  "calc_salinity",
     "unit_string" : "PPT (10$^{-3}$)",
     "sensor_name" : "Salinity",
-    "sensor_plot_min" : 32.0,
-    "sensor_plot_max" :  37.0,
+    "sensor_plot_min" : 30.0,
+    "sensor_plot_max" :  38.0,
     "alt_colormap" : "haline",
     "log_scale" : false
   },
@@ -39,7 +39,7 @@
     "sensor" :  "calc_density",
     "unit_string" : "(kg/m$^{3}$)",
     "sensor_name" : "Sigma-t",
-    "sensor_plot_min" : 22,
+    "sensor_plot_min" : 20,
     "sensor_plot_max" :  29.0,
     "alt_colormap" : "dense",
     "log_scale" : false
