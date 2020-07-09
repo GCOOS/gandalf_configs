@@ -41,7 +41,7 @@
           "max_plot_depth": 50,
           "use_max_plot_depth": false
       },
-      "project" : "USN",
+      "project" : "Hurricane Gliders Picket Line",
       "public_name" : "ng357",
       "vehicle" : "ng357",
       "logo_file" : "/data/gandalf/static/images/logos/usn_logo.png",
