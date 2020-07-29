@@ -54,6 +54,7 @@
               "sci_water_temp",
               "calc_density",
               "calc_salinity",
+              "calc_soundvel",
               "sci_flbbcd_bb_units",
               "sci_flbbcd_cdom_units",
               "sci_flbbcd_chlor_units", 
