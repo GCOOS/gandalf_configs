@@ -5,9 +5,9 @@
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/navy/sg630",
-        "deployment_date": "2020-07-10 00:00",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG630-20200719T1206.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-23T00%3A00%3A00Z",
+        "deployed_data_dir": "/data/gandalf/deployments/navy/sg663",
+        "deployment_date": "2020-07-15 00:00",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG663-20200715T1659.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-23T00%3A00%3A00Z",
         "iconSize": [
             60,
             20
@@ -17,11 +17,11 @@
         "logo_file": "/data/gandalf/static/images/logos/navy_logo.png",
         "operator": "USN",
         "plot_url": "",
-        "postprocess_plot_dir": "/data/gandalf/navy/sg630/2020/2020_07_10/plots",
+        "postprocess_plot_dir": "/data/gandalf/navy/sg663/2020/2020_07_15/plots",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/navy/sg630/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/navy/sg663/plots",
             "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
             "logo_loc": [
                 175,
@@ -36,30 +36,30 @@
             ],
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/deployments/navy/sg630",
+        "post_data_dir_root": "/data/gandalf/deployments/navy/sg663",
         "project": "Hurricane Glider Picket Line",
-        "public_name": "sg630",
+        "public_name": "sg663",
         "style": {
             "color": "#D4AF37",
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "sg630",
+        "vehicle": "sg663",
         "vehicle_type": "Seaglider"
     },
-    "glider": "sg630",
+    "glider": "sg663",
     "global_attributes": {
-        "deployment": "ng288-20200710T0000",
-        "wmo_id": "4802961"
+        "deployment": "sg663-20200715T0000",
+        "wmo_id": "44802947"
     },
     "platform": {
         "comment": " ",
-        "id": "sg630",
+        "id": "sg663",
         "instruments": "instrument_ctd",
-        "long_name": "USN Seaglider 630",
+        "long_name": "USN Seaglider 663",
         "type": "platform",
         "wmo_id": "4800907"
     },
-    "trajectory_datetime": "20200710T0000",
-    "trajectory_name": "sg630-20200710T0000"
+    "trajectory_datetime": "20200715T0000",
+    "trajectory_name": "sg663-20200715T0000"
 }
