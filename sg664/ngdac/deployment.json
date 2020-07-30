@@ -1,12 +1,12 @@
 {
     "gandalf": {
-        "PI": "Goni G, Bringas F",
+        "PI": "USN",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/aoml/sg663",
-        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg663/processed_data/sensors.csv",
+        "deployed_data_dir": "/data/gandalf/deployments/navy/sg663",
+        "deployed_sensors_csv": "/data/gandalf/deployments/navy/sg663/processed_data/sensors.csv",
         "deployment_date": "2020-07-15 00:00",
         "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG663-20200715T1659.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-23T00%3A00%3A00Z",
         "iconSize": [
@@ -15,16 +15,16 @@
         ],
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
-        "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
-        "operator": "AOML",
+        "logo_file": "/data/gandalf/static/images/logos/navy_logo.png",
+        "operator": "USN",
         "plot_url": "",
-        "postprocess_plot_dir": "/data/gandalf/aoml/sg663/2020/2020_07_15/plots",
-        "post_data_dir_root": "/data/gandalf/aoml/sg663/2020/2020_07_16",
-        "post_sensors_csv": "/data/gandalf/aoml/sg663/2020/2020_07_16",
+        "postprocess_plot_dir": "/data/gandalf/navy/sg663/2020/2020_07_15/plots",
+        "post_data_dir_root": "/data/gandalf/navy/sg663/2020/2020_07_16",
+        "post_sensors_csv": "/data/gandalf/navy/sg663/2020/2020_07_16",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg663/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/navy/sg663/plots",
             "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
             "logo_loc": [
                 175,
@@ -39,7 +39,7 @@
             ],
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/deployments/aoml/sg663",
+        "post_data_dir_root": "/data/gandalf/deployments/navy/sg663",
         "project": "Hurricane Glider Picket Line",
         "public_name": "sg663",
         "style": {
