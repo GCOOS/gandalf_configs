@@ -8,7 +8,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg649",
         "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg649/processed_data/sensors.csv",
         "deployment_date": "2020-07-15 00:00",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG649-20200715T1639.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-23T00%3A00%3A00Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG649-20200715T1639.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-15T00%3A00%3A00Z",
         "iconSize": [
             60,
             20

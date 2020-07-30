@@ -7,7 +7,7 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg630",
         "deployment_date": "2020-07-10 00:00",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG630-20200719T1206.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-23T00%3A00%3A00Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG630-20200719T1206.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-19T00%3A00%3A00Z",
         "iconSize": [
             60,
             20
