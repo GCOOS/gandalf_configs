@@ -7,10 +7,13 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": false,
+        "debug": true,
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/franklin",
-        "deployment_date": "2019-09-10 12:00",
+        "deployed_sensors_csv": "/data/gandalf/deployments/skio/franklin/processed_data/sensors.csv",
+        "deployment_date": "2020-07-29 12:00",
+        "data_start_date" : "20200729T1200",
+        "data_end_date" : "20201231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/logs/",
         "dockserver": "sfmc.skio.uga.edu",
@@ -18,7 +21,9 @@
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
-            "m_water_depth"
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
         ],
         "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
@@ -46,6 +51,7 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_salinity",
+                "calc_soundvel",
                 "sci_flbbcd_cdom_units",
                 "sci_flbbcd_chlor_units",
                 "sci_oxy4_oxygen"
@@ -55,7 +61,7 @@
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/skio/franklin/2019/2019_05_22",
+        "post_data_dir_root": "/data/gandalf/skio/franklin/2020/2020_05_22",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -102,7 +108,7 @@
     },
     "glider": "franklin",
     "global_attributes": {
-        "deployment": "franklin-20190910T0000",
+        "deployment": "franklin-20200729T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -113,6 +119,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20190910T0000",
-    "trajectory_name": "franklin-20190910T0000"
+    "trajectory_datetime": "20200729T0000",
+    "trajectory_name": "franklin-20200729T0000"
 }
