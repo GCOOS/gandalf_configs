@@ -1,7 +1,7 @@
 {
     "gandalf": {
         "PI": "USN",
-        "currPosIcon": "/static/images/seaglider_icon.png",
+        "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
         "debug": true,
@@ -13,7 +13,7 @@
             60,
             20
         ],
-        "infoBoxImage": "/static/images/seaglider_infobox.jpg",
+        "infoBoxImage": "/static/images/slocum_infobox.jpg",
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/navy_logo.png",
         "operator": "USN",
@@ -48,7 +48,7 @@
             "weight": 2
         },
         "vehicle": "ng412",
-        "vehicle_type": "Seaglider"
+        "vehicle_type": "Slocum G2"
     },
     "glider": "ng412",
     "global_attributes": {
