@@ -1,4 +1,4 @@
-[ 
+[
   {
     "sensor" :  "sci_water_temp",
     "unit_string" : "($^oC$)",
@@ -19,10 +19,10 @@
   },
   {
     "sensor" :  "calc_density",
-    "unit_string" : "(kg/m$^{3}$)",
+    "unit_string" : "",
     "sensor_name" : "Sigma-t",
-    "sensor_plot_min" : 1000.0,
-    "sensor_plot_max" : 1028.0,
+    "sensor_plot_min" : 22.0,
+    "sensor_plot_max" : 28.0,
     "alt_colormap" : "dense",
     "log_scale" : "False"
   },
@@ -62,7 +62,7 @@
     "alt_colormap" : "algae",
     "log_scale" : "False"
   },
-  { 
+  {
     "sensor" : "sci_oxy4_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",

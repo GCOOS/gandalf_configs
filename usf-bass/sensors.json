@@ -37,7 +37,7 @@
   },
   {
     "sensor" :  "calc_density",
-    "unit_string" : "(kg/m$^{3}$)",
+    "unit_string" : "",
     "sensor_name" : "Sigma-t",
     "sensor_plot_min" : 22,
     "sensor_plot_max" :  29.0,
