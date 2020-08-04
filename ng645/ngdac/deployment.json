@@ -1,0 +1,68 @@
+{
+    "gandalf": {
+        "PI": "USN",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Deployed",
+        "data_source": "IOOS GDAC",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/navy/ng645",
+        "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng645/processed_data/sensors.csv",
+        "deployment_date": "2020-07-30 00:00",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng645-20200730T1909.geoJson?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-30T00%3A00%3A00Z",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "kmz_url": "",
+        "logo_file": "/data/gandalf/static/images/logos/navy_logo.png",
+        "operator": "USN",
+        "plot_url": "",
+        "postprocess_plot_dir": "/data/gandalf/navy/ng645/2020/2020_07_30/plots",
+        "post_data_dir_root": "/data/gandalf/navy/ng645/2020/2020_07_30",
+        "post_sensors_csv": "/data/gandalf/navy/ng645/2020/2020_07_30",
+        "plots": {
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/navy/ng645/plots",
+            "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 50,
+            "plot_sensor_list": [
+                "sci_water_temp",
+                "calc_density",
+                "calc_salinity",
+                "calc_soundvel"
+            ],
+            "use_max_plot_depth": false
+        },
+        "post_data_dir_root": "/data/gandalf/deployments/navy/ng645",
+        "project": "Hurricane Glider Picket Line",
+        "public_name": "ng645",
+        "style": {
+            "color": "#D4AF37",
+            "opacity": 1,
+            "weight": 2
+        },
+        "vehicle": "ng645",
+        "vehicle_type": "Slocum G2"
+    },
+    "glider": "ng645",
+    "global_attributes": {
+        "deployment": "ng645-20200730T0000",
+        "wmo_id": "44802947"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "ng645",
+        "instruments": "instrument_ctd",
+        "long_name": "USN Seaglider 669",
+        "type": "platform",
+        "wmo_id": "4800907"
+    },
+    "trajectory_datetime": "20200730T0000",
+    "trajectory_name": "ng645-20200730T0000"
+}
