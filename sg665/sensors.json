@@ -30,7 +30,7 @@
     "sensor" :  "calc_soundvel",
     "unit_string" : "(m/s)",
     "sensor_name" : "Sound Velocity",
-    "sensor_plot_min" : 1400,
+    "sensor_plot_min" : 1500,
     "sensor_plot_max" : 1600,
     "alt_colormap" : "speed",
     "log_scale" : "False"
