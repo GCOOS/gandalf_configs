@@ -41,7 +41,7 @@
         "plots": {
             "alt_colormap": false,
             "deployed_plot_dir": "/data/gandalf/deployments/skio/franklin/plots",
-            "logo_file": "/data/gandalf/static/images/logos/skio_logo.png",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
             "logo_loc": [
                 175,
                 90

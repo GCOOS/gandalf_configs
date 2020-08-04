@@ -38,7 +38,7 @@
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/tamu/unit_541/kmz/unit_541.kml",
         "kmz_url": "",
-        "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
+        "logo_file": "/data/gandalf/gandalf_configs/images/logos/tamu_logo.png",
         "operator": "TAMU GERG",
         "plot_url": "",
         "plots": {

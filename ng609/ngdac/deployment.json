@@ -25,7 +25,7 @@
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/navy/ng609/plots",
-            "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/usn_logo.png",
             "postprocess_plot_dir": "/data/gandalf/navy/ng609/2020/2020_07_19/plots",
             "logo_loc": [
                 175,

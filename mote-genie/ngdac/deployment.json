@@ -49,7 +49,7 @@
             "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-genie/plots",
             "deployed_plot_url": "/plots/mote-genie",
             "log_mult": 100,
-            "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/mote_logo.png",
             "logo_loc": [
                 178,
                 91

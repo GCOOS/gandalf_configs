@@ -25,7 +25,7 @@
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg665/plots",
-            "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/aoml_logo.png",
             "logo_loc": [
                 175,
                 90
