@@ -10,11 +10,20 @@
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_540",
         "deployment_date": "2017-01-20 12:00",
+        "data_start_date" : "20200716T1200",
+        "data_end_date" : "20201012T1200",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
-            "m_water_depth"
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
         ],
+        "ftp_send": false,
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
         "gdac_url": "",
         "iconSize": [
             20,
@@ -42,7 +51,9 @@
                 "sci_oxy4_oxygen"
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_540/2017/2017_01_20/plots",
-            "use_bottom": "False"
+            "post_sensors_csv": "/data/gandalf/usf/usf-sam/2020/2020_07_16",
+            "use_bottom": "False",
+            "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/tamu/unit_540/2017/2017_01_20",
         "postprocess_flight_sensor_list": [
@@ -68,7 +79,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "project": "GOMRI_GOMIX",
+        "project": "GGCOOS Hurricane Gliders",
         "public_name": "Stommel",
         "science_sensor_list": [
             "sci_m_present_time",
