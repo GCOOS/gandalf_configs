@@ -23,7 +23,7 @@
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg630/plots",
             "postprocess_plot_dir": "/data/gandalf/aoml/sg630/2020/2020_07_10/plots",
-            "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
+            "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
             "logo_loc": [
                 175,
                 90
