@@ -46,10 +46,20 @@
   },
   {
     "sensor" :  "calc_density",
+    "unit_string" : "",
+    "sensor_name" : "Density",
+    "sensor_plot_min" : 1000,
+    "sensor_plot_max" : 1030,
+    "alt_colormap" : "dense",
+    "log_scale" : false
+  },
+{
+    "sensor" :  "calc_sigma",
     "unit_string" : "(kg/m$^{3}$)",
+    "unit_string" : "",
     "sensor_name" : "Sigma-t",
-    "sensor_plot_min" : 22,
-    "sensor_plot_max" :  28.0,
+    "sensor_plot_min" : 20,
+    "sensor_plot_max" :  29.0,
     "alt_colormap" : "dense",
     "log_scale" : false
   },

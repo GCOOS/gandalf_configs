@@ -55,6 +55,7 @@
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
+                "calc_sigma",
                 "calc_salinity",
                 "sci_flbbcd_chlor_units",
                 "sci_flbbcd_cdom_units",

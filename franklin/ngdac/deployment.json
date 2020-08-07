@@ -50,6 +50,7 @@
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
+                "calc_sigma",
                 "calc_salinity",
                 "calc_soundvel",
                 "sci_flbbcd_cdom_units",
