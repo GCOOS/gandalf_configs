@@ -2,7 +2,7 @@
     "gandalf": {
         "PI": "Lembke",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "RECOVERED",
+        "dash_status": "Recovered",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
