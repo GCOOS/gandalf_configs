@@ -10,9 +10,9 @@
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_540",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_540/processed_data/sensors.csv",
-        "deployment_date": "2017-01-20 12:00",
-        "data_start_date" : "20200716T1200",
-        "data_end_date" : "20201012T1200",
+        "deployment_date": "2020-08-13 12:00",
+        "data_start_date" : "20200813T1200",
+        "data_end_date" : "20201231T1200",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -54,13 +54,13 @@
                 "sci_flbbcd_cdom_units",
                 "sci_oxy4_oxygen"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_540/2017/2017_01_20/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_540/2020/2020_01_20/plots",
             "post_sensors_csv": "/data/gandalf/usf/usf-sam/2020/2020_07_16",
             "plot_depth_padding": 5,
             "use_bottom": "False",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_540/2017/2017_01_20",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_540/2020/2020_01_20",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -95,7 +95,6 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "sensors_csv": "/data/gandalf/tamu/unit_540/2017/2017_01_20/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
@@ -107,7 +106,7 @@
     },
     "glider": "unit_540",
     "global_attributes": {
-        "deployment": "Stommel-20170124T0000",
+        "deployment": "Stommel-20200813T1200",
         "wmo_id": ""
     },
     "platform": {
@@ -118,6 +117,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20170124T000",
-    "trajectory_name": "Stommel-20170124T0000"
+    "trajectory_datetime": "20200813T1200",
+    "trajectory_name": "Stommel-20200813T1200"
 }
