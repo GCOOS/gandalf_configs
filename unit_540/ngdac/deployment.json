@@ -30,6 +30,7 @@
             20
         ],
         "kmz_url": "",
+        "kml_file": "/data/gandalf/deployments/tamu/unit_540/kmz/unit_540.kml",
         "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
         "operator": "TAMU GERG",
         "plot_url": "",
@@ -53,6 +54,7 @@
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_540/2017/2017_01_20/plots",
             "post_sensors_csv": "/data/gandalf/usf/usf-sam/2020/2020_07_16",
+            "plot_depth_padding": 5,
             "use_bottom": "False",
             "use_max_plot_depth": false
         },
@@ -101,7 +103,7 @@
         "vehicle_type": "Slocum G2",
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "Stommel",
+    "glider": "unit_540",
     "global_attributes": {
         "deployment": "Stommel-20170124T0000",
         "wmo_id": ""
