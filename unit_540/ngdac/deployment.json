@@ -85,7 +85,7 @@
             "sci_oxy4_oxygen"
         ],
         "project": "GGCOOS Hurricane Gliders",
-        "public_name": "Stommel",
+        "public_name": "stommel",
         "science_sensor_list": [
             "sci_m_present_time",
             "sci_water_temp",
