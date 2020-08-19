@@ -7,7 +7,7 @@
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": false,
+        "debug": true,
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-gansett/processed_data/sensors.csv",
@@ -28,7 +28,7 @@
             "m_lon",
             "m_tot_horz_dist"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
