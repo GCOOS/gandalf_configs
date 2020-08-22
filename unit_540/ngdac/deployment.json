@@ -88,7 +88,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "project": "GGCOOS Hurricane Gliders",
+        "project": "GCOOS Hurricane Gliders",
         "public_name": "stommel",
         "science_sensor_list": [
             "sci_m_present_time",
