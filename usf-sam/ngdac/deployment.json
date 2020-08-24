@@ -58,8 +58,7 @@
               "calc_soundvel",
               "sci_flbbcd_bb_units",
               "sci_flbbcd_cdom_units",
-              "sci_flbbcd_chlor_units",
-              "sci_oxy3835_oxygen"
+              "sci_flbbcd_chlor_units"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
             "plot_depth_padding": 5,
@@ -100,8 +99,7 @@
           "calc_soundvel",
           "sci_flbbcd_bb_units",
           "sci_flbbcd_cdom_units",
-          "sci_flbbcd_chlor_units",
-          "sci_oxy3835_oxygen"
+          "sci_flbbcd_chlor_units"
         ],
         "style": {
             "color": "#FFFF00",

@@ -1,5 +1,20 @@
 [
   {
+    "pi" : "Edwards, C",
+    "vehicle" : "Franklin",
+    "type" : "Slocum G3",
+    "operator" : "UGA/Skidaway",
+    "project" : "SECOORA Hurricane Gliders",
+    "deployed" : "2020-7-29",
+    "recovered" : "2020-08-23",
+    "days_wet" : 32,
+    "distance" : 0,
+    "map_url" : "/skio/franklin/2020/2020_07_29",
+    "data_url" : "/data/gandalf/skio/franklin/2020/2020_07_29",
+    "plot_url" : "/data/gandalf/skio/franklin/2020/2020_07_29/plots",
+    "kmz_url" : ""
+  },
+  {
   "pi" : "Pierce, R",
      "vehicle" : "mote-genie",
      "type" : "Slocum G2",
