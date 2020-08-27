@@ -68,7 +68,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.0001,
-    "sensor_plot_max" :  0.1,
+    "sensor_plot_max" :  0.5,
     "alt_colormap" : "algae",
     "log_scale" : false
   },
@@ -113,7 +113,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  0.001,
+    "sensor_plot_max" :  0.5,
     "alt_colormap" : "algae",
     "log_scale" : false
   },
