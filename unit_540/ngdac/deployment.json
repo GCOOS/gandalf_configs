@@ -61,7 +61,7 @@
             "post_sensors_csv": "/data/gandalf/usf/usf-sam/2020/2020_07_16",
             "plot_depth_padding": 5,
             "use_bottom": "False",
-            "use_max_plot_depth": true,
+            "use_max_plot_depth": false,
             "max_plot_depth" : 100
 
         },
