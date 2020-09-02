@@ -67,7 +67,7 @@
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
             "postprocess_plot_dir": "/data/gandalf/mote/mote-dora/2020/2020_08_28/plots",
             "use_bottom": true,
-            "use_max_plot_depth": false,
+            "use_max_plot_depth": true,
             "vmin": 0.01
         },
         "post_data_dir_root": "/data/gandalf/mote/mote-dora/2020/2020_08_28",
