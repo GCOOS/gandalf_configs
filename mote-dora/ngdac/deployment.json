@@ -13,8 +13,8 @@
         "deployment_date": "2020-08-28 12:00",
         "data_start_date" : "20200828T1200",
         "data_end_date" : "20201231T1200",
-        "dockfrompath": "/var/opt/gmc/mote/gliders/mote-dora/from-glider",
-        "docklogpath": "/var/opt/gmc/mote/gliders/mote-dora/logs",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/from-glider/",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/logs",
         "dockserver": "sfmc.webbresearch.com",
         "dockuser": "rcurrier",
         "flight_sensor_list": [
