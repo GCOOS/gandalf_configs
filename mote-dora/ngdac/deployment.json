@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "PI": "Pierce, R",
+        "PI": "Haskell, W",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
@@ -61,7 +61,9 @@
                 "calc_sigma",
                 "calc_salinity",
                 "sci_flbbcd_cdom_units",
-                "sci_flbbcd_chlor_units"
+                "sci_flbbcd_chlor_units",
+                "sci_oxy4_oxygen",
+                "sci_flbbcd_bb_units"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
@@ -105,7 +107,9 @@
             "sci_water_cond",
             "sci_water_pressure",
             "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units"
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen",
+            "sci_flbbcd_bb_units"
         ],
         "style": {
             "color": "#500000",
