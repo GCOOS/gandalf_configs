@@ -1,7 +1,7 @@
 {
     "glider": "ng357",
     "global_attributes": {
-        "deployment": "ng357-20200704T0000",
+        "deployment": "ng357-20200903T0000",
         "wmo_id": "4802924"
     },
     "platform": {
@@ -12,14 +12,14 @@
         "type": "platform",
         "wmo_id": "4802924"
     },
-    "trajectory_datetime": "20200704T0000",
-    "trajectory_name": "ng357-20200704T1919",
+    "trajectory_datetime": "20200903T0000",
+    "trajectory_name": "ng357-20200903T1919",
     "gandalf" : {
       "debug" : "True",
       "data_source" : "IOOS GDAC",
       "vehicle_type" : "Slocum G2",
       "dash_status" : "Deployed",
-      "deployment_date" : "2020-07-04 00:00",
+      "deployment_date" : "2020-09-03 00:00",
       "PI" : "US Navy",
       "operator" : "USN",
       "plot_url" : "",
@@ -46,7 +46,7 @@
       "public_name" : "ng357",
       "vehicle" : "ng357",
       "logo_file" : "/data/gandalf/static/images/logos/usn_logo.png",
-      "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng357-20200704T0000.geoJson?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity&time%3E=2020-07-01T00%3A00%3A00Z",
+      "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng357-20200704T0000.geoJson?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity",
       "style" : {
         "color": "#0000ff",
         "weight": 2,
