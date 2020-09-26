@@ -111,7 +111,7 @@
     },
     "glider": "unit_541",
     "global_attributes": {
-        "deployment": "Sverdrup-20200925T0000",
+        "deployment": "Sverdrup-20200925T1200",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -123,5 +123,5 @@
         "wmo_id": "4801924"
     },
     "trajectory_datetime": "20200925T000",
-    "trajectory_name": "Sverdrup-20200925T0000"
+    "trajectory_name": "Sverdrup-20200925T1200"
 }
