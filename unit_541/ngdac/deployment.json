@@ -3,7 +3,7 @@
         "PI": "DiMarco, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
-        "data_start_date" : "20180509T1200",
+        "data_start_date" : "20200925T1200",
         "data_source": "TAMU Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -11,7 +11,7 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
-        "deployment_date": "2018-05-09 12:00",
+        "deployment_date": "2020-09-25 12:00",
         "dockfromfilter": "unit_541-2019*",
         "dockfrompath": "",
         "docklogfilter": "unit_541_network_net_0_2019*",
@@ -61,11 +61,11 @@
                 "sci_flbbcd_cdom_units",
                 "sci_oxy4_oxygen"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2018/2018_05_09/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2020/2020_09_25/plots",
             "use_bottom": false,
-            "use_max_plot_depth": false
+            "use_max_plot_depth": true
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2018/2018_05_09",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2020/2020_09_25",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -109,9 +109,9 @@
         "vehicle_type": "Slocum G2",
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "Sverdrup",
+    "glider": "unit_541",
     "global_attributes": {
-        "deployment": "Sverdrup-20180509T0000",
+        "deployment": "Sverdrup-20200925T0000",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -122,6 +122,6 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": "20180509T000",
-    "trajectory_name": "Sverdrup-20180509T0000"
+    "trajectory_datetime": "20200925T000",
+    "trajectory_name": "Sverdrup-20200925T0000"
 }
