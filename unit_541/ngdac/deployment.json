@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "PI": "DiMarco, S",
+        "PI": "DiMarco S, Whilden K",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_start_date" : "20200925T1200",
@@ -25,7 +25,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -89,7 +89,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "project": "NOAA IOOS Hurricane Gliders 2019",
+        "project": "GCOOS Hurricane Gliders",
         "public_name": "Sverdrup",
         "science_sensor_list": [
             "sci_m_present_time",
