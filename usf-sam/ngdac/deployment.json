@@ -11,8 +11,8 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
-        "deployment_date": "2020-08-21 00:00",
-        "data_start_date" : "20200821T1200",
+        "deployment_date": "2020-10-08 00:00",
+        "data_start_date" : "20201008T1200",
         "data_end_date" : "20201012T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/logs",
@@ -36,7 +36,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
-        "post_kml_file": "/data/gandalf/usf/usf-sam/2020/2020_08_21/kmz/usf-sam.kml",
+        "post_kml_file": "/data/gandalf/usf/usf-sam/2020/2020_10_08/kmz/usf-sam.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
@@ -62,12 +62,12 @@
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
             "plot_depth_padding": 5,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2020/2020_08_21/plots",
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2020/2020_10_08/plots",
             "use_bottom": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2020/2020_08_21",
-        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2020/2020_08_21",
+        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2020/2020_10_08",
+        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2020/2020_10_08",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_water_depth",
@@ -112,7 +112,7 @@
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "sam-20200821T0000",
+        "deployment": "sam-20201008T0000",
         "wmo_id": "4801942"
     },
     "platform": {
@@ -123,6 +123,6 @@
         "type": "platform",
         "wmo_id": "4801942"
     },
-    "trajectory_datetime": "20200821T0000",
-    "trajectory_name": "sam-20200821T0000"
+    "trajectory_datetime": "20201008T0000",
+    "trajectory_name": "sam-20201008T0000"
 }
