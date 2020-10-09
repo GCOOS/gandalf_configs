@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "PI": "Lembke",
+        "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "USF Dockserver",
@@ -107,7 +107,7 @@
             "weight": 2
         },
         "vehicle": "usf-sam",
-        "vehicle_type": "Slocum G1",
+        "vehicle_type": "Slocum G2",
         "wpIcon": "/static/images/wp_icon.png"
     },
     "glider": "usf-sam",
