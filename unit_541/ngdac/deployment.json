@@ -58,7 +58,8 @@
                 "calc_sigma",
                 "calc_salinity",
                 "sci_flbbcd_chlor_units",
-                "sci_flbbcd_cdom_units"
+                "sci_flbbcd_cdom_units",
+                "sci_oxy4_oxygen"
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2020/2020_09_25/plots",
             "use_bottom": false,
@@ -96,7 +97,8 @@
             "sci_water_cond",
             "sci_water_pressure",
             "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units"
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen"
         ],
         "style": {
             "color": "#500000",
