@@ -50,7 +50,7 @@
                 175,
                 90
             ],
-            "max_plot_depth": 50,
+            "max_plot_depth": 75,
             "plot_depth_padding": 5,
             "plot_sensor_list": [
                 "sci_water_temp",
@@ -58,8 +58,7 @@
                 "calc_sigma",
                 "calc_salinity",
                 "sci_flbbcd_chlor_units",
-                "sci_flbbcd_cdom_units",
-                "sci_oxy4_oxygen"
+                "sci_flbbcd_cdom_units"
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2020/2020_09_25/plots",
             "use_bottom": false,
@@ -97,8 +96,7 @@
             "sci_water_cond",
             "sci_water_pressure",
             "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy4_oxygen"
+            "sci_flbbcd_chlor_units"
         ],
         "style": {
             "color": "#500000",
