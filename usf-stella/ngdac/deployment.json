@@ -10,8 +10,9 @@
         "debug": true,
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-stella",
-        "deployment_date": "2020-03-27 00:00",
-        "data_start_date" : "20200327T1800",
+        "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-stella/processed_data/sensors.csv",
+        "deployment_date": "2020-10-14 00:00",
+        "data_start_date" : "20201014T1800",
         "data_end_date" : "20200405T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/logs",
@@ -63,11 +64,11 @@
             "use_bottom": true,
             "use_max_plot_depth": true,
             "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2020/2020_03_27/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2020/2020_10_14/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2020_03_27",
-        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2020_03_27",
-        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2020_03_27/kmz/usf-stella.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2020_10_14",
+        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2020_10_14",
+        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2020_10_14/kmz/usf-stella.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -96,7 +97,14 @@
             "sci_flbbcd_bb_units",
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
-            "sci_oxy3835_oxygen"
+            "sci_oxy3835_oxygen",
+            "sci_echodroid_aggindex",
+            "sci_echodroid_ctrmass",
+            "sci_echodroid_eqarea",
+            "sci_echodroid_inertia",
+            " sci_echodroid_propocc",
+            "sci_echodroid_sa",
+            "sci_echodroid_sv"
         ],
         "sensors_csv": "/data/gandalf/deployments/usf/usf-stella/processed_data/sensors.csv",
         "style": {
@@ -110,7 +118,7 @@
     },
     "glider": "usf-stella",
     "global_attributes": {
-        "deployment": "usf-stella-20200327T1200",
+        "deployment": "usf-stella-20201014T1200",
         "wmo_id": "4802970"
     },
     "platform": {
@@ -121,6 +129,6 @@
         "type": "platform",
         "wmo_id": "4802970"
     },
-    "trajectory_datetime": "20200327T1200",
-    "trajectory_name": "usf-stella-20200327T1200"
+    "trajectory_datetime": "20201014T1200",
+    "trajectory_name": "usf-stella-20201014T1200"
 }

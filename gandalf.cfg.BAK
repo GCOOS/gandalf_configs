@@ -37,7 +37,7 @@
   {
     "vehicle" : "usf-stella",
     "vehicle_data" : "local",
-    "status" : "deployed"
+    "status" : "recovered"
   },
   {
     "vehicle" : "usf-gansett",
