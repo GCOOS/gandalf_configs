@@ -97,14 +97,7 @@
             "sci_flbbcd_bb_units",
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
-            "sci_oxy3835_oxygen",
-            "sci_echodroid_aggindex",
-            "sci_echodroid_ctrmass",
-            "sci_echodroid_eqarea",
-            "sci_echodroid_inertia",
-            " sci_echodroid_propocc",
-            "sci_echodroid_sa",
-            "sci_echodroid_sv"
+            "sci_oxy3835_oxygen"
         ],
         "sensors_csv": "/data/gandalf/deployments/usf/usf-stella/processed_data/sensors.csv",
         "style": {
