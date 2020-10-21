@@ -13,7 +13,7 @@
         "deployment_date": "2020-08-13 12:00",
         "data_start_date" : "20200813T1200",
         "data_end_date" : "20201231T1200",
-        "dockserver": "http://tabs-os.gerg.tamu.edu",
+        "dockserver": "http://tabs-os.geos.tamu.edu",
         "dockuser" : "",
         "docklogpath" : "~woody/glider_540",
         "docklogfilter": "unit_540_network_net_0_2020*",
