@@ -1,4 +1,13 @@
 [
+ {
+    "sensor" :  "sci_echodroid_ctrmass",
+    "unit_string" : "(dB)",
+    "sensor_name" : "EchoDroid Center mass",
+    "sensor_plot_min" : -100,
+    "sensor_plot_max" : 100,
+    "alt_colormap" : "jet",
+    "log_scale" : false
+  },
   {
     "sensor" :  "m_avg_dive_rate",
     "unit_string" : "(m/s)",

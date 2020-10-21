@@ -27,6 +27,7 @@
         "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
+        "gdac_json_dir" : "/data/gandalf/deployments/json",
         "gdac_url": "",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
