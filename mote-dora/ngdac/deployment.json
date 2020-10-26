@@ -39,6 +39,7 @@
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
+        "post_kml_file": "/data/gandalf/mote/mote-dora/kmz/mote-dora.kml",
         "kml_file": "/data/gandalf/deployments/mote/mote-dora/kmz/mote-dora.kml",
         "kmz_url": "/data/gandalf/deployments/mote/mote-dora/kmz/mote-dora.kml",
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
@@ -96,8 +97,10 @@
             "sci_water_temp",
             "sci_water_cond",
             "sci_water_pressure",
+            "sci_oxy4_oxygen",
             "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units"
+            "sci_flbbcd_chlor_units",
+            "sci_flbbcd_bb_units"
         ],
         "project": "FWRI",
         "public_name": "mote-dora",
