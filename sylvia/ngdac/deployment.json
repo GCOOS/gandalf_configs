@@ -1,22 +1,22 @@
 {
     "gandalf": {
-        "PI": "Lembke C",
+        "PI": "Edwards C, Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Recovered",
-        "data_source": "USF Dockserver",
+        "dash_status": "Demonstration",
+        "data_source": "SKIO Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed": false,
-        "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
-        "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
+        "deployed":true,
+        "deployed_data_dir": "/data/gandalf/deployments/skio/sylvia",
+        "deployed_sensors_csv": "/data/gandalf/deployments/skio/sylvia/processed_data/sensors.csv",
         "deployment_date": "2020-10-08 00:00",
         "data_start_date" : "20201008T1200",
-        "data_end_date" : "20201012T1200",
-        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/from-glider",
-        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/logs",
-        "dockserver": "usfgliderserver.marine.usf.edu",
+        "data_end_date" : "20201231T1200",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/skio/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/skio/logs",
+        "dockserver": "skiogliderserver.marine.skio.edu",
         "dockuser": "gcoos",
         "flight_sensor_list": [
             "m_present_time",
@@ -35,16 +35,16 @@
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
-        "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
-        "post_kml_file": "/data/gandalf/usf/usf-sam/2020/2020_10_08/kmz/usf-sam.kml",
-        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
-        "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
-        "operator": "USF",
+        "kml_file": "/data/gandalf/deployments/skio/sylvia/kmz/skio.kml",
+        "post_kml_file": "/data/gandalf/skio/sylvia/2020/2020_10_08/kmz/skio.kml",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/skio/sylvia/kmz/skio.kmz",
+        "logo_file": "/data/gandalf/static/images/logos/skio_logo.png",
+        "operator": "SKIO",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-sam/plots",
-            "logo_file": "/data/gandalf/gandalf_configs/images/logos/usf_logo.png",
+            "deployed_plot_dir": "/data/gandalf/deployments/skio/sylvia/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
             "logo_loc": [
                 175,
                 90
@@ -60,14 +60,14 @@
               "sci_flbbcd_cdom_units",
               "sci_flbbcd_chlor_units"
             ],
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/sylvia/plots/",
             "plot_depth_padding": 5,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2020/2020_10_08/plots",
+            "postprocess_plot_dir": "/data/gandalf/skio/sylvia/2020/2020_10_08/plots",
             "use_bottom": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2020/2020_10_08",
-        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2020/2020_10_08",
+        "post_data_dir_root": "/data/gandalf/skio/sylvia/2020/2020_10_08",
+        "post_sensors_csv": "/data/gandalf/skio/sylvia/2020/2020_10_08",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_water_depth",
@@ -87,8 +87,8 @@
             "sci_flbbcd_chlor_units",
             "sci_water_pressure"
         ],
-        "project": "",
-        "public_name": "usf-sam",
+        "project": "Girls Engineer It! Day, Savannah GA",
+        "public_name": "sylvia",
         "science_sensor_list": [
           "sci_m_present_time",
           "sci_water_pressure",
@@ -106,23 +106,23 @@
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "usf-sam",
+        "vehicle": "sylvia",
         "vehicle_type": "Slocum G2",
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "usf-sam",
+    "glider": "sylvia",
     "global_attributes": {
         "deployment": "sam-20201008T0000",
         "wmo_id": "4801942"
     },
     "platform": {
         "comment": " ",
-        "id": "usf-sam",
+        "id": "skio",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider usf-sam",
+        "long_name": "Slocum Glider sylvia",
         "type": "platform",
         "wmo_id": "4801942"
     },
     "trajectory_datetime": "20201008T0000",
-    "trajectory_name": "sam-20201008T0000"
+    "trajectory_name": "sylvia-20201008T0000"
 }
