@@ -1,71 +1,65 @@
 {
-    "glider": "angus",
-    "global_attributes": {
-        "deployment": "angus-20200421T0000",
-        "wmo_id": ""
-    },
-    "platform": {
-        "comment": " ",
-        "id": "angus",
-        "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider angus",
-        "type": "platform",
-        "wmo_id": ""
-    },
-    "trajectory_datetime": "20200421T0000",
-    "trajectory_name": "angus-20200421T0000",
     "gandalf": {
+        "PI": "Edwards, C",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Deployed",
+        "data_source": "SKIO Dockserver",
+        "data_start_date": "20201114T1200",
+        "data_end_date": "20201231T1200",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed": "True",
-        "data_source": "SKIO Dockserver",
-        "vehicle_type": "Slocum G3",
-        "dash_status": "Deployed",
+        "deployed_data_dir": "/data/gandalf/deployments/skio/angus",
+        "deployed_sensors_csv": "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
         "deployment_date": "2020-04-21 12:00",
-        "data_start_date" : "20200421T1200",
-        "PI": "Edwards, C",
-        "operator": "SKIO",
-        "project": "Navy/NOAA SoundScapes",
-        "public_name": "angus",
-        "vehicle": "angus",
-        "gdac_url": "",
-        "style": {
-            "color": "#500000",
-            "weight": 2,
-            "opacity": 1
-        },
-        "ftp_send": false,
-        "harvest_method": "rsync",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/logs/",
         "dockserver": "sfmc.skio.uga.edu",
         "dockuser": "secoora",
-        "currPosIcon": "/static/images/slocum_stop.png",
-        "wpIcon": "/static/images/wp_icon.png",
+        "flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
+        ],
+        "ftp_send": false,
+        "gdac_url": "",
+        "harvest_method": "rsync",
         "iconSize": [
             20,
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
-        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
-        "dba_merge": "/opt/dinkum/dba_merge",
-        "deployed_data_dir": "/data/gandalf/deployments/skio/angus",
-        "sensors_csv": "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
-        "post_data_dir_root": "/data/gandalf/skio/angus/2020/2020_04_21",
-        "flight_sensor_list": [
-            "m_present_time",
-            "m_depth",
-            "m_water_depth"
-        ],
-        "science_sensor_list": [
-            "sci_m_present_time",
-            "sci_water_temp",
-            "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_flbbcd_bb_units"
-        ],
+        "kml_file": "/dev/null",
+        "kmz_url": "",
+        "operator": "SKIO",
+        "plots": {
+            "alt_colormap": "False",
+            "deployed_plot_dir": "/data/gandalf/deployments/skio/angus/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "plot_depth_padding": 5,
+            "plot_sensor_list": [
+                "sci_water_temp",
+                "calc_density",
+                "calc_salinity",
+                "calc_sigma",
+                "sci_flbbcd_cdom_units",
+                "sci_flbbcd_chlor_units",
+                "sci_flbbcd_bb_units"
+            ],
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/angus/plots/",
+            "use_bottom": "True",
+            "use_max_plot_depth": false,
+            "max_plot_depth" : 50
+        },
+        "post_data_dir_root": "/data/gandalf/skio/angus/2020/2020_11_14",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -88,29 +82,40 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units"
         ],
-        "plots": {
-            "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
-            "logo_loc": [
-                175,
-                90
-            ],
-            "plot_sensor_list": [
-                "sci_water_temp",
-                "calc_density",
-                "calc_salinity",
-                "calc_sigma",
-                "sci_flbbcd_cdom_units",
-                "sci_flbbcd_chlor_units",
-                "sci_flbbcd_bb_units"
-            ],
-            "deployed_plot_dir": "/data/gandalf/deployments/skio/angus/plots",
-            "use_bottom": "True",
-            "use_max_plot_depth": false,
-            "plot_depth_padding": 5,
-            "alt_colormap": "False",
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/angus/plots/"
+        "project": "Navy/NOAA SoundScapes",
+        "public_name": "angus",
+        "science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_flbbcd_bb_units"
+        ],
+        "sensors_csv": "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
+        "style": {
+            "color": "#500000",
+            "opacity": 1,
+            "weight": 2
         },
-        "kml_file": "/dev/null",
-        "kmz_url": ""
-    }
+        "vehicle": "angus",
+        "vehicle_type": "Slocum G3",
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "angus",
+    "global_attributes": {
+        "deployment": "angus-20201114T0000",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": " ",
+        "id": "angus",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider angus",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20201114T0000",
+    "trajectory_name": "angus-20201114T0000"
 }
