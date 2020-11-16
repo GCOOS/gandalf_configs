@@ -10,8 +10,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
-        "deployment_date": "2020-07-28 12:00",
-        "data_start_date" : "20200728T1200",
+        "deployment_date": "2020-11-16 12:00",
+        "data_start_date" : "20201116T1200",
         "data_end_date" : "20200702T1200",
         "dockfrompath": "/var/opt/gmc/mote/gliders/mote-genie/from-glider",
         "docklogpath": "/var/opt/gmc/mote/gliders/mote-genie/logs",
@@ -31,7 +31,7 @@
         "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/mote-genie-20200728T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2020-09-24T00%3A00%3A00Z&time%3C=2020-10-01T07%3A58%3A54Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/mote-genie-20201116T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2020-09-24T00%3A00%3A00Z&time%3C=2020-10-01T07%3A58%3A54Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -65,14 +65,14 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2020/2020_07_28/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2020/2020_11_16/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2020/2020_07_28",
-        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2020/2020_07_28",
-        "post_kml_file": "/data/gandalf/mote/mote-genie/2020/2020_07_28/kmz/mote-genie.kml",
+        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2020/2020_11_16",
+        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2020/2020_11_16",
+        "post_kml_file": "/data/gandalf/mote/mote-genie/2020/2020_11_16/kmz/mote-genie.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -118,7 +118,7 @@
     },
     "glider": "mote-genie",
     "global_attributes": {
-        "deployment": "mote-genie-20200728T1200",
+        "deployment": "mote-genie-20201116T1200",
         "wmo_id": "4801944"
     },
     "platform": {
@@ -129,6 +129,6 @@
         "type": "platform",
         "wmo_id": "4801944"
     },
-    "trajectory_datetime": "20200728T1200",
-    "trajectory_name": "mote-genie-20200728T1200"
+    "trajectory_datetime": "20201116T1200",
+    "trajectory_name": "mote-genie-20201116T1200"
 }
