@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "PI": "Pierce, R",
+        "PI": "Haskell W",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Recovered",
         "data_source": "TWR Dockserver",
