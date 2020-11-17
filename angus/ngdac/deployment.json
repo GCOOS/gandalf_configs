@@ -14,8 +14,8 @@
         "deployed_data_dir": "/data/gandalf/deployments/skio/angus",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
         "deployment_date": "2020-04-21 12:00",
-        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/from-glider/",
-        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/logs/",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/logs",
         "dockserver": "sfmc.skio.uga.edu",
         "dockuser": "secoora",
         "flight_sensor_list": [

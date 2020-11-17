@@ -13,8 +13,8 @@
         "deployment_date": "2020-11-16 12:00",
         "data_start_date" : "20201116T1200",
         "data_end_date" : "20200702T1200",
-        "dockfrompath": "/var/opt/gmc/mote/gliders/mote-genie/from-glider",
-        "docklogpath": "/var/opt/gmc/mote/gliders/mote-genie/logs",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/mote-genie/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/mote-genie/logs",
         "dockserver": "sfmc.webbresearch.com",
         "dockuser": "rcurrier",
         "flight_sensor_list": [
