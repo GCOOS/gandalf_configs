@@ -12,7 +12,7 @@
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
         "deployment_date": "2020-11-16 12:00",
         "data_start_date" : "20201116T1200",
-        "data_end_date" : "20200702T1200",
+        "data_end_date" : "20201231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/mote-genie/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/mote-genie/logs",
         "dockserver": "sfmc.webbresearch.com",
