@@ -2,7 +2,7 @@
     "gandalf": {
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "RECOVERED",
+        "dash_status": "Deployed",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -11,9 +11,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-stella",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-stella/processed_data/sensors.csv",
-        "deployment_date": "2020-10-14 00:00",
-        "data_start_date" : "20201014T1800",
-        "data_end_date" : "20200405T1200",
+        "deployment_date": "2021-01-13 00:00",
+        "data_start_date" : "20210113T1200",
+        "data_end_date" : "20211232T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -64,11 +64,11 @@
             "use_bottom": true,
             "use_max_plot_depth": true,
             "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2020/2020_10_14/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2021/2021_01_13/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2020_10_14",
-        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2020_10_14",
-        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2020_10_14/kmz/usf-stella.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2021_01_13",
+        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2021_01_13",
+        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2021_01_13/kmz/usf-stella.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -111,7 +111,7 @@
     },
     "glider": "usf-stella",
     "global_attributes": {
-        "deployment": "usf-stella-20201014T1200",
+        "deployment": "usf-stella-20210113T1200",
         "wmo_id": "4802970"
     },
     "platform": {
@@ -122,6 +122,6 @@
         "type": "platform",
         "wmo_id": "4802970"
     },
-    "trajectory_datetime": "20201014T1200",
-    "trajectory_name": "usf-stella-20201014T1200"
+    "trajectory_datetime": "20210113T1200",
+    "trajectory_name": "usf-stella-20210113T1200"
 }
