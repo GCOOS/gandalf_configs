@@ -100,7 +100,7 @@
             "sci_flbb_chlor_units",
             "sci_flbbcd_bb_units"
         ],
-        "project": "FWRI",
+        "project": "UAF",
         "public_name": "unit_191",
         "science_sensor_list": [
             "sci_m_present_time",
