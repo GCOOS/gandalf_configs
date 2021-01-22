@@ -55,7 +55,7 @@
                 178,
                 91
             ],
-            "max_plot_depth": 50,
+            "max_plot_depth": 175,
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
