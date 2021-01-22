@@ -43,7 +43,7 @@
         "kml_file": "/data/gandalf/deployments/alaska/unit_191/kmz/unit_191.kml",
         "kmz_url": "/data/gandalf/deployments/alaska/unit_191/kmz/unit_191.kml",
         "logo_file": "/data/gandalf/static/images/logos/alaska_logo.png",
-        "operator": "Mote",
+        "operator": "UAF",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
