@@ -10,8 +10,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/alaska/unit_191",
         "deployed_sensors_csv": "/data/gandalf/deployments/alaska/unit_191/processed_data/sensors.csv",
-        "deployment_date": "2021-01-20 12:00",
-        "data_start_date" : "20210120T1200",
+        "deployment_date": "2021-01-25 00:00",
+        "data_start_date" : "20210125T0000",
         "data_end_date" : "20211231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/alaska/gliders/unit_191/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/alaska/gliders/unit_191/logs",
@@ -62,16 +62,19 @@
                 "calc_sigma",
                 "calc_salinity",
                 "sci_flbb_bb_units",
-                "sci_flbb_chlor_units"
+                "sci_flbb_chlor_units",
+                "sci_bsipar_par",
+                "sci_rinkoii_do",
+                "calc_soundvel"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/alaska/unit_191/plots/",
-            "postprocess_plot_dir": "/data/gandalf/alaska/unit_191/2021/2021_01_20/plots",
+            "postprocess_plot_dir": "/data/gandalf/alaska/unit_191/2021/2021_01_25/plots",
             "use_bottom": true,
             "use_max_plot_depth": true,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/alaska/unit_191/2021/2021_01_20",
+        "post_data_dir_root": "/data/gandalf/alaska/unit_191/2021/2021_01_25",
         "post_sensors_csv": "/data/gandalf/alaska/unit_191/2021/2021_01_20",
         "post_kml_file": "/data/gandalf/alaska/unit_191/2021/2021_01_20/kmz/unit_191.kml",
         "postprocess_flight_sensor_list": [
@@ -95,12 +98,13 @@
             "sci_water_temp",
             "sci_water_cond",
             "sci_water_pressure",
-            "sci_oxy4_oxygen",
+            "sci_rinkoii_do", 
             "sci_flbb_bb_units",
             "sci_flbb_chlor_units",
-            "sci_flbbcd_bb_units"
+            "sci_flbbcd_bb_units",
+            "sci_bsipar_par"
         ],
-        "project": "UAF",
+        "project": "AOOS Gliders in Support of Fisheries Management",
         "public_name": "unit_191",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -109,7 +113,8 @@
             "sci_water_pressure",
             "sci_flbb_bb_units",
             "sci_flbb_chlor_units",
-            "sci_bsipar_par"
+            "sci_bsipar_par",
+            "sci_rinkoii_do"
         ],
         "style": {
             "color": "#500000",
@@ -122,7 +127,7 @@
     },
     "glider": "unit_191",
     "global_attributes": {
-        "deployment": "unit_191-20210120T1200",
+        "deployment": "unit_191-20210125T1200",
         "wmo_id": "4801944"
     },
     "platform": {
@@ -133,6 +138,6 @@
         "type": "platform",
         "wmo_id": "4801944"
     },
-    "trajectory_datetime": "20210120T1200",
-    "trajectory_name": "unit_191-20210120T1200"
+    "trajectory_datetime": "20210125T1200",
+    "trajectory_name": "unit_191-20210125T1200"
 }

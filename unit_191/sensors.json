@@ -1,46 +1,28 @@
 [
   {
-    "sensor" :  "m_avg_dive_rate",
-    "unit_string" : "(m/s)",
-    "sensor_name" : "Avg Dive Rate",
-    "sensor_plot_min" : 0,
-    "sensor_plot_max" : 0.25,
-    "alt_colormap" : "thermal",
-    "log_scale" : false
-  },
-  {
-    "sensor" :  "m_avg_climb_rate",
-    "unit_string" : "(m/s)",
-    "sensor_name" : "Avg Climb Rate",
-    "sensor_plot_min" : 0,
-    "sensor_plot_max" : 0.25,
-    "alt_colormap" : "thermal",
-    "log_scale" : false
-  },
-  {
     "sensor" :  "sci_water_temp",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Water Temperature",
-    "sensor_plot_min" : 0,
-    "sensor_plot_max" : 35,
+    "sensor_plot_min" : 2,
+    "sensor_plot_max" : 8,
     "alt_colormap" : "thermal",
     "log_scale" : false
   },
   {
     "sensor" :  "calc_salinity",
-    "unit_string" : "PPT (10$^{-3}$)",
+    "unit_string" : "PPT",
     "sensor_name" : "Salinity",
-    "sensor_plot_min" : 32.0,
-    "sensor_plot_max" :  37.5,
+    "sensor_plot_min" : 29.5,
+    "sensor_plot_max" :  32.5,
     "alt_colormap" : "haline",
     "log_scale" : false
   },
   {
     "sensor" :  "calc_density",
-    "unit_string" : "",
+    "unit_string" : "(kg/m$^{3}$)",
     "sensor_name" : "Density",
-    "sensor_plot_min" : 1000,
-    "sensor_plot_max" : 1030,
+    "sensor_plot_min" : 1023,
+    "sensor_plot_max" : 1026,
     "alt_colormap" : "dense",
     "log_scale" : false
   },
@@ -49,99 +31,45 @@
     "unit_string" : "(kg/m$^{3}$)",
     "unit_string" : "",
     "sensor_name" : "Sigma-t",
-    "sensor_plot_min" : 20,
-    "sensor_plot_max" :  29.0,
+    "sensor_plot_min" : 23,
+    "sensor_plot_max" :  26,
     "alt_colormap" : "dense",
     "log_scale" : false
   },
   {
-    "sensor" :  "sci_flbbcd_cdom_units",
-    "unit_string" : "PPB (10$^{-9}$)",
-    "sensor_name" : "CDOM",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  6.0,
-    "alt_colormap" : "matter",
-    "log_scale" : false
-  },
-  {
     "sensor" :  "sci_flbb_bb_units",
-    "unit_string" : "PPB (10$^{-9}$)",
+    "unit_string" : "m$^{-1}$ sr$^{-1}$",
     "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  6.0,
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" :  0.005,
     "alt_colormap" : "matter",
-    "log_scale" : false
-  },
-  {
-    "sensor" :  "sci_flbbcd_chlor_units",
-    "unit_string" : "($_u gm/L$)",
-    "sensor_name" : "Chlorophyll",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" : 6.0,
-    "alt_colormap" : "algae",
     "log_scale" : false
   },
   {
     "sensor" :  "sci_flbb_chlor_units",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" : 6.0,
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 0.75,
     "alt_colormap" : "algae",
     "log_scale" : false
   },
   {
-    "sensor" : "sci_oxy4_oxygen",
-    "unit_string" : "($_u mol/L$)",
+    "sensor" : "sci_rinkoii_do",
+    "unit_string" : "(%)",
     "sensor_name" : "Dissolved Oxygen",
-    "sensor_plot_min" : 100.0,
-    "sensor_plot_max" : 500.0,
+    "sensor_plot_min" : 70,
+    "sensor_plot_max" : 100,
     "alt_colormap" : "oxy",
     "log_scale" : false
   },
   {
-    "sensor" :  "sci_bbfl2s_cdom_scaled",
-    "unit_string" : "PPB (10$^{-9}$)",
-    "sensor_name" : "CDOM",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  5.0,
+    "sensor" :  "sci_bsipar_par",
+    "unit_string" : "uE/(m$^{2}$sec)",
+    "sensor_name" : "PAR",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" :  300,
     "alt_colormap" : "matter",
-    "log_scale" : false
-  },
-  {
-    "sensor" : "sci_flbbcd_bb_units",
-    "unit_string" : "PPB (10$^{-9}$)",
-    "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  5.0,
-    "alt_colormap" : "matter",
-    "log_scale" : false
-  },
-  {
-    "sensor" :  "sci_bbfl2s_chlor_scaled",
-    "unit_string" : "($_u gm/L$)",
-    "sensor_name" : "Chlorophyll",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  5.0,
-    "alt_colormap" : "algae",
-    "log_scale" : false
-  },
-  {
-    "sensor" :  "sci_bbfl2s_bb_scaled",
-    "unit_string" : "($_u gm/L$)",
-    "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  0.001,
-    "alt_colormap" : "algae",
-    "log_scale" : false
-  },
-  {
-    "sensor" : "sci_oxy3835_oxygen",
-    "unit_string" : "($_u mol/L$)",
-    "sensor_name" : "Dissolved Oxygen",
-    "sensor_plot_min" : 100.0,
-    "sensor_plot_max" : 250.0,
-    "alt_colormap" : "oxy",
     "log_scale" : false
   },
 {

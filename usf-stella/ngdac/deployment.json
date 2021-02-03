@@ -49,7 +49,7 @@
                 175,
                 90
             ],
-            "max_plot_depth": 50,
+            "max_plot_depth": 75,
             "plot_depth_padding": 5,
             "plot_sensor_list": [
               "sci_water_temp",
