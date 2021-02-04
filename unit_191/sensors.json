@@ -89,5 +89,23 @@
     "sensor_plot_max" : 1600,
     "alt_colormap" : "speed",
     "log_scale" : false
+  },
+{
+    "sensor" :  "m_water_vx",
+    "unit_string" : "(cm/s)",
+    "sensor_name" : "Water_vx",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 10,
+    "alt_colormap" : "speed",
+    "log_scale" : false
+  },
+{
+    "sensor" :  "m_water_vy",
+    "unit_string" : "(cm/s)",
+    "sensor_name" : "Water_vy",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 10,
+    "alt_colormap" : "speed",
+    "log_scale" : false
   }
 ]
