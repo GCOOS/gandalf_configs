@@ -1,4 +1,20 @@
-[{
+[
+  {
+     "pi" : "Haskell, W",
+     "vehicle" : "mote-genie",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "FWRI",
+     "deployed" : "2021-01-13",
+     "recovered" : "2020-02-09",
+     "days_wet" : 27,
+     "distance" : 404,
+     "map_url" : "/mote/mote-dora/2021/2021_01_13",
+     "data_url" : "/data/gandalf/mote/mote-dora/2021/2021_01_13/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2021/2021_01_13/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2021/2021_01_13/kmz/mote-genie.kml"
+   }, 
+  {
      "pi" : "Haskell, W",
      "vehicle" : "mote-genie",
      "type" : "Slocum G2",
