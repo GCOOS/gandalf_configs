@@ -1,12 +1,27 @@
 [
   {
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-gansett",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "FWRI",
+   "deployed" : "2020-08-13",
+   "recovered" : "2020-09-03",
+   "days_wet" : 21,
+   "distance" : 987,
+   "map_url" : "/usf/usf-gansett/2020/2020_08_13",
+   "data_url" : "/data/gandalf/usf/usf-gansett/2020/2020_08_13",
+   "plot_url" : "/data/gandalf/usf/usf-gansett/2020/2020_08_13/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-gansett/2020/2020_08_13/kmz/usf-bass.kml"
+ },
+  {
      "pi" : "Haskell, W",
      "vehicle" : "mote-genie",
      "type" : "Slocum G2",
      "operator" : "Mote",
      "project" : "FWRI",
      "deployed" : "2021-01-13",
-     "recovered" : "2020-02-09",
+     "recovered" : "2021-02-09",
      "days_wet" : 27,
      "distance" : 404,
      "map_url" : "/mote/mote-dora/2021/2021_01_13",
