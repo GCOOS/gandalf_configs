@@ -101,20 +101,20 @@
   },
   {
     "sensor" :  "sci_bbfl2s_bb_scaled",
-    "unit_string" : "($_u gm/L$)",
+    "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  0.001,
-    "alt_colormap" : "algae",
+    "alt_colormap" : "matter",
     "log_scale" : false
   },
    {
     "sensor" :  "sci_flbbcd_bb_units",
-    "unit_string" : "($_u gm/L$)",
+    "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  0.001,
-    "alt_colormap" : "algae",
+    "alt_colormap" : "matter",
     "log_scale" : false
   },
   {
