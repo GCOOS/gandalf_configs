@@ -56,10 +56,10 @@
               "calc_density",
               "calc_sigma",
               "calc_salinity",
-		          "sci_flbbcd_bb_units",
+	      "sci_flbbcd_bb_units",
               "sci_flbbcd_cdom_units",
               "sci_flbbcd_chlor_units",
-           	  "sci_oxy3835_oxygen"
+              "sci_oxy3835_oxygen"
             ],
             "use_bottom": true,
             "use_max_plot_depth": true,
