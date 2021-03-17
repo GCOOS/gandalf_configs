@@ -55,14 +55,14 @@
             ],
             "max_plot_depth": 50,
             "plot_sensor_list": [
-                "sci_water_temp",
-                "sci_flbbcd_bb_units",
-                "sci_flbbcd_cdom_units",
-                "sci_flbbcd_chlor_units",
-                "sci_oxy3835_oxygen",
-                "calc_salinity",
-                "calc_density",
-                "calc_sigma"
+            "sci_flbbcd_cdom_units",
+	    "sci_water_temp",
+            "calc_density",
+            "calc_sigma",
+            "calc_salinity",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy3835_oxygen"
             ],
             "plot_depth_padding": 5,
             "use_bottom": "True",
