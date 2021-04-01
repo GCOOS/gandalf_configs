@@ -24,7 +24,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_json_dir" : "/data/gandalf/deployments/json",
@@ -125,5 +125,5 @@
         "wmo_id": "4801942"
     },
     "trajectory_datetime": "20210331T0000",
-    "trajectory_name": "sam-20210331T0000"
+    "trajectory_name": "usf-sam-20210331T0000"
 }
