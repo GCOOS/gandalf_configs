@@ -2,7 +2,7 @@
     "gandalf": {
         "PI": "Lembke C, Hubbard K",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Recovered",
+        "dash_status": "Deployed",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -11,8 +11,8 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
-        "deployment_date": "2021-03-31 00:00",
-        "data_start_date" : "20210331T1200",
+        "deployment_date": "2021-05-12 00:00",
+        "data_start_date" : "20210512T1200",
         "data_end_date" : "20211012T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/logs",
@@ -38,7 +38,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
-        "post_kml_file": "/data/gandalf/usf/usf-sam/2021/2021_03_31/kmz/usf-sam.kml",
+        "post_kml_file": "/data/gandalf/usf/usf-sam/2021/2021_05_12/kmz/usf-sam.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
@@ -64,12 +64,12 @@
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
             "plot_depth_padding": 5,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2021/2021_03_31/plots",
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2021/2021_05_12/plots",
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2021/2021_03_31",
-        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2021/2021_03_31",
+        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2021/2021_05_12",
+        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2021/2021_05_12",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_water_depth",
@@ -114,7 +114,7 @@
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "sam-20210331T0000",
+        "deployment": "sam-20210512T0000",
         "wmo_id": "4801942"
     },
     "platform": {
@@ -125,6 +125,6 @@
         "type": "platform",
         "wmo_id": "4801942"
     },
-    "trajectory_datetime": "20210331T0000",
-    "trajectory_name": "usf-sam-20210331T0000"
+    "trajectory_datetime": "20210512T0000",
+    "trajectory_name": "usf-sam-20210512T0000"
 }
