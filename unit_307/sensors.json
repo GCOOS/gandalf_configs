@@ -6,7 +6,7 @@
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 0.25,
     "alt_colormap" : "thermal",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "m_avg_climb_rate",
@@ -15,7 +15,7 @@
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 0.25,
     "alt_colormap" : "thermal",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "sci_water_temp",
@@ -24,7 +24,7 @@
     "sensor_plot_min" : 28,
     "sensor_plot_max" : 32,
     "alt_colormap" : "thermal",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "calc_salinity",
@@ -33,7 +33,7 @@
     "sensor_plot_min" : 31.5,
     "sensor_plot_max" :  37.5,
     "alt_colormap" : "haline",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "calc_density",
@@ -61,7 +61,7 @@
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  5.0,
     "alt_colormap" : "matter",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "sci_flbbcd_chlor_units",
@@ -70,7 +70,7 @@
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" : 5.0,
     "alt_colormap" : "algae",
-    "log_scale" : "True"
+    "log_scale" : false
   },
   {
     "sensor" : "sci_oxy4_oxygen",
@@ -79,7 +79,7 @@
     "sensor_plot_min" : 100.0,
     "sensor_plot_max" : 500.0,
     "alt_colormap" : "oxy",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "sci_bbfl2s_cdom_scaled",
@@ -88,7 +88,7 @@
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  5.0,
     "alt_colormap" : "matter",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "sci_bbfl2s_chlor_scaled",
@@ -97,7 +97,7 @@
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  5.0,
     "alt_colormap" : "algae",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" :  "sci_bbfl2s_bb_scaled",
@@ -106,7 +106,7 @@
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  0.001,
     "alt_colormap" : "algae",
-    "log_scale" : "False"
+    "log_scale" : false
   },
   {
     "sensor" : "sci_oxy3835_oxygen",
@@ -115,7 +115,7 @@
     "sensor_plot_min" : 100.0,
     "sensor_plot_max" : 250.0,
     "alt_colormap" : "oxy",
-    "log_scale" : "False"
+    "log_scale" : false
   },
 {
     "sensor" : "sci_water_pressure",
@@ -124,6 +124,6 @@
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 200.0,
     "alt_colormap" : "dense",
-    "log_scale" : "False"
+    "log_scale" : false
   }
 ]

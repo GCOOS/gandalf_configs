@@ -1,15 +1,22 @@
 {
     "gandalf": {
-        "PI": "DiMarco, S",
+        "PI": "Whilden K, DiMarco S",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "ABORT -- Drifting",
-        "data_source": "TAMU Dockserver",
+        "dash_status": "Deployed",
+        "data_source": "TWR Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_307",
-        "deployment_date": "2019-06-13 00:00",
+        "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_307/processed_data/sensors.csv",
+        "deployment_date": "2021-06-14 00:00",
+        "data_start_date" : "20210614T0000",
+        "data_end_date" : "20211231T1200",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_307/from-glider/",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_307/logs",
+        "dockserver": "sfmc.webbresearch.com",
+        "dockuser": "gcoos",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -17,11 +24,17 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
+        "ftp_send": true,
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_user": "gcoos_dmac",
         "gdac_url": "",
+        "harvest_method": "rsync",
         "iconSize": [
             20,
             20
         ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/tamu/unit_307/kmz/unit_307.kml",
         "kmz_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/kmz/reveille.kmz",
         "logo_file": "/data/gandalf/gandalf_configs/images/logos/tamu_logo.png",
@@ -40,14 +53,16 @@
                 "calc_density",
                 "calc_sigma",
                 "calc_salinity",
-                "sci_flbbcd_chlor_units",
-                "sci_flbbcd_cdom_units"
+                "sci_flbbcd_chlor_units"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_307/2019/2019_06_13/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_307/2021/2021_06_14/plots",
             "use_bottom": "False",
+            "max_plot_depth": 50,
+            "use_max_plot_depth": false,
+            "plot_depth_padding": 5,
             "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/plots/"
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_307/2017/2017_12_18",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_307/2021/2021_06_14",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -91,9 +106,9 @@
         "vehicle_type": "Slocum G2",
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "Reveille",
+    "glider": "unit_307",
     "global_attributes": {
-        "deployment": "Reveille-20170627T0000",
+        "deployment": "Reveille-20210614T0000",
         "wmo_id": "4801938"
     },
     "platform": {
@@ -104,6 +119,6 @@
         "type": "platform",
         "wmo_id": "4801938"
     },
-    "trajectory_datetime": "20190613T0000",
-    "trajectory_name": "Reveille-20190613T0000"
+    "trajectory_datetime": "20210614T0000",
+    "trajectory_name": "Reveille-20210614T0000"
 }
