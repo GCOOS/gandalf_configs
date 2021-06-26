@@ -10,9 +10,10 @@
         "debug": true,
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
-        "deployment_date": "2020-07-07 00:00",
-        "data_start_date" : "20200707T0000",
-        "data_end_date" : "20200801T1200",
+        "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-bass/processed_data/sensors.csv",
+        "deployment_date": "2021-06-25 00:00",
+        "data_start_date" : "20210625T0000",
+        "data_end_date" : "20210801T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -62,11 +63,11 @@
             "plot_depth_padding": 5,
             "use_bottom": true,
             "use_max_plot_depth": false,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2020/2020_07_07/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2021/2021_06_25/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2020/2020_07_07",
-        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2020/2020_07_07",
-        "post_kml_file": "/data/gandalf/usf/usf-bass/2020/2020_07_07/kmz/usf-bass.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2021/2021_06_25",
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2021/2021_06_25",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2021/2021_06_25/kmz/usf-bass.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -107,7 +108,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20200707T1200",
+        "deployment": "usf-bass-20210625T1200",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -118,6 +119,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20200707T1200",
-    "trajectory_name": "usf-bass-20200707T1200"
+    "trajectory_datetime": "20210625T1200",
+    "trajectory_name": "usf-bass-20210625T1200"
 }
