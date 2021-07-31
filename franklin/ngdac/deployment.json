@@ -11,9 +11,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/franklin",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/franklin/processed_data/sensors.csv",
-        "deployment_date": "2020-11-04 12:00",
-        "data_start_date" : "20201104T1200",
-        "data_end_date" : "20201231T1200",
+        "deployment_date": "2021-07-29 12:00",
+        "data_start_date" : "20210729T1200",
+        "data_end_date" : "20211231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/logs/",
         "dockserver": "sfmc.skio.uga.edu",
@@ -63,7 +63,7 @@
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/skio/franklin/2020/2020_05_22",
+        "post_data_dir_root": "/data/gandalf/skio/franklin/2021/2021_05_22",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -110,7 +110,7 @@
     },
     "glider": "franklin",
     "global_attributes": {
-        "deployment": "franklin-20201104T0000",
+        "deployment": "franklin-20210729T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -121,6 +121,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20201104T0000",
-    "trajectory_name": "franklin-20201104T0000"
+    "trajectory_datetime": "20210729T0000",
+    "trajectory_name": "franklin-20210729T0000"
 }
