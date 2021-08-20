@@ -23,7 +23,7 @@
         "post_data_dir_root": "/data/gandalf/usm/sg677/2021/2021_07_16",
         "post_sensors_csv": "/data/gandalf/usm/sg677/2021/2021_07_16",
         "plots": {
-            "use_26d" : false,
+            "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/usm/sg677/plots",
