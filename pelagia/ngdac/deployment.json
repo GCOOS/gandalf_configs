@@ -40,6 +40,7 @@
         "operator": "SKIO",
         "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
         "plots": {
+            "use_26d" : false,
             "alt_colormap": true,
             "deployed_plot_dir": "/data/gandalf/deployments/skio/pelagia/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
