@@ -149,7 +149,7 @@
     "unit_string" : "",
     "sensor_name" : "Nitrates",
     "sensor_plot_min" : 0,
-    "sensor_plot_max" : 1,
+    "sensor_plot_max" : 100,
     "alt_colormap" : "tempo",
     "log_scale" : false
 }

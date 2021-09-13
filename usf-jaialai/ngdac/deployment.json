@@ -90,7 +90,8 @@
             "sci_flbbcd_bb_units",
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
-            "sci_oxy3835_oxygen"
+            "sci_oxy4_oxygen",
+            "sci_suna_nitrate_concentration"
           ],
         "project": "Florida Red Tide Research",
         "public_name": "usf-jaialai",

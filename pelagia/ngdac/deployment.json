@@ -64,6 +64,7 @@
             "use_max_plot_depth": false
         },
         "post_data_dir_root": "/data/gandalf/skio/pelagia/2021/2021_09_08",
+        "post_kml_file": "/data/gandalf/skio/pelagia/2020_09_08.kmz/pelagia.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
