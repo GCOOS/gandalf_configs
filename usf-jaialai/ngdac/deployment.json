@@ -119,7 +119,7 @@
     "glider": "usf-jaialai",
     "global_attributes": {
         "deployment": "usf-jaialai-20210908T1200",
-        "wmo_id": "4802969"
+        "wmo_id": "4803937"
     },
     "platform": {
         "comment": " ",
@@ -127,7 +127,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider usf-jaialai",
         "type": "platform",
-        "wmo_id": "4802969"
+        "wmo_id": "4803937"
     },
     "trajectory_datetime": "20210908T1200",
     "trajectory_name": "usf-jaialai-20210908T1200"
