@@ -39,9 +39,9 @@
                 "calc_salinity",
                 "calc_soundvel"
             ],
-            "use_max_plot_depth": false, 
+            "use_max_plot_depth": false,
             "max_plot_depth": 100
-        },
+          },
         "post_data_dir_root": "/data/gandalf/deployments/navy/ng645",
         "project": "Hurricane Glider Picket Line",
         "public_name": "ng645",
