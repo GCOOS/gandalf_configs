@@ -1,23 +1,22 @@
 {
     "gandalf": {
-        "PI": "DiMarco S, Whilden K",
+        "PI": "Whilden K",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
-        "data_start_date" : "20200925T1200",
-        "data_source": "TAMU Dockserver",
+        "data_start_date" : "20210928T1200",
+        "data_source": "TWR Dockrserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
-        "deployment_date": "2020-09-25 12:00",
-        "dockfromfilter": "unit_541-2020*",
-        "dockfrompath": "~woody/glider_541",
-        "docklogfilter": "unit_541_network_net_0_2020*",
-        "docklogpath": "~woody/glider_541",
-        "dockserver": "http://tabs-os.geos.tamu.edu",
-        "dockuser": "",
+        "deployment_date": "2021-09-28 12:00",
+        "dockfromfilter": "unit_541-2021*",
+	"dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/logs",
+        "dockserver": "sfmc.webbresearch.com",
+        "dockuser": "rcurrier",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -31,7 +30,7 @@
         "gdac_url": "",
         "gdac_json_dir" : "/data/gandalf/deployments/json",
         "gdac_user": "gcoos_dmac",
-        "harvest_method": "wget",
+        "harvest_method": "rsync",
         "iconSize": [
             20,
             20
@@ -43,6 +42,7 @@
         "operator": "TAMU GERG",
         "plot_url": "",
         "plots": {
+            "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_541/plots",
@@ -62,11 +62,11 @@
                 "sci_flbbcd_cdom_units",
                 "sci_oxy4_oxygen"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2020/2020_09_25/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2021/2021_09_28/plots",
             "use_bottom": false,
             "use_max_plot_depth": true
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2020/2020_09_25",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2021/2021_09_28",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -112,7 +112,7 @@
     },
     "glider": "unit_541",
     "global_attributes": {
-        "deployment": "Sverdrup-20200925T1200",
+        "deployment": "Sverdrup-20210928T1200",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -123,6 +123,6 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": "20200925T000",
-    "trajectory_name": "Sverdrup-20200925T1200"
+    "trajectory_datetime": "20210928T000",
+    "trajectory_name": "Sverdrup-20210928T1200"
 }
