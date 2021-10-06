@@ -26,7 +26,10 @@
             "m_gps_lon",
             "m_lat",
             "m_lon",
-            "m_tot_horz_dist"
+            "m_tot_horz_dist",
+            "m_battery",
+            "m_battpos",
+            "m_coulomb_amphr"
         ],
         "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
@@ -64,6 +67,11 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen",
             "sci_suna_nitrate_concentration"
+            ],
+            "plot_flight_sensor_list" : [
+            "m_battery",
+            "m_battpos",
+            "m_coulomb_amphr"
             ],
             "plot_depth_padding": 5,
             "use_bottom": "True",
