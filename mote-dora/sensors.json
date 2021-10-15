@@ -76,8 +76,8 @@
     "sensor" : "sci_oxy4_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
-    "sensor_plot_min" : 100.0,
-    "sensor_plot_max" : 500.0,
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max"  : 250.0,
     "alt_colormap" : "oxy",
     "log_scale" : false
   },
@@ -121,7 +121,7 @@
     "sensor" : "sci_oxy3835_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
-    "sensor_plot_min" : 100.0,
+    "sensor_plot_min" : 0.0,
     "sensor_plot_max" : 250.0,
     "alt_colormap" : "oxy",
     "log_scale" : false
