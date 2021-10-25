@@ -11,8 +11,8 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-bass/processed_data/sensors.csv",
-        "deployment_date": "2021-06-25 00:00",
-        "data_start_date" : "20210625T0000",
+        "deployment_date": "2021-10-21 00:00",
+        "data_start_date" : "20211021T0000",
         "data_end_date" : "20210801T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
@@ -21,8 +21,8 @@
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
-            "m_gps_lat",
-            "m_gps_lon",
+            "m_lat",
+            "m_lon",
             "m_water_depth"
         ],
         "ftp_send": false,
@@ -42,6 +42,7 @@
         "logo_file": "/data/gandalf/gandalf_configs/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
+            "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-bass/plots",
@@ -63,11 +64,11 @@
             "plot_depth_padding": 5,
             "use_bottom": true,
             "use_max_plot_depth": false,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2021/2021_06_25/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2021/2021_10_21/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2021/2021_06_25",
-        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2021/2021_06_25",
-        "post_kml_file": "/data/gandalf/usf/usf-bass/2021/2021_06_25/kmz/usf-bass.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2021/2021_10_21",
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2021/2021_10_21",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2021/2021_10_21/kmz/usf-bass.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -108,7 +109,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20210625T1200",
+        "deployment": "usf-bass-20211021T1200",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -119,6 +120,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20210625T1200",
-    "trajectory_name": "usf-bass-20210625T1200"
+    "trajectory_datetime": "20211021T1200",
+    "trajectory_name": "usf-bass-20211021T1200"
 }
