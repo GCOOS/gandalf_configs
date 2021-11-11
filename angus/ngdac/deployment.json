@@ -4,7 +4,7 @@
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "SKIO Dockserver",
-        "data_start_date": "20201114T1200",
+        "data_start_date": "20211110T1200",
         "data_end_date": "20201231T1200",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -13,7 +13,7 @@
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/skio/angus",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
-        "deployment_date": "2020-04-21 12:00",
+        "deployment_date": "2021-11-10 12:00",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/logs",
         "dockserver": "sfmc.skio.uga.edu",
@@ -37,6 +37,7 @@
         "kmz_url": "",
         "operator": "SKIO",
         "plots": {
+            "use_26d" : false,
             "alt_colormap": "False",
             "deployed_plot_dir": "/data/gandalf/deployments/skio/angus/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
@@ -59,7 +60,7 @@
             "use_max_plot_depth": false,
             "max_plot_depth" : 50
         },
-        "post_data_dir_root": "/data/gandalf/skio/angus/2020/2020_11_14",
+        "post_data_dir_root": "/data/gandalf/skio/angus/2020/2021_11_10",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -82,7 +83,7 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units"
         ],
-        "project": "Navy/NOAA SoundScapes",
+        "project": "SECOORA Hurricane Gliders",
         "public_name": "angus",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -105,7 +106,7 @@
     },
     "glider": "angus",
     "global_attributes": {
-        "deployment": "angus-20201114T0000",
+        "deployment": "angus-20211110T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -116,6 +117,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20201114T0000",
-    "trajectory_name": "angus-20201114T0000"
+    "trajectory_datetime": "20211110T0000",
+    "trajectory_name": "angus-20211110T0000"
 }
