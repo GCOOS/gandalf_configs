@@ -1,5 +1,35 @@
 [
 {
+   "pi" : "Martin, K",
+   "vehicle" : "SG677",
+   "type" : "SeaGlider",
+   "operator" : "USM",
+   "project" : "USM",
+   "deployed" : "2021-09-24",
+   "recovered" : "2021-11-09",
+   "days_wet" : 45,
+   "distance" : 0,
+   "map_url" : "",
+   "data_url" : "",
+   "plot_url" : "/data/gandalf/usm/sg677/2021/2021_09_24/plots",
+   "kmz_url" : ""
+ },
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-gansett",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "FWRI",
+   "deployed" : "2021-09-08",
+   "recovered" : "2021-09-30",
+   "days_wet" : 22,
+   "distance" : 1100,
+   "map_url" : "/usf/usf-gansett/2021/2021_09_08",
+   "data_url" : "/data/gandalf/usf/usf-gansett/2021/2021_09_08",
+   "plot_url" : "/data/gandalf/usf/usf-gansett/2021/2021_09_08/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-gansett/2021/2021_09_08/kmz/usf-gansett.kml"
+ },
+{
     "pi" : "Edwards, C",
     "vehicle" : "Pelagia",
     "type" : "Slocum G3",
