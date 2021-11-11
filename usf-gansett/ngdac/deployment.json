@@ -11,8 +11,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-gansett/processed_data/sensors.csv",
-        "deployment_date": "2021-09-08 00:00",
-        "data_start_date" : "20210908T1200",
+        "deployment_date": "2021-11-10 00:00",
+        "data_start_date" : "20211110T1200",
         "data_end_date" : "20211231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
@@ -69,9 +69,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2021/2021_09_08",
-        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2021/2021_09_08",
-        "post_kml_file": "/data/gandalf/usf/usf-gansett/2021/2021_09_08/kmz/usf-gansett.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2021/2021_11_10",
+        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2021/2021_11_10",
+        "post_kml_file": "/data/gandalf/usf/usf-gansett/2021/2021_11_10/kmz/usf-gansett.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -116,7 +116,7 @@
     },
     "glider": "usf-gansett",
     "global_attributes": {
-        "deployment": "usf-gansett-20210908T1200",
+        "deployment": "usf-gansett-20211110T1200",
         "wmo_id": "4802969"
     },
     "platform": {
@@ -127,6 +127,6 @@
         "type": "platform",
         "wmo_id": "4802969"
     },
-    "trajectory_datetime": "20210908T1200",
-    "trajectory_name": "usf-gansett-20210908T1200"
+    "trajectory_datetime": "20211110T1200",
+    "trajectory_name": "usf-gansett-20211110T1200"
 }
