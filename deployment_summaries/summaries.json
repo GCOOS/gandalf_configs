@@ -1,5 +1,21 @@
 [
 {
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-bass",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "FWRI",
+   "deployed" : "2021-10-21",
+   "recovered" : "2021-11-15",
+   "days_wet" : 25,
+   "distance" : 1100,
+   "map_url" : "/usf/usf-bass/2021/2021_10_21",
+   "data_url" : "/data/gandalf/usf/usf-bass/2021/2021_10_21",
+   "plot_url" : "/data/gandalf/usf/usf-bass/2021/2021_10_21/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-bass/2021/2021_10_21/kmz/usf-bass.kml"
+ },
+{
+   
    "pi" : "Martin, K",
    "vehicle" : "SG677",
    "type" : "SeaGlider",
