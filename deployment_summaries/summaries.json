@@ -1,5 +1,20 @@
 [
 {
+     "pi" : "Pierce, R",
+     "vehicle" : "mote-genie",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "FWRI",
+     "deployed" : "2021-11-16",
+     "recovered" : "2021-11-29",
+     "days_wet" : 13,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2021/2021_11_16",
+     "data_url" : "/data/gandalf/mote/mote-genie/2021/2021_11_16/",
+     "plot_url" : "/data/gandalf/mote/mote-genie/2021/2021_11_16/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-genie/2021/2021_11_16/kmz/mote-genie.kml"
+   },
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-bass",
    "type" : "Slocum G3",
