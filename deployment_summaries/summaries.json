@@ -1,5 +1,20 @@
 [
 {
+    "pi" : "Edwards, C",
+    "vehicle" : "Angus",
+    "type" : "Slocum G3",
+    "operator" : "UGA/Skidaway",
+    "project" : "SECOORA Hurricane Gliders",
+    "deployed" : "2021-11-10",
+    "recovered" : "2021-12-01",
+    "days_wet" : 22,
+    "distance" : 0,
+    "map_url" : "/skio/angus/2021/2021_11_10",
+    "data_url" : "/data/gandalf/skio/angus/2021/2021_11_10",
+    "plot_url" : "/data/gandalf/skio/angus/2021/2021_11_10/plots",
+    "kmz_url" : ""
+  }, 
+  {  
      "pi" : "Pierce, R",
      "vehicle" : "mote-genie",
      "type" : "Slocum G2",
