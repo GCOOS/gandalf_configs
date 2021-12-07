@@ -33,7 +33,7 @@
         "opacity": 1
       },
       "plots": {
-          "use_26d" : true,
+          "use_26d" : false,
           "alt_colormap": true,
           "cmap": "jet",
           "deployed_plot_dir": "/data/gandalf/deployments/navy/ng252/plots",
