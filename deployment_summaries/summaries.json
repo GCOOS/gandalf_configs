@@ -1,6 +1,20 @@
 [
 {
-    "pi" : "Edwards, C",
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-gansett",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "FWRI",
+   "deployed" : "2021-11-10",
+   "recovered" : "2021-12-08",
+   "days_wet" : 29,
+   "distance" : 1100,
+   "map_url" : "/usf/usf-gansett/2021/2021_11_10",
+   "data_url" : "/data/gandalf/usf/usf-gansett/2021/2021_11_10",
+   "plot_url" : "/data/gandalf/usf/usf-gansett/2021/2021_11_10/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-gansett/2021/2021_11_10/kmz/usf-gansett.kml"
+},
+{   "pi" : "Edwards, C",
     "vehicle" : "Angus",
     "type" : "Slocum G3",
     "operator" : "UGA/Skidaway",
