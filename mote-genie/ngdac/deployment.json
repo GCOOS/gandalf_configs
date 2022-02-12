@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "PI": "Haskell W",
+        "PI": "Pierce R",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
@@ -10,9 +10,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-genie",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-genie/processed_data/sensors.csv",
-        "deployment_date": "2021-11-16 12:00",
-        "data_start_date" : "20211116T1200",
-        "data_end_date" : "20211231T1200",
+        "deployment_date": "2022-01-13 12:00",
+        "data_start_date" : "20220113T1200",
+        "data_end_date" : "20221231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/mote-genie/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/mote-genie/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -66,14 +66,14 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-genie/plots/",
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2021/2021_11_16/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-genie/2022/2022_01_13/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2021/2021_11_16",
-        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2021/2021_11_16",
-        "post_kml_file": "/data/gandalf/mote/mote-genie/2021/2021_11_16/kmz/mote-genie.kml",
+        "post_data_dir_root": "/data/gandalf/mote/mote-genie/2022/2022_01_13",
+        "post_sensors_csv": "/data/gandalf/mote/mote-genie/2022/2022_01_13",
+        "post_kml_file": "/data/gandalf/mote/mote-genie/2022/2022_01_13/kmz/mote-genie.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -119,7 +119,7 @@
     },
     "glider": "mote-genie",
     "global_attributes": {
-        "deployment": "mote-genie-20211116T1200",
+        "deployment": "mote-genie-20220113T1200",
         "wmo_id": "4801944"
     },
     "platform": {
@@ -130,6 +130,6 @@
         "type": "platform",
         "wmo_id": "4801944"
     },
-    "trajectory_datetime": "20211116T1200",
-    "trajectory_name": "mote-genie-20211116T1200"
+    "trajectory_datetime": "20220113T1200",
+    "trajectory_name": "mote-genie-20220113T1200"
 }
