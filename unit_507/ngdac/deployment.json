@@ -65,13 +65,20 @@
                 "sci_rinkoii_do",
                 "calc_soundvel",
                 "sci_flbbcd_bb_units",
-                "sci_flbbcd_chlor_units"
+                "sci_flbbcd_chlor_units",
+                "sci_echodroid_sv",
+                "sci_echodroid_propocc",
+                "sci_echodroid_aggindex",
+                "sci_echodroid_sa",
+                "sci_echodroid_ctrmass",
+                "sci_echodroid_inertia",
+                "sci_echodroid_eqarea"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/alaska/unit_507/plots/",
             "postprocess_plot_dir": "/data/gandalf/alaska/unit_507/2021/2021_04_29/plots",
             "use_bottom": true,
-            "use_max_plot_depth": true,
+            "use_max_plot_depth": false,
             "vmin": 0.01
         },
         "post_data_dir_root": "/data/gandalf/alaska/unit_507/2021/2021_04_29",
@@ -98,7 +105,7 @@
             "sci_water_temp",
             "sci_water_cond",
             "sci_water_pressure",
-            "sci_rinkoii_do", 
+            "sci_rinkoii_do",
             "sci_flbb_bb_units",
             "sci_flbb_chlor_units",
             "sci_flbbcd_bb_units",
@@ -113,7 +120,14 @@
             "sci_water_pressure",
             "sci_rinkoii_do",
             "sci_flbbcd_bb_units",
-            "sci_flbbcd_chlor_units"
+            "sci_flbbcd_chlor_units",
+            "sci_echodroid_sv",
+            "sci_echodroid_propocc",
+            "sci_echodroid_aggindex",
+            "sci_echodroid_sa",
+            "sci_echodroid_ctrmass",
+            "sci_echodroid_inertia",
+            "sci_echodroid_eqarea"
         ],
         "style": {
             "color": "#500000",
