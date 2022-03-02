@@ -11,8 +11,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-stella",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-stella/processed_data/sensors.csv",
-        "deployment_date": "2022-02-01 00:00",
-        "data_start_date" : "20220201T1200",
+        "deployment_date": "2022-03-01 00:00",
+        "data_start_date" : "20220301T1200",
         "data_end_date" : "20221232T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/logs",
@@ -65,11 +65,11 @@
             "use_bottom": true,
             "use_max_plot_depth": false,
             "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2022/2022_02_01/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2022/2022_03_01/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2022_02_01",
-        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2022_02_01",
-        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2022_02_01/kmz/usf-stella.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2022_03_01",
+        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2022_03_01",
+        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2022_03_01/kmz/usf-stella.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -112,7 +112,7 @@
     },
     "glider": "usf-stella",
     "global_attributes": {
-        "deployment": "usf-stella-20220201T1200",
+        "deployment": "usf-stella-20220301T1200",
         "wmo_id": "4802970"
     },
     "platform": {
@@ -123,6 +123,6 @@
         "type": "platform",
         "wmo_id": "4802970"
     },
-    "trajectory_datetime": "20220201T1200",
-    "trajectory_name": "usf-stella-20220201T1200"
+    "trajectory_datetime": "20220301T1200",
+    "trajectory_name": "usf-stella-20220301T1200"
 }
