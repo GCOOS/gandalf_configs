@@ -11,9 +11,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2021-09-08 00:00",
-        "data_start_date" : "20210908T1200",
-        "data_end_date" : "20211231T1200",
+        "deployment_date": "2022-02-25 00:00",
+        "data_start_date" : "20220225T1200",
+        "data_end_date" : "20221231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -31,7 +31,7 @@
             "m_battpos",
             "m_coulomb_amphr"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -77,9 +77,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2021/2021_09_08",
-        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2021/2021_09_08",
-        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2021/2021_09_08/kmz/usf-jaialai.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08",
+        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08",
+        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08/kmz/usf-jaialai.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -126,7 +126,7 @@
     },
     "glider": "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20210908T1200",
+        "deployment": "usf-jaialai-20220225T1200",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -137,6 +137,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20210908T1200",
-    "trajectory_name": "usf-jaialai-20210908T1200"
+    "trajectory_datetime": "20220225T1200",
+    "trajectory_name": "usf-jaialai-20220225T1200"
 }

@@ -1,0 +1,75 @@
+    "log_scale" : false
+  },
+{
+    "sensor" :  "m_water_vy",
+    "unit_string" : "(cm/s)",
+    "sensor_name" : "Water_vy",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 10,
+    "alt_colormap" : "speed",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_echodroid_sv",
+    "unit_string" : "(dB)",
+    "sensor_name" : "Echodroid SV",
+    "sensor_plot_min" : -50,
+    "sensor_plot_max" : 0,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_echodroid_propocc",
+    "unit_string" : "(noDim)",
+    "sensor_name" : "Echodroid propOcc",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 1,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_echodroid_aggindex",
+    "unit_string" : "(m^-1)",
+    "sensor_name" : "Echodroid Agg Index",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 0.5,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_echodroid_sa",
+    "unit_string" : "(dB)",
+    "sensor_name" : "Echodroid SA",
+    "sensor_plot_min" : -65,
+    "sensor_plot_max" : 60,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_echodroid_ctrmass",
+    "unit_string" : "(m)",
+    "sensor_name" : "Echodroid Center Mass",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 60,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_echodroid_inertia",
+    "unit_string" : "(m^-2)",
+    "sensor_name" : "Echodroid Intertia",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 250,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_echodroid_eqarea",
+    "unit_string" : "(m)",
+    "sensor_name" : "Echodroid EQ Area",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 30,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  }
+]
