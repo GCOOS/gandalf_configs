@@ -56,7 +56,7 @@
                 178,
                 91
             ],
-            "max_plot_depth": 50,
+            "max_plot_depth": 30,
             "plot_sensor_list": [
                 "sci_water_temp",
                 "calc_density",
@@ -71,7 +71,7 @@
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
             "postprocess_plot_dir": "/data/gandalf/mote/mote-dora/2022/2022_03_16/plots",
             "use_bottom": true,
-            "use_max_plot_depth": false,
+            "use_max_plot_depth": true,
             "vmin": 0.01
         },
         "post_data_dir_root": "/data/gandalf/mote/mote-dora/2022/2022_03_16",
