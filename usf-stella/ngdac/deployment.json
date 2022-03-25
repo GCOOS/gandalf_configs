@@ -37,7 +37,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/usf/usf-stella/kmz/usf-stella.kml",
-        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-stella/kmz/usf-stella.kmz",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-stella/kmz/usf-stella.kml",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
@@ -50,7 +50,7 @@
                 175,
                 90
             ],
-            "max_plot_depth": 100,
+            "max_plot_depth": 1000,
             "plot_depth_padding": 5,
             "plot_sensor_list": [
               "sci_water_temp",
@@ -70,7 +70,7 @@
               "sci_echodroid_eqarea"
             ],
             "use_bottom": true,
-            "use_max_plot_depth": false,
+            "use_max_plot_depth": true,
             "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
             "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2022/2022_02_25/plots"
         },
