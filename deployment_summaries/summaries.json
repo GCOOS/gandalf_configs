@@ -1,4 +1,35 @@
 [
+ {
+     "pi" : "Pierce, R",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "FWRI",
+     "deployed" : "2022-03-16",
+     "recovered" : "2021-04-05",
+     "days_wet" : 20,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2022/2022_01_13",
+     "data_url" : "/data/gandalf/mote/mote-dora/2022/2022_03_16/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2022/2022_03_16/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2022/2022_03_16/kmz/mote-dora.kml"
+   },
+
+ {
+     "pi" : "Pierce, R",
+     "vehicle" : "mote-genie",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "FWRI",
+     "deployed" : "2022-01-13",
+     "recovered" : "2021-02-07",
+     "days_wet" : 25,
+     "distance" : 0,
+     "map_url" : "/mote/mote-genie/2022/2022_01_13",
+     "data_url" : "/data/gandalf/mote/mote-genie/2022/2022_01_13/",
+     "plot_url" : "/data/gandalf/mote/mote-genie/2022/2022_01_13/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-genie/2022/2022_01_13/kmz/mote-genie.kml"
+   },
 {
    "pi" : "Lembke, C",
    "vehicle" : "usf-gansett",
