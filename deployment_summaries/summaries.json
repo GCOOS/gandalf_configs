@@ -1,4 +1,19 @@
 [
+  {
+   "pi" : "Danielson S, Statscewich H",
+   "vehicle" : "Shackeleton",
+   "type" : "Slocum G3",
+   "operator" : "UAF",
+   "project" : "AOOS Gliders in Support of Fisheries Management",
+   "deployed" : "2022-02-12",
+   "recovered" : "2022-04-11",
+   "days_wet" : 59,
+   "distance" : 1100,
+   "map_url" : "/alaska/unit_507/2022/2021_03_23",
+   "data_url" : "/data/gandalf/alaska/unit_507/2022/2022_02_12",
+   "plot_url" : "/data/gandalf/alaska/unit_507/2022/2022_02_12/plots",
+   "kmz_url" : "/data/gandalf/alaska/unit_507/2022/2022_02_12/kmz/unit_507.kml"
+ },
  {
      "pi" : "Pierce, R",
      "vehicle" : "mote-dora",
@@ -6,7 +21,7 @@
      "operator" : "Mote",
      "project" : "FWRI",
      "deployed" : "2022-03-16",
-     "recovered" : "2021-04-05",
+     "recovered" : "2022-04-05",
      "days_wet" : 20,
      "distance" : 0,
      "map_url" : "/mote/mote-dora/2022/2022_01_13",
@@ -22,7 +37,7 @@
      "operator" : "Mote",
      "project" : "FWRI",
      "deployed" : "2022-01-13",
-     "recovered" : "2021-02-07",
+     "recovered" : "2022-02-07",
      "days_wet" : 25,
      "distance" : 0,
      "map_url" : "/mote/mote-genie/2022/2022_01_13",
