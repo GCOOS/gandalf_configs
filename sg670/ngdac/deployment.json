@@ -1,0 +1,98 @@
+{
+    "gandalf": {
+        "PI": "",
+        "currPosIcon": "/static/images/seaglider_icon.png",
+        "dash_status": "Recovered",
+        "data_source": "CICESE",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg670",
+        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg670/processed_data/sensors.csv",
+        "deployment_date": "2022-01-22 00:00",
+        "gdac_url": "",
+        "iconSize": [
+            60,
+            20
+        ],
+        "infoBoxImage": "/static/images/seaglider_infobox.jpg",
+        "kmz_url": "",
+        "logo_file": "/data/gandalf/static/images/logos/cicese_logo.png",
+        "operator": "CICESE",
+        "plot_url": "",
+        "post_data_dir_root": "/data/gandalf/cicese/sg670/2022/2022_01_22",
+        "post_sensors_csv": "/data/gandalf/cicese/sg670/2022/2022_01_22/processed_data/sensors.csv",
+        "trajectory_sensors" :
+          [
+            "salinity",
+            "density",
+            "temperature",
+            "dissolved_oxygen",
+            "chlorophyll_a",
+            "CDOM",
+            "Scatter",
+            "depth"
+          ],
+        "profile_sensors" :
+          [
+            "profile_lat",
+            "profile_lon",
+            "profile_time"
+          ],
+        "csv_header" :
+        [
+          "timestamp",
+          "depth",
+          "temperature",
+          "salinity",
+          "dissolved_oxygen",
+          "chlorophyll_a",
+          "cdom",
+          "scatter"
+        ],
+        "plots": {
+            "alt_colormap": true,
+            "cmap": "jet",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg670/2022/2022_01_22/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg670/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/cicese_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 5000,
+            "plot_depth_padding" : 200,
+            "plot_sensor_list": [
+                "temperature",
+                "salinity",
+                "dissolved_oxygen",
+                "chlorophyll_a",
+                "cdom",
+                "scatter"
+            ],
+            "use_max_plot_depth": false
+        },
+        "project": "Hurricane Glider Picket Line",
+        "public_name": "sg670",
+        "style": {
+            "color": "#D4AF37",
+            "opacity": 1,
+            "weight": 2
+        },
+        "vehicle": "sg670",
+        "vehicle_type": "Seaglider"
+    },
+    "glider": "sg670",
+    "global_attributes": {
+        "deployment": "sg670-20200714T0000",
+        "wmo_id": "44802947"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "sg670",
+        "instruments": "instrument_ctd",
+        "long_name": "CICESE Seaglider 670",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20220122T0000",
+    "trajectory_name": "sg670-20220122T0000"
+}
