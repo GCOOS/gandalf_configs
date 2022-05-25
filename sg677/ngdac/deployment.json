@@ -37,8 +37,7 @@
             "plot_sensor_list": [
                 "temperature",
                 "density",
-                "depth_avg_curr_east",
-                "depth_avg_curr_north"
+                "depth_avg_curr"
             ],
             "use_max_plot_depth": false
         },
