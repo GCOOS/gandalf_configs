@@ -11,8 +11,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2022-04-14 00:00",
-        "data_start_date" : "20220414T1200",
+        "deployment_date": "2022-05-30 00:00",
+        "data_start_date" : "20220530T1200",
         "data_end_date" : "20221231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
@@ -31,7 +31,7 @@
             "m_battpos",
             "m_coulomb_amphr"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -126,7 +126,7 @@
     },
     "glider": "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20220414T1200",
+        "deployment": "usf-jaialai-20220530T1200",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -137,6 +137,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20220414T1200",
-    "trajectory_name": "usf-jaialai-20220414T1200"
+    "trajectory_datetime": "20220530T1200",
+    "trajectory_name": "usf-jaialai-20220530T1200"
 }

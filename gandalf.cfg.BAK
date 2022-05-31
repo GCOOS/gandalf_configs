@@ -4,10 +4,10 @@
     "vehicle_data" : "local",
     "status" : "recovered"
   },
- { 
+ {
     "vehicle" : "mote-dora",
     "vehicle_data" : "local",
-    "status" : "recovered"
+    "status" : "deployed"
   },
   {
     "vehicle" : "waldo",
@@ -17,12 +17,12 @@
   {
     "vehicle" : "unit_541",
     "vehicle_data" : "local",
-    "status" : "deployed"
+    "status" : "recovered"
   },
   {
     "vehicle" : "unit_540",
     "vehicle_data" : "local",
-    "status" : "deployed"
+    "status" : "recovered"
   },
   {
     "vehicle" : "unit_307",
@@ -45,6 +45,11 @@
     "status" : "recovered"
   },
   {
+    "vehicle" : "usf-jaialai",
+    "vehicle_data" : "local",
+    "status" : "recovered"
+  },
+  {
     "vehicle" : "usf-sam",
     "vehicle_data" : "local",
     "status" : "deployed"
@@ -57,12 +62,17 @@
   {
     "vehicle" : "ng314",
     "vehicle_data" : "erddap",
-    "status" : "deployed"
+    "status" : "recovered"
   },
   {
     "vehicle" : "ng609",
     "vehicle_data" : "erddap",
     "status" : "recovered"
+  },
+  {
+    "vehicle" : "ng666",
+    "vehicle_data" : "erddap",
+    "status" : "lost"
   },
   {
     "vehicle" : "ng412",
@@ -122,12 +132,47 @@
     "status" : "recovered"
   },
   {
+    "vehicle" : "ng222",
+    "vehicle_data" : "erddap",
+    "status" : "recovered"
+  },
+{
+    "vehicle" : "ng252",
+    "vehicle_data" : "erddap",
+    "status" : "recovered"
+  },
+  {
+    "vehicle" : "ng230",
+    "vehicle_data" : "erddap",
+    "status" : "recovered"
+  },
+  {
+    "vehicle" : "ng278",
+    "vehicle_data" : "erddap",
+    "status" : "recovered"
+  },
+  {
+    "vehicle" : "ng347",
+    "vehicle_data" : "erddap",
+    "status" : "recovered"
+  },  
+  {
+      "vehicle" : "ng447",
+      "vehicle_data" : "erddap",
+      "status" : "recovered"
+    },
+  {
     "vehicle" : "angus",
     "vehicle_data" : "local",
     "status" : "recovered"
   },
   {
     "vehicle" : "pelagia",
+    "vehicle_data" : "local",
+    "status" : "recovered"
+  },
+  {
+    "vehicle" : "salacia",
     "vehicle_data" : "local",
     "status" : "recovered"
   },
@@ -139,7 +184,7 @@
   {
     "vehicle" : "franklin",
     "vehicle_data" : "local",
-    "status" : "deployed"
+    "status" : "recovered"
   },
   {
     "vehicle" : "vela",
@@ -149,12 +194,12 @@
  {
    "vehicle" : "sg601",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg630",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg636",
@@ -164,46 +209,62 @@
 {
    "vehicle" : "sg663",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg649",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg669",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg610",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg664",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg665",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg635",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "sg609",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
+   "status" : "recovered"
   },
 {
    "vehicle" : "ng645",
    "vehicle_data" : "erddap",
-   "status" : "deployed"
-  }
+   "status" : "recovered"
+  },
+{
+   "vehicle" : "sg677",
+   "vehicle_data" : "erddap",
+   "status" : "recovered"
+  },
+{
+  "vehicle" : "unit_191",
+  "vehicle_data" : "local",
+  "status" : "recovered"
+},
+{
+  "vehicle" : "unit_507",
+  "vehicle_data" : "local",
+  "status" : "recovered"
+}
+
 ]
