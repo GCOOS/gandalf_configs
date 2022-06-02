@@ -1,0 +1,132 @@
+{
+    "gandalf": {
+        "vehicle" : "sylvia",
+        "vehicle_data" : "local",
+        "vehicle_type" : "slocum",
+        "status" : "recovered",
+        "PI": "Edwards C, Lembke C",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Demonstration",
+        "data_source": "SKIO Dockserver",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed":true,
+        "deployed_data_dir": "/data/gandalf/deployments/skio/sylvia",
+        "deployed_sensors_csv": "/data/gandalf/deployments/skio/sylvia/processed_data/sensors.csv",
+        "deployment_date": "2020-10-08 00:00",
+        "data_start_date" : "20201008T1200",
+        "data_end_date" : "20201231T1200",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/skio/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/skio/logs",
+        "dockserver": "skiogliderserver.marine.skio.edu",
+        "dockuser": "gcoos",
+        "flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_gps_lat",
+            "m_gps_lon"
+        ],
+        "ftp_send": false,
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "kml_file": "/data/gandalf/deployments/skio/sylvia/kmz/skio.kml",
+        "post_kml_file": "/data/gandalf/skio/sylvia/2020/2020_10_08/kmz/skio.kml",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/skio/sylvia/kmz/skio.kmz",
+        "logo_file": "/data/gandalf/static/images/logos/skio_logo.png",
+        "operator": "SKIO",
+        "plots": {
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/skio/sylvia/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 50,
+            "plot_sensor_list": [
+              "sci_water_temp",
+              "calc_density",
+              "calc_sigma",
+              "calc_salinity",
+              "calc_soundvel",
+              "sci_flbbcd_bb_units",
+              "sci_flbbcd_cdom_units",
+              "sci_flbbcd_chlor_units"
+            ],
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/sylvia/plots/",
+            "plot_depth_padding": 5,
+            "postprocess_plot_dir": "/data/gandalf/skio/sylvia/2020/2020_10_08/plots",
+            "use_bottom": false,
+            "use_max_plot_depth": false
+        },
+        "post_data_dir_root": "/data/gandalf/skio/sylvia/2020/2020_10_08",
+        "post_sensors_csv": "/data/gandalf/skio/sylvia/2020/2020_10_08",
+        "postprocess_flight_sensor_list": [
+            "m_present_time",
+            "m_water_depth",
+            "m_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_tot_horz_dist"
+        ],
+        "postprocess_science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_oxy3835_oxygen",
+            "sci_water_pressure",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_water_pressure"
+        ],
+        "project": "Girls Engineer It! Day, Savannah GA",
+        "public_name": "sylvia",
+        "science_sensor_list": [
+          "sci_m_present_time",
+          "sci_water_pressure",
+          "sci_water_temp",
+          "sci_water_cond",
+          "calc_density",
+          "calc_salinity",
+          "calc_soundvel",
+          "sci_flbbcd_bb_units",
+          "sci_flbbcd_cdom_units",
+          "sci_flbbcd_chlor_units"
+        ],
+        "style": {
+            "color": "#FFFF00",
+            "opacity": 1,
+            "weight": 2
+        },
+        "vehicle": "sylvia",
+        "vehicle_type": "Slocum G2",
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "sylvia",
+    "global_attributes": {
+        "deployment": "sam-20201008T0000",
+        "wmo_id": "4801942"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "skio",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider sylvia",
+        "type": "platform",
+        "wmo_id": "4801942"
+    },
+    "trajectory_datetime": "20201008T0000",
+    "trajectory_name": "sylvia-20201008T0000"
+}

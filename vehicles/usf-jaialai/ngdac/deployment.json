@@ -1,0 +1,145 @@
+{
+    "gandalf": {
+        "vehicle" : "usf-jaialai",
+        "vehicle_data" : "local",
+        "vehicle_type" : "slocum",
+        "vehicle_model" : "Slocum G3",
+        "status" : "deployed",
+        "PI": "Lembke, Hubbard",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Deployed",
+        "data_source": "USF Dockserver",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed": true,
+        "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
+        "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
+        "deployment_date": "2022-05-30 00:00",
+        "data_start_date" : "20220530T1200",
+        "data_end_date" : "20221231T1200",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
+        "dockserver": "usfgliderserver.marine.usf.edu",
+        "dockuser": "gcoos",
+        "flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_lat",
+            "m_lon",
+            "m_tot_horz_dist",
+            "m_battery",
+            "m_battpos",
+            "m_coulomb_amphr"
+        ],
+        "ftp_send": false,
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "",
+        "gdac_json_dir" : "/data/gandalf/deployments/json",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "kml_file": "/data/gandalf/deployments/usf/usf-jaialai/kmz/usf-jaialai.kml",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-jaialai/kmz/usf-jaialai.kml",
+        "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
+        "operator": "USF",
+        "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-jaialai/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/usf_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 50,
+            "plot_sensor_list": [
+            "sci_water_temp",
+            "calc_salinity",
+            "calc_density",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen",
+            "sci_suna_nitrate_concentration"
+            ],
+            "plot_flight_sensor_list" : [
+            "m_battery",
+            "m_battpos",
+            "m_coulomb_amphr"
+            ],
+            "plot_depth_padding": 5,
+            "use_bottom": "True",
+            "use_max_plot_depth": false
+        },
+        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08",
+        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08",
+        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08/kmz/usf-jaialai.kml",
+        "postprocess_flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_lat",
+            "m_lon",
+            "m_tot_horz_dist"
+          ],
+        "postprocess_science_sensor_list": [
+            "sci_water_temp",
+            "calc_density",
+            "calc_sigma",
+            "calc_salinity",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen",
+            "sci_suna_nitrate_concentration"
+          ],
+        "project": "Florida Red Tide Research",
+        "public_name": "usf-jaialai",
+        "science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen",
+            "sci_suna_nitrate_concentration"
+        ],
+        "sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
+        "style": {
+            "color": "#FF00FF",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "usf-jaialai",
+    "global_attributes": {
+        "deployment": "usf-jaialai-20220530T1200",
+        "wmo_id": "4803937"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "usf-jaialai",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider usf-jaialai",
+        "type": "platform",
+        "wmo_id": "4803937"
+    },
+    "trajectory_datetime": "20220530T1200",
+    "trajectory_name": "usf-jaialai-20220530T1200"
+}

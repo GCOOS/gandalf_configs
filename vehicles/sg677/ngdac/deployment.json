@@ -1,0 +1,85 @@
+{
+    "gandalf": {
+        "vehicle" : "sg677",
+        "vehicle_data" : "local",
+        "vehicle_type" : "seaglider",
+        "status" : "deployed",
+        "PI": "Howden S, Martin K",
+        "currPosIcon": "/static/images/seaglider_icon.png",
+        "dash_status": "Deployed",
+        "data_source": "IOOS GDAC",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/usm/sg677/2021/2021_09_24",
+        "deployed_sensors_csv": "/data/gandalf/usm/sg677/2021/2021_09_24/processed_data/sensors.csv",
+        "deployment_date": "2021-09-24 00:00",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG677-20210924T1605.geoJson?wmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2021-09-19T00%3A00%3A00Z",
+        "gdac_json_dir" : "/data/gandalf/deployments/json",
+        "iconSize": [
+            60,
+            20
+        ],
+        "infoBoxImage": "/static/images/seaglider_infobox.jpg",
+        "kmz_url": "",
+        "logo_file": "/data/gandalf/static/images/logos/usm_logo.png",
+        "operator": "USM",
+        "plot_url": "",
+        "post_data_dir_root": "/data/gandalf/usm/sg677/2021/2021_09_24",
+        "post_sensors_csv": "/data/gandalf/usm/sg677/2021/2021_09_24/processed_data/sensors.csv",
+        "plots": {
+            "use_26d" : false,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/usm/sg677/plots",
+            "postprocess_plot_dir": "/data/gandalf/usm/sg677/2021/2021_09_24/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/usm_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 50000,
+            "plot_depth_padding" : 300,
+            "plot_sensor_list": [
+                "temperature",
+                "density",
+                "depth_avg_curr"
+            ],
+            "use_max_plot_depth": false
+        },
+        "project": "Hurricane Glider Picket Line",
+        "public_name": "sg677",
+        "sg_sensors" : [
+          "time",
+          "latitude",
+          "longitude",
+          "depth",
+          "temperature",
+          "salinity",
+          "pressure",
+          "conductivity",
+          "sigma_t",
+          "density",
+          "depth_avg_curr_east",
+          "depth_avg_curr_north"
+        ],
+        "style": {
+            "color": "#D4AF37",
+            "opacity": 1,
+            "weight": 2
+        }
+    },
+    "glider": "sg677",
+    "global_attributes": {
+        "deployment": "sg677-20210924T0000",
+        "wmo_id": "44802947"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "sg677",
+        "instruments": "instrument_ctd",
+        "long_name": "USN Seaglider 669",
+        "type": "platform",
+        "wmo_id": "4800907"
+    },
+    "trajectory_datetime": "20210924T0000",
+    "trajectory_name": "sg677-20210924T0000"
+}
