@@ -25,7 +25,7 @@
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/uri_logo.png",
-        "operator": "USM",
+        "operator": "URI",
         "plot_url": "",
         "plots": {
             "alt_colormap": true,
