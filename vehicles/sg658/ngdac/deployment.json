@@ -8,7 +8,7 @@
         "PI": "Palter J",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
-        "data_source": "IOOS GDAC",
+        "data_source": "Huntington Ingalls",
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/uri/sg658",
         "deployed_sensors_csv": "/data/gandalf/deployments/uri/sg658/processed_data/sensors.csv",
@@ -74,9 +74,9 @@
         ],
         "status": "deployed",
         "style": {
-            "color": "#D4AF37",
+            "color": "#002147",
             "opacity": 1,
-            "weight": 2
+            "weight": 4
         },
         "vehicle": "sg658",
         "vehicle_data": "local",
