@@ -1,12 +1,17 @@
 {
     "gandalf": {
+        "vehicle" : "sg677",
+        "vehicle_data" : "local",
+        "vehicle_type" : "seaglider",
+        "vehicle_model" : "Seaglider",
+        "status" : "recovered",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/usm/sg677/2021/2021_09_24",
-        "deployed_sensors_csv": "/data/gandalf/usm/sg677/2021/2021_09_24/processed_data/sensors.csv",
+        "deployed_data_dir": "/data/gandalf/deployments/usm/sg677",
+        "deployed_sensors_csv": "/data/gandalf/deployments/usm/sg677/processed_data/sensors.csv",
         "deployment_date": "2021-09-24 00:00",
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
@@ -44,7 +49,6 @@
         },
         "post_data_dir_root": "/data/gandalf/usm/sg677/2021/2021_09_24",
         "post_sensors_csv": "/data/gandalf/usm/sg677/2021/2021_09_24/processed_data/sensors.csv",
-        "plot_sensors_csv": "/data/gandalf/deployments/usm/sg677/sensors.csv",
         "project": "Hurricane Glider Picket Line",
         "public_name": "sg677",
         "sg_sensors": [

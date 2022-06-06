@@ -1,6 +1,6 @@
 {
     "gandalf": {
-	"vehicle" : "sg658",
+	      "vehicle" : "sg658",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
