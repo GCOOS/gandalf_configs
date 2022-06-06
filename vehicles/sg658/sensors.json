@@ -27,7 +27,7 @@
     "log_scale" : false
   },
 {
-    "sensor" :  "sigma",
+    "sensor" :  "sigma_t",
     "unit_string" : "(kg/m$^{3}$)",
     "unit_string" : "",
     "sensor_name" : "Sigma-t",
@@ -37,7 +37,7 @@
     "log_scale" : false
   },
   {
-    "sensor" :  "calc_soundvel",
+    "sensor" :  "sound_velocity",
     "unit_string" : "(m/s)",
     "sensor_name" : "Sound Velocity",
     "sensor_plot_min" : 1400,
@@ -92,6 +92,15 @@
   },
   {
     "sensor" : "dissolved_oxygen",
+    "unit_string" : "($_u mol/L$)",
+    "sensor_name" : "Dissolved Oxygen",
+    "sensor_plot_min" : 100.0,
+    "sensor_plot_max" : 200.0,
+    "alt_colormap" : "oxygen",
+    "log_scale" : "False"
+  },
+  {
+    "sensor" : "aanderaa4831_instrument_dissolved_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,

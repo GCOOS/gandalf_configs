@@ -41,6 +41,10 @@
             "plot_sensor_list": [
                 "temperature",
                 "salinity",
+                "sigma_t",
+                "density",
+                "sound_velocity",
+                "aanderaa4831_instrument_dissolved_oxygen",
                 "depth_avg_curr"
             ],
             "postprocess_plot_dir": "/data/gandalf/uri/sg658/2022/2022_04_08/plots",
@@ -50,7 +54,7 @@
         "post_data_dir_root": "/data/gandalf/uri/sg658/2022/2022_04_08",
         "plot_sensors_csv": "/data/gandalf/deployments/uri/sg658/processed_data/sensors.csv",
         "post_sensors_csv": "/data/gandalf/uri/sg658/2022/2022_04_08/processed_data/sensors.csv",
-        "project": "Hurricane Glider Picket Line",
+        "project": "URI Project Name",
         "public_name": "sg658",
         "sg_sensors": [
             "time",
@@ -60,8 +64,13 @@
             "longitude",
             "temperature",
             "salinity",
+            "density",
+            "sigma_t",
+            "sound_velocity",
             "depth_avg_curr_east",
-            "depth_avg_curr_north"
+            "depth_avg_curr_north",
+            "aanderaa4831_instrument_dissolved_oxygen",
+            "wlbbfl2"
         ],
         "status": "deployed",
         "style": {
