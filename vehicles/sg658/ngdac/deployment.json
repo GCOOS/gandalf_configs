@@ -54,7 +54,7 @@
         "post_data_dir_root": "/data/gandalf/uri/sg658/2022/2022_04_08",
         "plot_sensors_csv": "/data/gandalf/deployments/uri/sg658/processed_data/sensors.csv",
         "post_sensors_csv": "/data/gandalf/uri/sg658/2022/2022_04_08/processed_data/sensors.csv",
-        "project": "URI Project Name",
+        "project": "UW/URI NSF Dynamics/CO2",
         "public_name": "sg658",
         "sg_sensors": [
             "time",
@@ -91,7 +91,7 @@
         "comment": " ",
         "id": "sg658",
         "instruments": "instrument_ctd",
-        "long_name": "USN Seaglider 669",
+        "long_name": "URI Seaglider 658",
         "type": "platform",
         "wmo_id": "4803953"
     },
