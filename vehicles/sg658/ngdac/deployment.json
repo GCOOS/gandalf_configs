@@ -5,7 +5,7 @@
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
         "status" : "deployed",
-        "PI": "Palter J",
+        "PI": "Palter J, Gray A",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
         "data_source": "Huntington Ingalls",
@@ -43,8 +43,8 @@
                 "salinity",
                 "sigma_t",
                 "density",
-                "sound_velocity",
                 "aanderaa4831_instrument_dissolved_oxygen",
+                "sound_velocity",
                 "depth_avg_curr"
             ],
             "postprocess_plot_dir": "/data/gandalf/uri/sg658/2022/2022_04_08/plots",
@@ -60,6 +60,7 @@
             "time",
             "temperature",
             "depth",
+            "eng_head",
             "latitude",
             "longitude",
             "temperature",
@@ -69,8 +70,7 @@
             "sound_velocity",
             "depth_avg_curr_east",
             "depth_avg_curr_north",
-            "aanderaa4831_instrument_dissolved_oxygen",
-            "wlbbfl2"
+            "aanderaa4831_instrument_dissolved_oxygen"
         ],
         "status": "deployed",
         "style": {

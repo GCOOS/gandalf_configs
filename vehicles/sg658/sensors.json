@@ -91,6 +91,15 @@
     "log_scale" : "False"
   },
   {
+   "sensor" : "wlflbb2",
+   "unit_string" : "($_u gm/L$)",
+   "sensor_name" : "Backscatter",
+   "sensor_plot_min" : 0.00,
+   "sensor_plot_max" : 0.01,
+   "alt_colormap" : "algae",
+   "log_scale" : "false"
+  },
+  {
     "sensor" : "dissolved_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
