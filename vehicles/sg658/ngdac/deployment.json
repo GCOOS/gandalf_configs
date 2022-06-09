@@ -19,8 +19,8 @@
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
         "iconSize": [
-            60,
-            20
+            40,
+            15
         ],
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",

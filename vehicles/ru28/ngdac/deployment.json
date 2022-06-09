@@ -1,0 +1,141 @@
+{
+    "gandalf": {
+        "vehicle" : "ru28",
+        "vehicle_data" : "erddap",
+        "vehicle_type" : "slocum",
+        "vehicle_model" : "Slocum G2",
+        "status" : "deployed",
+        "PI": "Glenn S",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "deployed",
+        "data_source": "IOOS GDAC",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/mote/mote-dora",
+        "deployed_sensors_csv": "/data/gandalf/deployments/rutgers/ru28/processed_data/sensors.csv",
+        "deployment_date": "2022-05-20 12:00",
+        "data_start_date" : "20220520T1200",
+        "data_end_date" : "20221231T1200",
+        "dockfrompath": "",
+        "docklogpath": "",
+        "dockserver": "",
+        "dockuser": "",
+        "flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_avg_climb_rate",
+            "m_avg_dive_rate",
+            "m_lat",
+            "m_lon"
+        ],
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/rutgers/ru28/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru28-20220520T1425.geoJson?time%2Clatitude%2Clongitude%2Cdepth%2Ccdom%2Cchlorophyll_a%2Cpressure%2Cdensity%2Cgps_latitude%2Cgps_longitude%2Csalinity%2Ctemperature&time%3E=2022-05-20T00%3A00%3A00Z",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "post_kml_file": "/data/gandalf/rutgers/ru28/kmz/ru28.kml",
+        "kml_file": "/data/gandalf/deployments/rutgers/ru28/kmz/ru28.kml",
+        "kmz_url": "/data/gandalf/deployments/rutgers/ru28/kmz/ru28.kml",
+        "operator": "Rutgers",
+        "plots": {
+            "use_26d" : false,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/rutgers/ru28/plots",
+            "deployed_plot_url": "/plots/ru28",
+            "log_mult": 100,
+            "logo_file": "/data/gandalf/static/images/logos/rutgers_logo.jpg",
+            "logo_loc": [
+                178,
+                91
+            ],
+            "max_plot_depth": 5000,
+            "plot_sensor_list": [
+                "sci_water_temp",
+                "calc_density",
+                "calc_sigma",
+                "calc_salinity"
+            ],
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/rutgers/ru28/plots/",
+            "postprocess_plot_dir": "/data/gandalf/rutgers/ru28/2022/2022_05_20/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
+        },
+        "post_data_dir_root": "/data/gandalf/rutgers/ru28/2022/2022_05_20",
+        "post_sensors_csv": "/data/gandalf/rutgers/ru28/2022/2022_05_20",
+        "post_kml_file": "/data/gandalf/rutgers/ru28/2022/2022_05_20/kmz/ru28.kml",
+        "postprocess_flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_lat",
+            "m_lon",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_tot_horz_dist",
+            "m_battery",
+            "m_lithium_battery_relative_charge",
+            "m_water_vx",
+            "m_avg_climb_rate",
+            "m_avg_dive_rate",
+            "m_water_vy"
+        ],
+        "postprocess_science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_oxy4_oxygen",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_flbbcd_bb_units"
+        ],
+        "project": "ROWLRS",
+        "public_name": "ru28",
+        "science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen",
+            "sci_flbbcd_bb_units"
+        ],
+        "style": {
+            "color": "#500000",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "ru28",
+    "global_attributes": {
+        "deployment": "ru28-20220518T1200",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": "",
+        "id": "ru28",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider ru28",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20220520T1200",
+    "trajectory_name": "ru28-20220520T1200"
+}
