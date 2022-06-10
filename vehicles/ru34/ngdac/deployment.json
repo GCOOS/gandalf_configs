@@ -5,7 +5,7 @@
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
         "status" : "deployed",
-        "PI": "Glenn S",
+        "PI": "Brodie, Kohut",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
         "data_source": "IOOS GDAC",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-dora",
         "deployed_sensors_csv": "/data/gandalf/deployments/rutgers/ru34/processed_data/sensors.csv",
-        "deployment_date": "2022-05-20 12:00",
-        "data_start_date" : "20220520T1200",
-        "data_end_date" : "20221231T1200",
+        "deployment_date": "2022-05-20 15:38",
+        "data_start_date" : "20220520T1538",
+        "data_end_date" : "20221231T1538",
         "dockfrompath": "",
         "docklogpath": "",
         "dockserver": "",
@@ -64,9 +64,9 @@
             "max_plot_depth": 5000,
             "plot_sensor_list": [
                 "sci_water_temp",
+                "calc_salinity",
                 "calc_density",
-                "calc_sigma",
-                "calc_salinity"
+                "calc_sigma"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/rutgers/ru34/plots/",
@@ -125,7 +125,7 @@
     },
     "glider": "ru34",
     "global_attributes": {
-        "deployment": "ru34-20220518T1200",
+        "deployment": "ru34-20220518T1538",
         "wmo_id": ""
     },
     "platform": {
@@ -136,6 +136,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20220520T1200",
-    "trajectory_name": "ru34-20220520T1200"
+    "trajectory_datetime": "20220520T1538",
+    "trajectory_name": "ru34-20220520T1538"
 }

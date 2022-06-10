@@ -5,7 +5,7 @@
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
         "status" : "deployed",
-        "PI": "Glenn S",
+        "PI": "Kohut, Saba, Grothues",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
         "data_source": "IOOS GDAC",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-dora",
         "deployed_sensors_csv": "/data/gandalf/deployments/rutgers/ru28/processed_data/sensors.csv",
-        "deployment_date": "2022-05-20 12:00",
-        "data_start_date" : "20220520T1200",
+        "deployment_date": "2022-05-20 14:20",
+        "data_start_date" : "20220520T1425",
         "data_end_date" : "20221231T1200",
         "dockfrompath": "",
         "docklogpath": "",
@@ -136,6 +136,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20220520T1200",
-    "trajectory_name": "ru28-20220520T1200"
+    "trajectory_datetime": "20220520T1425",
+    "trajectory_name": "ru28-20220520T1425"
 }
