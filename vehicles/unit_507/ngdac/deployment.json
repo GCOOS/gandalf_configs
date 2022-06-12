@@ -1,9 +1,10 @@
 {
     "gandalf": {
-        "vehicle" : "unit_507",
+	"vehicle" : "unit_507",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "vehicle_model" : "Slocum G2",
+        "status" : "deployed",
         "PI": "Danielson, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -14,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/alaska/unit_507",
         "deployed_sensors_csv": "/data/gandalf/deployments/alaska/unit_507/processed_data/sensors.csv",
-        "deployment_date": "2022-02-12 00:00",
-        "data_start_date" : "20220212T0000",
+        "deployment_date": "2022-06-04 00:00",
+        "data_start_date" : "20220604T0000",
         "data_end_date" : "20221231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/alaska/gliders/unit_507/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/alaska/gliders/unit_507/logs",
@@ -139,7 +140,6 @@
             "weight": 2
         },
         "vehicle": "unit_507",
-        "vehicle_type": "Slocum G3",
         "wpIcon": "/static/images/wp_icon.png"
     },
     "glider": "unit_507",
@@ -155,6 +155,6 @@
         "type": "platform",
         "wmo_id": "4802987"
     },
-    "trajectory_datetime": "20220212T0000",
-    "trajectory_name": "unit_507-20210212T0000"
+    "trajectory_datetime": "20220604T0000",
+    "trajectory_name": "unit_507-20210604T0000"
 }
