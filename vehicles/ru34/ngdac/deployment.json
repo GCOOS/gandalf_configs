@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Brodie, Kohut",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -37,7 +37,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/rutgers/ru34/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru34-20220520T1538.geoJson?time%2Clatitude%2Clongitude%2Cdepth%2Ccdom%2Cdensity%2Cchlorophyll_a%2Cgps_latitude%2Cgps_longitude%2Cpressure%2Csalinity%2Ctemperature&time%3E=2022-05-20T00%3A00%3A00Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru34-20220520T1538.json?time%2Clatitude%2Clongitude%2Cdepth%2Ccdom%2Cdensity%2Cchlorophyll_a%2Cgps_latitude%2Cgps_longitude%2Cpressure%2Csalinity%2Ctemperature&time%3E=2022-05-20T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
