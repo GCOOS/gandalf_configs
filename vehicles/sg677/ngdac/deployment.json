@@ -8,7 +8,7 @@
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
-        "data_source": "IOOS GDAC",
+        "data_source": "USM BaseStation",
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/usm/sg677",
         "deployed_sensors_csv": "/data/gandalf/deployments/usm/sg677/processed_data/sensors.csv",
@@ -19,8 +19,8 @@
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
         "iconSize": [
-            60,
-            20
+            40,
+            15
         ],
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
@@ -56,6 +56,7 @@
             "latitude",
             "longitude",
             "depth",
+            "eng_head",
             "temperature",
             "salinity",
             "pressure",
@@ -65,7 +66,6 @@
             "depth_avg_curr_east",
             "depth_avg_curr_north"
         ],
-        "status": "recovered",
         "style": {
             "color": "#D4AF37",
             "opacity": 1,
