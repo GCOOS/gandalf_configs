@@ -72,7 +72,6 @@
             "depth_avg_curr_north",
             "aanderaa4831_instrument_dissolved_oxygen"
         ],
-        "status": "deployed",
         "style": {
             "color": "#002147",
             "opacity": 1,

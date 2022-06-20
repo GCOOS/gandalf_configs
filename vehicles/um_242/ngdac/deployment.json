@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Pettigrew N",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -45,7 +45,7 @@
         "post_kml_file": "",
         "kml_file": "",
         "kmz_url": "",
-        "operator": "um",
+        "operator": "UMaine",
         "plots": {
             "use_26d" : false,
             "alt_colormap": true,
