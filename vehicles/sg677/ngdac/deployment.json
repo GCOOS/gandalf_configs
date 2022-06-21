@@ -71,11 +71,8 @@
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "sg677",
-        "vehicle_data": "local",
-        "vehicle_type": "seaglider"
+        "teleport_zoom" : 8
     },
-    "glider": "sg677",
     "global_attributes": {
         "deployment": "sg677-20210924T0000",
         "wmo_id": "44802947"

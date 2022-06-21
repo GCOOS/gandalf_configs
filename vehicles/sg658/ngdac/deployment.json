@@ -77,11 +77,8 @@
             "opacity": 1,
             "weight": 4
         },
-        "vehicle": "sg658",
-        "vehicle_data": "local",
-        "vehicle_type": "seaglider"
+        "teleport_zoom" : 8
     },
-    "glider": "sg658",
     "global_attributes": {
         "deployment": "sg658-20220505T0000",
         "wmo_id": "44802947"

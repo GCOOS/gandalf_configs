@@ -1,6 +1,6 @@
 {
     "gandalf": {
-	"vehicle" : "unit_507",
+	     "vehicle" : "unit_507",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
@@ -139,10 +139,9 @@
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "unit_507",
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
-    "glider": "unit_507",
     "global_attributes": {
         "deployment": "unit_507-20210429T1200",
         "wmo_id": "4802987"
