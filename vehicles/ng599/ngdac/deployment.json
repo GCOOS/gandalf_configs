@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/navy/ng599",
         "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng599/processed_data/sensors.csv",
-        "deployment_date": "2022-05-20 15:38",
-        "data_start_date" : "20220520T1538",
-        "data_end_date" : "20221231T1538",
+        "deployment_date": "2022-06-22 15:38",
+        "data_start_date" : "20220622T0000",
+        "data_end_date" : "20221231T0000",
         "dockfrompath": "",
         "docklogpath": "",
         "dockserver": "",
@@ -26,15 +26,13 @@
           "time",
           "latitude",
           "longitude",
-          "depth",
-          "gps_latitude",
-          "gps_longitude"
+          "depth"
         ],
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/navy/ng599/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng599-20220622T0000.json?trajectory%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Csalinity%2Ctemperature&time%3E=2022-06-17T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -53,7 +51,7 @@
             "deployed_plot_dir": "/data/gandalf/deployments/navy/ng599/plots",
             "deployed_plot_url": "/plots/ng599",
             "log_mult": 100,
-            "logo_file": "/data/gandalf/static/images/logos/navy_logo.jpg",
+            "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
             "logo_loc": [
                 178,
                 91
@@ -61,10 +59,7 @@
             "max_plot_depth": 5000,
             "plot_sensor_list": [
               "temperature",
-              "salinity",
-              "density",
-              "cdom",
-              "chlorophyll_a"
+              "salinity"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/ng599/plots/",
@@ -85,10 +80,6 @@
         "project": "Navy Hurricane Gliders",
         "public_name": "ng599",
         "science_sensor_list": [
-          "cdom",
-          "density",
-          "chlorophyll_a",
-          "pressure",
           "salinity",
           "temperature"
         ],
@@ -101,7 +92,7 @@
     },
     "glider": "ng599",
     "global_attributes": {
-        "deployment": "ng599-20220518T1538",
+        "deployment": "ng599-20220518T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -112,6 +103,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20220520T1538",
-    "trajectory_name": "ng599-20220520T1538"
+    "trajectory_datetime": "20220622T0000",
+    "trajectory_name": "ng599-20220622T0000"
 }

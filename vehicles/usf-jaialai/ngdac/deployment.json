@@ -36,7 +36,7 @@
             "m_battpos",
             "m_coulomb_amphr"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -128,6 +128,7 @@
         "wpIcon": "/static/images/wp_icon.png",
         "teleport_zoom" : 8
     },
+    "glider" : "usf-jaialai",
     "global_attributes": {
         "deployment": "usf-jaialai-20220530T1200",
         "wmo_id": "4803937"
