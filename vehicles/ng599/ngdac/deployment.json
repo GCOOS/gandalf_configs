@@ -32,7 +32,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/navy/ng599/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng599-20220622T0000.json?trajectory%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Csalinity%2Ctemperature&time%3E=2022-06-17T00%3A00%3A00Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng599-20220622T0000.json?trajectory%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Csalinity%2Ctemperature&time%3E=2022-06-22T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
