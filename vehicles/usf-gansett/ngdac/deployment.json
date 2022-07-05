@@ -1,9 +1,10 @@
 {
     "gandalf": {
+        "vehicle_model" : "Slocum G3",
         "vehicle" : "usf-gansett",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -15,9 +16,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-gansett/processed_data/sensors.csv",
-        "deployment_date": "2021-11-10 00:00",
-        "data_start_date" : "20211110T1200",
-        "data_end_date" : "20211231T1200",
+        "deployment_date": "2022-07-05 00:00",
+        "data_start_date" : "20220705T1200",
+        "data_end_date" : "20221231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -32,7 +33,7 @@
             "m_lon",
             "m_tot_horz_dist"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -73,9 +74,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2021/2021_11_10",
-        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2021/2021_11_10",
-        "post_kml_file": "/data/gandalf/usf/usf-gansett/2021/2021_11_10/kmz/usf-gansett.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2022/2022_07_05",
+        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2022/2022_07_05",
+        "post_kml_file": "/data/gandalf/usf/usf-gansett/2022/2022_07_05/kmz/usf-gansett.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -114,13 +115,12 @@
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "usf-gansett",
-        "vehicle_type": "Slocum G3",
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "usf-gansett",
     "global_attributes": {
-        "deployment": "usf-gansett-20211110T1200",
+        "deployment": "usf-gansett-20220705T1200",
         "wmo_id": "4802969"
     },
     "platform": {
@@ -131,6 +131,6 @@
         "type": "platform",
         "wmo_id": "4802969"
     },
-    "trajectory_datetime": "20211110T1200",
-    "trajectory_name": "usf-gansett-20211110T1200"
+    "trajectory_datetime": "20220705T1200",
+    "trajectory_name": "usf-gansett-20220705T1200"
 }
