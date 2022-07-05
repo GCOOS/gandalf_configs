@@ -36,7 +36,7 @@
             "m_battpos",
             "m_coulomb_amphr"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",

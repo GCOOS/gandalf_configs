@@ -33,7 +33,7 @@
             "m_lat",
             "m_lon"
         ],
-        "ftp_send":true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "https://gliders.ioos.us/erddap/tabledap/mote-dora-20220627T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2022-09-24T00%3A00%3A00Z&time%3C=2022-10-01T07%3A58%3A54Z",
