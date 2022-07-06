@@ -8,7 +8,7 @@
         "PI": "Sanze E",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
-        "data_source": "Cicese BaseStation",
+        "data_source": "Cicese",
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg624",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg624/processed_data/sensors.csv",
@@ -25,7 +25,7 @@
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/cicese_logo.png",
-        "operator": "USM",
+        "operator": "CICESE",
         "plot_url": "",
         "plots": {
             "alt_colormap": true,
