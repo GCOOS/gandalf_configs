@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "vehicle" : "sg624",
+        "vehicle" : "sg672",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
@@ -10,9 +10,9 @@
         "dash_status": "Deployed",
         "data_source": "Cicese",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg624",
-        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg624/processed_data/sensors.csv",
-        "deployment_date": "2022-07-01 00:00",
+        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg672",
+        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg672/processed_data/sensors.csv",
+        "deployment_date": "2022-07-07 00:00",
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
@@ -30,7 +30,7 @@
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg624/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg672/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/cicese_logo.png",
             "logo_loc": [
                 175,
@@ -45,14 +45,14 @@
                 "eng_wlbbfl2_FL1sig",
                 "sound_velocity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg624/2022/2022_07_01/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg672/2022/2022_07_07/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg624/2022/2022_07_01",
-        "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_07_01/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/cicese/sg672/2022/2022_07_07",
+        "post_sensors_csv": "/data/gandalf/cicese/sg672/2022/2022_07_07/processed_data/sensors.csv",
         "project": "CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
-        "public_name": "sg624",
+        "public_name": "sg672",
         "sg_sensors": [
             "time",
             "latitude",
@@ -79,17 +79,17 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg624-20220701T0000",
+        "deployment": "sg672-20220707T0000",
         "wmo_id": ""
     },
     "platform": {
         "comment": " ",
-        "id": "sg624",
+        "id": "sg672",
         "instruments": "instrument_ctd",
         "long_name": "USN Seaglider 669",
         "type": "platform",
         "wmo_id": "4800907"
     },
-    "trajectory_datetime": "20220701T0000",
-    "trajectory_name": "sg624-20220701T0000"
+    "trajectory_datetime": "20220707T0000",
+    "trajectory_name": "sg672-20220707T0000"
 }
