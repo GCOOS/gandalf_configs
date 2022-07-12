@@ -33,7 +33,7 @@
             "m_lon",
             "m_tot_horz_dist"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",

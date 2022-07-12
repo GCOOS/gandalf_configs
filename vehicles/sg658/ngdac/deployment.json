@@ -10,6 +10,10 @@
         "dash_status": "Deployed",
         "data_source": "Huntington Ingalls",
         "debug": true,
+        "dockserver" : "",
+        "dockuser" : "",
+        "dockpass" : "",
+        "dockfrompath": "",
         "deployed_data_dir": "/data/gandalf/deployments/uri/sg658",
         "deployed_sensors_csv": "/data/gandalf/deployments/uri/sg658/processed_data/sensors.csv",
         "deployment_date": "2022-04-08 00:00",
@@ -18,6 +22,7 @@
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
+        "harvest_method" : "rsync",
         "iconSize": [
             40,
             15

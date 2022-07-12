@@ -10,6 +10,11 @@
         "dash_status": "Deployed",
         "data_source": "Cicese",
         "debug": true,
+        "dockserver" : "gliders.cicese.mx",
+        "dockuser" : "gandalfGMOG",
+        "dockpass" : "bcurrier2022",
+        "dockfrompath": "ftp/gandalf/0024",
+        "dockfromfilter" : "p624*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg624",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg624/processed_data/sensors.csv",
         "deployment_date": "2022-07-01 00:00",
@@ -18,6 +23,7 @@
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
+        "harvest_method" : "ftp",
         "iconSize": [
             40,
             15
