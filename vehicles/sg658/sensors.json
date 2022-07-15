@@ -116,5 +116,14 @@
     "sensor_plot_max" : 200.0,
     "alt_colormap" : "oxygen",
     "log_scale" : "False"
+  },
+  {
+    "sensor" :  "eng_wlbbfl2_FL1sig",
+    "unit_string" : "($_u gm/L$)",
+    "sensor_name" : "Chlorophyll",
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max" :  1500,
+    "alt_colormap" : "algae",
+    "log_scale" : "False"
   }
 ]

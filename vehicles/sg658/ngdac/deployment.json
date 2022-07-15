@@ -50,6 +50,7 @@
                 "sigma_t",
                 "density",
                 "aanderaa4831_instrument_dissolved_oxygen",
+                "eng_wlbbfl2_FL1sig",
                 "sound_velocity",
                 "depth_avg_curr"
             ],
@@ -73,6 +74,7 @@
             "salinity",
             "density",
             "sigma_t",
+            "eng_wlbbfl2_FL1sig",
             "sound_velocity",
             "depth_avg_curr_east",
             "depth_avg_curr_north",
