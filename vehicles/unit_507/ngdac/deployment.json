@@ -1,10 +1,10 @@
 {
     "gandalf": {
-	     "vehicle" : "unit_507",
+	"vehicle" : "unit_507",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Danielson, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
