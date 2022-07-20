@@ -57,7 +57,7 @@
         },
         "post_data_dir_root": "/data/gandalf/cicese/sg624/2022/2022_07_01",
         "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_07_01/processed_data/sensors.csv",
-        "project": "CICESE/CIGoM CONACyT-PEMEX-SENER",
+        "project": "CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
         "public_name": "sg624",
         "sg_sensors": [
             "time",
