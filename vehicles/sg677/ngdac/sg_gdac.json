@@ -384,7 +384,7 @@
             "valid_max" : 9,
             "[:]" : "u_qc"
         },
-          "v_qcS" : {
+          "v_qc" : {
             "flag_meanings" : "no_qc_performed good_data probably_good_data bad_data_that_are_potentially_correctable bad_data value_changed not_used not_used interpolated_value missing_value",
             "flag_values" : "qc_val",
             "long_name" : "v Quality Flag",
