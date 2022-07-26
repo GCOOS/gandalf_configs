@@ -73,8 +73,8 @@
           "reference" : "WGS84",
           "standard_name" : "latitude",
           "units" : "degrees_north",
-          "valid_min" : -90.0,
-          "valid_max" : -90.0,
+          "valid_min" : -90,
+          "valid_max" : 90,
           "[:]" : "lat"
         },
         "Lon" : {
@@ -90,8 +90,8 @@
           "reference" : "WGS84",
           "standard_name" : "longitude",
           "units" : "degrees_east",
-          "valid_min" : -180.0,
-          "valid_max" : 180.0,
+          "valid_min" : -180,
+          "valid_max" : 180,
           "[:]" : "lon"
         },
         "pressure" : {
@@ -111,8 +111,8 @@
           "resolution" : " ",
           "standard_name" : "sea_water_pressure",
           "units" : "dbar",
-          "valid_min" : 0.0,
-          "valid_max" : 2000.0,
+          "valid_min" : 0,
+          "valid_max" : 2000,
           "[:]" : "pressure"
         },
         "depth" : {
@@ -132,8 +132,8 @@
           "resolution" : " ",
           "standard_name" : "depth",
           "units" : "m",
-          "valid_min" : 0.0,
-          "valid_max" : 2000.0,
+          "valid_min" : 0,
+          "valid_max" : 2000,
           "[:]" : "depth"
         },
         "temperature" : {
@@ -151,8 +151,8 @@
           "resolution" : " ",
           "standard_name" : "sea_water_temperature",
           "units" : "Celsius",
-          "valid_min" : -5.0,
-          "valid_max" : 40.0,
+          "valid_min" : -5,
+          "valid_max" : 40,
           "[:]" : "temperature"
         },
         "conductivity" : {
@@ -170,8 +170,8 @@
           "resolution" : " ",
           "standard_name" : "sea_water_electrical_conductivity",
           "units" : "S m-1",
-          "valid_min" : 0.0,
-          "valid_max" : 10.0,
+          "valid_min" : 0,
+          "valid_max" : 10,
           "[:]" : "conductivity"
         },
         "salinity" : {
@@ -187,8 +187,8 @@
           "resolution" : " ",
           "standard_name" : "sea_water_practical_salinity",
           "units" : "1e-3",
-          "valid_min" : 0.0,
-          "valid_max" : 40.0,
+          "valid_min" : 0,
+          "valid_max" : 40,
           "[:]" : "salinity"
         },
         "density" : {
@@ -203,8 +203,8 @@
           "resolution" : " ",
           "standard_name" : "sea_water_density",
           "units" : "kg m-3",
-          "valid_min" : 1015.0,
-          "valid_max" : 1040.0,
+          "valid_min" : 1015,
+          "valid_max" : 1040,
           "[:]" : "density"
         },
           "profile_id" : {
@@ -232,8 +232,8 @@
             "platform" : "glider",
             "standard_name" : "latitude",
             "units" : "degrees_north",
-            "valid_min" : -90.0,
-            "valid_max" : 90.0,
+            "valid_min" : -90,
+            "valid_max" : 90,
             "[:]" : "profile_lat"
         },
           "profile_lon" : {
@@ -243,8 +243,8 @@
             "platform" : "glider",
             "standard_name" : "longitude",
             "units" : "degrees_east",
-            "valid_min" : -180.0,
-            "valid_max" : 180.0,
+            "valid_min" : -180,
+            "valid_max" : 180,
             "[:]" : "profile_lon"
         },
           "time_uv" : {
@@ -263,8 +263,8 @@
             "platform" : "glider",
             "standard_name" : "latitude",
             "units" : "degrees_north",
-            "valid_min" : -90.0,
-            "valid_max" : 90.0,
+            "valid_min" : -90,
+            "valid_max" : 90,
             "[:]" : "lat_uv"
         },
           "lon_uv" : {
@@ -274,8 +274,8 @@
             "platform" : "glider",
             "standard_name" : "longitude",
             "units" : "degrees_east",
-            "valid_min" : -180.0,
-            "valid_max" : 180.0,
+            "valid_min" : -180,
+            "valid_max" : 180,
             "[:]" : "lon_uv"
         },
           "u" : {
@@ -285,8 +285,8 @@
             "platform" : "glider",
             "standard_name" : "eastward_sea_water_velocity",
             "units" : "m s-1",
-            "valid_min" : -10.0,
-            "valid_max" : 10.0,
+            "valid_min" : -10,
+            "valid_max" : 10,
             "[:]" : "u"
         },
           "v" : {
@@ -296,8 +296,8 @@
             "platform" : "glider",
             "standard_name" : "northward_sea_water_velocity",
             "units" : "m s-1",
-            "valid_min" : -10.0,
-            "valid_max" : 10.0,
+            "valid_min" : -10,
+            "valid_max" : 10,
             "[:]" : "v"
         },
           "platform" : {
