@@ -48,7 +48,8 @@
             "use_26d": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usm/sg677/2022/2022_06_22",
+        "post_data_dir": "/data/gandalf/usm/sg677/2022/2022_06_22",
+        "post_nc_dir" : "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/nc_files",
         "post_sensors_csv": "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/sensors.csv",
         "project": "Hurricane Glider Picket Line",
         "public_name": "sg677",
