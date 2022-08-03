@@ -1,28 +1,28 @@
 {
   "config_settings" : {
-    "status" : "recovered",
-    "trajectory_name": "sg677-20220622T0000",
-    "deployed_sg_nc_files_in" : "/data/gandalf/usm/sg677/2022/2022_06_22/binary_files/nc/",
-    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2022/2022_06_22/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/nc_files"
+    "status" : "deployed",
+    "trajectory_name": "sg658-20220408T0000",
+    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/uri/sg658/binary_files/nc/",
+    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/uri/sg658/processed_data/nc_files",
+    "recovered_sg_nc_files_in"  : "/data/gandalf/uri/sg658/2022/2022_04_08_22/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/uri/sg658/2022/2022_04_08/processed_data/nc_files"
     },
     "validate_vars" : [
       "ctd_depth"
     ],
     "ctd" : {
-      "ctd_serial_number": "210300",
+      "ctd_serial_number": "0000",
       "ctd_calib_date" : "2022-04-29",
-      "ctd_type" : "RBR Legato",
-      "instrument_ctd" : "RBR Legato"
+      "ctd_type" : "gpctd",
+      "instrument_ctd" : "SBD41"
     },
     "global_attributes" : {
       "conventions" : "CF-1.6",
       "Metadata_Conventions" : "CF-1.6, Unidata Dataset Discovery v1.0",
       "acknowledgment" : "This project is funded by Shell Exploration & Production Company",
       "comment" : "Underwater glider temperature and salinity profiles",
-      "contributor_name" : "Stephan Howden, Kevin Martin, Dawn Petraitis",
-      "contributor_role" : "Principal Investigator, Data Manager, Data Manager",
+      "contributor_name" : "Palter J, Gray A, Currier R",
+      "contributor_role" : "Principal Investigator, Principal Investigator, Data Manager",
       "creator_email" : "bob.currier@gcoos.org",
       "creator_name" : "Bob Currier",
       "creator_url" : "https://gandalf.gcoos.org",
@@ -33,7 +33,7 @@
       "history" : "",
       "id" : "000000",
       "title" : "",
-      "institution" : "National Oceanic and Atmospheric Administration (NOAA) / National Data Buoy Center (NDBC), University of Southern Mississippi/ School of Ocean Science and Engineering, Shell Exploration & Production Company and Gulf of Mexico Ocean Observing System (GCOOS)",
+      "institution" : "University of Rhode Island  and Gulf of Mexico Ocean Observing System (GCOOS)",
       "keywords" : "AUVS > Autonomous Underwater Vehicles, Oceans > Ocean Pressure > Water Pressure, Oceans > Ocean Temperature > Water Temperature, Oceans > Salinity/Density > Conductivity, Oceans > Salinity/Density > Density, Oceans > Salinity/Density > Salinity",
       "keywords_vocabulary" : "GCMD Science Keywords",
       "license" : "These datinstrument_ctda may be redistributed and used without restrictions. Data provided as is with no expressed or implied warranty of quality control or quality assurance",
@@ -413,11 +413,11 @@
         },
         "var_keys" : {
           "comment" : "Seaglider",
-          "id" : "sg677",
+          "id" : "sg658",
           "instrument" : "instrument_ctd",
-          "long_name" : "USM Seaglider sg677",
+          "long_name" : "USM Seaglider sg658",
           "type" : "glider",
-          "wmo_id" : "4802999"
+          "wmo_id" : "0000000"
         }
       },
       "time_qc" : {
