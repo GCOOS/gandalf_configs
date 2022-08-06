@@ -65,6 +65,8 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_sigma",
+                "sci_flntu_chlor_units",
+                "sci_flntu_turb_units",
                 "calc_salinity",
                 "calc_soundvel"
             ],
@@ -106,7 +108,9 @@
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
-            "sci_water_pressure"
+            "sci_water_pressure",
+            "sci_flntu_chlor_units",
+            "sci_flntu_turb_units"
         ],
         "style": {
             "color": "#500000",

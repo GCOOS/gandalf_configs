@@ -37,6 +37,15 @@
     "log_scale" : false
   },
   {
+    "sensor" :  "sci_flntu_turb_units",
+    "unit_string" : "PPB (10$^{-9}$)",
+    "sensor_name" : "Backscatter",
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max" :  0.001,
+    "alt_colormap" : "turbid",
+    "log_scale" : false
+  },
+  {
     "sensor" :  "sci_flbb_bb_units",
     "unit_string" : "m$^{-1}$ sr$^{-1}$",
     "sensor_name" : "Backscatter",
@@ -47,6 +56,15 @@
   },
   {
     "sensor" :  "sci_flbb_chlor_units",
+    "unit_string" : "($_u gm/L$)",
+    "sensor_name" : "Chlorophyll",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 7,
+    "alt_colormap" : "algae",
+    "log_scale" : false
+  },
+  {
+    "sensor" :  "sci_flntu_chlor_units",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0,
