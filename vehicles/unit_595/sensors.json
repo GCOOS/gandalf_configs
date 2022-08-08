@@ -39,7 +39,7 @@
   {
     "sensor" :  "sci_flntu_turb_units",
     "unit_string" : "PPB (10$^{-9}$)",
-    "sensor_name" : "Backscatter",
+    "sensor_name" : "Turbidity",
     "sensor_plot_min" : 0.0,
     "sensor_plot_max" :  0.001,
     "alt_colormap" : "turbid",

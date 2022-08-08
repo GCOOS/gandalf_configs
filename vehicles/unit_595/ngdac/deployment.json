@@ -63,11 +63,11 @@
             "max_plot_depth": 500,
             "plot_sensor_list": [
                 "sci_water_temp",
+                "calc_salinity",
                 "calc_density",
                 "calc_sigma",
                 "sci_flntu_chlor_units",
                 "sci_flntu_turb_units",
-                "calc_salinity",
                 "calc_soundvel"
             ],
             "plot_depth_padding": 5,
