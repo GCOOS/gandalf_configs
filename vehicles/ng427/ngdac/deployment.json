@@ -88,7 +88,8 @@
             "opacity": 1,
             "weight": 2
         },
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "ng427",
     "global_attributes": {
