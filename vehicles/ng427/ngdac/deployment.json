@@ -7,7 +7,7 @@
         "status" : "deployed",
         "PI": "Edwards, C.",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "deployed",
+        "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
