@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "vehicle" : "sd1032",
+        "vehicle" : "sd1040",
         "vehicle_data" : "erddap",
         "vehicle_type" : "saildrone",
         "vehicle_model" : "Saildrone",
@@ -13,8 +13,8 @@
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/noaa/sd1032",
-        "deployed_sensors_csv": "/data/gandalf/deployments/noaa/sd1032/processed_data/sensors.csv",
+        "deployed_data_dir": "/data/gandalf/deployments/noaa/sd1040",
+        "deployed_sensors_csv": "/data/gandalf/deployments/noaa/sd1040/processed_data/sensors.csv",
         "deployment_date": "2022-06-22 15:38",
         "data_start_date" : "20220622T0000",
         "data_end_date" : "20221231T0000",
@@ -25,10 +25,10 @@
         "flight_sensor_list": [
         ],
         "ftp_send": false,
-        "gdac_json_dir": "/data/gandalf/deployments/noaa/sd1032/json",
+        "gdac_json_dir": "/data/gandalf/deployments/noaa/sd1040/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1032_hurricane_2022.json?latitude%2Clongitude%2Ctime%2Ctrajectory%2CWIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT&time%3E=2022-08-18T00%3A00%3A00Z",
+        "gdac_url": "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1040_hurricane_2022.json?latitude%2Clongitude%2Ctime%2Ctrajectory%2CWIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT&time%3E=2022-08-15T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -44,8 +44,8 @@
             "use_26d" : false,
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/noaa/sd1032/plots",
-            "deployed_plot_url": "/plots/sd1032",
+            "deployed_plot_dir": "/data/gandalf/deployments/noaa/sd1040/plots",
+            "deployed_plot_url": "/plots/sd1040",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
             "logo_loc": [
@@ -58,14 +58,14 @@
               "salinity"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/sd1032/plots/",
-            "postprocess_plot_dir": "/data/gandalf/noaa/sd1032/2022/2022_05_20/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/sd1040/plots/",
+            "postprocess_plot_dir": "/data/gandalf/noaa/sd1040/2022/2022_05_20/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/noaa/sd1032/2022/2022_05_20",
-        "post_sensors_csv": "/data/gandalf/noaa/sd1032/2022/2022_05_20",
+        "post_data_dir_root": "/data/gandalf/noaa/sd1040/2022/2022_05_20",
+        "post_sensors_csv": "/data/gandalf/noaa/sd1040/2022/2022_05_20",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -74,7 +74,7 @@
 
         ],
         "project": "NOAA Hurricane Saildrones",
-        "public_name": "sd1032",
+        "public_name": "sd1040",
         "science_sensor_list": [
           "salinity",
           "temperature"
@@ -86,19 +86,19 @@
         },
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "sd1032",
+    "glider": "sd1040",
     "global_attributes": {
-        "deployment": "sd1032-20220518T0000",
+        "deployment": "sd1040-20220518T0000",
         "wmo_id": ""
     },
     "platform": {
         "comment": "",
-        "id": "sd1032",
+        "id": "sd1040",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider sd1032",
+        "long_name": "Slocum Glider sd1040",
         "type": "platform",
         "wmo_id": ""
     },
     "trajectory_datetime": "20220622T0000",
-    "trajectory_name": "sd1032-20220622T0000"
+    "trajectory_name": "sd1040-20220622T0000"
 }

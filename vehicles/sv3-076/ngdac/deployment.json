@@ -4,6 +4,7 @@
       "vehicle" : "sv3-076",
       "vehicle_data" : "url",
       "vehicle_type" : "wavelider",
+      "data_source" : "LiquidRobotics",
       "status" : "recovered"
   },
   "system" : {
