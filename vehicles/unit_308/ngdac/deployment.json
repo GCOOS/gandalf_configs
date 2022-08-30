@@ -1,113 +1,108 @@
 {
     "gandalf": {
         "vehicle" : "unit_308",
-        "vehicle_data" : "local",
+        "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
-        "PI": "DiMarco, S",
+        "vehicle_model" : "Slocum G2",
+        "status" : "deployed",
+        "PI": "DiMarco S, Glenn S, Knapp T",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "ABORT -- Drifting",
-        "data_source": "TAMU Dockserver",
+        "dash_status": "Deployed",
+        "data_source": "IOOS GDAC",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
-        "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": "True",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_308",
-        "deployment_date": "2019-06-13 00:00",
+        "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_308/processed_data/sensors.csv",
+        "deployment_date": "2022-08-26 00:00",
+        "data_start_date" : "20220826T0000",
+        "data_end_date" : "20221231T0000",
+        "dockfrompath": "",
+        "docklogpath": "",
+        "dockserver": "",
+        "dockuser": "",
         "flight_sensor_list": [
-            "m_present_time",
-            "m_depth",
-            "m_water_depth",
-            "m_gps_lat",
-            "m_gps_lon"
+          "time",
+          "latitude",
+          "longitude",
+          "depth"
         ],
-        "gdac_url": "",
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_308/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/unit_308-20220826T2012.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Ccdom%2Cchlorophyll_a%2Cdensity%2Csalinity%2Csound_speed%2Ctemperature&time%3E=2022-08-23T00%3A00%3A00Z",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
         "iconSize": [
             20,
             20
         ],
-        "kml_file": "/data/gandalf/deployments/tamu/unit_308/kmz/unit_308.kml",
-        "kmz_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_308/kmz/Howdy.kmz",
-        "logo_file": "/data/gandalf/gandalf_configs/images/logos/tamu_logo.png",
-        "operator": "TAMU GERG",
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "post_kml_file": "",
+        "kml_file": "",
+        "kmz_url": "",
+        "operator": "TAMU/Rutgers",
         "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
             "cmap": "jet",
-            "alt_colormap": "True",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_308/plots",
+            "deployed_plot_url": "/plots/unit_308",
+            "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
             "logo_loc": [
-                175,
-                90
+                178,
+                91
             ],
+            "max_plot_depth": 5000,
             "plot_sensor_list": [
-                "sci_water_temp",
-                "calc_density",
-                "calc_sigma",
-                "calc_salinity",
-                "sci_flbbcd_chlor_units",
-                "sci_flbbcd_cdom_units"
+              "temperature",
+              "salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_308/2019/2019_06_13/plots",
-            "use_bottom": "False",
-            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_308/plots/"
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_308/plots/",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_308/2022/2022_08_26/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_308/2017/2017_12_18",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_308/2022/2022_08_26",
+        "post_sensors_csv": "/data/gandalf/tamu/unit_308/2022/2022_08_26",
+        "post_kml_file": "",
         "postprocess_flight_sensor_list": [
-            "m_present_time",
-            "m_depth",
-            "m_water_depth",
-            "m_lat",
-            "m_lon",
-            "m_gps_lat",
-            "m_gps_lon",
-            "m_tot_horz_dist",
-            "m_battery",
-            "m_lithium_battery_relative_charge",
-            "m_water_vx",
-            "m_water_vy"
+
         ],
         "postprocess_science_sensor_list": [
-            "sci_m_present_time",
-            "sci_water_temp",
-            "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units"
+
         ],
-        "project": "VF_JASCO",
+        "project": "TAMU Hurricane Gliders",
         "public_name": "Howdy",
         "science_sensor_list": [
-            "sci_m_present_time",
-            "sci_water_temp",
-            "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy4_oxygen"
+          "salinity",
+          "temperature"
         ],
-        "sensors_csv": "/data/gandalf/deployments/tamu/unit_308/processed_data/sensors.csv",
         "style": {
             "color": "#500000",
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "unit_308",
-        "vehicle_type": "Slocum G2",
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "Howdy",
+    "glider": "unit_308",
     "global_attributes": {
-        "deployment": "Howdy-20170627T0000",
-        "wmo_id": "4801915"
+        "deployment": "unit_308-20220826T0000",
+        "wmo_id": ""
     },
     "platform": {
-        "comment": " ",
-        "id": "Howdy",
+        "comment": "",
+        "id": "unit_308",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider Howdy",
+        "long_name": "Slocum Glider unit_308",
         "type": "platform",
-        "wmo_id": "4801915"
+        "wmo_id": ""
     },
-    "trajectory_datetime": "20190613T0000",
-    "trajectory_name": "Howdy-20190613T0000"
+    "trajectory_datetime": "20220826T0000",
+    "trajectory_name": "unit_308-20220826T0000"
 }
