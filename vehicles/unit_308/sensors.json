@@ -81,6 +81,16 @@
     "log_scale" : false
   },
   {
+    "sensor" :  "chlorophyll_a",
+    "gdac_sensor" : "chlorophyll_a",
+    "unit_string" : "($_u gm/L$)",
+    "sensor_name" : "Chlorophyll",
+    "sensor_plot_min" : 0.01,
+    "sensor_plot_max" : 5.0,
+    "alt_colormap" : "algae",
+    "log_scale" : false
+  },
+  {
     "sensor" : "sci_oxy4_oxygen",
     "gdac_sensor" : "oxygen",
     "unit_string" : "($_u mol/L$)",
@@ -159,5 +169,15 @@
     "sensor_plot_max" : 1600,
     "alt_colormap" : "speed",
     "log_scale" : false
-  }
+  },
+{
+    "sensor" :  "sound_speed",
+    "gdac_sensor" : "sound_speed",
+    "unit_string" : "(m/s)",
+    "sensor_name" : "Sound Velocity",
+    "sensor_plot_min" : 1400,
+    "sensor_plot_max" : 1600,
+    "alt_colormap" : "speed",
+    "log_scale" : false
+}
 ]

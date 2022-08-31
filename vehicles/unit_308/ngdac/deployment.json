@@ -59,7 +59,10 @@
             "max_plot_depth": 5000,
             "plot_sensor_list": [
               "temperature",
-              "salinity"
+              "salinity",
+              "chlorophyll_a",
+              "cdom",
+              "sound_speed"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_308/plots/",
