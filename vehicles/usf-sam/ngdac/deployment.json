@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Recovered",
@@ -16,8 +16,8 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
-        "deployment_date": "2022-05-06 12:00",
-        "data_start_date" : "20220506T1200",
+        "deployment_date": "2022-08-31 12:00",
+        "data_start_date" : "20220831T1200",
         "data_end_date" : "20221231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/logs",
@@ -114,11 +114,12 @@
             "opacity": 1,
             "weight": 2
         },
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "sam-20220506T0000",
+        "deployment": "sam-20220831T0000",
         "wmo_id": "4801942"
     },
     "platform": {
@@ -129,6 +130,6 @@
         "type": "platform",
         "wmo_id": "4801942"
     },
-    "trajectory_datetime": "20220506T0000",
-    "trajectory_name": "usf-sam-20220506T0000"
+    "trajectory_datetime": "20220831T0000",
+    "trajectory_name": "usf-sam-20220831T0000"
 }

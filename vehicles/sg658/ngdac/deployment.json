@@ -1,10 +1,10 @@
 {
     "gandalf": {
-	      "vehicle" : "sg658",
+	"vehicle" : "sg658",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Palter J, Gray A",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",

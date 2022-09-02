@@ -1,4 +1,18 @@
 [
+{   "pi" : "Palter J, Gray A",
+    "vehicle" : "sg658",
+    "type" : "Seaglider",
+    "operator" : "URI",
+    "project" : "UW/URI NSF Dynamics/CO2",
+    "deployed" : "2022-04-08",
+    "recovered" : "2022-08-20",
+    "days_wet" : 140,
+    "distance" : 0,
+    "map_url" : "/uri/sg658/2022/2022_04_08",
+    "data_url" : "/data/gandalf/uri/sg658/2022/2022_04_08",
+    "plot_url" : "/data/gandalf/uri/sg658/2022/2022_04_08/plots",
+    "kmz_url" : ""
+  },
 {   "pi" : "Edwards, C",
     "vehicle" : "Franklin",
     "type" : "Slocum G3",

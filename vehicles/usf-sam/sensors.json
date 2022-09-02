@@ -91,13 +91,22 @@
     "log_scale" : false
   },
   {
-    "sensor" : "sci_oxy4_oxygen",
+    "sensor" : "sci_oxy3835_oxygen",
+    "unit_string" : "($_u mol/L$)",
+    "sensor_name" : "Dissolved Oxygen",
+    "sensor_plot_min" : 100.0,
+    "sensor_plot_max" : 250.0,
+    "alt_colormap" : "oxygen",
+    "log_scale" : false
+  },
+  {
+    "sensor" : "sci_4_oxygen",
     "gdac_sensor" : "",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 90.0,
     "sensor_plot_max" : 300.0,
-    "alt_colormap" : "oxy",
+    "alt_colormap" : "oxygen",
     "log_scale" : false
   },
   {
@@ -131,13 +140,13 @@
     "log_scale" : false
   },
   {
-    "sensor" : "sci_oxy3835_oxygen",
+    "sensor" : "sci_3835_oxygen",
     "gdac_sensor" : "",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 90.0,
     "sensor_plot_max" :300.0,
-    "alt_colormap" : "oxy",
+    "alt_colormap" : "oxygen",
     "log_scale" : false
   },
 {
