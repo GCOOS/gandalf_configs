@@ -3,7 +3,7 @@
         "vehicle" : "unit_595",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Danielson S, Stafford K, Baumgartner M",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
