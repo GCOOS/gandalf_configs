@@ -1,4 +1,34 @@
 [
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-jaialai",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Florida Red Tide Research",
+   "deployed" : "2022-08-11",
+   "recovered" : "2022-09-12",
+   "days_wet" : 29,
+   "distance" : 1100,
+   "map_url" : "/usf/usf-gansett/2022/2022_08_11",
+   "data_url" : "/data/gandalf/usf/usf-jaialai/2022/2022_08_11",
+   "plot_url" : "/data/gandalf/usf/usf-jaialai/2022/2022_08_11/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-jaialai/2022/2022_08_11/kmz/usf-gansett.kml"
+},
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "SECOORA Hurricane Gliders",
+   "deployed" : "2022-08-31",
+   "recovered" : "2022-09-13",
+   "days_wet" : 29,
+   "distance" : 1100,
+   "map_url" : "/usf/usf-gansett/2021/2022_08_31",
+   "data_url" : "/data/gandalf/usf/usf-sam/2022/2022_08_31",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2022/2022_08_31/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2022/2022_08_31/kmz/usf-gansett.kml"
+},
   {
    "pi" : "Danielson S, Statscewich H",
    "vehicle" : "Loki",
