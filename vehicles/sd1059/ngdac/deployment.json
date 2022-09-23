@@ -52,10 +52,12 @@
                 178,
                 91
             ],
-            "max_plot_depth": 5000,
+            "max_plot_depth": 5000, 
             "plot_sensor_list": [
-              "temperature",
-              "salinity"
+                "WIND_SPEED_MEAN",
+                "TEMP_AIR_MEAN",
+                "WAVE_SIGNIFICANT_HEIGHT",
+		"BARO_PRES_MEAN"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/sd1059/plots/",
