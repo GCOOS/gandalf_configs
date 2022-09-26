@@ -19,6 +19,7 @@
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
+        "harvest_method" : "rsync",
         "iconSize": [
             40,
             15
@@ -41,7 +42,12 @@
             "plot_depth_padding": 300,
             "plot_sensor_list": [
                 "temperature",
+                "salinity",
+                "sigma_t",
                 "density",
+                "aanderaa4831_instrument_dissolved_oxygen",
+                "eng_wlbbfl2_FL1sig",
+                "sound_velocity",
                 "depth_avg_curr"
             ],
             "postprocess_plot_dir": "/data/gandalf/usm/sg677/2022/2022_06_22/plots",

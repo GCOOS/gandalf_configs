@@ -47,7 +47,7 @@
             "deployed_plot_dir": "/data/gandalf/deployments/noaa/sd1032/plots",
             "deployed_plot_url": "/plots/sd1032",
             "log_mult": 100,
-            "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
+            "logo_file": "/data/gandalf/static/images/logos/noaa_logo.png",
             "logo_loc": [
                 178,
                 91
