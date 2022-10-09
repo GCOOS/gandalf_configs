@@ -93,7 +93,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
         ],
-        "project": "SECOORA Hurricane Gliders",
+        "project": "SECOORA Hurricane Gliders/Semester@SkIO cruise",
         "public_name": "franklin",
         "science_sensor_list": [
             "sci_m_present_time",
