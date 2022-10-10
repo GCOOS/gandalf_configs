@@ -18,6 +18,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg672",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg672/processed_data/sensors.csv",
         "deployment_date": "2022-07-07 00:00",
+        "drop_sg_data" : false,
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
