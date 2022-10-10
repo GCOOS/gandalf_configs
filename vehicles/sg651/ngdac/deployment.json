@@ -17,7 +17,7 @@
         "dockfromfilter" : "p651*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg651",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg651/processed_data/sensors.csv",
-        "deployment_date": "2022-10-01 00:00",
+        "deployment_date": "2022-09-10 00:00",
         "drop_sg_data" : true,
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
@@ -50,12 +50,12 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg651/2022/2022_10_01/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg651/2022/2022_09_10/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg651/2022/2022_10_01",
-        "post_sensors_csv": "/data/gandalf/cicese/sg651/2022/2022_10_01/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/cicese/sg651/2022/2022_09_10",
+        "post_sensors_csv": "/data/gandalf/cicese/sg651/2022/2022_09_10/processed_data/sensors.csv",
         "project" : "CICESE SENER/PEMEX/CONACyT CIGoM",
         "public_name": "sg651",
         "sg_sensors": [
@@ -78,7 +78,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "651-20221001T0000",
+        "deployment": "sg651-20220910T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -89,6 +89,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20221001T0000",
-    "trajectory_name": "651-20221001T0000"
+    "trajectory_datetime": "20220910T0000",
+    "trajectory_name": "sg651-20220910T0000"
 }
