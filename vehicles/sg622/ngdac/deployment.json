@@ -18,6 +18,8 @@
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg622",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg622/processed_data/sensors.csv",
         "deployment_date": "2022-10-01 00:00",
+        "deployment_date": "2022-06-22 00:00",
+        "drop_legato_data" : false,
         "drop_sg_data" : false,
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",

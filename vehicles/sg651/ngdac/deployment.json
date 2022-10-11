@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "vehicle" : "651",
+        "vehicle" : "sg651",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
@@ -19,6 +19,7 @@
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg651/processed_data/sensors.csv",
         "deployment_date": "2022-09-10 00:00",
         "drop_sg_data" : true,
+        "drop_legato_data" : false,
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",

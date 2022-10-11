@@ -4,17 +4,18 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/seaglider_icon.png",
-        "dash_status": "Deployed",
+        "dash_status": "Recovered",
         "data_source": "USM BaseStation",
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/usm/sg677",
         "deployed_nc_dir" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
         "deployed_sensors_csv": "/data/gandalf/deployments/usm/sg677/processed_data/sensors.csv",
-        "deployment_date": "2022-06-22 00:00",
-        "drop_sg_data" : false,
+        "deployment_date": "2022-10-01 00:00",
+        "drop_legato_data" : true,
+        "drop_sg_data" : true,
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
@@ -42,17 +43,17 @@
             "max_plot_depth": 50000,
             "plot_depth_padding": 300,
             "plot_sensor_list": [
-                "legato_temperature",
-                "legato_salinity"
+                "temperature",
+                "salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/usm/sg677/2022/2022_06_22/plots",
+            "postprocess_plot_dir": "/data/gandalf/usm/sg677/2022/2022_10_01/plots",
             "use_26d": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir": "/data/gandalf/usm/sg677/2022/2022_06_22",
-        "post_data_dir_root": "/data/gandalf/usm/sg677/2022/2022_06_22",
-        "post_nc_dir" : "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/nc_files",
-        "post_sensors_csv": "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/sensors.csv",
+        "post_data_dir": "/data/gandalf/usm/sg677/2022/2022_10_01",
+        "post_data_dir_root": "/data/gandalf/usm/sg677/2022/2022_10_01",
+        "post_nc_dir" : "/data/gandalf/usm/sg677/2022/2022_10_01/processed_data/nc_files",
+        "post_sensors_csv": "/data/gandalf/usm/sg677/2022/2022_10_01/processed_data/sensors.csv",
         "project": "Hurricane Glider Picket Line",
         "public_name": "sg677",
         "sg_sensors": [
@@ -60,8 +61,8 @@
             "depth",
             "log_gps_lat",
             "log_gps_lon",
-            "legato_temperature",
-            "legato_salinity"
+            "temperature",
+            "salinity"
         ],
         "style": {
             "color": "#D4AF37",
@@ -71,7 +72,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg677-20220622T0000",
+        "deployment": "sg677-20221001T0000",
         "wmo_id": "44802947"
     },
     "platform": {
@@ -82,6 +83,6 @@
         "type": "platform",
         "wmo_id": "4800907"
     },
-    "trajectory_datetime": "20220622T0000",
-    "trajectory_name": "sg677-20220622T0000"
+    "trajectory_datetime": "20221001T0000",
+    "trajectory_name": "sg677-20221001T0000"
 }
