@@ -5,7 +5,7 @@
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
         "status" : "deployed",
-        "PI": "Pallas-Sanz, E.",
+        "PI": "GMOG",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
         "data_source": "Cicese",
@@ -57,7 +57,7 @@
         },
         "post_data_dir_root": "/data/gandalf/cicese/sg651/2022/2022_09_10",
         "post_sensors_csv": "/data/gandalf/cicese/sg651/2022/2022_09_10/processed_data/sensors.csv",
-        "project" : "CICESE SENER/PEMEX/CONACyT CIGoM",
+        "project" : "CICESE CONACyT PhytBloomEddy ",
         "public_name": "sg651",
         "sg_sensors": [
             "time",
