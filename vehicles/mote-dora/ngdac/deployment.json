@@ -31,7 +31,9 @@
             "m_avg_climb_rate",
             "m_avg_dive_rate",
             "m_lat",
-            "m_lon"
+            "m_lon",
+            "m_water_vx",
+            "m_water_vy"
         ],
         "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
@@ -70,7 +72,8 @@
                 "sci_flbbcd_cdom_units",
                 "sci_flbbcd_chlor_units",
                 "sci_oxy4_oxygen",
-                "sci_flbbcd_bb_units"
+                "sci_flbbcd_bb_units",
+                "depth_avg_curr"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
