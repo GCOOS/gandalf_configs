@@ -58,8 +58,8 @@
             "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-gansett/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/usf_logo.png",
             "logo_loc": [
-                175,
-                65
+                180,
+                90
             ],
             "max_plot_depth": 50,
             "plot_sensor_list": [
@@ -71,7 +71,7 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_bb_units",
             "sci_oxy3835_oxygen",
-            "dac"
+            "depth_avg_curr"
             ],
             "plot_depth_padding": 5,
             "use_bottom": "True",
