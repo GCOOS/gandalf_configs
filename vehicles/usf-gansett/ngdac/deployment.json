@@ -31,6 +31,8 @@
             "m_gps_lon",
             "m_lat",
             "m_lon",
+            "m_water_vx",
+            "m_water_vy",
             "m_tot_horz_dist"
         ],
         "ftp_send":true,
@@ -57,7 +59,7 @@
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/usf_logo.png",
             "logo_loc": [
                 175,
-                90
+                65
             ],
             "max_plot_depth": 50,
             "plot_sensor_list": [
@@ -68,7 +70,8 @@
             "sci_flbbcd_chlor_units",
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_bb_units",
-            "sci_oxy3835_oxygen"
+            "sci_oxy3835_oxygen",
+            "dac"
             ],
             "plot_depth_padding": 5,
             "use_bottom": "True",
