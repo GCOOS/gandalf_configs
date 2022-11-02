@@ -1,11 +1,13 @@
 {
   "config_settings" : {
-    "status" : "recovered",
+    "status" : "deployed",
     "trajectory_name": "sg677-20220622T0000",
-    "deployed_sg_nc_files_in" : "/data/gandalf/usm/sg677/2022/2022_06_22/binary_files/nc/",
+    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/usm/sg677/binary_files/nc/",
     "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
     "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2022/2022_06_22/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/nc_files"
+    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/nc_files",
+    "drop_sg_data" : true,
+    "drop_legato_data" : true
     },
     "validate_vars" : [
       "ctd_depth"
