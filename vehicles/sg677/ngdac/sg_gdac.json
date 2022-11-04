@@ -1,16 +1,19 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg677-20220622T0000",
+    "trajectory_name": "sg677-20220927T0000",
     "deployed_sg_nc_files_in" : "/data/gandalf/deployments/usm/sg677/binary_files/nc/",
     "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2022/2022_06_22/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2022/2022_06_22/processed_data/nc_files",
+    "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2022/2022_09_27/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2022/2022_09_27/processed_data/nc_files",
     "drop_sg_data" : true,
     "drop_legato_data" : true
     },
     "validate_vars" : [
-      "ctd_depth"
+      "ctd_depth",
+      "ctd_time",
+      "latitude",
+      "longitude"
     ],
     "sg_to_gdac_names" : {
       "latitude" : "lat",
@@ -124,31 +127,6 @@
           "valid_max" : 180
         }
       },
-      "pressure" : {
-        "var_def" : {
-          "var_type" : "f8",
-          "var_fill" : "nan",
-          "iterable" : true
-        },
-        "var_keys" : {
-          "ref_variable" : "time",
-          "accuracy" : "2",
-          "ancillary_variables" : "pressure_qc",
-          "comment" : "Uncorrected sea-water pressure",
-          "instrument" : "instrument_ctd",
-          "long_name" : "Pressure",
-          "observation_type" : "measured",
-          "platform" : "glider",
-          "positive" : "down",
-          "precision" : "2",
-          "reference_datum" : "sea-surface",
-          "resolution" : "2",
-          "standard_name" : "sea_water_pressure",
-          "units" : "dbar",
-          "valid_min" : 0,
-          "valid_max" : 2000
-        }
-      },
       "depth" : {
         "var_def" : {
           "var_type" : "f8",
@@ -170,6 +148,31 @@
           "resolution" : "2",
           "standard_name" : "depth",
           "units" : "m",
+          "valid_min" : 0,
+          "valid_max" : 2000
+        }
+      },
+      "pressure" : {
+        "var_def" : {
+          "var_type" : "f8",
+          "var_fill" : "nan",
+          "iterable" : true
+        },
+        "var_keys" : {
+          "ref_variable" : "time",
+          "accuracy" : "2",
+          "ancillary_variables" : "pressure_qc",
+          "comment" : "Uncorrected sea-water pressure",
+          "instrument" : "instrument_ctd",
+          "long_name" : "Pressure",
+          "observation_type" : "measured",
+          "platform" : "glider",
+          "positive" : "down",
+          "precision" : "2",
+          "reference_datum" : "sea-surface",
+          "resolution" : "2",
+          "standard_name" : "sea_water_pressure",
+          "units" : "dbar",
           "valid_min" : 0,
           "valid_max" : 2000
         }
