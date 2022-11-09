@@ -1,5 +1,35 @@
 [
  {
+     "pi" : "Martin, K",
+     "vehicle" : "ng450",
+     "type" : "Slocum G3",
+     "operator" : "Navy",
+     "project" : "Hurricane Gliders 2022",
+     "deployed" : "2022-08-10",
+     "recovered" : "2022-11-09",
+     "days_wet" : 67,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/navy/ng450/2022/2022_08_10/plots",
+     "kmz_url" : ""
+ },
+ {
+     "pi" : "NOAA",
+     "vehicle" : "SD1078",
+     "type" : "Saildrone",
+     "operator" : "Saildrone",
+     "project" : "AOML Atlantic Hurricane Mission 2022",
+     "deployed" : "2022-06-22",
+     "recovered" : "2022-10-12",
+     "days_wet" : 102,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/noaa/sd1078/2022/2022_06_22/plots",
+     "kmz_url" : ""
+ },
+ {
      "pi" : "Edwards, C",
      "vehicle" : "franklin",
      "type" : "Slocum G3",
