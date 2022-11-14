@@ -1,4 +1,20 @@
 [
+ 
+ {
+     "pi" : "NOAA",
+     "vehicle" : "SD1040",
+     "type" : "Saildrone",
+     "operator" : "Saildrone",
+     "project" : "AOML Atlantic Hurricane Mission 2022",
+     "deployed" : "2022-06-22",
+     "recovered" : "2022-11-14",
+     "days_wet" : 142,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/noaa/sd1040/2022/2022_06_22/plots",
+     "kmz_url" : ""
+ },
  {
      "pi" : "Martin, K",
      "vehicle" : "ng450",
