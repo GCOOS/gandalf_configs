@@ -1,6 +1,21 @@
 [
  
  {
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-gansett",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Florida Red Tide Research",
+   "deployed" : "2022-10-07",
+   "recovered" : "2022-11-15",
+   "days_wet" : 38,
+   "distance" : 0,
+   "map_url" : "/usf/usf-gansett/2022/2022_10_07",
+   "data_url" : "/data/gandalf/usf/usf-gansett/2022/2022_10_07",
+   "plot_url" : "/data/gandalf/usf/usf-gansett/2022/2022_10_07/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-gansett/2022/2022_10_07/kmz/usf-gansett.kml"
+ },
+ {
      "pi" : "NOAA",
      "vehicle" : "SD1040",
      "type" : "Saildrone",
