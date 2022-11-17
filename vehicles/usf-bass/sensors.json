@@ -73,16 +73,16 @@
     "log_scale" : false
   },
   {
-    "sensor" : "sci_oxy4_oxygen",
+    "sensor" : "sci_oxygen4_oxygengen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,
     "sensor_plot_max" : 500.0,
-    "alt_colormap" : "oxy",
+    "alt_colormap" : "oxygen",
     "log_scale" : false
   },
   {
-    "sensor" :  "sci_bbfl2s_cdom_scaled",
+    "sensor" :  "sci_bbfl2s_cdom_units",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
     "sensor_plot_min" : 0.0,
@@ -91,7 +91,7 @@
     "log_scale" : false
   },
   {
-    "sensor" :  "sci_bbfl2s_chlor_scaled",
+    "sensor" :  "sci_bbfl2s_chlor_units",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
@@ -100,7 +100,7 @@
     "log_scale" : false
   },
   {
-    "sensor" :  "sci_bbfl2s_bb_scaled",
+    "sensor" :  "sci_bbfl2s_bb_units",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.0,
@@ -123,7 +123,7 @@
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,
     "sensor_plot_max" : 250.0,
-    "alt_colormap" : "oxy",
+    "alt_colormap" : "oxygen",
     "log_scale" : false
   },
 {
