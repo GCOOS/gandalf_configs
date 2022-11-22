@@ -36,8 +36,8 @@
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
-            20,
-            20
+            30,
+            30
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "post_kml_file": "",
