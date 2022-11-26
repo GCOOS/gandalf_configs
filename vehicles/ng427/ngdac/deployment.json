@@ -1,12 +1,12 @@
 {
     "gandalf": {
         "vehicle" : "ng427",
-        "vehicle_data" : "erddap",
+        "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
         "status" : "deployed",
         "PI": "Edwards, C.",
-        "currPosIcon": "/static/images/slocum_stop.png",
+        "currPosIcon": "/static/images/slocum_start.png",
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
         "dba_merge": "/opt/dinkum/dba_merge",
@@ -36,8 +36,8 @@
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
-            30,
-            30
+            40,
+            40
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "post_kml_file": "",
