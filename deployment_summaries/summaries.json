@@ -1,5 +1,35 @@
 [
+ {
+     "pi" : "Edwards C",
+     "vehicle" : "ng665",
+     "type" : "Slocum G3",
+     "operator" : "Navy",
+     "project" : "Hurricane Gliders 2022",
+     "deployed" : "2022-07-13",
+     "recovered" : "2022-11-28",
+     "days_wet" : 138,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/navy/ng665/2022/2022_07_13/plots",
+     "kmz_url" : ""
+ },
  
+ {
+     "pi" : "Edwards C",
+     "vehicle" : "ng427",
+     "type" : "Slocum G3",
+     "operator" : "Navy",
+     "project" : "Hurricane Gliders 2022",
+     "deployed" : "2022-07-13",
+     "recovered" : "2022-11-28",
+     "days_wet" : 138,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/navy/ng427/2022/2022_07_13/plots",
+     "kmz_url" : ""
+ },
  {
    "pi" : "Lembke, C",
    "vehicle" : "usf-gansett",
