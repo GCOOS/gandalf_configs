@@ -28,6 +28,8 @@
             "m_depth",
             "m_lat",
             "m_lon",
+            "m_gps_lat",
+            "m_gps_lon",
             "m_water_depth"
         ],
         "ftp_send": false,
