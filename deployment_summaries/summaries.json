@@ -1,4 +1,34 @@
 [
+  {
+    "pi" : "GMOG",
+    "vehicle" : "SG6222",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "CICESE/GMOG CONACyT GMOGline",
+    "deployed" : "2022-10-01",
+    "recovered" : "2022-12-07",
+    "days_wet" : 67,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "",
+    "plot_url" : "/data/gandalf/cicese/sg622/2022/2022_10_01/plots",
+    "kmz_url" : ""
+  },
+  {
+    "pi" : "GMOG",
+    "vehicle" : "SG672",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "CICESE/GMOG CONACyT GMOGline",
+    "deployed" : "2022-07-07",
+    "recovered" : "2022-12-12",
+    "days_wet" : 155,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "",
+    "plot_url" : "/data/gandalf/cicese/sg672/2022/2022_07_07/plots",
+    "kmz_url" : ""
+  },
  {
      "pi" : "Edwards C",
      "vehicle" : "ng665",
