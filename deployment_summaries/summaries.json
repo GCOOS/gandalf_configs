@@ -1,4 +1,34 @@
 [
+ {
+     "pi" : "Martin, K",
+     "vehicle" : "ng735",
+     "type" : "Slocum G3",
+     "operator" : "Navy",
+     "project" : "Hurricane Gliders 2022",
+     "deployed" : "2022-08-10",
+     "recovered" : "2022-12-01",
+     "days_wet" : 111,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/navy/ng450/2022/2022_08_10/plots",
+     "kmz_url" : ""
+ },
+{
+   "pi" : "Martin, K",
+   "vehicle" : "SG677",
+   "type" : "SeaGlider",
+   "operator" : "USM",
+   "project" : "USM",
+   "deployed" : "2022-09-27",
+   "recovered" : "2022-12-05",
+   "days_wet" : 69,
+   "distance" : 0,
+   "map_url" : "",
+   "data_url" : "",
+   "plot_url" : "/data/gandalf/usm/sg677/2022/2022_09_27/plots",
+   "kmz_url" : ""
+ },
   {
     "pi" : "GMOG",
     "vehicle" : "SG6222",
@@ -435,7 +465,6 @@
    "kmz_url" : "/data/gandalf/usf/usf-bass/2021/2021_10_21/kmz/usf-bass.kml"
  },
 {
-   
    "pi" : "Martin, K",
    "vehicle" : "SG677",
    "type" : "SeaGlider",
