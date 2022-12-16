@@ -5,7 +5,10 @@
       "vehicle_data" : "url",
       "vehicle_type" : "wavelider",
       "data_source" : "LiquidRobotics",
-      "status" : "recovered"
+      "status" : "deployed",
+      "PI" : "DiMarco, S",
+      "operator" : "TAMU GERG",
+      "project" : "FGB Hypoxia"
   },
   "system" : {
     "vehicle": "sv3-076",
@@ -18,7 +21,7 @@
     "json_file" : "/data/gandalf/deployments/geojson/wg.json",
     "user" : "robertdcurrier@gmail.com",
     "password" : "",
-    "deployment_datetime" : "2021-08-13T00:00:00",
+    "deployment_datetime" : "2022-12-10T00:00:00",
     "num_rows" : 5
     },
   "ctd_sensors" : [
