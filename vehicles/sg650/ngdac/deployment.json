@@ -4,7 +4,7 @@
            "ctd_time",
            "ctd_depth"
         ],
-        "vehicle" : "sg624",
+        "vehicle" : "sg650",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
@@ -17,12 +17,12 @@
         "dockserver" : "gliders.cicese.mx",
         "dockuser" : "gandalfGMOG",
         "dockpass" : "bcurrier2022",
-        "dockfrompath": "ftp/gandalf/0029",
-        "dockfromfilter" : "p624*.nc",
-        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg624",
-        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg624/processed_data/sensors.csv",
+        "dockfrompath": "ftp/gandalf/0030",
+        "dockfromfilter" : "p650*.nc",
+        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg650",
+        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/sensors.csv",
         "deployment_date": "2022-12-15 00:00",
-        "drop_sg_data" : false,
+        "drop_sg_data" : true,
         "drop_legato_data" : false,
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
@@ -42,7 +42,7 @@
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg624/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg650/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/cicese_logo.png",
             "logo_loc": [
                 175,
@@ -54,17 +54,16 @@
                 "temperature",
                 "density",
                 "aanderaa4831_instrument_dissolved_oxygen",
-                "eng_wlbbfl2_FL1sig",
                 "sound_velocity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg624/2022/2022_07_01/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg650/2022/2022_07_01/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg624/2022/2022_07_01",
-        "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_07_01/processed_data/sensors.csv",
-        "project": "CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
-        "public_name": "sg624",
+        "post_data_dir_root": "/data/gandalf/cicese/sg650/2022/2022_07_01",
+        "post_sensors_csv": "/data/gandalf/cicese/sg650/2022/2022_07_01/processed_data/sensors.csv",
+        "project": "CICESE CONACyT GMOGline",
+        "public_name": "sg650",
         "sg_sensors": [
             "time",
             "latitude",
@@ -77,7 +76,6 @@
             "conductivity",
             "sigma_t",
             "density",
-            "eng_wlbbfl2_FL1sig",
             "aanderaa4831_instrument_dissolved_oxygen",
             "sound_velocity",
             "depth_avg_curr_east",
@@ -91,17 +89,17 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg624-20220701T0000",
+        "deployment": "sg650-20220701T0000",
         "wmo_id": ""
     },
     "platform": {
         "comment": " ",
-        "id": "sg624",
+        "id": "sg650",
         "instruments": "instrument_ctd",
-        "long_name": "USN Seaglider 669",
+        "long_name": "CICESE Seaglider 650",
         "type": "platform",
-        "wmo_id": "4800907"
+        "wmo_id": ""
     },
     "trajectory_datetime": "20220701T0000",
-    "trajectory_name": "sg624-20220701T0000"
+    "trajectory_name": "sg650-20220701T0000"
 }
