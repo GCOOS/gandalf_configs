@@ -57,12 +57,12 @@
                 "eng_wlbbfl2_FL1sig",
                 "sound_velocity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg624/2022/2022_07_01/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg624/2022/2022_12_15/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg624/2022/2022_07_01",
-        "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_07_01/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/cicese/sg624/2022/2022_12_15",
+        "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_12_15/processed_data/sensors.csv",
         "project": "CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
         "public_name": "sg624",
         "sg_sensors": [
@@ -91,7 +91,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg624-20220701T0000",
+        "deployment": "sg624-20221215T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -102,6 +102,6 @@
         "type": "platform",
         "wmo_id": "4800907"
     },
-    "trajectory_datetime": "20220701T0000",
-    "trajectory_name": "sg624-20220701T0000"
+    "trajectory_datetime": "20221215T0000",
+    "trajectory_name": "sg624-20221215T0000"
 }
