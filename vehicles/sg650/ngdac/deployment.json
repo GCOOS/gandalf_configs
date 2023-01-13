@@ -22,6 +22,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg650",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/sensors.csv",
         "deployment_date": "2022-12-15 00:00",
+        "drop_aa4831_data" : true,
         "drop_sg_data" : true,
         "drop_legato_data" : false,
         "ftp_send": false,
