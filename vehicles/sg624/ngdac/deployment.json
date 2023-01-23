@@ -21,9 +21,10 @@
         "dockfromfilter" : "p624*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg624",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg624/processed_data/sensors.csv",
-        "deployment_date": "2022-12-15 00:00",
+        "deployment_date": "2022-12-07 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
+        "drop_aa4831_data" : false,
         "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
@@ -57,12 +58,12 @@
                 "eng_wlbbfl2_FL1sig",
                 "sound_velocity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg624/2022/2022_12_15/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg624/2022/2022_12_07/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg624/2022/2022_12_15",
-        "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_12_15/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/cicese/sg624/2022/2022_12_07",
+        "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_12_07/processed_data/sensors.csv",
         "project": "CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
         "public_name": "sg624",
         "sg_sensors": [
@@ -91,7 +92,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg624-20221215T0000",
+        "deployment": "sg624-20221207T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -102,6 +103,6 @@
         "type": "platform",
         "wmo_id": "4800907"
     },
-    "trajectory_datetime": "20221215T0000",
-    "trajectory_name": "sg624-20221215T0000"
+    "trajectory_datetime": "20221207T0000",
+    "trajectory_name": "sg624-20221207T0000"
 }

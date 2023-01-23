@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "GMOG",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -21,7 +21,7 @@
         "dockfromfilter" : "p650*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg650",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/sensors.csv",
-        "deployment_date": "2022-12-15 00:00",
+        "deployment_date": "2022-12-12 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : true,
@@ -56,13 +56,13 @@
                 "density",
                 "sound_velocity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg650/2022/2022_12_15/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg650/2022/2022_12_12/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg650/2022/2022_12_15",
-        "post_sensors_csv": "/data/gandalf/cicese/sg650/2022/2022_12_15/processed_data/sensors.csv",
-        "project": "CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
+        "post_data_dir_root": "/data/gandalf/cicese/sg650/2022/2022_12_12",
+        "post_sensors_csv": "/data/gandalf/cicese/sg650/2022/2022_12_12/processed_data/sensors.csv",
+        "project": "CICESE CONACyT GMOGline",
         "public_name": "sg650",
         "sg_sensors": [
             "time",
@@ -76,7 +76,6 @@
             "conductivity",
             "sigma_t",
             "density",
-            "aanderaa4831_instrument_dissolved_oxygen",
             "sound_velocity",
             "depth_avg_curr_east",
             "depth_avg_curr_north"
@@ -89,7 +88,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg650-20221215T0000",
+        "deployment": "sg650-20221212T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -100,6 +99,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20221215T0000",
-    "trajectory_name": "sg650-20221215T0000"
+    "trajectory_datetime": "20221212T0000",
+    "trajectory_name": "sg650-20221212T0000"
 }

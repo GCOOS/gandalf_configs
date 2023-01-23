@@ -21,7 +21,7 @@
     "sensor" :  "density",
     "unit_string" : "(kg/m$^{3}$)",
     "sensor_name" : "Density",
-    "sensor_plot_min" : 1000,
+    "sensor_plot_min" : 1024,
     "sensor_plot_max" : 1030,
     "alt_colormap" : "dense",
     "log_scale" : false
@@ -31,7 +31,7 @@
     "unit_string" : "(kg/m$^{3}$)",
     "unit_string" : "",
     "sensor_name" : "Sigma-t",
-    "sensor_plot_min" : 20,
+    "sensor_plot_min" : 25,
     "sensor_plot_max" :  29.0,
     "alt_colormap" : "dense",
     "log_scale" : false
@@ -40,7 +40,7 @@
     "sensor" :  "sound_velocity",
     "unit_string" : "(m/s)",
     "sensor_name" : "Sound Velocity",
-    "sensor_plot_min" : 1400,
+    "sensor_plot_min" : 1500,
     "sensor_plot_max" : 1600,
     "alt_colormap" : "speed",
     "log_scale" : "False"
