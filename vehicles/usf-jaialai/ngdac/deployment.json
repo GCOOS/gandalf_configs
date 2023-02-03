@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,9 +16,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2022-08-11 00:00",
-        "data_start_date" : "20220811T1200",
-        "data_end_date" : "20221231T1200",
+        "deployment_date": "2023-01-30 00:00",
+        "data_start_date" : "20230130T1200",
+        "data_end_date" : "20231231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -82,9 +82,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08",
-        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08",
-        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2022/2022_09_08/kmz/usf-jaialai.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2023/2023_09_08",
+        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2023/2023_09_08",
+        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2023/2023_09_08/kmz/usf-jaialai.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -130,7 +130,7 @@
     },
     "glider" : "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20220811T1200",
+        "deployment": "usf-jaialai-20230130T1200",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -141,6 +141,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20220811T1200",
-    "trajectory_name": "usf-jaialai-20220811T1200"
+    "trajectory_datetime": "20230130T1200",
+    "trajectory_name": "usf-jaialai-20230130T1200"
 }
