@@ -64,20 +64,26 @@
         "project": "CICESE CONACyT GMOGline",
         "public_name": "sg650",
         "dims" : {
-                "ctd_data_point" : {
-                        "sensors" : [
-                                "ctd_time",
-                                "temperature",
-                                "salinity",
-                                "ctd_depth"
-                        ]
-                },
-                "aa4831_data_point" : {
-                        "sensors" : [
-                                "aa4831_time",
-                                "aanderaa4831_instrument_dissolved_oxygen"
-                        ]
-                }
+            "ctd_data_point" : {
+                "sensors" : [
+                    "ctd_time",
+                    "temperature",
+                    "salinity",
+                    "ctd_depth"
+                    ]
+            },
+            "aa4831_data_point" : {
+                "sensors" : [
+                    "aa4831_time",
+                    "aanderaa4831_instrument_dissolved_oxygen"
+                ]
+            },
+            "wlbbfl2_data_point" : {
+                "sensors" : [
+                    "wlbbfl2_time",
+                    "wlbbfl2_FL1sig"
+                ]
+            }
 
         },
         "style": {
