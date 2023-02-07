@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "GMOG",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -20,7 +20,7 @@
         "dockfrompath": "ftp/gandalf/0030",
         "dockfromfilter" : "p650*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg650",
-        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/sensors.csv",
+        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/",
         "deployment_date": "2022-12-12 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
@@ -53,8 +53,7 @@
             "plot_depth_padding": 300,
             "plot_sensor_list": [
                 "temperature",
-                "density",
-                "sound_velocity"
+                "salinity"
             ],
             "postprocess_plot_dir": "/data/gandalf/cicese/sg650/2022/2022_12_12/plots",
             "use_26d": true,
@@ -64,22 +63,23 @@
         "post_sensors_csv": "/data/gandalf/cicese/sg650/2022/2022_12_12/processed_data/sensors.csv",
         "project": "CICESE CONACyT GMOGline",
         "public_name": "sg650",
-        "sg_sensors": [
-            "time",
-            "latitude",
-            "longitude",
-            "depth",
-            "eng_head",
-            "temperature",
-            "salinity",
-            "pressure",
-            "conductivity",
-            "sigma_t",
-            "density",
-            "sound_velocity",
-            "depth_avg_curr_east",
-            "depth_avg_curr_north"
-        ],
+        "dims" : {
+                "ctd_data_point" : {
+                        "sensors" : [
+                                "ctd_time",
+                                "temperature",
+                                "salinity",
+                                "ctd_depth"
+                        ]
+                },
+                "aa4831_data_point" : {
+                        "sensors" : [
+                                "aa4831_time",
+                                "aanderaa4831_instrument_dissolved_oxygen"
+                        ]
+                }
+
+        },
         "style": {
             "color": "#D4AF37",
             "opacity": 1,
