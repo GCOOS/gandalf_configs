@@ -20,7 +20,7 @@
         "dockfrompath": "ftp/gandalf/0030",
         "dockfromfilter" : "p650*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg650",
-        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/",
+        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/sensors.csv",
         "deployment_date": "2022-12-12 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
@@ -80,6 +80,24 @@
                 ]
             }
         },
+        "sg_sensors": [
+            "time",
+            "latitude",
+            "longitude",
+            "depth",
+            "eng_head",
+            "temperature",
+            "salinity",
+            "pressure",
+            "conductivity",
+            "sigma_t",
+            "density",
+            "eng_wlbbfl2_FL1sig",
+            "aanderaa4831_instrument_dissolved_oxygen",
+            "sound_velocity",
+            "depth_avg_curr_east",
+            "depth_avg_curr_north"
+        ],
         "style": {
             "color": "#D4AF37",
             "opacity": 1,
