@@ -52,8 +52,7 @@
             "max_plot_depth": 50000,
             "plot_depth_padding": 300,
             "plot_sensor_list": [
-                "temperature",
-                "salinity"
+                    "aanderaa4831_instrument_dissolved_oxygen"
             ],
             "postprocess_plot_dir": "/data/gandalf/cicese/sg650/2022/2022_12_12/plots",
             "use_26d": true,
@@ -67,9 +66,11 @@
             "ctd_data_point" : {
                 "sensors" : [
                     "ctd_time",
+                    "ctd_depth",
                     "temperature",
                     "salinity",
-                    "ctd_depth"
+                    "density",
+                    "sound_velocity"
                     ]
             },
             "aa4831_data_point" : {
@@ -77,14 +78,7 @@
                     "aa4831_time",
                     "aanderaa4831_instrument_dissolved_oxygen"
                 ]
-            },
-            "wlbbfl2_data_point" : {
-                "sensors" : [
-                    "wlbbfl2_time",
-                    "wlbbfl2_FL1sig"
-                ]
             }
-
         },
         "style": {
             "color": "#D4AF37",
