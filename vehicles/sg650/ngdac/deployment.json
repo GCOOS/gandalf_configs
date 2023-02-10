@@ -52,14 +52,13 @@
             ],
             "max_plot_depth": 50000,
             "plot_depth_padding": 300,
-            "plot_sensor_list": [
-                "temperature",
-                "salinity",
-                "density",
-                "aanderaa4831_instrument_dissolved_oxygen",
-                "sound_velocity",
-                "wlbbfl2_FL1sig",
-                "wlbbfl2_BB1sig"
+            "plot_sensor_list" : [
+                    "temperature",
+                    "salinity",
+                    "density",
+                    "wlbbfl2_FL1sig",
+                    "aanderaa4831_instrument_dissolved_oxygen",
+                    "sound_velocity"
             ],
             "postprocess_plot_dir": "/data/gandalf/cicese/sg650/2022/2022_12_12/plots",
             "use_26d": true,
