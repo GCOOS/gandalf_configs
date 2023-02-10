@@ -21,6 +21,7 @@
         "dockfromfilter" : "p650*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg650",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg650/processed_data/sensors.csv",
+        "deployed_sensors_root": "/data/gandalf/deployments/cicese/sg650/processed_data/",
         "deployment_date": "2022-12-12 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
@@ -52,7 +53,13 @@
             "max_plot_depth": 50000,
             "plot_depth_padding": 300,
             "plot_sensor_list": [
-                    "aanderaa4831_instrument_dissolved_oxygen"
+                "temperature",
+                "salinity",
+                "density",
+                "aanderaa4831_instrument_dissolved_oxygen",
+                "sound_velocity",
+                "wlbbfl2_FL1sig",
+                "wlbbfl2_BB1sig"
             ],
             "postprocess_plot_dir": "/data/gandalf/cicese/sg650/2022/2022_12_12/plots",
             "use_26d": true,
@@ -77,6 +84,13 @@
                 "sensors" : [
                     "aa4831_time",
                     "aanderaa4831_instrument_dissolved_oxygen"
+                ]
+            },
+            "wlbbfl2_data_point" : {
+                "sensors" : [
+                    "wlbbfl2_time",
+                    "wlbbfl2_FL1sig",
+                    "wlbbfl2_BB1sig"
                 ]
             }
         },
