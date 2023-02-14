@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "GMOG",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -66,24 +66,19 @@
         "post_sensors_csv": "/data/gandalf/cicese/sg624/2022/2022_12_07/processed_data/sensors.csv",
         "project": "CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
         "public_name": "sg624",
-        "sg_sensors": [
-            "time",
-            "latitude",
-            "longitude",
-            "depth",
-            "eng_head",
-            "temperature",
-            "salinity",
-            "pressure",
-            "conductivity",
-            "sigma_t",
-            "density",
-            "eng_wlbbfl2_FL1sig",
-            "aanderaa4831_instrument_dissolved_oxygen",
-            "sound_velocity",
-            "depth_avg_curr_east",
-            "depth_avg_curr_north"
-        ],
+        "dims" : {
+            "sg_data_point" : {
+                "sensors" : [
+                    "ctd_time",
+                    "ctd_depth",
+                    "temperature",
+                    "salinity",
+                    "density",
+                    "sound_velocity",
+                    "aanderaa4831_instrument_dissolved_oxygen"
+                    ]
+            }
+        },
         "style": {
             "color": "#D4AF37",
             "opacity": 1,
