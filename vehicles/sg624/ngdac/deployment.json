@@ -55,7 +55,6 @@
                 "temperature",
                 "density",
                 "aanderaa4831_instrument_dissolved_oxygen",
-                "eng_wlbbfl2_FL1sig",
                 "sound_velocity"
             ],
             "postprocess_plot_dir": "/data/gandalf/cicese/sg624/2022/2022_12_07/plots",
