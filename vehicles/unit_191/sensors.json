@@ -60,7 +60,7 @@
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 70,
     "sensor_plot_max" : 100,
-    "alt_colormap" : "oxy",
+    "alt_colormap" : "oxygen",
     "log_scale" : false
   },
   {

@@ -3,7 +3,8 @@
         "vehicle" : "unit_191",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "vehicle_model" : "Slocum G3",
+        "status" : "deployed",
         "PI": "Statscewich, H",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -14,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/alaska/unit_191",
         "deployed_sensors_csv": "/data/gandalf/deployments/alaska/unit_191/processed_data/sensors.csv",
-        "deployment_date": "2021-04-29 00:00",
-        "data_start_date" : "20210429T0000",
-        "data_end_date" : "20211231T1200",
+        "deployment_date": "2023-02-14 00:00",
+        "data_start_date" : "20230214T0000",
+        "data_end_date" : "20231231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/alaska/gliders/unit_191/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/alaska/gliders/unit_191/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -35,7 +36,7 @@
         "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/unit_191-20210120T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2021-09-24T00%3A00%3A00Z&time%3C=2021-10-01T07%3A58%3A54Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/unit_191-20230120T1200.geoJson?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cpressure%2Ctemperature%2Cconductivity%2Csalinity%2Cdensity%2Cprecise_lat%2Cprecise_lon&time%3E=2023-09-24T00%3A00%3A00Z&time%3C=2023-10-01T07%3A58%3A54Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -50,6 +51,7 @@
         "operator": "UAF",
         "plots": {
             "alt_colormap": true,
+            "use_26d" : false,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/alaska/unit_191/plots",
             "deployed_plot_url": "/plots/unit_191",
@@ -73,14 +75,14 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/alaska/unit_191/plots/",
-            "postprocess_plot_dir": "/data/gandalf/alaska/unit_191/2021/2021_04_29/plots",
+            "postprocess_plot_dir": "/data/gandalf/alaska/unit_191/2023/2023_02_14/plots",
             "use_bottom": true,
             "use_max_plot_depth": true,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/alaska/unit_191/2021/2021_04_29",
-        "post_sensors_csv": "/data/gandalf/alaska/unit_191/2021/2021_01_20",
-        "post_kml_file": "/data/gandalf/alaska/unit_191/2021/2021_01_20/kmz/unit_191.kml",
+        "post_data_dir_root": "/data/gandalf/alaska/unit_191/2023/2023_02_14",
+        "post_sensors_csv": "/data/gandalf/alaska/unit_191/2023/2023_01_20",
+        "post_kml_file": "/data/gandalf/alaska/unit_191/2023/2023_01_20/kmz/unit_191.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -126,12 +128,12 @@
             "weight": 2
         },
         "vehicle": "unit_191",
-        "vehicle_type": "Slocum G3",
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "unit_191",
     "global_attributes": {
-        "deployment": "unit_191-20210429T1200",
+        "deployment": "unit_191-20230214T1200",
         "wmo_id": "4802987"
     },
     "platform": {
@@ -142,6 +144,6 @@
         "type": "platform",
         "wmo_id": "4802987"
     },
-    "trajectory_datetime": "20210429T1200",
-    "trajectory_name": "unit_191-20210429T1200"
+    "trajectory_datetime": "20230214T1200",
+    "trajectory_name": "unit_191-20230214T1200"
 }
