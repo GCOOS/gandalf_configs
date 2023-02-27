@@ -7,7 +7,7 @@
         "PI": "DiMarco, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
-        "data_start_date" : "20210928T1200",
+        "data_start_date" : "20150822T1200",
         "data_source": "TWR Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
-        "deployment_date": "2021-09-28 12:00",
-        "dockfromfilter": "unit_541-2021*",
+        "deployment_date": "2015-08-22 12:00",
+        "dockfromfilter": "unit_541-2015*",
 	"dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -28,7 +28,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -66,11 +66,11 @@
                 "sci_flbbcd_cdom_units",
                 "sci_oxy4_oxygen"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2021/2021_09_28/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2015/2015_08_22/plots",
             "use_bottom": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2021/2021_09_28",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2015/2015_08_22",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -116,7 +116,7 @@
     },
     "glider": "unit_541",
     "global_attributes": {
-        "deployment": "Sverdrup-20210928T1200",
+        "deployment": "Sverdrup-20150822T1200",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -127,6 +127,6 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": "20210928T000",
-    "trajectory_name": "Sverdrup-20210928T1200"
+    "trajectory_datetime": "20150822T000",
+    "trajectory_name": "Sverdrup-20150822T1200"
 }
