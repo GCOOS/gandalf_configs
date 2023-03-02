@@ -21,10 +21,10 @@
       "longitude" : "lon"
     },
     "ctd" : {
-      "ctd_serial_number": "210300",
-      "ctd_calib_date" : "2023-04-28",
+      "ctd_serial_number": "0280",
+      "ctd_calib_date" : "2022-10-05",
       "ctd_type" : "gpctd",
-      "instrument_ctd" : "RBRL"
+      "instrument_ctd" : "APL Glider CT"
     },
     "global_attributes" : {
       "Conventions" : "CF-1.6",
@@ -66,7 +66,7 @@
       "date_modified" : "",
       "history" : "",
       "platform" : 0,
-      "instrument_ctd" : "SBE41",
+      "instrument_ctd" : "APL Glider CT",
       "wmo_id" : "8901008"
     },
     "sg_variables" : {
