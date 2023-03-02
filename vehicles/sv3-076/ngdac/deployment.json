@@ -21,7 +21,7 @@
     "json_file" : "/data/gandalf/deployments/geojson/wg.json",
     "user" : "robertdcurrier@gmail.com",
     "password" : "",
-    "deployment_datetime" : "2022-12-10T00:00:00"
+    "deployment_datetime" : "2022-12-10T00:00:00",
     "num_rows" : 5
     },
   "ctd_sensors" : [
