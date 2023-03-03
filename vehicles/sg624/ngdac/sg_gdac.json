@@ -2,7 +2,7 @@
   "config_settings" : {
     "status" : "deployed",
     "trajectory_name": "sg624-20231207T0000",
-    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/cicese/sg624/binary_files/nc/",
+    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/cicese/sg624/binary_files/nc",
     "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/cicese/sg624/processed_data/nc_files",
     "recovered_sg_nc_files_in"  : "/data/gandalf/cicese/sg624/2023/2023_12_07/binary_files/nc",
     "recovered_gdac_nc_files_out" : "/data/gandalf/cicese/sg624/2023/2023_12_07/processed_data/nc_files",

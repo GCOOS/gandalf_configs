@@ -30,6 +30,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
+        "gdac_user": "gcoos_dmac",
         "gdac_url": "",
         "harvest_method" : "ftp",
         "iconSize": [
