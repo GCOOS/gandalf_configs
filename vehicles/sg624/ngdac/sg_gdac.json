@@ -31,7 +31,7 @@
       "Metadata_Conventions" : "CF-1.6, Unidata Dataset Discovery v1.0",
       "acknowledgment" : "This project is funded by CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
       "comment" : "Underwater glider temperature and salinity profiles",
-      "contributor_name" : "Enriq Pallas, Bob Currier, GCOOS",
+      "contributor_name" : "Enric Pallas, Bob Currier, GCOOS",
       "contributor_role" : "Principal Investigator, Data Manager, Data Manager",
       "creator_email" : "bob.currier@gcoos.org",
       "creator_name" : "Bob Currier",
