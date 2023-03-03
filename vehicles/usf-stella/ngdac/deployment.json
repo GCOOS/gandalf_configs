@@ -3,8 +3,8 @@
         "vehicle" : "usf-stella",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
-        "PI": "Lembke, Hubbard",
+        "status" : "deployed",
+        "PI": "Lembke, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "USF Dockserver",
@@ -15,9 +15,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-stella",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-stella/processed_data/sensors.csv",
-        "deployment_date": "2022-02-25 00:00",
-        "data_start_date" : "20220225T1200",
-        "data_end_date" : "20221232T1200",
+        "deployment_date": "2023-03-01 00:00",
+        "data_start_date" : "20230301T1200",
+        "data_end_date" : "20231232T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -54,7 +54,7 @@
                 175,
                 90
             ],
-            "max_plot_depth": 1000,
+            "max_plot_depth": 100,
             "plot_depth_padding": 5,
             "plot_sensor_list": [
               "sci_water_temp",
@@ -74,13 +74,13 @@
               "sci_echodroid_eqarea"
             ],
             "use_bottom": true,
-            "use_max_plot_depth": true,
+            "use_max_plot_depth": false,
             "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2022/2022_02_25/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2023/2023_03_01/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2022_02_25",
-        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2022_02_25",
-        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2022_02_25/kmz/usf-stella.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2023_03_01",
+        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2023_03_01",
+        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2023_03_01/kmz/usf-stella.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -99,7 +99,7 @@
           "sci_flbbcd_chlor_units",
           "sci_oxy3835_oxygen"
         ],
-        "project": "Florida Red Tide Research",
+        "project": "GCOOS Observatory",
         "public_name": "usf-stella",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -125,12 +125,13 @@
             "weight": 2
         },
         "vehicle": "usf-stella",
-        "vehicle_type": "Slocum G3",
-        "wpIcon": "/static/images/wp_icon.png"
+        "vehicle_type": "slocum",
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "usf-stella",
     "global_attributes": {
-        "deployment": "usf-stella-20220225T1200",
+        "deployment": "usf-stella-20230301T1200",
         "wmo_id": "4802970"
     },
     "platform": {
@@ -141,6 +142,6 @@
         "type": "platform",
         "wmo_id": "4802970"
     },
-    "trajectory_datetime": "20220225T1200",
-    "trajectory_name": "usf-stella-20220225T1200"
+    "trajectory_datetime": "20230301T1200",
+    "trajectory_name": "usf-stella-20230301T1200"
 }

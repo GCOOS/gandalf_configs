@@ -26,7 +26,7 @@
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : true,
-        "ftp_send": false,
+        "ftp_send": true,        
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
