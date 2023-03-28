@@ -4,7 +4,7 @@
         "vehicle" : "usf-gansett",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,9 +16,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-gansett/processed_data/sensors.csv",
-        "deployment_date": "2022-10-07 00:00",
-        "data_start_date" : "20221007T1200",
-        "data_end_date" : "20221231T1200",
+        "deployment_date": "2023-03-27 00:00",
+        "data_start_date" : "20230327T1200",
+        "data_end_date" : "20231231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -77,9 +77,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2022/2022_10_07",
-        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2022/2022_10_07",
-        "post_kml_file": "/data/gandalf/usf/usf-gansett/2022/2022_10_07/kmz/usf-gansett.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2023/2023_03_27",
+        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2023/2023_03_27",
+        "post_kml_file": "/data/gandalf/usf/usf-gansett/2023/2023_03_27/kmz/usf-gansett.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -123,7 +123,7 @@
     },
     "glider": "usf-gansett",
     "global_attributes": {
-        "deployment": "usf-gansett-20221007T1200",
+        "deployment": "usf-gansett-20231007T1200",
         "wmo_id": "4802969"
     },
     "platform": {
@@ -134,6 +134,6 @@
         "type": "platform",
         "wmo_id": "4802969"
     },
-    "trajectory_datetime": "20221007T1200",
-    "trajectory_name": "usf-gansett-20221007T1200"
+    "trajectory_datetime": "20230327T1200",
+    "trajectory_name": "usf-gansett-20230327T1200"
 }
