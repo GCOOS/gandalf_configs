@@ -5,7 +5,7 @@
       "vehicle_data" : "url",
       "vehicle_type" : "wavelider",
       "data_source" : "LiquidRobotics",
-      "status" : "deployed",
+      "status" : "recovered",
       "PI" : "DiMarco, S",
       "operator" : "TAMU GERG",
       "project" : "FGB Hypoxia"

@@ -1,4 +1,35 @@
 [
+
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "SECOORA Hurricane Gliders",
+   "deployed" : "2023-02-25",
+   "recovered" : "2023-03-27",
+   "days_wet" : 31,
+   "distance" : 0,
+   "map_url" : "/usf/usf-gansett/2023/2023_02_25",
+   "data_url" : "/data/gandalf/usf/usf-sam/2023/2023_02_25",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2023/2023_02_25/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2023/2023_02_25/kmz/usf-gansett.kml"
+},
+  {
+    "pi" : "GMOG",
+    "vehicle" : "SG624",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "CICESE/GMOG CONACyT GMOGline",
+    "deployed" : "2022-12-07",
+    "recovered" : "2023-03-27",
+    "days_wet" : 110,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "",
+    "plot_url" : "/data/gandalf/cicese/sg624/2022/2022_12_07/plots",
+    "kmz_url" : ""
+  },
  {
      "pi" : "Martin, K",
      "vehicle" : "ng735",
