@@ -4,10 +4,10 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Recovered",
+        "dash_status": "Deployed",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -16,8 +16,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2023-01-30 00:00",
-        "data_start_date" : "20230130T1200",
+        "deployment_date": "2023-04-21 00:00",
+        "data_start_date" : "20230421T1200",
         "data_end_date" : "20231231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
@@ -130,7 +130,7 @@
     },
     "glider" : "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20230130T1200",
+        "deployment": "usf-jaialai-20230421T1200",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -141,6 +141,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20230130T1200",
-    "trajectory_name": "usf-jaialai-20230130T1200"
+    "trajectory_datetime": "20230421T1200",
+    "trajectory_name": "usf-jaialai-20230421T1200"
 }
