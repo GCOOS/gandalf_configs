@@ -1,5 +1,21 @@
 [
 
+ {
+     "pi" : "Pierce, R",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "FWRI",
+     "deployed" : "2023-04-30",
+     "recovered" : "2022-05-16",
+     "days_wet" : 17,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2023/2023_04_30",
+     "data_url" : "/data/gandalf/mote/mote-dora/2023/2023_04_30/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2023/2023_04_30/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2023/2023_04_30/kmz/mote-dora.kml"
+ },
+
 {
    "pi" : "Lembke, C",
    "vehicle" : "usf-sam",
