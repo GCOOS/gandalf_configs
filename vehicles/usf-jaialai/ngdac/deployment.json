@@ -71,7 +71,9 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen",
-            "sci_suna_nitrate_concentration"
+            "sci_suna_nitrate_concentration",
+	    "usf-jaialai_profiles",
+	    "heat_content_rtofs-gofs"
             ],
             "plot_flight_sensor_list" : [
             "m_battery",
