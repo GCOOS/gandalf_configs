@@ -4,10 +4,10 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Deployed",
+        "dash_status": "Recovered",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -71,9 +71,13 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen",
+<<<<<<< HEAD
+            "sci_suna_nitrate_concentration"
+=======
             "sci_suna_nitrate_concentration",
 	    "model_comparison",
 	    "ocean_heat_content"
+>>>>>>> db57f88a2cc895e0f102bfe5afdbcf2777fab8d9
             ],
             "plot_flight_sensor_list" : [
             "m_battery",

@@ -1,5 +1,21 @@
 [
 
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-jaialai",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Florida Red Tide Research",
+   "deployed" : "2023-04-21",
+   "recovered" : "2023-05-29",
+   "days_wet" : 37,
+   "distance" : 0,
+   "map_url" : "/usf/usf-gansett/2023/2023_04_21",
+   "data_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_04_21",
+   "plot_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_04_21/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_04_21/kmz/usf-jaialai.kml"
+},
+
  {
      "pi" : "Pierce, R",
      "vehicle" : "mote-dora",
@@ -7,7 +23,7 @@
      "operator" : "Mote",
      "project" : "FWRI",
      "deployed" : "2023-04-30",
-     "recovered" : "2022-05-16",
+     "recovered" : "2023-05-16",
      "days_wet" : 17,
      "distance" : 0,
      "map_url" : "/mote/mote-dora/2023/2023_04_30",
