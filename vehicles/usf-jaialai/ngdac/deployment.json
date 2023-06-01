@@ -71,13 +71,7 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen",
-<<<<<<< HEAD
             "sci_suna_nitrate_concentration"
-=======
-            "sci_suna_nitrate_concentration",
-	    "model_comparison",
-	    "ocean_heat_content"
->>>>>>> db57f88a2cc895e0f102bfe5afdbcf2777fab8d9
             ],
             "plot_flight_sensor_list" : [
             "m_battery",
