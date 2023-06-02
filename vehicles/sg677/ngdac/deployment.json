@@ -68,11 +68,12 @@
                 "sensors" : [
                     "ctd_time",
                     "ctd_depth",
+                    "latitude",
+                    "longitude",
                     "temperature",
                     "salinity",
-                    "density",
-                    "sound_velocity"
-                    ]
+                    "density"
+                ] 
             }
         },
         "style": {

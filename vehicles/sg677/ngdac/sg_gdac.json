@@ -5,9 +5,7 @@
     "deployed_sg_nc_files_in" : "/data/gandalf/deployments/usm/sg677/binary_files/nc/",
     "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
     "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2023/2023_05_30/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2023/2023_05_30/processed_data/nc_files",
-    "drop_sg_data" : true,
-    "drop_legato_data" : true
+    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2023/2023_05_30/processed_data/nc_files"
     },
     "validate_dims" : [
       "sg_data_point"

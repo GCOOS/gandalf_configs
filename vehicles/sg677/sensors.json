@@ -31,8 +31,8 @@
     "sensor" :  "salinity",
     "unit_string" : "PPT (10$^{-3}$)",
     "sensor_name" : "Salinity",
-    "sensor_plot_min" : 600,
-    "sensor_plot_max" : 1000,
+    "sensor_plot_min" : 31,
+    "sensor_plot_max" : 37,
     "alt_colormap" : "haline",
     "log_scale" : "False"
   },
