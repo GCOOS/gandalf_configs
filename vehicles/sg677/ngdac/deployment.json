@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -19,7 +19,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/usm/sg677",
         "deployed_nc_dir" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
         "deployed_sensors_csv": "/data/gandalf/deployments/usm/sg677/processed_data/sensors.csv",
-        "deployment_date": "2023-05-31 00:00",
+        "deployment_date": "2023-05-30 00:00",
         "drop_legato_data" : true,
         "drop_sg_data" : true,
         "ftp_send": false,
@@ -53,14 +53,14 @@
                 "temperature",
                 "salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/usm/sg677/2022/2022_09_27/plots",
+            "postprocess_plot_dir": "/data/gandalf/usm/sg677/2025/2023_05_30/plots",
             "use_26d": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir": "/data/gandalf/usm/sg677/2022/2022_09_27",
-        "post_data_dir_root": "/data/gandalf/usm/sg677/2022/2022_09_27",
-        "post_nc_dir" : "/data/gandalf/usm/sg677/2022/2022_09_27/processed_data/nc_files",
-        "post_sensors_csv": "/data/gandalf/usm/sg677/2022/2022_09_27/processed_data/sensors.csv",
+        "post_data_dir": "/data/gandalf/usm/sg677/2023/2023_05_30",
+        "post_data_dir_root": "/data/gandalf/usm/sg677/2023/2023_05_30",
+        "post_nc_dir" : "/data/gandalf/usm/sg677/2023/2023_05_30/processed_data/nc_files",
+        "post_sensors_csv": "/data/gandalf/usm/sg677/2023/2023_05_30/processed_data/sensors.csv",
         "project": "Hurricane Glider Picket Line",
         "public_name": "sg677",
         "dims" : {
@@ -83,7 +83,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg677-20220927T0000",
+        "deployment": "sg677-20230530T0000",
         "wmo_id": "44802947"
     },
     "platform": {
@@ -94,6 +94,6 @@
         "type": "platform",
         "wmo_id": "4800907"
     },
-    "trajectory_datetime": "20220927T0000",
-    "trajectory_name": "sg677-20220927T0000"
+    "trajectory_datetime": "20230530T0000",
+    "trajectory_name": "sg677-20230530T0000"
 }
