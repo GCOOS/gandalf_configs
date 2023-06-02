@@ -9,11 +9,12 @@
     "drop_sg_data" : true,
     "drop_legato_data" : true
     },
+    "validate_dims" : [
+      "sg_data_point"
+    ],
     "validate_vars" : [
-      "ctd_depth",
       "ctd_time",
-      "latitude",
-      "longitude"
+      "ctd_depth"
     ],
     "sg_to_gdac_names" : {
       "latitude" : "lat",

@@ -11,8 +11,9 @@
         "data_source": "USM BaseStation",
         "debug": true,
 	"dims" : {
-            "sg_data_point" : {
-                "sensors" : [
+            "time" : {
+                "sensors" : [	
+			"sea_water_temperature"
                     ]
             }
         },
@@ -24,9 +25,9 @@
         "dockfrompath": "/home/rdc/cworker001_files",
         "dockfromfilter" : "*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/usm/cworker001",
-        "deployed_nc_dir" : "/data/gandalf/usm/cworker001/2023/2023_05_23/",
-        "deployed_sensors_csv": "/data/gandalf/usm/cworker001/2023/2023_05_23/processed_data/sensors.csv",
-        "deployment_date": "2023-09-27 00:00",
+        "deployed_nc_dir" : "/data/gandalf/deployments/usm/cworker001",
+        "deployed_sensors_csv": "/data/gandalf/deployments/usm/processed_data/sensors.csv",
+        "deployment_date": "2022-09-01 00:00",
         "drop_legato_data" : true,
         "drop_sg_data" : true,
         "ftp_send": true,
