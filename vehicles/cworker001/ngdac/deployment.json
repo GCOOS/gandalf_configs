@@ -3,16 +3,21 @@
         "vehicle" : "cworker001",
         "vehicle_data" : "local",
         "vehicle_type" : "cworker",
-        "vehicle_model" : "Seaglider",
+        "vehicle_model" : "Harris C-Worker",
         "status" : "deployed",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/cworker_icon.png",
         "dash_status": "Deployed",
-        "data_source": "USM BaseStation",
+        "data_source": "L3/Integral",
         "debug": true,
 	"dims" : {
             "time" : {
                 "sensors" : [	
+                        "latitude",
+                        "longitude",
+			"altitude",
+			"depth",
+			"sea_water_practical_salinity",
 			"sea_water_temperature"
                     ]
             }
@@ -25,7 +30,7 @@
         "dockfrompath": "/home/rdc/cworker001_files",
         "dockfromfilter" : "*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/usm/cworker001",
-        "deployed_nc_dir" : "/data/gandalf/deployments/usm/cworker001",
+        "deployed_nc_dir" : "/data/gandalf/deployments/usm/cworker001/binary_files/nc/",
         "deployed_sensors_csv": "/data/gandalf/deployments/usm/processed_data/sensors.csv",
         "deployment_date": "2022-09-01 00:00",
         "drop_legato_data" : true,
@@ -38,8 +43,8 @@
         "gdac_url": "",
         "harvest_method" : "rsync",
         "iconSize": [
-            40,
-            15
+            25,
+            25
         ],
         "infoBoxImage": "/static/images/cworker_infobox.jpg",
         "kmz_url": "",
@@ -80,9 +85,9 @@
             "salinity"
         ],
         "style": {
-            "color": "#D4AF37",
+            "color": "#FF0000",
             "opacity": 1,
-            "weight": 2
+            "weight": 4
         },
         "teleport_zoom" : 8
     },
