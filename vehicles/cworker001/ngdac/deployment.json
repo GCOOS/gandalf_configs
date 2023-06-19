@@ -11,16 +11,7 @@
         "data_source": "L3/Integral",
         "debug": true,
 	"dims" : {
-            "time" : {
-                "sensors" : [	
-                        "latitude",
-                        "longitude",
-			"altitude",
-			"depth",
-			"sea_water_practical_salinity",
-			"sea_water_temperature"
-                    ]
-            }
+            "time" : "time"
         },
 
         "dockserver" : "131.95.109.25",
@@ -62,32 +53,52 @@
             ],
             "max_plot_depth": 50000,
             "plot_depth_padding": 300,
+
             "plot_sensor_list": [
-                "temperature",
-                "salinity"
+                "sea_water_temperature",
+                "sea_water_practical_salinity",
+		"volume_fraction_of_oxygen_in_sea_water"
             ],
             "postprocess_plot_dir": "/data/gandalf/usm/cworker001/2023/2023_05_23/plots",
             "use_26d": false,
             "use_max_plot_depth": false
         },
+	"marker_settings" : {
+    	  "radius" : 4,
+    	  "opacity" : 1,
+    	  "weight" : 1,
+    	  "fillOpacity" : 1
+  	},
+	"cmaps" : {
+    	  "sea_water_temperature" : "thermal",
+    	  "sea_water_practical_salinity" : "haline",
+    	  "volume_fraction_of_oxygen_in_sea_water" : "oxy"
+  	},
+    	"sensor_ranges" : {
+      	  "sea_water_temperature" : {
+            "min" : 0,
+            "max" : 40
+          },
+          "sea_water_practical_salinity" : {
+            "min" : 30,
+            "max" : 37
+          },
+
+	  "volume_fraction_of_oxygen_in_sea_water" : {
+	    "min" : 0,
+	    "max" : 5000
+	  }
+	},
         "post_data_dir": "/data/gandalf/usm/cworker001/2023/2023_05_23/",
         "post_data_dir_root": "/data/gandalf/usm/cworker001/2023/2023_05_23/binary_files/nc",
         "post_nc_dir" : "/data/gandalf/usm/cworker001/2023/2023_05_23/processed_data/nc_files",
         "post_sensors_csv": "/data/gandalf/usm/cworker001/2023/2023_05_23/processed_data/sensors.csv",
         "project": "Hypoxia Study",
         "public_name": "cworker001",
-        "sg_sensors": [
-            "time",
-            "depth",
-            "log_gps_lat",
-            "log_gps_lon",
-            "temperature",
-            "salinity"
-        ],
         "style": {
             "color": "#FF0000",
             "opacity": 1,
-            "weight": 4
+            "weight": 1
         },
         "teleport_zoom" : 8
     },
