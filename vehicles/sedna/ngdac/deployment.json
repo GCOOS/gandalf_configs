@@ -35,7 +35,7 @@
             "m_water_vy",
             "m_tot_horz_dist"
         ],
-        "ftp_send":true,
+        "ftp_send":false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -52,11 +52,11 @@
         "logo_file": "/data/gandalf/static/images/logos/louisiana_logo.png",
         "operator": "USF",
         "plots": {
-            "use_26d" : true,
+            "use_26d" : false,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/louisiana/sedna/plots",
-            "logo_file": "/data/gandalf/gandalf_configs/images/logos/louisiana_logo.png",
+            "logo_file": "/data/gandalf/static/images/logos/louisiana_logo.png",
             "logo_loc": [
                 180,
                 90
@@ -67,10 +67,7 @@
             "calc_salinity",
             "calc_density",
             "calc_sigma",
-            "sci_flbbcd_chlor_units",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_bb_units",
-            "sci_oxy3835_oxygen",
+            "sci_water_pressure",
             "depth_avg_curr"
             ],
             "plot_depth_padding": 5,
@@ -106,11 +103,7 @@
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_bb_units",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy3835_oxygen"
+            "sci_water_pressure"
         ],
         "sensors_csv": "/data/gandalf/deployments/louisiana/sedna/processed_data/sensors.csv",
         "style": {
