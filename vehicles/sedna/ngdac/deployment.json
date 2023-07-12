@@ -4,7 +4,7 @@
         "vehicle" : "sedna",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Sidorovskaia N.",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
