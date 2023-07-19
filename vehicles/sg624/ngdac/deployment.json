@@ -25,7 +25,7 @@
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : false,
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -84,7 +84,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg624-20230712T0000",
+        "deployment": "sg624-20230712T1200",
         "wmo_id": ""
     },
     "platform": {
@@ -95,6 +95,6 @@
         "type": "platform",
         "wmo_id": "8901008"
     },
-    "trajectory_datetime": "20230712T0000",
-    "trajectory_name": "sg624-20230712T0000"
+    "trajectory_datetime": "20230712T1200",
+    "trajectory_name": "sg624-20230712T1200"
 }
