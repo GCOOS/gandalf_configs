@@ -66,11 +66,7 @@
             "plot_sensor_list": [
             "sci_water_temp",
             "calc_salinity",
-            "calc_density",
-            "sci_flbbcd_bb_units",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy4_oxygen"
+            "calc_density"
             ],
             "plot_flight_sensor_list" : [
             "m_battery",
@@ -104,7 +100,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
           ],
-        "project": "Florida Red Tide Research",
+        "project": "Hurricane Glider Picket Line",
         "public_name": "usf-jaialai",
         "science_sensor_list": [
             "sci_m_present_time",
