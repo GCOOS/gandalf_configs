@@ -1,0 +1,108 @@
+{
+    "gandalf": {
+        "vehicle" : "ng291",
+        "vehicle_data" : "erddap",
+        "vehicle_type" : "slocum",
+        "vehicle_model" : "Slocum G2",
+        "status" : "deployed",
+        "PI": "Edwards C",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Deployed",
+        "data_source": "IOOS GDAC",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/navy/ng291",
+        "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng291/processed_data/sensors.csv",
+        "deployment_date": "2023-07-27 15:38",
+        "data_start_date" : "20230727T0000",
+        "data_end_date" : "20231231T0000",
+        "dockfrompath": "",
+        "docklogpath": "",
+        "dockserver": "",
+        "dockuser": "",
+        "flight_sensor_list": [
+          "time",
+          "latitude",
+          "longitude",
+          "depth"
+        ],
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/navy/ng291/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng291-20230726T164200.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&time%3E=2023-07-24T00%3A00%3A00Z",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "post_kml_file": "",
+        "kml_file": "",
+        "kmz_url": "",
+        "operator": "USN",
+        "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/navy/ng291/plots",
+            "deployed_plot_url": "/plots/ng291",
+            "log_mult": 100,
+            "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
+            "logo_loc": [
+                178,
+                91
+            ],
+            "max_plot_depth": 5000,
+            "plot_sensor_list": [
+              "temperature",
+              "salinity"
+            ],
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/ng291/plots/",
+            "postprocess_plot_dir": "/data/gandalf/navy/ng291/2023/2023_07-24/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
+        },
+        "post_data_dir_root": "/data/gandalf/navy/ng291/2023/2023_07-24",
+        "post_sensors_csv": "/data/gandalf/navy/ng291/2023/2023_07-24",
+        "post_kml_file": "",
+        "postprocess_flight_sensor_list": [
+
+        ],
+        "postprocess_science_sensor_list": [
+
+        ],
+        "project": "Navy Hurricane Gliders",
+        "public_name": "ng291",
+        "science_sensor_list": [
+          "salinity",
+          "temperature"
+        ],
+        "style": {
+            "color": "#500000",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "ng291",
+    "global_attributes": {
+        "deployment": "ng291-20230727T0000",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": "",
+        "id": "ng291",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider ng291",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20230727T0000",
+    "trajectory_name": "ng291-20230727T0000"
+}
