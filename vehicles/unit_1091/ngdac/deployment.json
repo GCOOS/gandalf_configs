@@ -1,0 +1,132 @@
+{
+    "gandalf": {
+	"vehicle_model" : "Slocum G3",
+        "vehicle" : "unit_1091",
+        "vehicle_data" : "local",
+        "vehicle_type" : "slocum",
+        "status" : "deployed",
+        "PI": "Edwards, C",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Deployed",
+        "data_source": "SKIO Dockserver",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed": true,
+        "deployed_data_dir": "/data/gandalf/deployments/skio/unit_1091",
+        "deployed_sensors_csv": "/data/gandalf/deployments/skio/unit_1091/processed_data/sensors.csv",
+        "deployment_date": "2023-08-04 12:00",
+        "data_start_date" : "20230804T1200",
+        "data_end_date" : "20231231T1200",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/from-glider/",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/logs/",
+        "dockserver": "sfmc.skio.uga.edu",
+        "dockuser": "secoora",
+        "flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
+        ],
+        "ftp_send": false,
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "",
+        "gdac_json_dir" : "/data/gandalf/deployments/json",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "kml_file": "/dev/null",
+        "kmz_url": "",
+        "operator": "SKIO",
+        "plots": {
+            "use_26d" : false,
+            "alt_colormap": true,
+            "deployed_plot_dir": "/data/gandalf/deployments/skio/unit_1091/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 50,
+            "plot_sensor_list": [
+                "sci_water_temp",
+                "calc_density",
+                "calc_sigma",
+                "calc_salinity",
+                "calc_soundvel",
+                "sci_flbbcd_cdom_units",
+                "sci_flbbcd_chlor_units",
+                "sci_oxy4_oxygen"
+            ],
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/unit_1091/plots/",
+            "use_bottom": true,
+            "use_max_plot_depth": false
+        },
+        "post_data_dir_root": "/data/gandalf/skio/unit_1091/2023/2023_08_04",
+        "postprocess_flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_lat",
+            "m_lon",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_tot_horz_dist",
+            "m_battery",
+            "m_lithium_battery_relative_charge",
+            "m_water_vx",
+            "m_water_vy"
+        ],
+        "postprocess_science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen"
+        ],
+        "project": "SECOORA Hurricane Gliders/Semester@SkIO cruise",
+        "public_name": "unit_1091",
+        "science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen"
+        ],
+        "sensors_csv": "/data/gandalf/deployments/skio/unit_1091/processed_data/sensors.csv",
+        "style": {
+            "color": "#500000",
+            "opacity": 1,
+            "weight": 2
+        },
+        "vehicle": "unit_1091",
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
+    },
+    "glider": "unit_1091",
+    "global_attributes": {
+        "deployment": "unit_1091-20230804T0000",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": " ",
+        "id": "unit_1091",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider unit_1091",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20230804T0000",
+    "trajectory_name": "unit_1091-20230804T0000"
+}
