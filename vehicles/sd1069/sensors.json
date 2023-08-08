@@ -2,7 +2,7 @@
   {
     "sensor" :  "WIND_SPEED_MEAN",
     "gdac_sensor" : "",
-    "unit_string" : "(k)",
+    "unit_string" : "(knots)",
     "sensor_name" : "Mean Wind Speed",
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 200
@@ -24,9 +24,9 @@
     "sensor_plot_max" : 200
   },
   {
-    "sensor" :  "BARO_PRESS_MEAN",
+    "sensor" :  "BARO_PRES_MEAN",
     "gdac_sensor" : "",
-    "unit_string" : "($^mb$)",
+    "unit_string" : "(mbar)",
     "sensor_name" : "Mean Barometric Pressure",
     "sensor_plot_min" : 0,
     "sensor_plot_max" : 200
