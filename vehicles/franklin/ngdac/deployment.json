@@ -19,10 +19,10 @@
         "deployment_date": "2023-08-04 12:00",
         "data_start_date" : "20230804T1200",
         "data_end_date" : "20231231T1200",
-        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider/",
-        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/logs/",
+        "dockfrompath" : "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/logs",
         "dockserver": "sfmc.skio.uga.edu",
-        "dockuser": "secoora",
+        "dockuser": "gcoos",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
