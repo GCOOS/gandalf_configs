@@ -30,7 +30,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_user": "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -44,7 +44,7 @@
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/dev/null",
         "kmz_url": "",
-        "operator": "SKIO",
+        "operator": "Skidaway Institute of Oceanography",
         "plots": {
             "use_26d" : false,
             "alt_colormap": true,
@@ -118,7 +118,7 @@
     "glider": "franklin",
     "global_attributes": {
         "deployment": "franklin-20230804T0000",
-        "wmo_id": ""
+        "wmo_id": "4802956"
     },
     "platform": {
         "comment": " ",
@@ -126,7 +126,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider franklin",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "4802956"
     },
     "trajectory_datetime": "20230804T0000",
     "trajectory_name": "franklin-20230804T0000"

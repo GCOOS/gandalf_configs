@@ -19,8 +19,8 @@
         "deployment_date": "2023-08-04 12:00",
         "data_start_date" : "20230804T1200",
         "data_end_date" : "20231231T1200",
-        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/from-glider/",
-        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/logs/",
+        "dockfrompath" : "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/logs",
         "dockserver": "sfmc.skio.uga.edu",
         "dockuser": "gcoos",
         "flight_sensor_list": [
@@ -30,7 +30,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_user": "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -44,7 +44,7 @@
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/dev/null",
         "kmz_url": "",
-        "operator": "SKIO",
+        "operator": "Skidaway Institute of Oceanography",
         "plots": {
             "use_26d" : false,
             "alt_colormap": true,
@@ -118,7 +118,7 @@
     "glider": "unit_1091",
     "global_attributes": {
         "deployment": "unit_1091-20230804T0000",
-        "wmo_id": ""
+        "wmo_id": "8901043"
     },
     "platform": {
         "comment": " ",
@@ -126,7 +126,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider unit_1091",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "8901043"
     },
     "trajectory_datetime": "20230804T0000",
     "trajectory_name": "unit_1091-20230804T0000"

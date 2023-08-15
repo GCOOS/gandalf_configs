@@ -1,14 +1,14 @@
 [
     {
         "attrs": {
-            "calibration_date": "20120708",
+            "calibration_date": "2023",
             "calibration_report": "",
-            "comment": "Scientific Payload Instrument ctd-98",
+            "comment": "Slocum glider SECOORA SN1091",
             "factory_calibrated": "True",
             "long_name": "Scientific Payload Instrument ctd-98",
-            "make_model": "Seabird-Scientific GPCTD",
+            "make_model": "RBRLegato CTD",
             "platform": "platform",
-            "serial_number": "9013",
+            "serial_number": "212374",
             "type": "instrument",
             "user_calibrated": "False"
         },
