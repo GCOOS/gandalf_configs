@@ -39,7 +39,7 @@
             "sci_water_cond",
             "sci_water_pressure"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_308/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -104,7 +104,7 @@
     "glider": "unit_308",
     "global_attributes": {
         "deployment": "unit_308-20230816T0000",
-        "wmo_id": ""
+        "wmo_id": "4801915"
     },
     "platform": {
         "comment": "",
@@ -112,7 +112,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider unit_308",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "4801915"
     },
     "trajectory_datetime": "20230816T0000",
     "trajectory_name": "unit_308-20230816T0000"
