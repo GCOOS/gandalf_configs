@@ -4,10 +4,10 @@
         "vehicle" : "usf-gansett",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke, Hubbard",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Recovered",
+        "dash_status": "Deployed",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -16,8 +16,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-gansett",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-gansett/processed_data/sensors.csv",
-        "deployment_date": "2023-06-24 00:00",
-        "data_start_date" : "20230624T1200",
+        "deployment_date": "2023-08-24 00:00",
+        "data_start_date" : "20230824T1200",
         "data_end_date" : "20231231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
@@ -77,9 +77,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2023/2023_06_24",
-        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2023/2023_06_24",
-        "post_kml_file": "/data/gandalf/usf/usf-gansett/2023/2023_06_24/kmz/usf-gansett.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-gansett/2023/2023_08_24",
+        "post_sensors_csv": "/data/gandalf/usf/usf-gansett/2023/2023_08_24",
+        "post_kml_file": "/data/gandalf/usf/usf-gansett/2023/2023_08_24/kmz/usf-gansett.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -134,6 +134,6 @@
         "type": "platform",
         "wmo_id": "4802969"
     },
-    "trajectory_datetime": "20230624T1200",
-    "trajectory_name": "usf-gansett-20230624T1200"
+    "trajectory_datetime": "20230824T1200",
+    "trajectory_name": "usf-gansett-20230824T1200"
 }
