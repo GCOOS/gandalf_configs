@@ -13,7 +13,6 @@
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/unit_1091",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/unit_1091/processed_data/sensors.csv",
         "deployment_date": "2023-08-04 12:00",
