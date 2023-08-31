@@ -4,7 +4,7 @@
         "vehicle" : "sedna",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Sidorovskaia N.",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -23,6 +23,7 @@
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/sedna/logs",
         "dockserver": "louisianagliderserver.marine.louisiana.edu",
         "dockuser": "gcoos",
+        "display_waypoints" : false,
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",

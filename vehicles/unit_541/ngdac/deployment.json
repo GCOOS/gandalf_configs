@@ -22,6 +22,7 @@
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/logs",
         "dockserver": "sfmc.webbresearch.com",
         "dockuser": "rcurrier",
+        "display_waypoints" : true,
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",

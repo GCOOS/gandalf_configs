@@ -23,6 +23,7 @@
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-gansett/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
         "dockuser": "gcoos",
+        "display_waypoints" : true,
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
