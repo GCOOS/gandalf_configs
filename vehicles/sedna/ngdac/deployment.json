@@ -23,7 +23,7 @@
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/sedna/logs",
         "dockserver": "louisianagliderserver.marine.louisiana.edu",
         "dockuser": "gcoos",
-        "display_waypoints" : true,
+        "display_waypoints" : false,
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
