@@ -5,7 +5,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "status" : "deployed",
-        "PI": "Sidorovskaia N.",
+        "PI": "Sidorovskaia N, Mathew N",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
@@ -16,9 +16,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/louisiana/sedna",
         "deployed_sensors_csv": "/data/gandalf/deployments/louisiana/sedna/processed_data/sensors.csv",
-        "deployment_date": "2022-09-25 00:00",
-        "data_start_date" : "20220925T1200",
-        "data_end_date" : "20221231T1200",
+        "deployment_date": "2023-08-28 00:00",
+        "data_start_date" : "20230828T0000",
+        "data_end_date" : "20231231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/sedna/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/sedna/logs",
         "dockserver": "louisianagliderserver.marine.louisiana.edu",
@@ -51,7 +51,7 @@
         "kml_file": "/data/gandalf/deployments/louisiana/sedna/kmz/sedna.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/louisiana/sedna/kmz/sedna.kml",
         "logo_file": "/data/gandalf/static/images/logos/louisiana_logo.png",
-        "operator": "USF",
+        "operator": "Univ. of Louisiana at Lafayette",
         "plots": {
             "use_26d" : false,
             "alt_colormap": true,
@@ -98,7 +98,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy3835_oxygen"
           ],
-        "project": "",
+        "project": "Storm's Acoustic Reconnaissance (funded DoD/ONR)",
         "public_name": "sedna",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -117,7 +117,7 @@
     },
     "glider": "sedna",
     "global_attributes": {
-        "deployment": "sedna-20220925T1200",
+        "deployment": "sedna-20230828T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -128,6 +128,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20220925T1200",
-    "trajectory_name": "sedna-20220925T1200"
+    "trajectory_datetime": "20230828T0000",
+    "trajectory_name": "sedna-20230828T0000"
 }
