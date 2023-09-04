@@ -25,7 +25,7 @@
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : false,
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_json_dir": "/data/gandalf/deployments/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -85,15 +85,15 @@
     },
     "global_attributes": {
         "deployment": "sg652-20230901T1200",
-        "wmo_id": ""
+        "wmo_id": "8901010"
     },
     "platform": {
         "comment": " ",
         "id": "sg652",
         "instruments": "instrument_ctd",
-        "long_name": "USN Seaglider 669",
+        "long_name": "Cicese Seaglider 652",
         "type": "platform",
-        "wmo_id": "8901008"
+        "wmo_id": "8901010"
     },
     "trajectory_datetime": "20230901T1200",
     "trajectory_name": "sg652-20230901T1200"
