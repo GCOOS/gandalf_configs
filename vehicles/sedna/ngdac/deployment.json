@@ -36,7 +36,7 @@
             "m_water_vy",
             "m_tot_horz_dist"
         ],
-        "ftp_send":false,
+        "ftp_send":true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -118,7 +118,7 @@
     "glider": "sedna",
     "global_attributes": {
         "deployment": "sedna-20230828T0000",
-        "wmo_id": ""
+        "wmo_id": "4803973"
     },
     "platform": {
         "comment": " ",
@@ -126,7 +126,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider sedna",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "4803973"
     },
     "trajectory_datetime": "20230828T0000",
     "trajectory_name": "sedna-20230828T0000"
