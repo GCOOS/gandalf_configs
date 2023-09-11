@@ -32,7 +32,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/navy/ng781/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng781-20230816T215200.json?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&time%3E=2023-08-12T00%3A00%3A00Z",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng781-20230816T0000.json?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2023-09-04T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
