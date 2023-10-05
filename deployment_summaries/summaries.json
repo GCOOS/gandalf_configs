@@ -1,5 +1,22 @@
 [
 
+ {
+     "pi" : "Edwards C",
+     "vehicle" : "unit_1091",
+     "type" : "Slocum G3",
+     "operator" : "Navy",
+     "project" : "Hurricane Gliders 2023",
+     "deployed" : "2023-09-05",
+     "recovered" : "2023-09-30",
+     "days_wet" : 25,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/skio/unit_1091/2023/2023_09_05/plots",
+     "kmz_url" : ""
+ },
+ 
+
 {
    "pi" : "Lembke, C",
    "vehicle" : "usf-jaialai",
