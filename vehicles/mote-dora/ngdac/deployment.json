@@ -5,7 +5,7 @@
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
         "status" : "deployed",
-        "PI": "Ocean Technology",
+        "PI": "Langan J",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
         "data_source": "TWR Dockserver",
