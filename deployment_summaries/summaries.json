@@ -1,6 +1,21 @@
 [
 
 {
+     "pi" : "Langan J",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2023-09-28",
+     "recovered" : "2023-10-10",
+     "days_wet" : 13,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2023/2023_09_28",
+     "data_url" : "/data/gandalf/mote/mote-dora/2023/2023_09_28/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2023/2023_09_28/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2023/2023_09_28/kmz/mote-dora.kml"
+ },
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-bass",
    "type" : "Slocum G2",
