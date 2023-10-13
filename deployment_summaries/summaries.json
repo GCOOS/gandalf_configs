@@ -1,6 +1,20 @@
 [
 
 {
+     "pi" : "Howden S, Martin K",
+     "vehicle" : "ng309",
+     "type" : "Slocum G2",
+     "operator" : "US Navy",
+     "project" : "Navy Hurricane Gliders",
+     "deployed" : "2023-08-20",
+     "recovered" : "2023-10-13",
+     "days_wet" : 54,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/navy/ng309/2023/2023_08_20",
+     "plot_url" : "/data/gandalf/navy/ng309/2023/2023_08_20/plots"
+},
+{
      "pi" : "Sidorovskaia N, Mathew N",
      "vehicle" : "sedna",
      "type" : "Slocum G3",
