@@ -1,4 +1,19 @@
 [
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "GCOOS Shelf Survey",
+   "deployed" : "2023-09-02",
+   "recovered" : "2023-09-12",
+   "days_wet" : 10,
+   "distance" : 0,
+   "map_url" : "/usf/usf-gansett/2023/2023_09_02",
+   "data_url" : "/data/gandalf/usf/usf-sam/2023/2023_09_02",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2023/2023_09_02/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2023/2023_09_02/kmz/usf-gansett.kml"
+},
 
 {
      "pi" : "Howden S, Martin K",
