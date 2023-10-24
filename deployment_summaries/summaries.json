@@ -1,4 +1,18 @@
 [
+{
+     "pi" : "Knap T, Mahmud S",
+     "vehicle" : "Howdy",
+     "type" : "Slocum G2",
+     "operator" : "TAMU GERG",
+     "project" : "Hurricane Gliders",
+     "deployed" : "2023-08-16",
+     "recovered" : "2023-10-17",
+     "days_wet" : 60,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/tamu/unit_308/2023/2023_08_16",
+     "plot_url" : "/data/gandalf/tamu/unit_308/2023/2023_08_16/plots"
+},
 
 {
      "pi" : "Nwankwo U, Mahmud S",

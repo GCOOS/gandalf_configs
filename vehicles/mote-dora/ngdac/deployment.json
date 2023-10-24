@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Langan J",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-dora",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-dora/processed_data/sensors.csv",
-        "deployment_date": "2023-09-28 12:00",
-        "data_start_date" : "20230928T1200",
+        "deployment_date": "2023-10-23 00:00",
+        "data_start_date" : "20231023T0000",
         "data_end_date" : "20231231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/logs",
@@ -144,6 +144,6 @@
         "type": "platform",
         "wmo_id": "4802994"
     },
-    "trajectory_datetime": "20230928T1200",
-    "trajectory_name": "mote-dora-20230928T1200"
+    "trajectory_datetime": "20231023T0000",
+    "trajectory_name": "mote-dora-20231023T0000"
 }
