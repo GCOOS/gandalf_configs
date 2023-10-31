@@ -111,7 +111,7 @@
             "sci_flbbcd_chlor_units",
             "sci_flbbcd_bb_units"
         ],
-        "project": "GCOOS Gulf Survey",
+        "project": "FWRI Gulf Survey",
         "public_name": "mote-dora",
         "science_sensor_list": [
             "sci_m_present_time",
