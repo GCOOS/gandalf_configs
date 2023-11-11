@@ -1,4 +1,49 @@
 [
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-jaialai",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Hurricane Glider Picket Line",
+   "deployed" : "2023-08-06",
+   "recovered" : "2023-11-09",
+   "days_wet" : 96,
+   "distance" : 0,
+   "map_url" : "/usf/usf-jaialai/2023/2023_08_06",
+   "data_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_08_06",
+   "plot_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_08_06/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_08_06/kmz/usf-gansett.kml"
+},
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-bass",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "SECOORA Observatory",
+   "deployed" : "2023-10-07",
+   "recovered" : "2023-11-06",
+   "days_wet" : 34,
+   "distance" : 0,
+   "map_url" : "/usf/usf-bass/2023/2023_09_02",
+   "data_url" : "/data/gandalf/usf/usf-bass/2023/2023_10_07",
+   "plot_url" : "/data/gandalf/usf/usf-bass/2023/2023_10_07/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-bass/2023/2023_10_07/kmz/usf-bass.kml"
+},
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "GCOOS Observatory",
+   "deployed" : "2023-10-19",
+   "recovered" : "2023-11-09",
+   "days_wet" : 22,
+   "distance" : 0,
+   "map_url" : "/usf/usf-sam/2023/2023_10_19",
+   "data_url" : "/data/gandalf/usf/usf-sam/2023/2023_10_19",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2023/2023_10_19/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2023/2023_10_19/kmz/usf-gansett.kml"
+},
 
  {
      "pi" : "NOAA",
