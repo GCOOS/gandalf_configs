@@ -1,4 +1,20 @@
 [
+
+{
+   "pi" : "Martin, K",
+   "vehicle" : "SG677",
+   "type" : "SeaGlider",
+   "operator" : "USM",
+   "project" : "Hurricane Glider Picket Line",
+   "deployed" : "2023-05-30",
+   "recovered" : "2023-11-11",
+   "days_wet" : 165,
+   "distance" : 0,
+   "map_url" : "",
+   "data_url" : "",
+   "plot_url" : "/data/gandalf/usm/sg677/2023/2023_05_30/plots",
+   "kmz_url" : ""
+ },
 {
    "pi" : "Lembke, C",
    "vehicle" : "usf-jaialai",
