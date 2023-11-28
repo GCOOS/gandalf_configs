@@ -1,6 +1,53 @@
 [
 
 {
+     "pi" : "Langan J",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2023-10-23",
+     "recovered" : "2023-11-20",
+     "days_wet" : 28,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2023/2023_10_23",
+     "data_url" : "/data/gandalf/mote/mote-dora/2023/2023_10_23/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2023/2023_10_23/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2023/2023_10_23/kmz/mote-dora.kml"
+ },
+  {
+    "pi" : "GMOG",
+    "vehicle" : "SG652",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "GulfCORES",
+    "deployed" : "2023-09-01",
+    "recovered" : "2023-11-22",
+    "days_wet" : 83,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "",
+    "plot_url" : "/data/gandalf/cicese/sg652/2023/2023_09_01/plots",
+    "kmz_url" : ""
+  },
+
+{
+     "pi" : "Knap T, Nwenko U",
+     "vehicle" : "Sverdrup",
+     "type" : "Slocum G2",
+     "operator" : "TAMU GERG",
+     "project" : "Hurricane Gliders",
+     "deployed" : "2023-08-16",
+     "recovered" : "2023-11-19",
+     "days_wet" : 96,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/tamu/unit_541/2023/2023_08_16",
+     "plot_url" : "/data/gandalf/tamu/unit_541/2023/2023_08_16/plots"
+},
+
+
+{
    "pi" : "Martin, K",
    "vehicle" : "SG677",
    "type" : "SeaGlider",
