@@ -1,6 +1,20 @@
 [
 
 {
+     "pi" : "Howden S, Martin K",
+     "vehicle" : "ng230",
+     "type" : "Slocum G2",
+     "operator" : "US Navy",
+     "project" : "Navy Hurricane Gliders",
+     "deployed" : "2023-08-20",
+     "recovered" : "2023-12-05",
+     "days_wet" : 107,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/navy/ng230/2023/2023_08_20",
+     "plot_url" : "/data/gandalf/navy/ng230/2023/2023_08_20/plots"
+},
+{
      "pi" : "Langan J",
      "vehicle" : "mote-dora",
      "type" : "Slocum G3",
