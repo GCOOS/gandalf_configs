@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "GMOG",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",

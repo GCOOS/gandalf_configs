@@ -1,5 +1,19 @@
 [
-
+  {
+    "pi" : "GMOG",
+    "vehicle" : "SG625",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "SENER/PEMEX/CONACyT CIGoM",
+    "deployed" : "2023-09-19",
+    "recovered" : "2023-12-08",
+    "days_wet" : 81,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/cicese/sg625/2023/2023_09_19",
+    "plot_url" : "/data/gandalf/cicese/sg625/2023/2023_09_19/plots",
+    "kmz_url" : ""
+  },
 {
      "pi" : "Howden S, Martin K",
      "vehicle" : "ng230",
