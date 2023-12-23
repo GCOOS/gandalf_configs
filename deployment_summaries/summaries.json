@@ -1,4 +1,33 @@
 [
+
+{
+     "pi" : "Edwards, C",
+     "vehicle" : "ng296",
+     "type" : "Slocum G2",
+     "operator" : "US Navy",
+     "project" : "Navy Hurricane Gliders",
+     "deployed" : "2023-07-27",
+     "recovered" : "2023-12-16",
+     "days_wet" : 143,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/navy/ng296/2023/2023_07_27",
+     "plot_url" : "/data/gandalf/navy/ng296/2023/2023_07_27/plots"
+},
+{
+     "pi" : "Edwards, C",
+     "vehicle" : "ng291",
+     "type" : "Slocum G2",
+     "operator" : "US Navy",
+     "project" : "Navy Hurricane Gliders",
+     "deployed" : "2023-07-27",
+     "recovered" : "2023-12-05",
+     "days_wet" : 132,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/navy/ng291/2023/2023_07_27",
+     "plot_url" : "/data/gandalf/navy/ng291/2023/2023_07_27/plots"
+},
   {
     "pi" : "GMOG",
     "vehicle" : "SG625",

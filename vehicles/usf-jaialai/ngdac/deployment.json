@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,8 +16,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2023-08-06 00:00",
-        "data_start_date" : "20230806T1200",
+        "deployment_date": "2023-12-21 00:00",
+        "data_start_date" : "20231221T0000",
         "data_end_date" : "20231231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
@@ -104,7 +104,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
           ],
-        "project": "Hurricane Glider Picket Line",
+        "project": "State of Florida Red Tide Co-Op",
         "public_name": "usf-jaialai",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -123,7 +123,7 @@
     },
     "glider" : "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20230806T1200",
+        "deployment": "usf-jaialai-20231221T0000",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -134,6 +134,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20230806T1200",
-    "trajectory_name": "usf-jaialai-20230806T1200"
+    "trajectory_datetime": "20231221T0000",
+    "trajectory_name": "usf-jaialai-20231212T0000"
 }
