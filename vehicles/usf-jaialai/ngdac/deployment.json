@@ -70,6 +70,11 @@
             "sci_water_temp",
             "calc_salinity",
             "calc_density", 
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen", 
+            "sci_suna_nitrate_concentration",
             "depth_avg_curr"
             ],
             "plot_flight_sensor_list" : [
@@ -110,7 +115,12 @@
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
-            "sci_water_pressure"
+            "sci_water_pressure",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy4_oxygen", 
+            "sci_suna_nitrate_concentration"
         ],
         "sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
         "style": {
