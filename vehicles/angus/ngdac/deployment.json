@@ -3,13 +3,13 @@
         "vehicle" : "angus",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Edwards, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "SKIO Dockserver",
-        "data_start_date": "20220404T1200",
-        "data_end_date": "20221231T1200",
+        "data_start_date": "20240111T1200",
+        "data_end_date": "20241231T1200",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
@@ -17,7 +17,7 @@
         "deployed": "True",
         "deployed_data_dir": "/data/gandalf/deployments/skio/angus",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/angus/processed_data/sensors.csv",
-        "deployment_date": "2022-04-04 12:00",
+        "deployment_date": "2024-01-11 12:00",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/logs",
         "dockserver": "sfmc.skio.uga.edu",
@@ -27,7 +27,9 @@
             "m_depth",
             "m_water_depth",
             "m_gps_lat",
-            "m_gps_lon"
+            "m_gps_lon",
+            "m_water_vx",
+            "m_water_vy"
         ],
         "ftp_send": false,
         "gdac_url": "",
@@ -57,14 +59,15 @@
                 "calc_sigma",
                 "sci_flbbcd_cdom_units",
                 "sci_flbbcd_chlor_units",
-                "sci_flbbcd_bb_units"
+                "sci_flbbcd_bb_units",
+                "depth_avg_curr"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/skio/angus/plots/",
             "use_bottom": "True",
             "use_max_plot_depth": false,
             "max_plot_depth" : 50
         },
-        "post_data_dir_root": "/data/gandalf/skio/angus/2022/2022_04_04",
+        "post_data_dir_root": "/data/gandalf/skio/angus/2024/2024_01_11",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -105,12 +108,12 @@
             "weight": 2
         },
         "vehicle": "angus",
-        "vehicle_type": "Slocum G3",
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "angus",
     "global_attributes": {
-        "deployment": "angus-20220404T0000",
+        "deployment": "angus-20240111T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -121,6 +124,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20220404T0000",
-    "trajectory_name": "angus-20220404T0000"
+    "trajectory_datetime": "20240111T0000",
+    "trajectory_name": "angus-20240111T0000"
 }
