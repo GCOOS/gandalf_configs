@@ -21,7 +21,7 @@
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/angus/logs",
         "dockserver": "sfmc.skio.uga.edu",
-        "dockuser": "secoora",
+        "dockuser": "gcoos",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
