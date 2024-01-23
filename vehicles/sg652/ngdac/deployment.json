@@ -85,7 +85,7 @@
     },
     "global_attributes": {
         "deployment": "sg652-20240119T0000",
-        "wmo_id": "8901008"
+        "wmo_id": "8901010"
     },
     "platform": {
         "comment": " ",
@@ -93,7 +93,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Cicese Seaglider 652",
         "type": "platform",
-        "wmo_id": "8901008"
+        "wmo_id": "8901010"
     },
     "trajectory_datetime": "20240119T0000",
     "trajectory_name": "sg652-20240119T0000"

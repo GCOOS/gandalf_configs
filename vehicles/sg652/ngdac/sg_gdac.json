@@ -29,7 +29,7 @@
     "global_attributes" : {
       "Conventions" : "CF-1.6",
       "Metadata_Conventions" : "CF-1.6, Unidata Dataset Discovery v1.0",
-      "acknowledgment" : "This project is funded by CICESE/GMOG CONACyT-PEMEX-SENER CIGoM",
+      "acknowledgment" : "This project is funded by CICESE/GMOG CONACyT-PEMEX-SENER CIGoM and the US National Academies of Sciences",
       "comment" : "Underwater glider temperature and salinity profiles",
       "contributor_name" : "Enric Pallas, Bob Currier, GCOOS",
       "contributor_role" : "Principal Investigator, Data Manager, Data Manager",
@@ -51,7 +51,8 @@
       "naming_authority" : "None",
       "platform_type" : "Seaglider",
       "processing_level" : "Data provided as is with no expressed or implied assurance of quality assurance or quality control.",
-      "project" : "Sustained Underwater Glider Observations for Improving Atlantic Tropical Cyclone Intensity Forecasts",
+      "program" : "Understanding the Gulf Ocean Systems",
+      "project" : "MASTR-UGOS3 Gulf Consortium for Offshore Risk Reduction Engaging Stakeholders (GulfCORES)",
       "publisher_email" : "bob.currier@gcoos.org",
       "publisher_name" : "Bob Currier",
       "publisher_url" : "https://gandalf.gcoos.org",
@@ -59,7 +60,7 @@
       "sea_name" : "Gulf of Mexico",
       "source" : "Observational data from a profiling underwater glider",
       "standard_name_vocabulary" : "CF-v25",
-      "summary" : "Underwater glider data gathered by the Ensenada Center for Scientific Research and Higher Education (CICESE)",
+      "summary" : "These glider deployments are part of a multi-institution collaborative effort carried out to study the processes in the western Caribbean Sea and Yucatan Straits, which influence the Loop Current variability and Loop Current Eddy detachment.",
       "qc_val" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
       "title" : "",
       "date_issued" : "# set as YYYY-mm-ddTHH:MM:SSZ",
@@ -67,7 +68,7 @@
       "history" : "",
       "platform" : 0,
       "instrument_ctd" : "APL Glider CT",
-      "wmo_id" : "8901008"
+      "wmo_id" : "8901010"
     },
     "sg_variables" : {
       "time" : {
