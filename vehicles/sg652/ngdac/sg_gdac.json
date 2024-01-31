@@ -428,7 +428,7 @@
           "instrument" : "instrument_ctd",
           "long_name" : "USM Seaglider sg652",
           "type" : "glider",
-          "wmo_id" : "8901008"
+          "wmo_id" : "8901010"
         }
       },
       "time_qc" : {
