@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Langan J",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
