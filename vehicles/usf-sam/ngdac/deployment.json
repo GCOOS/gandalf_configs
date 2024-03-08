@@ -119,7 +119,7 @@
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "sam-20240216T0000",
+        "deployment": "usf-sam-20240216T0000",
         "wmo_id": "4801942"
     },
     "platform": {
