@@ -1,5 +1,19 @@
 [
-
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Hurricane Glider Picket Line",
+   "deployed" : "2024-02-16",
+   "recovered" : "2024-03-15",
+   "days_wet" : 96,
+   "distance" : 0,
+   "map_url" : "/usf/usf-jaialai/2024/2024_02_16",
+   "data_url" : "/data/gandalf/usf/usf-sam/2024/2024_02_16",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2024/2024_02_16/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2024/2024_02_16/kmz/usf-gansett.kml"
+},
 {
      "pi" : "Langan J",
      "vehicle" : "mote-dora",

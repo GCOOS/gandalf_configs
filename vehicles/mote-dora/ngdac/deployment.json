@@ -72,8 +72,7 @@
                 "sci_flbbcd_cdom_units",
                 "sci_flbbcd_chlor_units",
                 "sci_oxy4_oxygen",
-                "sci_flbbcd_bb_units",
-                "depth_avg_curr"
+                "sci_flbbcd_bb_units"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
