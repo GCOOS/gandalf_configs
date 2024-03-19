@@ -1,4 +1,20 @@
 [
+
+{
+     "pi" : "Edwards/Meyer-Gutbrod",
+     "vehicle" : "angus",
+     "type" : "Slocum G2",
+     "operator" : "SKIO",
+     "project" : "SECOORA/Right Whales",
+     "deployed" : "2022-02-15",
+     "recovered" : "2024-03-16",
+     "days_wet" : 31,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/navy/angus/2024/2024_02_15",
+     "plot_url" : "/data/gandalf/navy/angus/2024/2024_02_15/plots"
+},
+
 {
      "pi" : "Langan J",
      "vehicle" : "mote-dora",
