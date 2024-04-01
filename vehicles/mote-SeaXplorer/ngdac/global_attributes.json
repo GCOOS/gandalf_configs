@@ -13,7 +13,7 @@
     "date_created": " ",
     "date_issued": " ",
     "date_metadata_modified": "20240328",
-    "date_modified": "20240328",
+    "date_modified": "20240401",
     "featureType": "Trajectory",
     "geospatial_bounds": " ",
     "geospatial_bounds_crs": "EPSG:4326",
@@ -64,6 +64,6 @@
     "time_coverage_duration": " ",
     "time_coverage_end": "20241231T0000",
     "time_coverage_resolution": " ",
-    "time_coverage_start": "20240101T0000",
+    "time_coverage_start": "20240401T0000",
     "title": " "
 }

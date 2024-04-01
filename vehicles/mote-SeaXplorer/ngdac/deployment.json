@@ -131,7 +131,7 @@
     "glider": "mote-SeaXplorer",
     "global_attributes": {
         "deployment": "mote-SeaXplorer-20240318T0000",
-        "wmo_id": ""
+        "wmo_id": "6801548"
     },
     "platform": {
         "comment": "",
@@ -139,7 +139,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider mote-SeaXplorer",
         "type": "platform",
-        "wmo_id": ""
+        "wmo_id": "6801548"
     },
     "trajectory_datetime": "20240318T0000",
     "trajectory_name": "mote-SeaXplorer-20240318T0000"
