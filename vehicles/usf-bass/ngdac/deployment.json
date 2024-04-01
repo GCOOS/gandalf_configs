@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G1",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,9 +16,9 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-bass/processed_data/sensors.csv",
-        "deployment_date": "2023-10-07 00:00",
-        "data_start_date" : "20231007T0000",
-        "data_end_date" : "20230801T1200",
+        "deployment_date": "2024-03-31 00:00",
+        "data_start_date" : "20240331T0000",
+        "data_end_date" : "20240801T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -71,11 +71,11 @@
             "plot_depth_padding": 5,
             "use_bottom": true,
             "use_max_plot_depth": false,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2023/2023_10_07/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2024/2024_03_31/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2023/2023_10_07",
-        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2023/2023_10_07",
-        "post_kml_file": "/data/gandalf/usf/usf-bass/2023/2023_10_07/kmz/usf-bass.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2024/2024_03_31",
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2024/2024_03_31",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2024/2024_03_31/kmz/usf-bass.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -116,7 +116,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20231007T1200",
+        "deployment": "usf-bass-20240331T1200",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -127,6 +127,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20231007T1200",
-    "trajectory_name": "usf-bass-20231007T1200"
+    "trajectory_datetime": "20240331T1200",
+    "trajectory_name": "usf-bass-20240331T1200"
 }
