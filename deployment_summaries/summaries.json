@@ -1,5 +1,19 @@
 [
-
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-bass",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "Florida Red Tide Research",
+   "deployed" : "2024-03-31",
+   "recovered" : "2024-04-07",
+   "days_wet" : 8,
+   "distance" : 0,
+   "map_url" : "/usf/usf-gansett/2024/2024_03_31",
+   "data_url" : "/data/gandalf/usf/usf-bass/2024/2024_03_31",
+   "plot_url" : "/data/gandalf/usf/usf-bass/2024/2024_03_31/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-bass/2024/2024_03_31/kmz/usf-bass.kml"
+},
 {
      "pi" : "Edwards/Meyer-Gutbrod",
      "vehicle" : "angus",
