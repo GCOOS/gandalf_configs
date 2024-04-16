@@ -1,4 +1,20 @@
 [
+
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-jaialai",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Hurricane Glider Picket Line",
+   "deployed" : "2023-12-21",
+   "recovered" : "2024-01-19",
+   "days_wet" : 28,
+   "distance" : 0,
+   "map_url" : "/usf/usf-jaialai/2023/2023_12_21",
+   "data_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_12_21",
+   "plot_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_12_21/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-jaialai/2023/2023_12_21/kmz/usf-jaialai.kml"
+},
 {
    "pi" : "Lembke, C",
    "vehicle" : "usf-bass",
@@ -55,8 +71,8 @@
    "recovered" : "2024-03-15",
    "days_wet" : 96,
    "distance" : 0,
-   "map_url" : "/usf/usf-jaialai/2024/2024_02_16",
-   "data_url" : "/data/gandalf/usf/usf-sam/2024/2024_02_16",
+   "map_url" : "/usf/usf-sam/2024/2024_02_16",
+   "data_url" : "/data/gandlf/usf/usf-sam/2024/2024_02_16",
    "plot_url" : "/data/gandalf/usf/usf-sam/2024/2024_02_16/plots",
    "kmz_url" : "/data/gandalf/usf/usf-sam/2024/2024_02_16/kmz/usf-gansett.kml"
 },
