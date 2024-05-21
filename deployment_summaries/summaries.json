@@ -2,6 +2,21 @@
 
 {
      "pi" : "Langan J",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2024-04-18",
+     "recovered" : "2024-05-21",
+     "days_wet" : 33,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2024/2024_04_18",
+     "data_url" : "/data/gandalf/mote/mote-dora/2024/2024_04_18/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2024/2024_04_18/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2024/2024_04_18/kmz/mote-dora.kml"
+ },
+{
+     "pi" : "Langan J",
      "vehicle" : "mote-SeaXplorer",
      "type" : "Slocum G3",
      "operator" : "Mote",

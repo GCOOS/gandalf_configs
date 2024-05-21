@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Langan J",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-SeaXplorer",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-SeaXplorer/processed_data/sensors.csv",
-        "deployment_date": "2024-03-18 00:00",
-        "data_start_date" : "20240318T0000",
+        "deployment_date": "2024-05-21 00:00",
+        "data_start_date" : "20240521T0000",
         "data_end_date" : "20241231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_1139/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_1139/logs",
@@ -35,7 +35,7 @@
             "m_water_vx",
             "m_water_vy"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -75,14 +75,14 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-SeaXplorer/plots/",
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_03_18/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_05_21/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_03_18",
-        "post_sensors_csv": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_03_18",
-        "post_kml_file": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_03_18/kmz/mote-SeaXplorer.kml",
+        "post_data_dir_root": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_05_21",
+        "post_sensors_csv": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_05_21",
+        "post_kml_file": "/data/gandalf/mote/mote-SeaXplorer/2024/2024_05_21/kmz/mote-SeaXplorer.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -130,7 +130,7 @@
     },
     "glider": "mote-SeaXplorer",
     "global_attributes": {
-        "deployment": "mote-SeaXplorer-20240318T0000",
+        "deployment": "mote-SeaXplorer-20240521T0000",
         "wmo_id": "6801548"
     },
     "platform": {
@@ -141,6 +141,6 @@
         "type": "platform",
         "wmo_id": "6801548"
     },
-    "trajectory_datetime": "20240318T0000",
-    "trajectory_name": "mote-SeaXplorer-20240318T0000"
+    "trajectory_datetime": "20240521T0000",
+    "trajectory_name": "mote-SeaXplorer-20240521T0000"
 }
