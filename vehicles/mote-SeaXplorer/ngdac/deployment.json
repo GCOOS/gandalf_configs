@@ -35,7 +35,7 @@
             "m_water_vx",
             "m_water_vy"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
