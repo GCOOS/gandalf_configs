@@ -71,7 +71,8 @@
                 "calc_sigma",
                 "sci_flbb_bb_units", 
                 "sci_flbb_chlor_units",
-                "sci_oxy4_oxygen"
+                "sci_oxy4_oxygen",
+                "sci_bsipar_par"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-SeaXplorer/plots/",
@@ -118,7 +119,8 @@
             "sci_water_pressure",
             "sci_flbb_bb_units",
             "sci_flbb_chlor_units",
-            "sci_oxy4_oxygen"
+            "sci_oxy4_oxygen",
+            "sci_bsipar_par"
         ],
         "style": {
             "color": "#500000",

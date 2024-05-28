@@ -1,2 +1,0 @@
-sci_bsipar_par sci_flbb_bb_units sci_flbb_chlor_units sci_m_present_secs_into_mission sci_m_present_time sci_oxy4_oxygen sci_oxy4_saturation sci_oxy4_temp sci_water_c
-ond sci_water_pressure sci_water_temp
