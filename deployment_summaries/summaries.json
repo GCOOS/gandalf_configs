@@ -1,4 +1,19 @@
 [
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-jaialai",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Florida Red Tide Research",
+   "deployed" : "2024-04-15",
+   "recovered" : "2024-05-24",
+   "days_wet" : 39,
+   "distance" : 0,
+   "map_url" : "/usf/usf-jaialai/2024/2024_04_15",
+   "data_url" : "/data/gandalf/usf/usf-jaialai/2024/2024_04_15",
+   "plot_url" : "/data/gandalf/usf/usf-jaialai/2024/2024_04_15/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-jaialai/2024/2024_04_15/kmz/usf-jaialai.kml"
+},
 
 {
      "pi" : "Langan J",
