@@ -3,126 +3,118 @@
         "vehicle" : "unit_307",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
+        "vehicle_model" : "Slocum G2",
         "status" : "recovered",
-        "PI": "Whilden K, DiMarco S",
+        "PI": "Mahmud S, Nwankwo U",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
-        "dbd2asc" : "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
-        "debug": "True",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_307",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_307/processed_data/sensors.csv",
-        "deployment_date": "2021-06-14 00:00",
-        "data_start_date" : "20210614T0000",
-        "data_end_date" : "20211231T1200",
+        "deployment_date": "2024-06-07 00:00",
+        "data_start_date" : "20240607T0000",
+        "data_end_date" : "20241231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_307/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_307/logs",
         "dockserver": "sfmc.webbresearch.com",
         "dockuser": "rcurrier",
+        "display_waypoints" : true,
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
             "m_water_depth",
             "m_gps_lat",
-            "m_gps_lon"
+            "m_gps_lon",
+            "m_lat",
+            "m_lon",
+            "m_water_vx",
+            "m_water_vy"
         ],
-        "ftp_send": true,
+        "science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure"
+        ],
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_307/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_user": "gcoos_dmac",
         "gdac_url": "",
+        "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
             20,
             20
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
+        "post_kml_file": "",
         "kml_file": "/data/gandalf/deployments/tamu/unit_307/kmz/unit_307.kml",
-        "kmz_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/kmz/reveille.kmz",
-        "logo_file": "/data/gandalf/gandalf_configs/images/logos/tamu_logo.png",
-        "operator": "TAMU GERG",
+        "kmz_url": "",
+        "operator": "TAMU",
         "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
             "cmap": "jet",
-            "alt_colormap": "True",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_307/plots",
+            "deployed_plot_url": "/plots/unit_307",
+            "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/tamu_logo.png",
             "logo_loc": [
-                175,
-                90
+                178,
+                91
             ],
             "plot_sensor_list": [
-                "sci_water_temp",
-                "calc_density",
-                "calc_sigma",
-                "calc_salinity",
-                "sci_flbbcd_chlor_units"
+              "sci_water_temp",
+              "calc_density",
+              "calc_sigma",
+              "calc_salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_307/2021/2021_06_14/plots",
-            "use_bottom": "False",
-            "max_plot_depth": 50,
-            "use_max_plot_depth": false,
+            "max_plot_depth": 5000,
+
             "plot_depth_padding": 5,
-            "plot_url" : "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/plots/"
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/plots/",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_307/2024/2024_06_07/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_307/2021/2021_06_14",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_307/2024/2024_06_07",
+        "post_sensors_csv": "/data/gandalf/tamu/unit_307/2024/2024_06_07",
+        "post_kml_file": "",
         "postprocess_flight_sensor_list": [
-            "m_present_time",
-            "m_depth",
-            "m_water_depth",
-            "m_lat",
-            "m_lon",
-            "m_gps_lat",
-            "m_gps_lon",
-            "m_tot_horz_dist",
-            "m_battery",
-            "m_lithium_battery_relative_charge",
-            "m_water_vx",
-            "m_water_vy"
+
         ],
         "postprocess_science_sensor_list": [
-            "sci_m_present_time",
-            "sci_water_temp",
-            "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units"
+
         ],
-        "project": "VF_JASCO",
-        "public_name": "Reveille",
-        "science_sensor_list": [
-            "sci_m_present_time",
-            "sci_water_temp",
-            "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy4_oxygen"
-        ],
-        "sensors_csv": "/data/gandalf/deployments/tamu/unit_307/processed_data/sensors.csv",
+        "project": "TAMU Hurricane Gliders",
+        "public_name": "Howdy",
         "style": {
             "color": "#500000",
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "unit_307",
-        "vehicle_type": "Slocum G2",
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "unit_307",
     "global_attributes": {
-        "deployment": "Reveille-20210614T0000",
+        "deployment": "unit_307-20240607T0000",
         "wmo_id": "4801938"
     },
     "platform": {
-        "comment": " ",
-        "id": "Reveille",
+        "comment": "",
+        "id": "unit_307",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider Reveille",
+        "long_name": "Slocum Glider unit_307",
         "type": "platform",
         "wmo_id": "4801938"
     },
-    "trajectory_datetime": "20210614T0000",
-    "trajectory_name": "Reveille-20210614T0000"
+    "trajectory_datetime": "20240607T0000",
+    "trajectory_name": "unit_307-20240607T0000"
 }

@@ -4,8 +4,8 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
-        "PI": "Knap A, Mahmud, S",
+        "status" : "deployed",
+        "PI": "Mahmud S, Nwankwo U",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_1148",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_1148/processed_data/sensors.csv",
-        "deployment_date": "2024-08-16 00:00",
-        "data_start_date" : "202414816T0000",
+        "deployment_date": "2024-06-07 00:00",
+        "data_start_date" : "20240607T0000",
         "data_end_date" : "20241231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_1148/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_1148/logs",
@@ -40,7 +40,7 @@
             "sci_water_cond",
             "sci_water_pressure"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_1148/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -78,13 +78,13 @@
 
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_1148/plots/",
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_1148/2024/2024_08_16/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_1148/2024/2024_06_07/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_1148/2024/2024_08_16",
-        "post_sensors_csv": "/data/gandalf/tamu/unit_1148/2024/2024_08_16",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_1148/2024/2024_06_07",
+        "post_sensors_csv": "/data/gandalf/tamu/unit_1148/2024/2024_06_07",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -104,7 +104,7 @@
     },
     "glider": "unit_1148",
     "global_attributes": {
-        "deployment": "unit_1148-202414816T0000",
+        "deployment": "unit_1148-20240607T0000",
         "wmo_id": "4801915"
     },
     "platform": {
@@ -115,6 +115,6 @@
         "type": "platform",
         "wmo_id": "4801915"
     },
-    "trajectory_datetime": "202414816T0000",
-    "trajectory_name": "unit_1148-202414816T0000"
+    "trajectory_datetime": "20240607T0000",
+    "trajectory_name": "unit_1148-20240607T0000"
 }
