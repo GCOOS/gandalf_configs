@@ -5,7 +5,7 @@
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
         "status" : "deployed",
-        "PI": "Mahmud S, Nwankwo U",
+        "PI": "DiMarco S, Mahmud S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
@@ -40,7 +40,7 @@
             "sci_water_cond",
             "sci_water_pressure"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_1148/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -93,7 +93,7 @@
 
         ],
         "project": "TAMU Hurricane Gliders",
-        "public_name": "Howdy",
+        "public_name": "unit_1148",
         "style": {
             "color": "#500000",
             "opacity": 1,
