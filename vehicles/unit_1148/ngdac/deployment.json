@@ -57,7 +57,7 @@
         "kmz_url": "",
         "operator": "TAMU",
         "plots": {
-            "use_26d" : false,
+            "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_1148/plots",
