@@ -1,5 +1,20 @@
 [
 {
+     "pi" : "Langan J",
+     "vehicle" : "mote-SeaXplorer",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2024-05-21",
+     "recovered" : "2024-05-29",
+     "days_wet" : 8,
+     "distance" : 0,
+     "map_url" : "/mote/mote-SeaXplorer/2024/2024_05_21",
+     "data_url" : "/data/gandalf/mote/mote-SeaXplorer/2024/2024_05_21/",
+     "plot_url" : "/data/gandalf/mote/mote-SeaXplorer/2024/2024_05_21/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-SeaXplorer/2024/2024_05_21/kmz/mote-SeaXplorer.kml"
+ },
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-bass",
    "type" : "Slocum G2",
