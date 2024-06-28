@@ -1,6 +1,21 @@
 [
 {
    "pi" : "Lembke, C",
+   "vehicle" : "usf-bass",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "SECOORA Observatory",
+   "deployed" : "2024-06-15",
+   "recovered" : "2024-06-27",
+   "days_wet" : 12,
+   "distance" : 0,
+   "map_url" : "/usf/usf-gansett/2024/2024_06_15",
+   "data_url" : "/data/gandalf/usf/usf-bass/2024/2024_06_15",
+   "plot_url" : "/data/gandalf/usf/usf-bass/2024/2024_06_15/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-bass/2024/2024_06_15/kmz/usf-bass.kml"
+},
+{
+   "pi" : "Lembke, C",
    "vehicle" : "usf-jaialai",
    "type" : "Slocum G3",
    "operator" : "USF",

@@ -72,7 +72,8 @@
               "sci_water_temp",
               "calc_density",
               "calc_sigma",
-              "calc_salinity"
+              "calc_salinity",
+              "depth_avg_curr"
             ],
             "max_plot_depth": 5000,
 
