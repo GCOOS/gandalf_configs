@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/noaa/sd1041",
         "deployed_sensors_csv": "/data/gandalf/deployments/noaa/sd1041/processed_data/sensors.csv",
-        "deployment_date": "2024-08-01 00:00",
-        "data_start_date" : "20240801T0000",
+        "deployment_date": "2024-07-01 00:00",
+        "data_start_date" : "20240701T0000",
         "data_end_date" : "20241231T0000",
         "dockfrompath": "",
         "docklogpath": "",
@@ -101,6 +101,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20240801T0000",
-    "trajectory_name": "sd1041-20240801T0000"
+    "trajectory_datetime": "20240701T0000",
+    "trajectory_name": "sd1041-20240701T0000"
 }
