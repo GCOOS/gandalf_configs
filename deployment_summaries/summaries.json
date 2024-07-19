@@ -168,6 +168,22 @@
    "kmz_url" : "/data/gandalf/usf/usf-sam/2024/2024_02_16/kmz/usf-gansett.kml"
 },
 {
+    "pi" : "GMOG",
+    "vehicle" : "SG652",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "MASTR",
+    "deployed" : "2024-01-19",
+    "recovered" : "2024-05-02",
+    "days_wet" : 105,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/cicese/sg652/2024/2023_01_19",
+    "plot_url" : "/data/gandalf/cicese/sg652/2024/2024_01_19/plots",
+    "kmz_url" : ""
+  },
+
+{
      "pi" : "Langan J",
      "vehicle" : "mote-dora",
      "type" : "Slocum G3",
