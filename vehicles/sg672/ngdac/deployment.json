@@ -22,6 +22,7 @@
         "drop_sg_data" : false,
         "ftp_send": true,
         "gdac_json_dir": "/data/gandalf/deployments/json",
+        "gdac_user" : "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -48,6 +49,7 @@
             "plot_depth_padding": 300,
             "plot_sensor_list": [
                 "temperature",
+                "salinity",
                 "density"
             ],
             "postprocess_plot_dir": "/data/gandalf/cicese/sg672/2024/2024_07_19/plots",
