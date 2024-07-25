@@ -4,7 +4,7 @@
         "vehicle" : "unit_1091",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Edwards, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/unit_1091",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/unit_1091/processed_data/sensors.csv",
-        "deployment_date": "2023-09-05 12:00",
-        "data_start_date" : "20230905T1200",
-        "data_end_date" : "20231231T1200",
+        "deployment_date": "2024-07-24 12:00",
+        "data_start_date" : "20240724T1200",
+        "data_end_date" : "20241231T1200",
         "dockfrompath" : "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/logs",
         "dockserver": "sfmc.skio.uga.edu",
@@ -45,7 +45,7 @@
         "kmz_url": "",
         "operator": "Skidaway Institute of Oceanography",
         "plots": {
-            "use_26d" : false,
+            "use_26d" : true,
             "alt_colormap": true,
             "deployed_plot_dir": "/data/gandalf/deployments/skio/unit_1091/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
@@ -69,7 +69,7 @@
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/skio/unit_1091/2023/2023_09_05",
+        "post_data_dir_root": "/data/gandalf/skio/unit_1091/2024/2024_07_24",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -116,7 +116,7 @@
     },
     "glider": "unit_1091",
     "global_attributes": {
-        "deployment": "unit_1091-20230905T0000",
+        "deployment": "unit_1091-20240724T0000",
         "wmo_id": "8901043"
     },
     "platform": {
@@ -127,6 +127,6 @@
         "type": "platform",
         "wmo_id": "8901043"
     },
-    "trajectory_datetime": "20230905T0000",
-    "trajectory_name": "unit_1091-20230905T0000"
+    "trajectory_datetime": "20240724T0000",
+    "trajectory_name": "unit_1091-20240724T0000"
 }
