@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Knapp A, Nwankwo U",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -40,7 +40,7 @@
             "sci_water_cond",
             "sci_water_pressure"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_307/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",

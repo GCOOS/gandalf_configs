@@ -1,5 +1,20 @@
 [
 {
+     "pi" : "Knap A, Nwankwo U",
+     "vehicle" : "Howdy",
+     "type" : "Slocum G2",
+     "operator" : "TAMU GERG",
+     "project" : "Hurricane Gliders",
+     "deployed" : "2024-06-07",
+     "recovered" : "2024-07-29",
+     "days_wet" : 52,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/tamu/unit_307/2024/2024_06_07",
+     "plot_url" : "/data/gandalf/tamu/unit_307/2024/2024_06_07/plots"
+},
+
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-jaialai",
    "type" : "Slocum G3",
