@@ -1,33 +1,33 @@
 {
     "gandalf": {
-        "vehicle" : "sg677",
-        "vehicle_data" : "local",
+        "vehicle" : "sg666",
+        "vehicle_data" : "erddap",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
         "status" : "deployed",
-        "PI": "Howden S, Martin K",
+        "PI": "Le Henaff M",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
-        "data_source": "USM BaseStation",
+        "data_source": "erddap",
         "debug": true,
         "dockserver" : "131.95.109.25",
         "dockuser" : "rdc",
         "dockpass" : "0c3ansc1enc3!",
         "dockport" : 2506,
-        "dockfrompath": "home/rdc/sg677_files",
+        "dockfrompath": "home/rdc/sg666_files",
         "dockfromfilter" : "*.nc",
-        "deployed_data_dir": "/data/gandalf/deployments/usm/sg677",
-        "deployed_nc_dir" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
-        "deployed_sensors_csv": "/data/gandalf/deployments/usm/sg677/processed_data/sensors.csv",
-        "deployment_date": "2024-07-29 00:00",
+        "deployed_data_dir": "/data/gandalf/deployments/aoml/sg666",
+        "deployed_nc_dir" : "/data/gandalf/deployments/aoml/sg666/processed_data/nc_files",
+        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg666/processed_data/sensors.csv",
+        "deployment_date": "2024-07-23 00:00",
         "drop_legato_data" : true,
         "drop_sg_data" : true,
-        "ftp_send": true,
-        "gdac_json_dir": "/data/gandalf/deployments/json",
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/aoml/sg666/json",
         "gdac_user" : "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG666-20240725T1226.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2024-07-23T00%3A00%3A00Z",
         "harvest_method" : "rsync",
         "iconSize": [
             40,
@@ -35,14 +35,14 @@
         ],
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
-        "logo_file": "/data/gandalf/static/images/logos/usm_logo.png",
+        "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
         "operator": "USM",
         "plot_url": "",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/usm/sg677/plots",
-            "logo_file": "/data/gandalf/gandalf_configs/images/logos/usm_logo.png",
+            "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg666/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/aoml_logo.png",
             "logo_loc": [
                 175,
                 90
@@ -53,16 +53,16 @@
                 "temperature",
                 "salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/usm/sg677/2025/2024_07_29/plots",
+            "postprocess_plot_dir": "/data/gandalf/aoml/sg666/2025/2024_07_29/plots",
             "use_26d": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir": "/data/gandalf/usm/sg677/2024/2024_07_29",
-        "post_data_dir_root": "/data/gandalf/usm/sg677/2024/2024_07_29",
-        "post_nc_dir" : "/data/gandalf/usm/sg677/2024/2024_07_29/processed_data/nc_files",
-        "post_sensors_csv": "/data/gandalf/usm/sg677/2024/2024_07_29/processed_data/sensors.csv",
+        "post_data_dir": "/data/gandalf/aoml/sg666/2024/2024_07_29",
+        "post_data_dir_root": "/data/gandalf/aoml/sg666/2024/2024_07_29",
+        "post_nc_dir" : "/data/gandalf/aoml/sg666/2024/2024_07_29/processed_data/nc_files",
+        "post_sensors_csv": "/data/gandalf/aoml/sg666/2024/2024_07_29/processed_data/sensors.csv",
         "project": "Hurricane Glider Picket Line",
-        "public_name": "sg677",
+        "public_name": "sg666",
         "dims" : {
             "sg_data_point" : {
                 "sensors" : [
@@ -84,17 +84,16 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg677-20240729T0000",
-        "wmo_id": "44800907"
+        "deployment": "",
+        "wmo_id": ""
     },
     "platform": {
         "comment": " ",
-        "id": "sg677",
+        "id": "",
         "instruments": "instrument_ctd",
-        "long_name": "USM SG677",
+        "long_name": "",
         "type": "platform",
-        "wmo_id": "4800907"
+        "wmo_id": ""
     },
-    "trajectory_datetime": "20240729T0000",
-    "trajectory_name": "sg677-20240729T0000"
-}
+    "trajectory_datetime": "20240723T0000",
+    "trajectory_name": "sg666-20240723T0000"}
