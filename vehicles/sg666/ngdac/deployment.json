@@ -8,7 +8,7 @@
         "PI": "Le Henaff M",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
-        "data_source": "erddap",
+        "data_source": "IOOS GDAC",
         "debug": true,
         "dockserver" : "131.95.109.25",
         "dockuser" : "rdc",
