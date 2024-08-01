@@ -43,7 +43,7 @@
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/dev/null",
         "kmz_url": "",
-        "operator": "Skidaway Institute of Oceanography",
+        "operator": "SKIO",
         "plots": {
             "use_26d" : true,
             "alt_colormap": true,
