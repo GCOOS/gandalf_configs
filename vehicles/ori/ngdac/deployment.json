@@ -17,7 +17,7 @@
         "dockfrompath": "home/rdc/oceanscout/ori/",
         "dockfromfilter" : "*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/usm/ori",
-        "deployed_nc_dir" : "/data/gandalf/deployments/usm/ori/processed_data/nc_files",
+        "deployed_nc_dir" : "/data/gandalf/deployments/usm/ori/binary_files/nc",
         "deployed_sensors_csv": "/data/gandalf/deployments/usm/ori/processed_data/sensors.csv",
         "deployment_date": "2024-07-31 00:00",
         "drop_legato_data" : false,
