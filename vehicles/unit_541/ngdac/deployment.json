@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Knap, A Nwankwo, U",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
-        "deployment_date": "2023-08-16 00:00",
-        "data_start_date" : "20230816T0000",
-        "data_end_date" : "20231231T0000",
+        "deployment_date": "2024-08-11 00:00",
+        "data_start_date" : "20240811T0000",
+        "data_end_date" : "20241231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -78,13 +78,13 @@
 
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_541/plots/",
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2023/2023_08_16/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2024/2024_08_11/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2023/2023_08_16",
-        "post_sensors_csv": "/data/gandalf/tamu/unit_541/2023/2023_08_16",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2024/2024_08_11",
+        "post_sensors_csv": "/data/gandalf/tamu/unit_541/2024/2024_08_11",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -104,7 +104,7 @@
     },
     "glider": "unit_541",
     "global_attributes": {
-        "deployment": "unit_541-20230816T0000",
+        "deployment": "unit_541-20240811T0000",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -115,6 +115,6 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": "20230816T0000",
-    "trajectory_name": "unit_541-20230816T0000"
+    "trajectory_datetime": "20240811T0000",
+    "trajectory_name": "unit_541-20240811T0000"
 }
