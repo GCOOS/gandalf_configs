@@ -5,7 +5,7 @@
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
         "status" : "deployed",
-        "PI": "Knap A, Mahmud, S",
+        "PI": "DiMarco S, Mahmud, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
