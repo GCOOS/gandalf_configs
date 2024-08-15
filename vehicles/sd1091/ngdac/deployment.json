@@ -1,23 +1,23 @@
 {
     "gandalf": {
-        "vehicle" : "sd1065",
+        "vehicle" : "sd1091",
         "vehicle_data" : "erddap",
         "vehicle_type" : "saildrone",
         "vehicle_model" : "Saildrone",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "NOAA",
         "currPosIcon": "/static/images/saildrone_icon.png",
-        "dash_status": "Recovered",
+        "dash_status": "Deployed",
         "data_source": "PMEL",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/noaa/sd1065",
-        "deployed_sensors_csv": "/data/gandalf/deployments/noaa/sd1065/processed_data/sensors.csv",
-        "deployment_date": "2023-08-01 00:00",
-        "data_start_date" : "20230801T0000",
-        "data_end_date" : "20231231T0000",
+        "deployed_data_dir": "/data/gandalf/deployments/noaa/sd1091",
+        "deployed_sensors_csv": "/data/gandalf/deployments/noaa/sd1091/processed_data/sensors.csv",
+        "deployment_date": "2024-08-01 00:00",
+        "data_start_date" : "20240801T0000",
+        "data_end_date" : "20241231T0000",
         "dockfrompath": "",
         "docklogpath": "",
         "dockserver": "",
@@ -25,11 +25,11 @@
         "flight_sensor_list": [
         ],
         "ftp_send": false,
-        "gdac_json_dir": "/data/gandalf/deployments/noaa/sd1065/json",
+        "gdac_json_dir": "/data/gandalf/deployments/noaa/sd1091/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1065_hurricane_2023.json?latitude%2Clongitude%2Ctime%2Ctrajectory%2CWIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN&time%3E=2023-08-01T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
+        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1091_hurricane_2024.json?WIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN%2CWATER_CURRENT_SPEED_MEAN%2CWATER_CURRENT_DIRECTION_MEAN%2Clatitude%2Clongitude%2Ctime%2Ctrajectory&time%3E=2024-08-08T00%3A00%3A00Z&time%3C=2024-08-15T11%3A59%3A00Z",
         "harvest_method": "rsync",
         "iconSize": [
             30,
@@ -44,8 +44,8 @@
             "use_26d" : false,
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/noaa/sd1065/plots",
-            "deployed_plot_url": "/plots/sd1065",
+            "deployed_plot_dir": "/data/gandalf/deployments/noaa/sd1091/plots",
+            "deployed_plot_url": "/plots/sd1091",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/noaa_logo.png",
             "logo_loc": [
@@ -60,14 +60,14 @@
 		"BARO_PRES_MEAN"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/noaa/sd1065/plots/",
-            "postprocess_plot_dir": "/data/gandalf/noaa/sd1065/2023/2023_08_01/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/noaa/sd1091/plots/",
+            "postprocess_plot_dir": "/data/gandalf/noaa/sd1091/2024/2024_08_01/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/noaa/sd1065/2023/2023_08_01",
-        "post_sensors_csv": "/data/gandalf/noaa/sd1065/2023/2023_08_01",
+        "post_data_dir_root": "/data/gandalf/noaa/sd1091/2024/2024_08_01",
+        "post_sensors_csv": "/data/gandalf/noaa/sd1091/2024/2024_08_01",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -76,7 +76,7 @@
 
         ],
         "project": "NOAA Hurricane Saildrones",
-        "public_name": "sd1065",
+        "public_name": "sd1091",
         "science_sensor_list": [
           "salinity",
           "temperature"
@@ -90,17 +90,17 @@
     },
     "glider": "sd1040",
     "global_attributes": {
-        "deployment": "sd1065-20230801T0000",
+        "deployment": "sd1091-20240801T0000",
         "wmo_id": ""
     },
     "platform": {
         "comment": "",
-        "id": "sd1065",
+        "id": "sd1091",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider sd1065",
+        "long_name": "Slocum Glider sd1091",
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20230801T0000",
-    "trajectory_name": "sd1065-20230801T0000"
+    "trajectory_datetime": "20240801T0000",
+    "trajectory_name": "sd1091-20240801T0000"
 }
