@@ -40,7 +40,7 @@
             "sci_water_cond",
             "sci_water_pressure"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_308/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
