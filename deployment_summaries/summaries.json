@@ -1,5 +1,21 @@
 [
 {
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "SECOORA Hurricane Gliders",
+   "deployed" : "2024-07-19",
+   "recovered" : "2024-08-17",
+   "days_wet" : 29,
+   "distance" : 0,
+   "map_url" : "/usf/usf-sam/2024/2024_06_25",
+   "data_url" : "/data/gandalf/usf/usf-sam/2024/2024_07_19",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2024/2024_07_19/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2024/2024_07_19/kmz/usf-sam.kml"
+},
+
+{
      "pi" : "Langan J",
      "vehicle" : "mote-dora",
      "type" : "Slocum G2",
