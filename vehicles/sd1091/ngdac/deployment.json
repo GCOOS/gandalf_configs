@@ -29,8 +29,8 @@
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_user": "gcoos_dmac",
-        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1091_hurricane_2024.json?WIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN%2CWATER_CURRENT_SPEED_MEAN%2CWATER_CURRENT_DIRECTION_MEAN%2Clatitude%2Clongitude%2Ctime%2Ctrajectory&time%3E=2024-08-08T00%3A00%3A00Z&time%3C=2024-08-15T11%3A59%3A00Z",
         "harvest_method": "rsync",
+        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1091_hurricane_2024.json?WIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN%2CWATER_CURRENT_SPEED_MEAN%2CWATER_CURRENT_DIRECTION_MEAN%2Clatitude%2Clongitude%2Ctime%2Ctrajectory&time%3E=2024-08-13T00%3A00%3A00Z",
         "iconSize": [
             30,
             30
