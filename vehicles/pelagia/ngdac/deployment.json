@@ -1,9 +1,11 @@
 {
-    "gandalf": {
-        "vehicle" : "pelagia",
+    "gandalf": 
+	{
+	"vehicle" : "pelagia",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "vehicle_model" : "Slocum G1",
+        "status" : "deployed",
         "PI": "Edwards, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -15,9 +17,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/pelagia",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/pelagia/processed_data/sensors.csv",
-        "deployment_date": "2021-09-08 12:00",
-        "data_start_date" : "20210908T1200",
-        "data_end_date" : "20211231T1200",
+        "deployment_date": "2024-08-20 12:00",
+        "data_start_date" : "20240820T1200",
+        "data_end_date" : "20241231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/pelagia/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/pelagia/logs/",
         "dockserver": "sfmc.skio.uga.edu",
@@ -44,7 +46,7 @@
         "operator": "SKIO",
         "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
         "plots": {
-            "use_26d" : false,
+            "use_26d" : true,
             "alt_colormap": true,
             "deployed_plot_dir": "/data/gandalf/deployments/skio/pelagia/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/skio_logo.png",
@@ -67,7 +69,7 @@
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/skio/pelagia/2021/2021_09_08",
+        "post_data_dir_root": "/data/gandalf/skio/pelagia/2024/2024_09_08",
         "post_kml_file": "/data/gandalf/skio/pelagia/2020_09_08.kmz/pelagia.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
@@ -111,13 +113,12 @@
             "opacity": 1,
             "weight": 2
         },
-        "vehicle": "pelagia",
-        "vehicle_type": "Slocum G3",
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "pelagia",
     "global_attributes": {
-        "deployment": "pelagia-20210908T0000",
+        "deployment": "pelagia-20240820T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -128,6 +129,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20210908T0000",
-    "trajectory_name": "pelagia-20210908T0000"
+    "trajectory_datetime": "20240820T0000",
+    "trajectory_name": "pelagia-20240820T0000"
 }

@@ -330,8 +330,8 @@ s: F  328   -1 4 c_wetlabsC_num_fields_to_send nodim
 s: F  329   -1 4 c_wetlabsC_on sec
 s: F  330   -1 4 c_whfctd_num_fields_to_send nodim
 s: F  331   -1 4 c_whfctd_on sec
-s: F  332   -1 8 c_wpt_lat lat
-s: F  333   -1 8 c_wpt_lon lon
+s: T  332    0 8 c_wpt_lat lat
+s: T  333    1 8 c_wpt_lon lon
 s: F  334   -1 4 c_wpt_x_lmc m
 s: F  335   -1 4 c_wpt_y_lmc m
 s: F  336   -1 4 dc_c_ballast_pumped cc
@@ -532,7 +532,7 @@ s: F  530   -1 4 m_coulomb_current amp
 s: F  531   -1 4 m_coulomb_current_raw nodim
 s: F  532   -1 4 m_critical_abort int
 s: F  533   -1 4 m_cycle_number nodim
-s: F  534   -1 4 m_depth m
+s: T  534    2 4 m_depth m
 s: F  535   -1 4 m_depth_derror m/s
 s: F  536   -1 4 m_depth_error m
 s: F  537   -1 4 m_depth_ierror m-s
@@ -605,8 +605,8 @@ s: F  603   -1 8 m_gps_ignored_lat lat
 s: F  604   -1 8 m_gps_ignored_lon lon
 s: F  605   -1 8 m_gps_invalid_lat lat
 s: F  606   -1 8 m_gps_invalid_lon lon
-s: F  607   -1 8 m_gps_lat lat
-s: F  608   -1 8 m_gps_lon lon
+s: T  607    3 8 m_gps_lat lat
+s: T  608    4 8 m_gps_lon lon
 s: F  609   -1 4 m_gps_mag_var rad
 s: F  610   -1 4 m_gps_num_satellites nodim
 s: F  611   -1 1 m_gps_on bool
@@ -665,7 +665,7 @@ s: F  663   -1 8 m_last_gps_lon_2 lon
 s: F  664   -1 8 m_last_gps_lon_3 lon
 s: F  665   -1 8 m_last_gps_lon_4 lon
 s: F  666   -1 4 m_last_yo_time sec
-s: F  667   -1 8 m_lat lat
+s: T  667    5 8 m_lat lat
 s: F  668   -1 1 m_leak bool
 s: F  669   -1 4 m_leakdetect_voltage volts
 s: F  670   -1 4 m_leakdetect_voltage_forward volts
@@ -679,7 +679,7 @@ s: F  677   -1 4 m_lithium_battery_relative_charge %
 s: F  678   -1 4 m_lithium_battery_status nodim
 s: F  679   -1 4 m_lithium_battery_time_to_charge mins
 s: F  680   -1 4 m_lithium_battery_time_to_discharge mins
-s: F  681   -1 8 m_lon lon
+s: T  681    6 8 m_lon lon
 s: F  682   -1 4 m_magnetic_field nodim
 s: F  683   -1 4 m_magx nodim
 s: F  684   -1 4 m_magy nodim
@@ -695,8 +695,8 @@ s: F  693   -1 4 m_pitch_deg deg
 s: F  694   -1 4 m_pitch_derror rad/s
 s: F  695   -1 4 m_pitch_energy joules
 s: F  696   -1 4 m_pitch_error rad
-s: F  697   -1 4 m_present_secs_into_mission sec
-s: F  698   -1 8 m_present_time timestamp
+s: T  697    7 4 m_present_secs_into_mission sec
+s: T  698    8 8 m_present_time timestamp
 s: F  699   -1 4 m_pressure bar
 s: F  700   -1 4 m_pressure_raw_voltage_sample0 volts
 s: F  701   -1 4 m_pressure_raw_voltage_sample19 volts
@@ -799,8 +799,8 @@ s: F  797   -1 4 m_water_pressure bar
 s: F  798   -1 4 m_water_temp degC
 s: F  799   -1 4 m_water_vel_dir rad
 s: F  800   -1 4 m_water_vel_mag m/s
-s: F  801   -1 4 m_water_vx m/s
-s: F  802   -1 4 m_water_vy m/s
+s: T  801    9 4 m_water_vx m/s
+s: T  802   10 4 m_water_vy m/s
 s: F  803   -1 1 m_weight_drop bool
 s: F  804   -1 1 m_why_started enum
 s: F  805   -1 4 m_x_lmc m
