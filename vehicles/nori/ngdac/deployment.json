@@ -1,0 +1,111 @@
+{
+    "gandalf": {
+        "vehicle" : "nori",
+        "vehicle_data" : "erddap",
+        "vehicle_type" : "hefring",
+        "vehicle_model" : "Oceanscout",
+        "status" : "deployed",
+        "PI": "Martin K",
+        "currPosIcon": "/static/images/oceanscout_icon.png",
+        "dash_status": "deployed",
+        "data_source": "IOOS GDAC",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/usm/nori/binary_files/nc",
+        "deployed_sensors_csv": "/data/gandalf/deployments/usm/nori/processed_data/sensors.csv",
+        "deployment_date": "2024-08-16 14:20",
+        "data_start_date" : "20240816T0000",
+        "data_end_date" : "20241231T0000",
+        "dockfrompath": "",
+        "docklogpath": "",
+        "dockserver": "",
+        "dockuser": "",
+        "flight_sensor_list": [
+            "time",
+            "latitude",
+            "longitude",
+            "depth",
+            "gps_latitude",
+            "gps_longitude"
+        ],
+        "ftp_send": true,
+        "gdac_json_dir": "/data/gandalf/deployments/usm/nori/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/Nori-20240816T0000.json?time%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2024-08-16T00%3A00%3A00Z",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "iconSize": [
+            40,
+            40
+        ],
+        "infoBoxImage": "/static/images/oceanscout_infobox.png",
+        "post_kml_file": "",
+        "kml_file": "",
+        "kmz_url": "",
+        "operator": "USM",
+        "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/usm/nori/plots",
+            "deployed_plot_url": "/plots/nori",
+            "log_mult": 100,
+            "logo_file": "/data/gandalf/static/images/logos/usm_logo.png",
+            "logo_loc": [
+                178,
+                91
+            ],
+            "max_plot_depth": 5000,
+            "plot_sensor_list": [
+              "temperature",
+              "salinity",
+              "density"
+            ],
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usm/nori/plots/",
+            "postprocess_plot_dir": "/data/gandalf/usm/nori/2024/2024_08_16/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
+        },
+        "post_data_dir_root": "/data/gandalf/usm/nori/2024/2024_08_16",
+        "post_sensors_csv": "/data/gandalf/usm/nori/2024/2024_08_16",
+        "post_kml_file": "",
+        "postprocess_flight_sensor_list": [
+        ],
+        "postprocess_science_sensor_list": [
+        ],
+        "project": "2024 Hurricane Gliders",
+        "public_name": "nori",
+        "science_sensor_list": [
+          "density",
+          "pressure",
+          "salinity",
+          "temperature"
+        ],
+        "style": {
+            "color": "#123456",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "nori",
+    "global_attributes": {
+        "deployment": "nori-20240816T0000",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": "",
+        "id": "nori",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider nori",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20240816T0000",
+    "trajectory_name": "Nori-20240816T0000"
+}
