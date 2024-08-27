@@ -4,8 +4,8 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
-        "PI": "Howden S, Martin K",
+        "status" : "deployed",
+        "PI": "GOC",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
         "data_source": "IOOS GDAC",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/navy/ng656",
         "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng656/processed_data/sensors.csv",
-        "deployment_date": "2022-08-03 15:38",
-        "data_start_date" : "20220803T0000",
-        "data_end_date" : "20221231T0000",
+        "deployment_date": "2024-06-13 15:38",
+        "data_start_date" : "20240613T0000",
+        "data_end_date" : "20241231T0000",
         "dockfrompath": "",
         "docklogpath": "",
         "dockserver": "",
@@ -32,7 +32,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/navy/ng656/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng656-20220803T0000.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cdensity%2Csalinity%2Ctemperature&time%3E=2022-07-27T00%3A00%3A00Z",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng656-20240613T0000.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&time%3E=2024-08-20T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -63,13 +63,13 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/ng656/plots/",
-            "postprocess_plot_dir": "/data/gandalf/navy/ng656/2022/2022_08_03/plots",
+            "postprocess_plot_dir": "/data/gandalf/navy/ng656/2024/2024_06_13/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/navy/ng656/2022/2022_08_03",
-        "post_sensors_csv": "/data/gandalf/navy/ng656/2022/2022_08_03",
+        "post_data_dir_root": "/data/gandalf/navy/ng656/2024/2024_06_13",
+        "post_sensors_csv": "/data/gandalf/navy/ng656/2024/2024_06_13",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -92,7 +92,7 @@
     },
     "glider": "ng656",
     "global_attributes": {
-        "deployment": "ng656-20220803T0000",
+        "deployment": "ng656-20240613T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -103,6 +103,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20220803T0000",
-    "trajectory_name": "ng656-20220803T0000"
+    "trajectory_datetime": "20240613T0000",
+    "trajectory_name": "ng656-20240613T0000"
 }
