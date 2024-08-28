@@ -1,0 +1,99 @@
+{
+    "gandalf": {
+        "vehicle" : "sg148",
+        "vehicle_data" : "erddap",
+        "vehicle_type" : "seaglider",
+        "vehicle_model" : "Seaglider",
+        "status" : "deployed",
+        "PI": "Iwamoto M, Young C",
+        "currPosIcon": "/static/images/seaglider_icon.png",
+        "dash_status": "Deployed",
+        "data_source": "IOOS GDAC",
+        "debug": true,
+        "dockserver" : "131.95.109.25",
+        "dockuser" : "rdc",
+        "dockpass" : "0c3ansc1enc3!",
+        "dockport" : 2506,
+        "dockfrompath": "home/rdc/sg148_files",
+        "dockfromfilter" : "*.nc",
+        "deployed_data_dir": "/data/gandalf/deployments/pacioos/sg148",
+        "deployed_nc_dir" : "/data/gandalf/deployments/pacioos/sg148/processed_data/nc_files",
+        "deployed_sensors_csv": "/data/gandalf/deployments/pacioos/sg148/processed_data/sensors.csv",
+        "deployment_date": "2024-08-20 00:00",
+        "drop_legato_data" : true,
+        "drop_sg_data" : true,
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/pacioos/sg148/json",
+        "gdac_user" : "gcoos_dmac",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/sg148-20240820T1744.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2024-08-21T00%3A00%3A00Z",
+        "harvest_method" : "rsync",
+        "iconSize": [
+            40,
+            15
+        ],
+        "infoBoxImage": "/static/images/seaglider_infobox.jpg",
+        "kmz_url": "",
+        "logo_file": "/data/gandalf/static/images/logos/pacioos_logo.png",
+        "operator": "PACIOOS",
+        "plot_url": "",
+        "plots": {
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/pacioos/sg148/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/pacioos_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 5000,
+            "plot_depth_padding": 300,
+            "plot_sensor_list": [
+                "temperature",
+                "salinity"
+            ],
+            "postprocess_plot_dir": "/data/gandalf/pacioos/sg148/2025/2024_08_20/plots",
+            "use_26d": false,
+            "use_max_plot_depth": false
+        },
+        "post_data_dir": "/data/gandalf/pacioos/sg148/2024/2024_08_20",
+        "post_data_dir_root": "/data/gandalf/pacioos/sg148/2024/2024_08_20",
+        "post_nc_dir" : "/data/gandalf/pacioos/sg148/2024/2024_08_20/processed_data/nc_files",
+        "post_sensors_csv": "/data/gandalf/pacioos/sg148/2024/2024_08_20/processed_data/sensors.csv",
+        "project": "SG148 Mission 11",
+        "public_name": "sg148",
+        "dims" : {
+            "sg_data_point" : {
+                "sensors" : [
+                    "ctd_time",
+                    "ctd_depth",
+                    "latitude",
+                    "longitude",
+                    "temperature",
+                    "salinity",
+                    "density"
+                ] 
+            }
+        },
+        "style": {
+            "color": "#FF33FF",
+            "opacity": 1,
+            "weight": 2
+        },
+        "teleport_zoom" : 8
+    },
+    "global_attributes": {
+        "deployment": "",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": " ",
+        "id": "",
+        "instruments": "instrument_ctd",
+        "long_name": "",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20240820T0000",
+    "trajectory_name": "sg148-20240820T0000"}
