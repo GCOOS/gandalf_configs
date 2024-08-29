@@ -1,22 +1,22 @@
 {
     "gandalf": {
-        "vehicle" : "sp007",
+        "vehicle" : "ng1050",
         "vehicle_data" : "erddap",
-        "vehicle_type" : "spray",
-        "vehicle_model" : "Spray",
-        "status" : "recovered",
-        "PI": "Todd, R",
-        "currPosIcon": "/static/images/seaglider_icon.png",
+        "vehicle_type" : "slocum",
+        "vehicle_model" : "Slocum G2",
+        "status" : "deployed",
+        "PI": "Martin K",
+        "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "IOOS GDAC",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/whoi/sp007",
-        "deployed_sensors_csv": "/data/gandalf/deployments/whoi/sp007/processed_data/sensors.csv",
-        "deployment_date": "2024-07-03 01:46",
-        "data_start_date" : "20240425T0146",
+        "deployed_data_dir": "/data/gandalf/deployments/navy/ng1050",
+        "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng1050/processed_data/sensors.csv",
+        "deployment_date": "2024-07-17 14:20",
+        "data_start_date" : "20240717T1425",
         "data_end_date" : "20241231T1200",
         "dockfrompath": "",
         "docklogpath": "",
@@ -31,11 +31,11 @@
             "gps_longitude"
         ],
         "ftp_send": false,
-        "gdac_json_dir": "/data/gandalf/deployments/whoi/sp007/json",
+        "gdac_json_dir": "/data/gandalf/deployments/navy/ng1050/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_user": "gcoos_dmac",
-        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/sp007-20240425T1202.json?time%2Clatitude%2Clongitude%2Cdepth%2Cchlorophyll_a%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&time%3E=2024-07-03T00%3A00%3A00Z",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng1050-20240717T0000.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2024-08-22T00%3A00%3A00Z",
         "harvest_method": "rsync",
         "iconSize": [
             20,
@@ -45,15 +45,15 @@
         "post_kml_file": "",
         "kml_file": "",
         "kmz_url": "",
-        "operator": "WHOI",
+        "operator": "USM",
         "plots": {
             "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/whoi/sp007/plots",
-            "deployed_plot_url": "/plots/sp007",
+            "deployed_plot_dir": "/data/gandalf/deployments/navy/ng1050/plots",
+            "deployed_plot_url": "/plots/ng1050",
             "log_mult": 100,
-            "logo_file": "/data/gandalf/static/images/logos/whoi_logo.jpg",
+            "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
             "logo_loc": [
                 178,
                 91
@@ -65,21 +65,21 @@
               "density"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/whoi/sp007/plots/",
-            "postprocess_plot_dir": "/data/gandalf/whoi/sp007/2024/2024_04_25/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/ng1050/plots/",
+            "postprocess_plot_dir": "/data/gandalf/navy/ng1050/2024/2024_07_17/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/whoi/sp007/2024/2024_04_25",
-        "post_sensors_csv": "/data/gandalf/whoi/sp007/2024/2024_04_25",
+        "post_data_dir_root": "/data/gandalf/navy/ng1050/2024/2024_07_17",
+        "post_sensors_csv": "/data/gandalf/navy/ng1050/2024/2024_07_17",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
         ],
         "postprocess_science_sensor_list": [
         ],
-        "project": "Gliders in the Gulf Stream",
-        "public_name": "sp007",
+        "project": "Navy Hurricane Gliders",
+        "public_name": "ng1050",
         "science_sensor_list": [
           "density",
           "pressure",
@@ -87,25 +87,25 @@
           "temperature"
         ],
         "style": {
-            "color": "#00FFFF",
+            "color": "#500000",
             "opacity": 1,
-            "weight": 4
+            "weight": 2
         },
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "sp007",
+    "glider": "ng1050",
     "global_attributes": {
-        "deployment": "sp007-20240425T1202",
+        "deployment": "ng1050-20240717T1200",
         "wmo_id": ""
     },
     "platform": {
         "comment": "",
-        "id": "sp007",
+        "id": "ng1050",
         "instruments": "instrument_ctd",
-        "long_name": "Spray Glider sp007",
+        "long_name": "Slocum Glider ng1050",
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20240425T1202",
-    "trajectory_name": "sp007-202404251202"
+    "trajectory_datetime": "20240717T1425",
+    "trajectory_name": "ng1050-20240717T1425"
 }

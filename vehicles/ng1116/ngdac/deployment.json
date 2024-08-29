@@ -45,7 +45,7 @@
         "post_kml_file": "",
         "kml_file": "",
         "kmz_url": "",
-        "operator": "SKIO",
+        "operator": "USF",
         "plots": {
             "use_26d" : true,
             "alt_colormap": true,
