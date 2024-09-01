@@ -29,7 +29,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": false,
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
