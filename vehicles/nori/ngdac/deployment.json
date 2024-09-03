@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "hefring",
         "vehicle_model" : "Oceanscout",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Martin K",
         "currPosIcon": "/static/images/oceanscout_icon.png",
         "dash_status": "deployed",
@@ -30,7 +30,7 @@
             "gps_latitude",
             "gps_longitude"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/usm/nori/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/Nori-20240816T0000.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2024-08-22T00%3A00%3A00Z",
