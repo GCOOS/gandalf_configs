@@ -3,7 +3,7 @@
         "vehicle" : "usf-stella",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Lembke, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Recovered",
@@ -29,7 +29,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
