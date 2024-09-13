@@ -5,7 +5,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G1",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Edwards, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
