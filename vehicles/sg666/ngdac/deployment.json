@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Le Henaff M",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
