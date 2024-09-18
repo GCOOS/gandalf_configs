@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "saildrone",
         "vehicle_model" : "Saildrone",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "NOAA",
         "currPosIcon": "/static/images/saildrone_icon.png",
         "dash_status": "Deployed",
