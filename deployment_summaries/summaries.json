@@ -1,5 +1,21 @@
 [
-{
+ {
+     "pi" : "Edwards C",
+     "vehicle" : "unit_1091",
+     "type" : "Slocum G3",
+     "operator" : "Navy",
+     "project" : "Hurricane Gliders 2023",
+     "deployed" : "2024-08-20",
+     "recovered" : "2024-09-18",
+     "days_wet" : 39,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/skio/unit_1091/2024/2024_08_20/plots",
+     "kmz_url" : ""
+ },
+
+ {
      "pi" : "DiMarco S, Mahmud S",
      "vehicle" : "unit_1148",
      "type" : "Slocum G2",
