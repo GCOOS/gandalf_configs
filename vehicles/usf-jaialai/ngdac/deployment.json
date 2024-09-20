@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,8 +16,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2024-06-25 00:00",
-        "data_start_date" : "20240625T0000",
+        "deployment_date": "2024-09-20 00:00",
+        "data_start_date" : "20240920T0000",
         "data_end_date" : "20241231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
@@ -133,7 +133,7 @@
     },
     "glider" : "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20240625T0000",
+        "deployment": "usf-jaialai-20240920T0000",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -144,6 +144,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20240625T0000",
-    "trajectory_name": "usf-jaialai-20240625T0000"
+    "trajectory_datetime": "20240920T0000",
+    "trajectory_name": "usf-jaialai-20240920T0000"
 }
