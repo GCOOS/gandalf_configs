@@ -1,4 +1,19 @@
+
 [
+{
+     "pi" : "DiMarco S, Mahmud S",
+     "vehicle" : "Sverdrup",
+     "type" : "Slocum G2",
+     "operator" : "TAMU GERG",
+     "project" : "Hurricane Gliders",
+     "deployed" : "2024-08-11",
+     "recovered" : "2024-09-20",
+     "days_wet" : 40,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/tamu/unit_541/2024/2024_08_11",
+     "plot_url" : "/data/gandalf/tamu/unit_541/2024/2024_08_11/plots"
+},
  {
      "pi" : "Edwards C",
      "vehicle" : "unit_1091",
