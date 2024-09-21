@@ -109,7 +109,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
           ],
-        "project": "GCOOS Observatory",
+        "project": "FWRI Red Tide Observatory",
         "public_name": "usf-jaialai",
         "science_sensor_list": [
             "sci_m_present_time",
