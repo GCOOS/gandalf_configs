@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "vehicle" : "sp066",
+        "vehicle" : "sp070",
         "vehicle_data" : "erddap",
         "vehicle_type" : "spray",
         "vehicle_model" : "Spray",
@@ -13,10 +13,10 @@
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/whoi/sp066",
-        "deployed_sensors_csv": "/data/gandalf/deployments/whoi/sp066/processed_data/sensors.csv",
-        "deployment_date": "2024-07-03 01:46",
-        "data_start_date" : "20240617T0146",
+        "deployed_data_dir": "/data/gandalf/deployments/whoi/sp070",
+        "deployed_sensors_csv": "/data/gandalf/deployments/whoi/sp070/processed_data/sensors.csv",
+        "deployment_date": "2024-09-12 01:46",
+        "data_start_date" : "20240912T0146",
         "data_end_date" : "20241231T1200",
         "dockfrompath": "",
         "docklogpath": "",
@@ -31,12 +31,12 @@
             "gps_longitude"
         ],
         "ftp_send": false,
-        "gdac_json_dir": "/data/gandalf/deployments/whoi/sp066/json",
+        "gdac_json_dir": "/data/gandalf/deployments/whoi/sp070/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_user": "gcoos_dmac",
-        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/sp066-20240617T1658.json?time%2Clatitude%2Clongitude%2Cdepth%2Cchlorophyll_a%2Cconductivity%2Cdensity%2Cdissolved_oxygen%2Csalinity%2Ctemperature&time%3E=2024-07-03T00%3A00%3A00Z",
         "harvest_method": "rsync",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/sp070-20240912T1432.json?time%2Clatitude%2Clongitude%2Cdepth%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2024-09-23T00%3A00%3A00Z",
         "iconSize": [
             20,
             20
@@ -50,8 +50,8 @@
             "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/whoi/sp066/plots",
-            "deployed_plot_url": "/plots/sp066",
+            "deployed_plot_dir": "/data/gandalf/deployments/whoi/sp070/plots",
+            "deployed_plot_url": "/plots/sp070",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/whoi_logo.jpg",
             "logo_loc": [
@@ -65,21 +65,21 @@
               "density"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/whoi/sp066/plots/",
-            "postprocess_plot_dir": "/data/gandalf/whoi/sp066/2024/2024_06_22/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/whoi/sp070/plots/",
+            "postprocess_plot_dir": "/data/gandalf/whoi/sp070/2024/2024_06_22/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/whoi/sp066/2024/2024_06_22",
-        "post_sensors_csv": "/data/gandalf/whoi/sp066/2024/2024_06_22",
+        "post_data_dir_root": "/data/gandalf/whoi/sp070/2024/2024_06_22",
+        "post_sensors_csv": "/data/gandalf/whoi/sp070/2024/2024_06_22",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
         ],
         "postprocess_science_sensor_list": [
         ],
         "project": "Gliders in the Gulf Stream",
-        "public_name": "sp066",
+        "public_name": "sp070",
         "science_sensor_list": [
           "density",
           "pressure",
@@ -87,25 +87,25 @@
           "temperature"
         ],
         "style": {
-            "color": "#550055",
+            "color": "#00FF00",
             "opacity": 1,
             "weight": 2
         },
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "sp066",
+    "glider": "sp070",
     "global_attributes": {
-        "deployment": "sp066-20240617T1658",
+        "deployment": "sp070-20240912T1534",
         "wmo_id": ""
     },
     "platform": {
         "comment": "",
-        "id": "sp066",
+        "id": "sp070",
         "instruments": "instrument_ctd",
-        "long_name": "Spray Glider sp066",
+        "long_name": "Spray Glider sp070",
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20240617T1658",
-    "trajectory_name": "sp066-202406171658"
+    "trajectory_datetime": "20240912T1534",
+    "trajectory_name": "sp070-202409121534"
 }
