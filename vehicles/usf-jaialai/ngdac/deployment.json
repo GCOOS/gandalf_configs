@@ -17,7 +17,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
         "deployment_date": "2024-09-20 00:00",
-        "data_start_date" : "20240920T0000",
+        "data_start_date" : "20240920T1700",
         "data_end_date" : "20241231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
