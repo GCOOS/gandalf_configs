@@ -4,7 +4,7 @@
         "vehicle" : "sedna",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Sidorovskaia N, Mathew N",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,9 +16,9 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/louisiana/sedna",
         "deployed_sensors_csv": "/data/gandalf/deployments/louisiana/sedna/processed_data/sensors.csv",
-        "deployment_date": "2023-08-29 00:00",
-        "data_start_date" : "20230829T0000",
-        "data_end_date" : "20231231T0000",
+        "deployment_date": "2024-10-01 00:00",
+        "data_start_date" : "20241001T0000",
+        "data_end_date" : "20241241T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/louisiana/gliders/sedna/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/louisiana/gliders/sedna/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -36,7 +36,7 @@
             "m_water_vy",
             "m_tot_horz_dist"
         ],
-        "ftp_send":true,
+        "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_url": "",
@@ -75,9 +75,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/louisiana/sedna/2022/2022_09_25",
-        "post_sensors_csv": "/data/gandalf/louisiana/sedna/2022/2022_09_25",
-        "post_kml_file": "/data/gandalf/louisiana/sedna/2022/2022_09_25/kmz/sedna.kml",
+        "post_data_dir_root": "/data/gandalf/louisiana/sedna/2024/2024_10_01",
+        "post_sensors_csv": "/data/gandalf/louisiana/sedna/2024/2024_10_01",
+        "post_kml_file": "/data/gandalf/louisiana/sedna/2024/2024_10_01/kmz/sedna.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -117,7 +117,7 @@
     },
     "glider": "sedna",
     "global_attributes": {
-        "deployment": "sedna-20230828T0000",
+        "deployment": "sedna-20241001T0000",
         "wmo_id": "4803973"
     },
     "platform": {
@@ -128,6 +128,6 @@
         "type": "platform",
         "wmo_id": "4803973"
     },
-    "trajectory_datetime": "20230828T0000",
-    "trajectory_name": "sedna-20230828T0000"
+    "trajectory_datetime": "20241001T0000",
+    "trajectory_name": "sedna-20241001T0000"
 }
