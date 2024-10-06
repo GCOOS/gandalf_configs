@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "saildrone",
         "vehicle_model" : "Saildrone",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "NOAA",
         "currPosIcon": "/static/images/saildrone_icon.png",
         "dash_status": "Deployed",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/noaa/sd1083",
         "deployed_sensors_csv": "/data/gandalf/deployments/noaa/sd1083/processed_data/sensors.csv",
-        "deployment_date": "2024-08-01 00:00",
-        "data_start_date" : "20240801T0000",
+        "deployment_date": "2024-09-15 00:00",
+        "data_start_date" : "20240915T0000",
         "data_end_date" : "20241231T0000",
         "dockfrompath": "",
         "docklogpath": "",
@@ -30,7 +30,7 @@
         "gdac_server": "gliders.ioos.us",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
-        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1083_hurricane_2024.json?WIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN%2CWATER_CURRENT_SPEED_MEAN%2CWATER_CURRENT_DIRECTION_MEAN%2Clatitude%2Clongitude%2Ctime%2Ctrajectory&time%3E=2024-07-29T00%3A00%3A00Z",
+        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1083_hurricane_2024.json?WIND_FROM_MEAN%2CWIND_SPEED_MEAN%2CTEMP_AIR_MEAN%2CRH_MEAN%2CBARO_PRES_MEAN%2CWAVE_DOMINANT_PERIOD%2CWAVE_SIGNIFICANT_HEIGHT%2CTEMP_SBE37_MEAN%2CSAL_SBE37_MEAN%2CWATER_CURRENT_SPEED_MEAN%2CWATER_CURRENT_DIRECTION_MEAN%2Clatitude%2Clongitude%2Ctime%2Ctrajectory&time%3E=2024-09-15T00%3A00%3A00Z",
         "iconSize": [
             30,
             30
@@ -61,13 +61,13 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/noaa/sd1083/plots/",
-            "postprocess_plot_dir": "/data/gandalf/noaa/sd1083/2024/2024_08_01/plots",
+            "postprocess_plot_dir": "/data/gandalf/noaa/sd1083/2024/2024_09_20/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/noaa/sd1083/2024/2024_08_01",
-        "post_sensors_csv": "/data/gandalf/noaa/sd1083/2024/2024_08_01",
+        "post_data_dir_root": "/data/gandalf/noaa/sd1083/2024/2024_09_20",
+        "post_sensors_csv": "/data/gandalf/noaa/sd1083/2024/2024_09_20",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -90,7 +90,7 @@
     },
     "glider": "sd1083",
     "global_attributes": {
-        "deployment": "sd1083-20240801T0000",
+        "deployment": "sd1083-20240920T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -101,6 +101,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20240801T0000",
-    "trajectory_name": "sd1083-20240801T0000"
+    "trajectory_datetime": "20240920T0000",
+    "trajectory_name": "sd1083-20240920T0000"
 }
