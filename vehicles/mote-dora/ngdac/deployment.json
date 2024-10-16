@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Langan J",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-dora",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-dora/processed_data/sensors.csv",
-        "deployment_date": "2024-08-19 00:00",
-        "data_start_date" : "20240819T0000",
+        "deployment_date": "2024-10-16 00:00",
+        "data_start_date" : "20241016T0000",
         "data_end_date" : "20241231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/logs",
@@ -76,14 +76,14 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-dora/2024/2024_08_19/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-dora/2024/2024_10_16/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-dora/2024/2024_08_19",
-        "post_sensors_csv": "/data/gandalf/mote/mote-dora/2024/2024_08_19",
-        "post_kml_file": "/data/gandalf/mote/mote-dora/2024/2024_08_19/kmz/mote-dora.kml",
+        "post_data_dir_root": "/data/gandalf/mote/mote-dora/2024/2024_10_16",
+        "post_sensors_csv": "/data/gandalf/mote/mote-dora/2024/2024_10_16",
+        "post_kml_file": "/data/gandalf/mote/mote-dora/2024/2024_10_16/kmz/mote-dora.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -132,7 +132,7 @@
     },
     "glider": "mote-dora",
     "global_attributes": {
-        "deployment": "mote-dora-20240819T0000",
+        "deployment": "mote-dora-20241016T0000",
         "wmo_id": "4802994"
     },
     "platform": {
@@ -143,6 +143,6 @@
         "type": "platform",
         "wmo_id": "4802994"
     },
-    "trajectory_datetime": "20240819T0000",
-    "trajectory_name": "mote-dora-20240819T0000"
+    "trajectory_datetime": "20241016T0000",
+    "trajectory_name": "mote-dora-20241016T0000"
 }
