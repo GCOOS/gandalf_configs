@@ -7,7 +7,7 @@
         "status" : "deployed",
         "PI": "Knap A, Mahmud, S",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "deployed",
+        "dash_status": "Drifting",
         "data_source": "IOOS GDAC",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
