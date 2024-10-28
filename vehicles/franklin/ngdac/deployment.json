@@ -4,7 +4,7 @@
         "vehicle" : "franklin",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Edwards, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Recovered",
@@ -16,13 +16,13 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/franklin",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/franklin/processed_data/sensors.csv",
-        "deployment_date": "2023-08-04 12:00",
-        "data_start_date" : "20230804T1200",
-        "data_end_date" : "20231231T1200",
+        "deployment_date": "2024-10-25 12:00",
+        "data_start_date" : "20241025T1200",
+        "data_end_date" : "20241231T1200",
         "dockfrompath" : "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/logs",
         "dockserver": "sfmc.skio.uga.edu",
-        "dockuser": "gcoos",
+        "dockuser": "secoora",
         "display_waypoints" : true,
         "flight_sensor_list": [
             "m_present_time",
@@ -31,7 +31,7 @@
             "m_gps_lat",
             "m_gps_lon"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_user": "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -71,7 +71,7 @@
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/skio/franklin/2023/2023_08_04",
+        "post_data_dir_root": "/data/gandalf/skio/franklin/2024/2024_10_25",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -118,7 +118,7 @@
     },
     "glider": "franklin",
     "global_attributes": {
-        "deployment": "franklin-20230804T0000",
+        "deployment": "franklin-20241025T0000",
         "wmo_id": "4802956"
     },
     "platform": {
@@ -129,6 +129,6 @@
         "type": "platform",
         "wmo_id": "4802956"
     },
-    "trajectory_datetime": "20230804T0000",
-    "trajectory_name": "franklin-20230804T0000"
+    "trajectory_datetime": "20241025T0000",
+    "trajectory_name": "franklin-20241025T0000"
 }
