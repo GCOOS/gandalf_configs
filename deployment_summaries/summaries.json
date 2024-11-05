@@ -1,6 +1,21 @@
 [
 
 {
+     "pi" : "Langan J",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "FWRI Gulf Survey",
+     "deployed" : "2024-10-16",
+     "recovered" : "2024-11-05",
+     "days_wet" : 20,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2024/2024_10_16",
+     "data_url" : "/data/gandalf/mote/mote-dora/2024/2024_10_16/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2024/2024_10_16/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2024/2024_10_16/kmz/mote-dora.kml"
+},
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-jaialai",
    "type" : "Slocum G3",
