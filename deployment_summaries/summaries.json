@@ -1,6 +1,22 @@
 [
 
 {
+     "pi" : "DiMarco S, Mahmud S",
+     "vehicle" : "Howdy",
+     "type" : "Slocum G2",
+     "operator" : "TAMU GERG",
+     "project" : "Hurricane Gliders",
+     "deployed" : "2024-08-11",
+     "recovered" : "2024-11-07",
+     "days_wet" : 89,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/tamu/unit_308/2024/2024_08_11",
+     "plot_url" : "/data/gandalf/tamu/unit_308/2024/2024_08_11/plots"
+},
+
+ {
+     "pi" : "Edwards C",
      "pi" : "Langan J",
      "vehicle" : "mote-dora",
      "type" : "Slocum G2",
