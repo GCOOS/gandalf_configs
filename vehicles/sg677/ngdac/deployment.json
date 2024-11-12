@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
