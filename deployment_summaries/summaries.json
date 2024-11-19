@@ -1,6 +1,20 @@
 [
 
 {
+     "pi" : "Sidorovskaia N, Mathew N",
+     "vehicle" : "sedna",
+     "type" : "Slocum G3",
+     "operator" : "University of Louisiana at Lafayette",
+     "project" : "Storm's Acoustic Reconnaissance (funded DoD/ONR)",
+     "deployed" : "2024-10-01",
+     "recovered" : "2024-11-16",
+     "days_wet" : 47,
+     "distance" : 0,
+     "map_url" : "/louisiana/sedna/2024/2024_10_01",
+     "data_url" : "/data/gandalf/louisiana/sedna/2024/2024_10_01/",
+     "plot_url" : "/data/gandalf/louisiana/sedna/2024/2024_10_01/plots"
+},
+{
      "pi" : "DiMarco S, Mahmud S",
      "vehicle" : "Howdy",
      "type" : "Slocum G2",

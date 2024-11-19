@@ -52,7 +52,7 @@
         "logo_file": "/data/gandalf/static/images/logos/mote_logo.png",
         "operator": "Mote",
         "plots": {
-            "use_26d" : true,
+            "use_26d" : false,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/mote/mote-dora/plots",
@@ -110,7 +110,7 @@
             "sci_flbbcd_chlor_units",
             "sci_flbbcd_bb_units"
         ],
-        "project": "FWRI Gulf Survey",
+        "project": "GCOOS Gulf Survey",
         "public_name": "mote-dora",
         "science_sensor_list": [
             "sci_m_present_time",

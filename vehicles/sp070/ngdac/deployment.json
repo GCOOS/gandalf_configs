@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "spray",
         "vehicle_model" : "Spray",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Todd, R",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
