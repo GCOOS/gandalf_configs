@@ -1,5 +1,22 @@
 [
 
+
+ {
+     "pi" : "Edwards, C",
+     "vehicle" : "franklin",
+     "type" : "Slocum G3",
+     "operator" : "SKIO",
+     "project" : "SECOORA Hurricane Gliders",
+     "deployed" : "2024-10-25",
+     "recovered" : "2024-11-14",
+     "days_wet" : 20,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "",
+     "plot_url" : "/data/gandalf/skio/franklin/2024/2024_10_25/plots",
+     "kmz_url" : ""
+ },
+
 {
      "pi" : "Sidorovskaia N, Mathew N",
      "vehicle" : "sedna",
