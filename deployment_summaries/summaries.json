@@ -1,5 +1,35 @@
 [
 
+{
+     "pi" : "Langan J",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2024-11-12",
+     "recovered" : "2024-12-05",
+     "days_wet" : 23,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2024/2024_11_12",
+     "data_url" : "/data/gandalf/mote/mote-dora/2024/2024_11_12/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2024/2024_11_12/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2024/2024_11_12/kmz/mote-dora.kml"
+ },
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-jaialai",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Florida Red Tide Research",
+   "deployed" : "2024-10-28",
+   "recovered" : "2024-11-27",
+   "days_wet" : 29,
+   "distance" : 0,
+   "map_url" : "/usf/usf-jaialai/2024/2024_10_28",
+   "data_url" : "/data/gandalf/usf/usf-jaialai/2024/2024_10_28",
+   "plot_url" : "/data/gandalf/usf/usf-jaialai/2024/2024_10_28/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-jaialai/2024/2024_10_28/kmz/usf-jaialai.kml"
+},
 
  {
      "pi" : "Edwards, C",

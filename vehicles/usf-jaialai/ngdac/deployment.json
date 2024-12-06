@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -56,7 +56,7 @@
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
         "plots": {
-            "use_26d" : true,
+            "use_26d" : false,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/usf/usf-jaialai/plots",
