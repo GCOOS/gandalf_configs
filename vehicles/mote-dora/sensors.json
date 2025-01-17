@@ -29,6 +29,21 @@
     "alt_colormap" : "thermal",
     "log_scale" : false
   },
+
+  
+  {
+    "sensor" :  "sci_water_cond",
+    "gdac_sensor" : "",
+    "unit_string" : "S/m",
+    "sensor_name" : "Conductivity",
+    "sensor_plot_min" : 3,
+    "sensor_plot_max" : 6,
+    "alt_colormap" : "cmo.solar",
+    "log_scale" : false
+  },
+
+
+
   {
     "sensor" :  "calc_salinity",
     "gdac_sensor" : "",
