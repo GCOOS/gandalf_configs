@@ -34,15 +34,15 @@
     "gdac_sensor" : "",
     "unit_string" : "PPT (10$^{-3}$)",
     "sensor_name" : "Salinity",
-    "sensor_plot_min" : 31.5,
+    "sensor_plot_min" : 35.0,
     "sensor_plot_max" :  37.5,
     "alt_colormap" : "haline",
     "log_scale" : false
   },
   {
     "sensor" :  "calc_density",
-    "unit_string" : "",
     "gdac_sensor" : "",
+    "unit_string" : "",
     "sensor_name" : "Density",
     "sensor_plot_min" : 1000,
     "sensor_plot_max" : 1030,
@@ -65,7 +65,7 @@
     "gdac_sensor" : "",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
-    "sensor_plot_min" : 0.0,
+    "sensor_plot_min" : 0.01,
     "sensor_plot_max" :  5.0,
     "alt_colormap" : "matter",
     "log_scale" : false
@@ -75,18 +75,39 @@
     "gdac_sensor" : "",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
-    "sensor_plot_min" : 0.0,
-    "sensor_plot_max" : 3.5,
+    "sensor_plot_min" : 0.01,
+    "sensor_plot_max" : 5.0,
     "alt_colormap" : "algae",
     "log_scale" : false
   },
+  { 
+    "sensor" :  "sci_flbb_bb_units",
+    "gdac_sensor" : "",
+    "unit_string" : "PPB (10$^{-9}$)",
+    "sensor_name" : "CDOM",
+    "sensor_plot_min" : 0.01,
+    "sensor_plot_max" :  5.0,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  { 
+    "sensor" :  "sci_flbb_chlor_units",
+    "gdac_sensor" : "",
+    "unit_string" : "($_u gm/L$)",                                                                                                                  
+    "sensor_name" : "Chlorophyll",                                                                                                                  
+    "sensor_plot_min" : 0.01,                                                                                                                       
+    "sensor_plot_max" : 5.0,
+    "alt_colormap" : "algae",                                                                                                                       
+    "log_scale" : false                                                                                                                             
+  },
+
   {
     "sensor" : "sci_oxy4_oxygen",
     "gdac_sensor" : "",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
-    "sensor_plot_min" : 100.0,
-    "sensor_plot_max" : 500.0,
+    "sensor_plot_min" : 0.0,
+    "sensor_plot_max"  : 250.0,
     "alt_colormap" : "oxygen",
     "log_scale" : false
   },
@@ -95,7 +116,17 @@
     "gdac_sensor" : "",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
-    "sensor_plot_min" : 0.0,
+    "sensor_plot_min" : 0.01,
+    "sensor_plot_max" :  5.0,
+    "alt_colormap" : "matter",
+    "log_scale" : false
+  },
+  {
+    "sensor" : "sci_flbbcd_bb_units",
+    "gdac_sensor" : "",
+    "unit_string" : "PPB (10$^{-9}$)",
+    "sensor_name" : "Backscatter",
+    "sensor_plot_min" : 0.01,
     "sensor_plot_max" :  5.0,
     "alt_colormap" : "matter",
     "log_scale" : false
@@ -105,29 +136,19 @@
     "gdac_sensor" : "",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
-    "sensor_plot_min" : 0.0,
-    "sensor_plot_max" : 0.15,
+    "sensor_plot_min" : 0.01,
+    "sensor_plot_max" :  5.0,
     "alt_colormap" : "algae",
     "log_scale" : false
   },
   {
     "sensor" :  "sci_bbfl2s_bb_scaled",
     "gdac_sensor" : "",
-    "unit_string" : "PPB (10$^{-9}$)",
+    "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.0,
+    "sensor_plot_min" : 0.01,
     "sensor_plot_max" :  0.001,
-    "alt_colormap" : "turbid",
-    "log_scale" : false
-  },
-   {
-    "sensor" :  "sci_flbbcd_bb_units",
-    "gdac_sensor" : "",
-    "unit_string" : "PPB (10$^{-9}$)",
-    "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  0.001,
-    "alt_colormap" : "turbid",
+    "alt_colormap" : "algae",
     "log_scale" : false
   },
   {
@@ -135,9 +156,9 @@
     "gdac_sensor" : "",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
-    "sensor_plot_min" : 100.0,
+    "sensor_plot_min" : 0.0,
     "sensor_plot_max" : 250.0,
-    "alt_colormap" : "oxy",
+    "alt_colormap" : "oxygen",
     "log_scale" : false
   },
 {
@@ -160,14 +181,16 @@
     "alt_colormap" : "speed",
     "log_scale" : false
   },
+
 {
-    "sensor" : "sci_suna_nitrate_concentration",
+    "sensor" :  "sci_bsipar_par",
     "gdac_sensor" : "",
-    "unit_string" : "mg/L",
-    "sensor_name" : "Nitrates",
+    "unit_string" : "($_uE/m^2sec$)",
+    "sensor_name" : "Photosynthetically Active Radiation",
     "sensor_plot_min" : 0,
-    "sensor_plot_max" : 100,
-    "alt_colormap" : "tempo",
+    "sensor_plot_max" : 2000,
+    "alt_colormap" : "cmo.solar",
     "log_scale" : false
 }
+
 ]
