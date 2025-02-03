@@ -71,7 +71,7 @@
     "log_scale" : false
   },
   {
-    "sensor" :  "sci_flbbcd_chlor_units",
+    "sensor" :  "sci_rbrtridente_ch2_sig",
     "gdac_sensor" : "",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
@@ -81,7 +81,7 @@
     "log_scale" : false
   },
   { 
-    "sensor" :  "sci_flbb_bb_units",
+    "sensor" :  "sci_rbrtridente_ch3_sig",
     "gdac_sensor" : "",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
@@ -90,17 +90,6 @@
     "alt_colormap" : "matter",
     "log_scale" : false
   },
-  { 
-    "sensor" :  "sci_flbb_chlor_units",
-    "gdac_sensor" : "",
-    "unit_string" : "($_u gm/L$)",                                                                                                                  
-    "sensor_name" : "Chlorophyll",                                                                                                                  
-    "sensor_plot_min" : 0.01,                                                                                                                       
-    "sensor_plot_max" : 5.0,
-    "alt_colormap" : "algae",                                                                                                                       
-    "log_scale" : false                                                                                                                             
-  },
-
   {
     "sensor" : "sci_oxy4_oxygen",
     "gdac_sensor" : "",
@@ -111,46 +100,7 @@
     "alt_colormap" : "oxygen",
     "log_scale" : false
   },
-  {
-    "sensor" :  "sci_bbfl2s_cdom_scaled",
-    "gdac_sensor" : "",
-    "unit_string" : "PPB (10$^{-9}$)",
-    "sensor_name" : "CDOM",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  5.0,
-    "alt_colormap" : "matter",
-    "log_scale" : false
-  },
-  {
-    "sensor" : "sci_flbbcd_bb_units",
-    "gdac_sensor" : "",
-    "unit_string" : "PPB (10$^{-9}$)",
-    "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  5.0,
-    "alt_colormap" : "matter",
-    "log_scale" : false
-  },
-  {
-    "sensor" :  "sci_bbfl2s_chlor_scaled",
-    "gdac_sensor" : "",
-    "unit_string" : "($_u gm/L$)",
-    "sensor_name" : "Chlorophyll",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  5.0,
-    "alt_colormap" : "algae",
-    "log_scale" : false
-  },
-  {
-    "sensor" :  "sci_bbfl2s_bb_scaled",
-    "gdac_sensor" : "",
-    "unit_string" : "($_u gm/L$)",
-    "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  0.001,
-    "alt_colormap" : "algae",
-    "log_scale" : false
-  },
+
   {
     "sensor" : "sci_oxy3835_oxygen",
     "gdac_sensor" : "",

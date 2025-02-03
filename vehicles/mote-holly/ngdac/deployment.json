@@ -68,8 +68,10 @@
 		"sci_water_temp",
                 "calc_salinity",
                 "calc_density",
-                "calc_sigma",
-                "sci_oxy4_oxygen"
+                "sci_oxy4_oxygen",
+                "sci_bsipar_par",
+                "sci_rbrtridente_ch2_sig",
+                "sci_rbrtridente_ch3_sig"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-holly/plots/",
@@ -118,7 +120,7 @@
             "sci_flbb_bb_units",
             "sci_flbb_chlor_units",
             "sci_oxy4_oxygen",
-            "sci_rbrtridente_ch1_sig",
+            "sci_bsipar_par",
             "sci_rbrtridente_ch2_sig",
             "sci_rbrtridente_ch3_sig"
         ],
