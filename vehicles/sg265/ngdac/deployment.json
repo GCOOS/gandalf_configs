@@ -1,0 +1,100 @@
+{
+    "gandalf": {
+        "validate_vars" : [
+           "ctd_time",
+           "ctd_depth"
+        ],
+        "vehicle" : "sg265",
+        "vehicle_data" : "local",
+        "vehicle_type" : "seaglider",
+        "vehicle_model" : "Seaglider",
+        "status" : "deployed",
+        "PI": "Elipot S",
+        "currPosIcon": "/static/images/seaglider_icon.png",
+        "dash_status": "Deployed",
+        "data_source": "University of Miami/AOML",
+        "debug": true,
+        "dockserver" : "ftp.aoml.noaa.gov",
+        "dockuser" : "anonymous",
+        "dockpass" : "robertdcurrier@gmail.com",
+        "dockfrompath": "/phod/pub/aoml.glider/sg265",
+        "dockfromfilter" : "p6265*.nc",
+        "deployed_data_dir": "/data/gandalf/deployments/aoml/sg265",
+        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg265/processed_data/sensors.csv",
+        "deployment_date": "2025-01-19 00:00",
+        "drop_sg_data" : false,
+        "drop_legato_data" : false,
+        "drop_aa4831_data" : false,
+        "ftp_send": true,
+        "gdac_json_dir": "/data/gandalf/deployments/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_user": "gcoos_dmac",
+        "gdac_url": "",
+        "harvest_method" : "ftp",
+        "iconSize": [
+            40,
+            15
+        ],
+        "infoBoxImage": "/static/images/seaglider_infobox.jpg",
+        "kmz_url": "",
+        "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
+        "operator": "University of Miami/AOML",
+        "plot_url": "",
+        "plots": {
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg265/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/aoml_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 50000,
+            "plot_depth_padding": 300,
+            "plot_sensor_list": [
+                "temperature",
+                "salinity",
+                "density"
+            ],
+            "postprocess_plot_dir": "/data/gandalf/aoml/sg265/2025/2025_01_19/plots",
+            "use_26d": true,
+            "use_max_plot_depth": false
+        },
+        "post_data_dir_root": "/data/gandalf/aoml/sg265/2025/2025_01_19",
+        "post_sensors_csv": "/data/gandalf/aoml/sg265/2025/2025_01_19/processed_data/sensors.csv",
+        "project": "Rapid-Evolution",
+        "public_name": "sg265",
+        "dims" : {
+            "sg_data_point" : {
+                "sensors" : [
+                    "ctd_time",
+                    "ctd_depth",
+                    "temperature",
+                    "salinity",
+                    "density"
+                    ]
+            }
+        },
+        "style": {
+            "color": "#D4AF37",
+            "opacity": 1,
+            "weight": 2
+        },
+        "teleport_zoom" : 8
+    },
+    "global_attributes": {
+        "deployment": "sg265-20250119T0000",
+        "wmo_id": "8901095"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "sg265",
+        "instruments": "instrument_ctd",
+        "long_name": "AOML Seaglider 265",
+        "type": "platform",
+        "wmo_id": "8901095"
+    },
+    "trajectory_datetime": "20250119T0000",
+    "trajectory_name": "sg265-20250119T0000"
+}
