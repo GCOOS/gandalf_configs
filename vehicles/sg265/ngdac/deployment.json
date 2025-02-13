@@ -18,7 +18,7 @@
         "dockuser" : "anonymous",
         "dockpass" : "robertdcurrier@gmail.com",
         "dockfrompath": "/phod/pub/aoml.glider/sg265",
-        "dockfromfilter" : "p6265*.nc",
+        "dockfromfilter" : "p265*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg265",
         "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg265/processed_data/sensors.csv",
         "deployment_date": "2025-01-19 00:00",
@@ -38,14 +38,14 @@
         ],
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
-        "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
+        "logo_file": "/data/gandalf/static/images/logos/miami_logo.png",
         "operator": "University of Miami/AOML",
         "plot_url": "",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg265/plots",
-            "logo_file": "/data/gandalf/gandalf_configs/images/logos/aoml_logo.png",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/miami_logo.png",
             "logo_loc": [
                 175,
                 90
