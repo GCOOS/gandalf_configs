@@ -4,7 +4,7 @@
         "vehicle" : "franklin",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Edwards, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
