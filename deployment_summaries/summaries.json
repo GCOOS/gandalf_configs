@@ -1,4 +1,19 @@
 [
+{
+     "pi" : "Langan J",
+     "vehicle" : "mote-holly",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2025-01-28",
+     "recovered" : "2025-02-14",
+     "days_wet" : 17,
+     "distance" : 0,
+     "map_url" : "/mote/mote-holly/2025/2025_01_28",
+     "data_url" : "/data/gandalf/mote/mote-holly/2025/2025_01_28/",
+     "plot_url" : "/data/gandalf/mote/mote-holly/2025/2025_01_28/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-holly/2025/2025_01_28/kmz/mote-holly.kml"
+ },
 
 {
    "pi" : "Lembke, C",
