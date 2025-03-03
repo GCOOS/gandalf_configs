@@ -1,4 +1,52 @@
 [
+
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-bass",
+   "type" : "Slocum G1",
+   "operator" : "USF",
+   "project" : "SECOORA Observatory",
+   "deployed" : "2025-02-03",
+   "recovered" : "2025-02-26",
+   "days_wet" : 23,
+   "distance" : 0,
+   "map_url" : "/usf/usf-bass/2025/2025_02_03",
+   "data_url" : "/data/gandalf/usf/usf-bass/2025/2025_02_03",
+   "plot_url" : "/data/gandalf/usf/usf-bass/2025/2025_02_03/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-bass/2025/2025_02_03/kmz/usf-jaialai.kml"
+},
+
+{   "pi" : "Elipot S",
+    "vehicle" : "sg265",
+    "type" : "Seaglider",
+    "operator" : "AOML",
+    "project" : "Rapid-Evolution",
+    "deployed" : "2025-01-19",
+    "recovered" : "2025-02-26",
+    "days_wet" : 38,
+    "distance" : 0,
+    "map_url" : "/aoml/sg265/2025/2025_01_19",
+    "data_url" : "/data/gandalf/aoml/sg265/2025/2025_01_19",
+    "plot_url" : "/data/gandalf/aoml/sg265/2025/2025_01_19/plots",
+    "kmz_url" : ""
+  },
+
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-stella",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "GCOOS Observatory",
+   "deployed" : "2025-02-06",
+   "recovered" : "2025-02-26",
+   "days_wet" : 20,
+   "distance" : 0,
+   "map_url" : "/usf/usf-stella/2025/2025_02_06",
+   "data_url" : "/data/gandalf/usf/usf-stella/2025/2025_02_06",
+   "plot_url" : "/data/gandalf/usf/usf-stella/2025/2025_02_06/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-stella/2025/2025_02_06/kmz/usf-jaialai.kml"
+},
+
 {
      "pi" : "Langan J",
      "vehicle" : "mote-holly",
