@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Elipot S",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -21,7 +21,7 @@
         "dockfromfilter" : "p265*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg265",
         "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg265/processed_data/sensors.csv",
-        "deployment_date": "2025-01-19 00:00",
+        "deployment_date": "2025-03-10 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : false,
@@ -57,13 +57,13 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/aoml/sg265/2025/2025_01_19/plots",
+            "postprocess_plot_dir": "/data/gandalf/aoml/sg265/2025/2025_03_10/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/aoml/sg265/2025/2025_01_19",
-        "post_sensors_csv": "/data/gandalf/aoml/sg265/2025/2025_01_19/processed_data/sensors.csv",
-        "project": "Rapid-Evolution",
+        "post_data_dir_root": "/data/gandalf/aoml/sg265/2025/2025_03_10",
+        "post_sensors_csv": "/data/gandalf/aoml/sg265/2025/2025_03_10/processed_data/sensors.csv",
+        "project": "MOCHA 2",
         "public_name": "sg265",
         "dims" : {
             "sg_data_point" : {
@@ -84,7 +84,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg265-20250119T0000",
+        "deployment": "sg265-20250310T0000",
         "wmo_id": "8901095"
     },
     "platform": {
@@ -95,6 +95,6 @@
         "type": "platform",
         "wmo_id": "8901095"
     },
-    "trajectory_datetime": "20250119T0000",
-    "trajectory_name": "sg265-20250119T0000"
+    "trajectory_datetime": "20250310T0000",
+    "trajectory_name": "sg265-20250310T0000"
 }

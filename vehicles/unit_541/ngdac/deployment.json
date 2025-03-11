@@ -79,19 +79,33 @@
 
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_541/plots/",
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2024/2024_08_11/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_541/2015/2015_08_22/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2024/2024_08_11",
-        "post_sensors_csv": "/data/gandalf/tamu/unit_541/2024/2024_08_11",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_541/2015/2015_08_22",
+        "post_sensors_csv": "/data/gandalf/tamu/unit_541/2014/2015_08_22",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
-
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_lat",
+            "m_lon",
+            "m_water_vx",
+            "m_water_vy"
         ],
         "postprocess_science_sensor_list": [
-
+	"sci_m_present_time",                                                                                                                                                               
+            "sci_water_temp",                                                                                                                                                                   
+            "sci_water_cond",                                                                                                                                                                   
+            "sci_water_pressure",                                                                                                                                                               
+            "sci_flbbcd_cdom_units",                                                                                                                                                            
+            "sci_flbbcd_chlor_units",                                                                                                                                                           
+            "sci_oxy4_oxygen"   
         ],
         "project": "TAMU Hurricane Gliders",
         "public_name": "Sverdrup",
