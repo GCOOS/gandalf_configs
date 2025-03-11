@@ -64,7 +64,6 @@
                 "sci_flbbcd_cdom_units",
                 "sci_oxy4_oxygen"
             ],
-            "use_26d" : false,
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_540/2015/2015_08_05/plots",
             "post_sensors_csv": "/data/gandalf/tamu/unit_540/2015/2015_08_05/processed_data/sensors.csv",
             "plot_depth_padding": 5,
@@ -73,7 +72,7 @@
             "max_plot_depth" : 125
 
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_540/2015/2015_08_05/",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_540/2016/2016_08_05",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
