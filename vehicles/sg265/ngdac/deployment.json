@@ -17,7 +17,7 @@
         "dockserver" : "ftp.aoml.noaa.gov",
         "dockuser" : "anonymous",
         "dockpass" : "robertdcurrier@gmail.com",
-        "dockfrompath": "/phod/pub/aoml.glider/sg265",
+        "dockfrompath": "/phod/pub/aoml.glider/sg265/MOCHA2503/",
         "dockfromfilter" : "p265*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg265",
         "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg265/processed_data/sensors.csv",
