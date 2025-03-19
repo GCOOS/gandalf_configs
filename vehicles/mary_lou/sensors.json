@@ -65,8 +65,8 @@
     "gdac_sensor" : "",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
-    "sensor_plot_min" : 0.01,
-    "sensor_plot_max" :  5.0,
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 200,
     "alt_colormap" : "matter",
     "log_scale" : false
   },
@@ -76,8 +76,8 @@
     "gdac_sensor" : "",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "Backscatter",
-    "sensor_plot_min" : 0.0,
-    "sensor_plot_max" : 0.001,
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 2000,
     "alt_colormap" : "turbid",
     "log_scale" : false
   },
@@ -113,11 +113,10 @@
   },
 {
     "sensor" : "sci_rinkoii_do",
-    "unit_string" : "($_u mol/L$)",                                                                                                                            
-    "sensor_name" : "Dissolved Oxygen",                                                                                                                        
-    "sensor_plot_min" : 100.0,                                                                                                                                 
-    "sensor_plot_max" : 500.0,                                                                                                                                 
-    "alt_colormap" : "oxygen",                                                                                                                                 
-    "log_scale" : false                                                                                                                                        
+    "unit_string" : "($_u mol/L$)",
+    "sensor_name" : "Dissolved Oxygen","sensor_plot_min" : 100.0,
+    "sensor_plot_max" : 500.0,
+    "alt_colormap" : "oxygen",
+    "log_scale" : false
   }
 ]
