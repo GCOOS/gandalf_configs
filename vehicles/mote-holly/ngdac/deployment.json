@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-holly",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-holly/processed_data/sensors.csv",
-        "deployment_date": "2025-02-19 00:00",
-        "data_start_date" : "20250219T0000",
+        "deployment_date": "2025-03-19 00:00",
+        "data_start_date" : "20250319T0000",
         "data_end_date" : "20251231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_1225/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_1225/logs",
@@ -134,7 +134,7 @@
     },
     "glider": "mote-holly",
     "global_attributes": {
-        "deployment": "mote-holly-20250219T0000",
+        "deployment": "mote-holly-20250319T0000",
         "wmo_id": "8901120"
     },
     "platform": {
@@ -145,6 +145,6 @@
         "type": "platform",
         "wmo_id": "8901120"
     },
-    "trajectory_datetime": "20250219T0000",
-    "trajectory_name": "mote-holly-20250219T0000"
+    "trajectory_datetime": "20250319T0000",
+    "trajectory_name": "mote-holly-20250319T0000"
 }

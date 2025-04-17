@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "DiMarco S, Mahmud, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_308",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_308/processed_data/sensors.csv",
-        "deployment_date": "2024-08-11 00:00",
-        "data_start_date" : "20240814T0000",
-        "data_end_date" : "20241231T0000",
+        "deployment_date": "2025-04-14 00:00",
+        "data_start_date" : "20250414T0000",
+        "data_end_date" : "20251231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_308/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_308/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -42,9 +42,9 @@
         ],
         "ftp_send": true,
         "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_308/json",
+        "gdac_url" : "",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/unit_308-20240811T2012.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Ccdom%2Cchlorophyll_a%2Cdensity%2Csalinity%2Csound_speed%2Ctemperature&time%3E=2024-08-23T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -69,23 +69,21 @@
                 91
             ],
             "plot_sensor_list": [
-              "sci_water_temp",
-              "calc_density",
-              "calc_sigma",
-              "calc_salinity",
-              "depth_avg_curr"
+               "temperature",
+               "salinity",
+               "oxy4_oxygen"
             ],
             "max_plot_depth": 5000,
 
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_308/plots/",
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_308/2024/2024_08_11/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_308/2025/2025_04_14/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_308/2024/2024_08_11",
-        "post_sensors_csv": "/data/gandalf/tamu/unit_308/2024/2024_08_11",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_308/2025/2025_04_14",
+        "post_sensors_csv": "/data/gandalf/tamu/unit_308/2025/2025_04_14",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -93,7 +91,7 @@
         "postprocess_science_sensor_list": [
 
         ],
-        "project": "TAMU Hurricane Gliders",
+        "project": "GulfCORES GrASE",
         "public_name": "Howdy",
         "style": {
             "color": "#500000",
@@ -105,7 +103,7 @@
     },
     "glider": "unit_308",
     "global_attributes": {
-        "deployment": "unit_308-20240811T0000",
+        "deployment": "unit_308-20250414T0000",
         "wmo_id": "4801915"
     },
     "platform": {
@@ -116,6 +114,6 @@
         "type": "platform",
         "wmo_id": "4801915"
     },
-    "trajectory_datetime": "20240811T0000",
-    "trajectory_name": "unit_308-20240811T0000"
+    "trajectory_datetime": "20250414T0000",
+    "trajectory_name": "unit_308-20250414T0000"
 }
