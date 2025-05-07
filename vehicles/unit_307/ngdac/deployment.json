@@ -74,7 +74,7 @@
               "calc_sigma",
               "calc_salinity"
             ],
-            "max_plot_depth": 5000,
+            "max_plot_depth": 400,
 
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_307/plots/",

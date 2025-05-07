@@ -57,7 +57,7 @@
         "kmz_url": "",
         "operator": "TAMU",
         "plots": {
-            "use_26d" : true,
+            "use_26d" : false,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_308/plots",
@@ -75,13 +75,13 @@
               "calc_salinity",
               "depth_avg_curr"
             ],
-            "max_plot_depth": 5000,
+            "max_plot_depth": 400,
 
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_308/plots/",
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_308/2025/2025_04_14/plots",
             "use_bottom": true,
-            "use_max_plot_depth": false,
+            "use_max_plot_depth": true,
             "vmin": 0.01
         },
         "post_data_dir_root": "/data/gandalf/tamu/unit_308/2025/2025_04_14",
