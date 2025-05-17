@@ -1,4 +1,35 @@
 [
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G2",
+   "operator" : "USF",
+   "project" : "SECOORA Observatory",
+   "deployed" : "2025-04-11",
+   "recovered" : "2025-05-02",
+   "days_wet" : 21,
+   "distance" : 0,
+   "map_url" : "/usf/usf-sam/2025/2025_04_11",
+   "data_url" : "/data/gandalf/usf/usf-sam/2025/2025_04_11",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2025/2025_04_11/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2025/2025_04_11/kmz/usf-sam.kml"
+},
+
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-jaialai",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "Florida Red Tide Research",
+   "deployed" : "2025-02-19",
+   "recovered" : "2025-03-20",
+   "days_wet" : 31,
+   "distance" : 0,
+   "map_url" : "/usf/usf-jaialai/2025/2025_04_11",
+   "data_url" : "/data/gandalf/usf/usf-jaialai/2025/2025_02_19",
+   "plot_url" : "/data/gandalf/usf/usf-jaialai/2025/2025_02_19/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-jaialai/2025/2025_02_19/kmz/usf-jaialai.kml"
+},
 
 {
    "pi" : "Lembke, C",
@@ -13,7 +44,7 @@
    "map_url" : "/usf/usf-bass/2025/2025_02_03",
    "data_url" : "/data/gandalf/usf/usf-bass/2025/2025_02_03",
    "plot_url" : "/data/gandalf/usf/usf-bass/2025/2025_02_03/plots",
-   "kmz_url" : "/data/gandalf/usf/usf-bass/2025/2025_02_03/kmz/usf-jaialai.kml"
+   "kmz_url" : "/data/gandalf/usf/usf-bass/2025/2025_02_03/kmz/usf-bass.kml"
 },
 
 {   "pi" : "Elipot S",

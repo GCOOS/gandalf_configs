@@ -47,7 +47,7 @@
         "kmz_url": "",
         "operator": "Rutgers",
         "plots": {
-            "use_26d" : false,
+            "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/rutgers/ru38/plots",

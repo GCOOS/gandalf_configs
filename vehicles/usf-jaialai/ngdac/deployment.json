@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,7 +16,7 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2025-02-19 00:00",
+        "deployment_date": "2025-05-15 00:00",
         "data_start_date" : "20250101T0000",
         "data_end_date" : "20251231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
@@ -86,9 +86,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2025/2025_02_19",
-        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2025/2025_02_19",
-        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2025/2025_02_19/kmz/usf-jaialai.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2025/2025_05_15",
+        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2025/2025_05_15",
+        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2025/2025_05_15/kmz/usf-jaialai.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -133,7 +133,7 @@
     },
     "glider" : "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20250219T0000",
+        "deployment": "usf-jaialai-20250515T0000",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -144,6 +144,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20250219T0000",
-    "trajectory_name": "usf-jaialai-20250219T0000"
+    "trajectory_datetime": "20250515T0000",
+    "trajectory_name": "usf-jaialai-20250515T0000"
 }
