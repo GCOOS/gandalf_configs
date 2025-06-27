@@ -1,5 +1,35 @@
 [
 {
+     "pi" : "Langan J",
+     "vehicle" : "mote-holly",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2025-04-29",
+     "recovered" : "2025-05-20",
+     "days_wet" : 21,
+     "distance" : 0,
+     "map_url" : "/mote/mote-holly/2025/2025_04_29",
+     "data_url" : "/data/gandalf/mote/mote-holly/2025/2025_04_29/",
+     "plot_url" : "/data/gandalf/mote/mote-holly/2025/2025_04_29/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-holly/2025/2025_04_29/kmz/mote-holly.kml"
+ },
+{
+     "pi" : "Langan J",
+     "vehicle" : "mote-holly",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2025-02-19",
+     "recovered" : "2025-03-13",
+     "days_wet" : 25,
+     "distance" : 0,
+     "map_url" : "/mote/mote-holly/2025/2025_02_19",
+     "data_url" : "/data/gandalf/mote/mote-holly/2025/2025_02_19/",
+     "plot_url" : "/data/gandalf/mote/mote-holly/2025/2025_02_19/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-holly/2025/2025_02_19/kmz/mote-holly.kml"
+ },
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-sam",
    "type" : "Slocum G2",

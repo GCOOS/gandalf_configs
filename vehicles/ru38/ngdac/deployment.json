@@ -43,7 +43,8 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "post_kml_file": "",
-        "kml_file": "",
+        "kml_file": "/data/gandalf/deployments/rutgers/ru38/kmz/ru38.kml",
+        "kmz_file": "/data/gandalf/deployments/rutgers/ru38/kmz/ru38.kml",
         "kmz_url": "",
         "operator": "Rutgers",
         "plots": {

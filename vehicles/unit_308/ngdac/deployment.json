@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "DiMarco S, Mahmud, S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -54,7 +54,7 @@
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "post_kml_file": "",
         "kml_file": "/data/gandalf/deployments/tamu/unit_308/kmz/unit_308.kml",
-        "kmz_url": "",
+        "kmz_url": "/data/gandalf/deployments/tamu/unit_308/kmz/unit_308.kml",
         "operator": "TAMU",
         "plots": {
             "use_26d" : false,
