@@ -34,7 +34,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/usm/nori/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url" : "",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/nori-20250625T0000.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Csalinity%2Ctemperature&time%3E=2025-06-20T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
