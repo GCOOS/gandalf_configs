@@ -9,7 +9,7 @@
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
         "status" : "deployed",
-        "PI": "GMOG",
+        "PI": "GMOG-CICESE",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
         "data_source": "Cicese",
