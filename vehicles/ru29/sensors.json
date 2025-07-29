@@ -1,7 +1,7 @@
 [
   {
     "sensor" :  "m_avg_dive_rate",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "(m/s)",
     "sensor_name" : "Avg Dive Rate",
     "sensor_plot_min" : 0,
@@ -11,7 +11,7 @@
   },
   {
     "sensor" :  "m_avg_climb_rate",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "(m/s)",
     "sensor_name" : "Avg Climb Rate",
     "sensor_plot_min" : 0,
@@ -21,7 +21,7 @@
   },
   {
     "sensor" :  "sci_water_temp",
-    "gdac_sensor" : "temperature",
+    "erddap_sensor" : "temperature",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Water Temperature",
     "sensor_plot_min" : 5,
@@ -31,7 +31,7 @@
   },
   {
     "sensor" :  "calc_salinity",
-    "gdac_sensor" : "salinity",
+    "erddap_sensor" : "salinity",
     "unit_string" : "PPT (10$^{-3}$)",
     "sensor_name" : "Salinity",
     "sensor_plot_min" : 30.0,
@@ -41,7 +41,7 @@
   },
   {
     "sensor" :  "calc_density",
-    "gdac_sensor" : "density",
+    "erddap_sensor" : "density",
     "unit_string" : "(kg/m$^{3}$)",
     "sensor_name" : "Density",
     "sensor_plot_min" : 1000,
@@ -51,7 +51,7 @@
   },
 {
     "sensor" :  "calc_sigma",
-    "gdac_sensor" : "sigma",
+    "erddap_sensor" : "sigma",
     "unit_string" : "(kg/m$^{3}$)",
     "unit_string" : "",
     "sensor_name" : "Sigma-t",
@@ -62,7 +62,7 @@
   },
   {
     "sensor" :  "sci_flbbcd_cdom_units",
-    "gdac_sensor" : "cdom",
+    "erddap_sensor" : "cdom",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
     "sensor_plot_min" : 0.01,
@@ -72,7 +72,7 @@
   },
   {
     "sensor" :  "sci_flbbcd_chlor_units",
-    "gdac_sensor" : "chlorophyll_a",
+    "erddap_sensor" : "chlorophyll_a",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.01,
@@ -82,7 +82,7 @@
   },
   {
     "sensor" : "sci_oxy4_oxygen",
-    "gdac_sensor" : "oxygen",
+    "erddap_sensor" : "oxy4_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 0.0,
@@ -92,7 +92,7 @@
   },
   {
     "sensor" :  "sci_bbfl2s_cdom_scaled",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "CDOM",
     "sensor_plot_min" : 0.01,
@@ -102,7 +102,7 @@
   },
   {
     "sensor" : "sci_flbbcd_bb_units",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "PPB (10$^{-9}$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.01,
@@ -112,7 +112,7 @@
   },
   {
     "sensor" :  "sci_bbfl2s_chlor_scaled",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.01,
@@ -122,7 +122,7 @@
   },
   {
     "sensor" :  "sci_bbfl2s_bb_scaled",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Backscatter",
     "sensor_plot_min" : 0.01,
@@ -132,7 +132,7 @@
   },
   {
     "sensor" : "sci_oxy3835_oxygen",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 0.0,
@@ -142,7 +142,7 @@
   },
 {
     "sensor" : "sci_water_pressure",
-    "gdac_sensor" : "pressure",
+    "erddap_sensor" : "pressure",
     "unit_string" : "(bars)",
     "sensor_name" : "Pressure",
     "sensor_plot_min" : 0,
@@ -152,7 +152,7 @@
   },
 {
     "sensor" :  "calc_soundvel",
-    "gdac_sensor" : "",
+    "erddap_sensor" : "",
     "unit_string" : "(m/s)",
     "sensor_name" : "Sound Velocity",
     "sensor_plot_min" : 1400,

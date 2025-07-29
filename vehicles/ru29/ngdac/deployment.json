@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Miles T, Glenn S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/rutgers/ru29",
         "deployed_sensors_csv": "/data/gandalf/deployments/rutgers/ru29/processed_data/sensors.csv",
-        "deployment_date": "2024-06-22 14:20",
-        "data_start_date" : "20240622T1425",
-        "data_end_date" : "20241231T1200",
+        "deployment_date": "2025-07-15 14:20",
+        "data_start_date" : "20250715T1425",
+        "data_end_date" : "20251231T1200",
         "dockfrompath": "",
         "docklogpath": "",
         "dockserver": "",
@@ -34,8 +34,8 @@
         "gdac_json_dir": "/data/gandalf/deployments/rutgers/ru29/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru29-20240419T1430.json?trajectory%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cgps_latitude%2Cgps_longitude%2Coxy3835_wphase_oxygen%2Cpressure%2Csalinity%2Ctemperature&time%3E=2024-06-22T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru29-20250715T1838.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cdensity%2Coxy3835_wphase_saturation%2Csalinity%2Csound_speed%2Ctemperature&time%3E=2025-07-21T00%3A00%3A00Z",
         "harvest_method": "rsync",
         "iconSize": [
             20,
@@ -66,13 +66,13 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/rutgers/ru29/plots/",
-            "postprocess_plot_dir": "/data/gandalf/rutgers/ru29/2024/2024_06_22/plots",
+            "postprocess_plot_dir": "/data/gandalf/rutgers/ru29/2025/2025_07_15/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/rutgers/ru29/2024/2024_06_22",
-        "post_sensors_csv": "/data/gandalf/rutgers/ru29/2024/2024_06_22",
+        "post_data_dir_root": "/data/gandalf/rutgers/ru29/2025/2025_07_15",
+        "post_sensors_csv": "/data/gandalf/rutgers/ru29/2025/2025_07_15",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
         ],
@@ -95,7 +95,7 @@
     },
     "glider": "ru29",
     "global_attributes": {
-        "deployment": "ru29-20240518T1200",
+        "deployment": "ru29-20250518T1200",
         "wmo_id": ""
     },
     "platform": {
@@ -106,6 +106,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20240622T1425",
-    "trajectory_name": "ru29-20240622T1425"
+    "trajectory_datetime": "20250715T1425",
+    "trajectory_name": "ru29-20250715T1425"
 }

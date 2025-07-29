@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Miles, Glenn, DiMarco, Mahmud",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/rutgers/ru38",
         "deployed_sensors_csv": "/data/gandalf/deployments/rutgers/ru38/processed_data/sensors.csv",
-        "deployment_date": "2025-04-14 15:23",
-        "data_start_date" : "20250414T1523",
+        "deployment_date": "2025-07-22 00:00",
+        "data_start_date" : "20250722T1523",
         "data_end_date" : "20251231T1538",
         "dockfrompath": "",
         "docklogpath": "",
@@ -34,7 +34,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/rutgers/ru38/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ru38-20250414T1500.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Coxy4_oxygen%2Csalinity%2Ctemperature&time%3E=2025-04-09T00%3A00%3A00Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru38-20250722T1538.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Coxy4_saturation%2Cpressure%2Csalinity%2Csound_speed%2Ctemperature&time%3E=2025-07-21T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -111,6 +111,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20250414T1523",
-    "trajectory_name": "ru38-20250414T1523"
+    "trajectory_datetime": "20250722T1523",
+    "trajectory_name": "ru38-20250722T1523"
 }
