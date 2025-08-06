@@ -1,33 +1,33 @@
 {
     "gandalf": {
-        "vehicle" : "sg677",
-        "vehicle_data" : "local",
+        "vehicle" : "sg511",
+        "vehicle_data" : "erddap",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
-        "PI": "Howden S, Martin K",
+        "status" : "recovered",
+        "PI": "Iwamoto M, Young C",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
-        "data_source": "USM BaseStation",
+        "data_source": "IOOS GDAC",
         "debug": true,
         "dockserver" : "131.95.109.25",
         "dockuser" : "rdc",
         "dockpass" : "0c3ansc1enc3!",
         "dockport" : 2506,
-        "dockfrompath": "home/rdc/sg677_files",
+        "dockfrompath": "home/rdc/sg511_files",
         "dockfromfilter" : "*.nc",
-        "deployed_data_dir": "/data/gandalf/deployments/usm/sg677",
-        "deployed_nc_dir" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
-        "deployed_sensors_csv": "/data/gandalf/deployments/usm/sg677/processed_data/sensors.csv",
-        "deployment_date": "2025-07-31 00:00",
+        "deployed_data_dir": "/data/gandalf/deployments/pacioos/sg511",
+        "deployed_nc_dir" : "/data/gandalf/deployments/pacioos/sg511/processed_data/nc_files",
+        "deployed_sensors_csv": "/data/gandalf/deployments/pacioos/sg511/processed_data/sensors.csv",
+        "deployment_date": "2025-07-23 00:00",
         "drop_legato_data" : true,
         "drop_sg_data" : true,
-        "ftp_send": true,
-        "gdac_json_dir": "/data/gandalf/deployments/json",
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/pacioos/sg511/json",
         "gdac_user" : "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/sg511-20250723T1831.json?profile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-08-21T00%3A00%3A00Z",
         "harvest_method" : "rsync",
         "iconSize": [
             40,
@@ -35,14 +35,14 @@
         ],
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
-        "logo_file": "/data/gandalf/static/images/logos/usm_logo.png",
-        "operator": "USM",
+        "logo_file": "/data/gandalf/static/images/logos/pacioos_logo.png",
+        "operator": "PACIOOS",
         "plot_url": "",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/usm/sg677/plots",
-            "logo_file": "/data/gandalf/gandalf_configs/images/logos/usm_logo.png",
+            "deployed_plot_dir": "/data/gandalf/deployments/pacioos/sg511/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/pacioos_logo.png",
             "logo_loc": [
                 175,
                 90
@@ -53,16 +53,16 @@
                 "temperature",
                 "salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/usm/sg677/2025/2025_07_31/plots",
+            "postprocess_plot_dir": "/data/gandalf/pacioos/sg511/2025/2025_07_23/plots",
             "use_26d": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir": "/data/gandalf/usm/sg677/2025/2025_07_31",
-        "post_data_dir_root": "/data/gandalf/usm/sg677/2025/2025_07_31",
-        "post_nc_dir" : "/data/gandalf/usm/sg677/2025/2025_07_31/processed_data/nc_files",
-        "post_sensors_csv": "/data/gandalf/usm/sg677/2025/2025_07_31/processed_data/sensors.csv",
-        "project": "Hurricane Glider Picket Line",
-        "public_name": "sg677",
+        "post_data_dir": "/data/gandalf/pacioos/sg511/2025/2025_07_23",
+        "post_data_dir_root": "/data/gandalf/pacioos/sg511/2025/2025_07_23",
+        "post_nc_dir" : "/data/gandalf/pacioos/sg511/2025/2025_07_23/processed_data/nc_files",
+        "post_sensors_csv": "/data/gandalf/pacioos/sg511/2025/2025_07_23/processed_data/sensors.csv",
+        "project": "SG512 Mission 11",
+        "public_name": "sg511",
         "dims" : {
             "sg_data_point" : {
                 "sensors" : [
@@ -84,17 +84,16 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg677-20250731T0000",
-        "wmo_id": "44800907"
+        "deployment": "",
+        "wmo_id": ""
     },
     "platform": {
         "comment": " ",
-        "id": "sg677",
+        "id": "",
         "instruments": "instrument_ctd",
-        "long_name": "USM SG677",
+        "long_name": "",
         "type": "platform",
-        "wmo_id": "4800907"
+        "wmo_id": ""
     },
-    "trajectory_datetime": "20250731T0000",
-    "trajectory_name": "sg677-20250731T0000"
-}
+    "trajectory_datetime": "20250723T0000",
+    "trajectory_name": "sg511-20250723T0000"}

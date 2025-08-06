@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "GMOG",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -13,11 +13,11 @@
         "dockserver" : "gliders.cicese.mx",
         "dockuser" : "gandalfGMOG",
         "dockpass" : "bcurrier2022",
-        "dockfrompath": "ftp/gandalf/0036",
+        "dockfrompath": "ftp/gandalf/0042",
         "dockfromfilter" : "p672*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg672",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg672/processed_data/sensors.csv",
-        "deployment_date": "2024-07-19 00:00",
+        "deployment_date": "2025-07-31 00:00",
         "drop_legato_data" : false,
         "drop_sg_data" : false,
         "ftp_send": true,
@@ -52,13 +52,13 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg672/2024/2024_07_19/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg672/2025/2025_07_31/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg672/2024/2024_07_19",
-        "post_sensors_csv": "/data/gandalf/cicese/sg672/2024/2024_07_19/processed_data/sensors.csv",
-        "project": "CONAHCYT-FOP04_C1-2024-1",
+        "post_data_dir_root": "/data/gandalf/cicese/sg672/2025/2025_07_31",
+        "post_sensors_csv": "/data/gandalf/cicese/sg672/2025/2025_07_31/processed_data/sensors.csv",
+        "project": "APIXQUI/SECIHTI",
         "public_name": "sg672",
 	"dims" : {
             "sg_data_point" : {                                                                                          
@@ -81,7 +81,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg672-20240719T0000",
+        "deployment": "sg672-20250731T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -92,6 +92,6 @@
         "type": "platform",
         "wmo_id": "4800907"
     },
-    "trajectory_datetime": "20240719T0000",
-    "trajectory_name": "sg672-20240719T0000"
+    "trajectory_datetime": "20250731T0000",
+    "trajectory_name": "sg672-20250731T0000"
 }
