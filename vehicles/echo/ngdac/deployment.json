@@ -1,0 +1,119 @@
+{
+    "gandalf": {
+        "vehicle" : "echo",
+        "vehicle_data" : "local",
+        "vehicle_type" : "slocum",
+        "vehicle_model" : "Slocum G2",
+        "status" : "deployed",
+        "PI": "Carpenter J",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Deployed",
+        "data_source": "Hereon Dockserver",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/hereon/echo",
+        "deployed_sensors_csv": "/data/gandalf/deployments/hereon/echo/processed_data/sensors.csv",
+        "deployment_date": "2025-08-10 00:00",
+        "data_start_date" : "20250810T0000",
+        "data_end_date" : "20251231T0000",
+        "dockfrompath": "/home/gcoos_dmac/gliders/echo/from-glider/",
+        "docklogpath": "/home/gcoos_dmac/gliders/echo/logs/",
+        "dockserver": "dockserver0.hereon.de",
+        "dockuser": "gcoos_dmac",
+        "display_waypoints" : true,
+        "flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_gps_lat",
+            "m_gps_lon",
+            "m_lat",
+            "m_lon",
+            "m_water_vx",
+            "m_water_vy"
+        ],
+        "science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure"
+        ],
+        "ftp_send": true,
+        "gdac_json_dir": "/data/gandalf/deployments/hereon/echo/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "post_kml_file": "",
+        "kml_file": "/data/gandalf/deployments/hereon/echo/kmz/echo.kml",
+        "kmz_url": "",
+        "operator": "Hereon",
+        "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/hereon/echo/plots",
+            "deployed_plot_url": "/plots/echo",
+            "log_mult": 100,
+            "logo_file": "/data/gandalf/static/images/logos/hereon_logo.png",
+            "logo_loc": [
+                178,
+                91
+            ],
+            "plot_sensor_list": [
+              "sci_water_temp",
+              "calc_density",
+              "calc_sigma",
+              "calc_salinity"
+            ],
+            "max_plot_depth": 400,
+
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/hereon/echo/plots/",
+            "postprocess_plot_dir": "/data/gandalf/hereon/echo/2025/2025_08_10/plots",
+            "use_bottom": false,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
+        },
+        "post_data_dir_root": "/data/gandalf/hereon/echo/2025/2025_08_10",
+        "post_sensors_csv": "/data/gandalf/hereon/echo/2025/2025_08_10",
+        "post_kml_file": "",
+        "postprocess_flight_sensor_list": [
+
+        ],
+        "postprocess_science_sensor_list": [
+
+        ],
+        "project": "Hereon Hurricane Gliders",
+        "public_name": "Echo",
+        "style": {
+            "color": "#500000",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
+    },
+    "glider": "echo",
+    "global_attributes": {
+        "deployment": "echo-20250810T0000",
+        "wmo_id": "8901103"
+    },
+    "platform": {
+        "comment": "",
+        "id": "echo",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider echo",
+        "type": "platform",
+        "wmo_id": "8901103"
+    },
+    "trajectory_datetime": "20250810T0000",
+    "trajectory_name": "echo-20250810T0000"
+}

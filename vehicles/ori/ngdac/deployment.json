@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "hefring",
         "vehicle_model" : "",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/oceanscout_icon.png",
         "dash_status": "Deployed",
