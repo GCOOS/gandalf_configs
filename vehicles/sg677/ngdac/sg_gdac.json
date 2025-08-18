@@ -27,7 +27,7 @@
     "global_attributes" : {
       "Conventions" : "CF-1.6",
       "Metadata_Conventions" : "CF-1.6, Unidata Dataset Discovery v1.0",
-      "acknowledgment" : "This project is funded by Gulf of Mexico Coastal Ocean Observing System (GCOOS)",
+      "acknowledgment" : "This project is funded by Gulf of America Coastal Ocean Observing System (GCOOS)",
       "comment" : "Underwater glider temperature and salinity profiles",
       "contributor_name" : "Stephan Howden, Kevin Martin, Olivia Braswell",
       "contributor_role" : "Principal Investigator, Data Manager, Data Manager",
@@ -54,7 +54,7 @@
       "publisher_name" : "Bob Currier",
       "publisher_url" : "https://gandalf.gcoos.org",
       "references" : "GCOOS",
-      "sea_name" : "Gulf of Mexico",
+      "sea_name" : "Gulf of America",
       "source" : "Observational data from a profiling underwater glider",
       "standard_name_vocabulary" : "CF-v25",
       "summary" : "Underwater glider data gathered by the National Oceanic and Atmospheric Administration (NOAA)",

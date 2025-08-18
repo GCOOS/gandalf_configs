@@ -82,7 +82,7 @@
     },
     "global_attributes": {
         "deployment": "sg672-20250731T0000",
-        "wmo_id": ""
+        "wmo_id": "8901004"
     },
     "platform": {
         "comment": " ",
@@ -90,7 +90,7 @@
         "instruments": "instrument_ctd",
         "long_name": "USN Seaglider 669",
         "type": "platform",
-        "wmo_id": "4800907"
+        "wmo_id": "8901004"
     },
     "trajectory_datetime": "20250731T0000",
     "trajectory_name": "sg672-20250731T0000"

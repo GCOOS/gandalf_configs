@@ -65,7 +65,7 @@
       "history" : "",
       "platform" : 0,
       "instrument_ctd" : "Seabird SBE41",
-      "wmo_id" : "4800916"
+      "wmo_id" : "8901095"
     },
     "sg_variables" : {
       "time" : {
@@ -425,7 +425,8 @@
           "instrument" : "instrument_ctd",
           "long_name" : "Seaglider SGX sg609",
           "type" : "glider",
-          "wmo_id" : "4802999"
+          "wmo_id" : "8901095",
+        "
         }
       },
       "time_qc" : {

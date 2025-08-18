@@ -1,6 +1,6 @@
 {
     "Conventions": "CF-1.6, COARDS, ACDD-1.3",
-    "acknowledgment": "This work was supported by funding from the State of Florida in collaboration with the Gulf of Mexico Coastal Ocean Observing system and Florida Fish and Wildlife Conservation Commission.",
+    "acknowledgment": "This work was supported by funding from the State of Florida in collaboration with the Gulf of America Coastal Ocean Observing system and Florida Fish and Wildlife Conservation Commission.",
     "cdm_data_type": "trajectoryProfile",
     "comment": "",
     "contributor_name": "Chad Lembke, Katherine Hubbard,  Bob Currier",
@@ -56,7 +56,7 @@
     "publisher_institution": "GCOOS-RA",
     "publisher_url": "https://gcoos.org",
     "references": " ",
-    "sea_name": "Gulf of Mexico",
+    "sea_name": "Gulf of America",
     "source": " ",
     "standard_name_vocabulary": "CF Standard Name Table v27",
     "summary": "The purpose of this deployment is to collect water column variables to understand biological and physical processes to related to the dynamics and potential for Red Tide blooms on Florida's West Coast.",

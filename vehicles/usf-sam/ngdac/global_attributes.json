@@ -1,6 +1,6 @@
 {
     "Conventions": "CF-1.6, COARDS, ACDD-1.3",
-    "acknowledgment": "This work was supported by funding from the Gulf of Mexico Coastal Ocean Observing system and Florida Fish and Wildlife Conservation Commission.",
+    "acknowledgment": "This work was supported by funding from the Gulf of America Coastal Ocean Observing system and Florida Fish and Wildlife Conservation Commission.",
     "cdm_data_type": "trajectoryProfile",
     "comment": "",
     "contributor_name": "Chad Lembke, Alex Silverman,  Bob Currier",

@@ -86,7 +86,7 @@
     },
     "global_attributes": {
         "deployment": "sg609-20250625T0000",
-        "wmo_id": "4800916"
+        "wmo_id": "8901095"
     },
     "platform": {
         "comment": " ",
@@ -94,7 +94,7 @@
         "instruments": "instrument_ctd",
         "long_name": "AOML Seaglider 609",
         "type": "platform",
-        "wmo_id": "4800916"
+        "wmo_id": "8901095"
     },
     "trajectory_datetime": "20250625T0000",
     "trajectory_name": "sg609-20250625T0000"

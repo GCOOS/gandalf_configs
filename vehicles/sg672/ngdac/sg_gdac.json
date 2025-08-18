@@ -43,7 +43,7 @@
       "history" : "",
       "id" : "",
       "title" : "",
-      "institution" : "Ensenada Center for Scientific Research and Higher Education and Gulf of Mexico Ocean Observing System (GCOOS)",
+      "institution" : "Ensenada Center for Scientific Research and Higher Education and Gulf of America Ocean Observing System (GCOOS)",
       "keywords" : "AUVS > Autonomous Underwater Vehicles, Oceans > Ocean Pressure > Water Pressure, Oceans > Ocean Temperature > Water Temperature, Oceans > Salinity/Density > Conductivity, Oceans > Salinity/Density > Density, Oceans > Salinity/Density > Salinity",
       "keywords_vocabulary" : "GCMD Science Keywords",
       "license" : "These datinstrument_ctda may be redistributed and used without restrictions. Data provided as is with no expressed or implied warranty of quality control or quality assurance",
@@ -68,7 +68,7 @@
       "history" : "",
       "platform" : 0,
       "instrument_ctd" : "APL Glider CT",
-      "wmo_id" : "8901010"
+      "wmo_id" : "8901004"
     },
     "sg_variables" : {
       "time" : {
@@ -428,7 +428,7 @@
           "instrument" : "instrument_ctd",
           "long_name" : "USM Seaglider sg672",
           "type" : "glider",
-          "wmo_id" : "8901010"
+          "wmo_id" : "8901004"
         }
       },
       "time_qc" : {

@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -85,7 +85,7 @@
     },
     "global_attributes": {
         "deployment": "sg677-20250731T0000",
-        "wmo_id": "44800907"
+        "wmo_id": "4802999"
     },
     "platform": {
         "comment": " ",
@@ -93,7 +93,7 @@
         "instruments": "instrument_ctd",
         "long_name": "USM SG677",
         "type": "platform",
-        "wmo_id": "4800907"
+        "wmo_id": "4802999"
     },
     "trajectory_datetime": "20250731T0000",
     "trajectory_name": "sg677-20250731T0000"

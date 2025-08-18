@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_1148",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_1148/processed_data/sensors.csv",
-        "deployment_date": "2024-06-07 00:00",
-        "data_start_date" : "20240610T0000",
-        "data_end_date" : "20241231T0000",
+        "deployment_date": "2025-08-19 00:00",
+        "data_start_date" : "20250818T0000",
+        "data_end_date" : "20251231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_1148/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_1148/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -79,13 +79,13 @@
 
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/tamu/unit_1148/plots/",
-            "postprocess_plot_dir": "/data/gandalf/tamu/unit_1148/2024/2024_06_07/plots",
+            "postprocess_plot_dir": "/data/gandalf/tamu/unit_1148/2025/2025_08_19/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/tamu/unit_1148/2024/2024_06_07",
-        "post_sensors_csv": "/data/gandalf/tamu/unit_1148/2024/2024_06_07",
+        "post_data_dir_root": "/data/gandalf/tamu/unit_1148/2025/2025_08_19",
+        "post_sensors_csv": "/data/gandalf/tamu/unit_1148/2025/2025_08_19",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
 
@@ -94,7 +94,7 @@
 
         ],
         "project": "TAMU Hurricane Gliders",
-        "public_name": "unit_1148",
+        "public_name": "Aaliyah",
         "style": {
             "color": "#500000",
             "opacity": 1,
@@ -105,7 +105,7 @@
     },
     "glider": "unit_1148",
     "global_attributes": {
-        "deployment": "unit_1148-20240607T0000",
+        "deployment": "unit_1148-20250819T0000",
         "wmo_id": "4801915"
     },
     "platform": {
@@ -116,6 +116,6 @@
         "type": "platform",
         "wmo_id": "4801915"
     },
-    "trajectory_datetime": "20240607T0000",
-    "trajectory_name": "unit_1148-20240607T0000"
+    "trajectory_datetime": "20250819T0000",
+    "trajectory_name": "unit_1148-20250819T0000"
 }
