@@ -60,7 +60,7 @@
         "post_data_dir_root": "/data/gandalf/caracoos/sg678/2025/2025_08_15",
         "post_nc_dir" : "/data/gandalf/caracoos/sg678/2025/2025_08_15/processed_data/nc_files",
         "post_sensors_csv": "/data/gandalf/caracoos/sg678/2025/2025_08_15/processed_data/sensors.csv",
-        "project": "",
+        "project": "CARACOOS",
         "public_name": "sg678",
         "dims" : {
             "sg_data_point" : {
