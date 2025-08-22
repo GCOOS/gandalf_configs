@@ -1,11 +1,11 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg677-20250821T0000",
-    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/usm/sg677/binary_files/nc/",
-    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2025/2025_08_21/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2025/2025_08_21/processed_data/nc_files"
+    "trajectory_name": "sg678-20250815T0000",
+    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/usm/sg678/binary_files/nc/",
+    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/usm/sg678/processed_data/nc_files",
+    "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg678/2025/2025_08_15/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg678/2025/2025_08_15/processed_data/nc_files"
     },
     "validate_dims" : [
       "sg_data_point"
@@ -19,17 +19,17 @@
       "longitude" : "lon"
     },
     "ctd" : {
-      "ctd_serial_number": "210300",
-      "ctd_calib_date" : "2025-04-28",
+      "ctd_serial_number": "",
+      "ctd_calib_date" : "",
       "ctd_type" : "gpctd",
       "instrument_ctd" : "RBR_legato"
     },
     "global_attributes" : {
       "Conventions" : "CF-1.6",
       "Metadata_Conventions" : "CF-1.6, Unidata Dataset Discovery v1.0",
-      "acknowledgment" : "This project is funded by Gulf of America Coastal Ocean Observing System (GCOOS)",
+      "acknowledgment" : "",
       "comment" : "Underwater glider temperature and salinity profiles",
-      "contributor_name" : "Stephan Howden, Kevin Martin, Olivia Braswell",
+      "contributor_name" : "",
       "contributor_role" : "Principal Investigator, Data Manager, Data Manager",
       "creator_email" : "bob.currier@gcoos.org",
       "creator_name" : "Bob Currier",
@@ -41,7 +41,7 @@
       "history" : "",
       "id" : "",
       "title" : "",
-      "institution" : "University of Southern Mississippi",
+      "institution" : "CARACOOS",
       "keywords" : "AUVS > Autonomous Underwater Vehicles, Oceans > Ocean Pressure > Water Pressure, Oceans > Ocean Temperature > Water Temperature, Oceans > Salinity/Density > Conductivity, Oceans > Salinity/Density > Density, Oceans > Salinity/Density > Salinity",
       "keywords_vocabulary" : "GCMD Science Keywords",
       "license" : "These datinstrument_ctda may be redistributed and used without restrictions. Data provided as is with no expressed or implied warranty of quality control or quality assurance",
@@ -65,7 +65,7 @@
       "history" : "",
       "platform" : 0,
       "instrument_ctd" : "SBE41",
-      "wmo_id" : "4802999"
+      "wmo_id" : ""
     },
     "sg_variables" : {
       "time" : {
@@ -421,11 +421,11 @@
         },
         "var_keys" : {
           "comment" : "Seaglider",
-          "id" : "sg677",
+          "id" : "sg678",
           "instrument" : "instrument_ctd",
-          "long_name" : "USM Seaglider sg677",
+          "long_name" : "CARACOOS Seaglider sg678",
           "type" : "glider",
-          "wmo_id" : "4802999"
+          "wmo_id" : ""
         }
       },
       "time_qc" : {

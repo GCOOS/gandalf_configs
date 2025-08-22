@@ -1,4 +1,35 @@
 [
+
+{
+     "pi" : "Langan J",
+     "vehicle" : "mote-holly",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2025-08-05",
+     "recovered" : "2025-08-21",
+     "days_wet" : 16,
+     "distance" : 0,
+     "map_url" : "/mote/mote-holly/2025/2025_08_05",
+     "data_url" : "/data/gandalf/mote/mote-holly/2025/2025_08_05/",
+     "plot_url" : "/data/gandalf/mote/mote-holly/2025/2025_08_05/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-holly/2025/2025_08_05/kmz/mote-holly.kml"
+ },
+{
+    "pi" : "GMOG-CICESE",
+    "vehicle" : "SG651",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "GRASE-UGOS3 GulfCORES",
+    "deployed" : "2025-04-29",
+    "recovered" : "2025-08-17",
+    "days_wet" : 110,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/cicese/sg6251/2025/2025_04_29",
+    "plot_url" : "/data/gandalf/cicese/sg651/2025/2025_04_29/plots",
+    "kmz_url" : ""
+  },
  {
      "pi" : "Iwamoto M, Young C",
      "vehicle" : "sg148",

@@ -425,8 +425,7 @@
           "instrument" : "instrument_ctd",
           "long_name" : "Seaglider SGX sg609",
           "type" : "glider",
-          "wmo_id" : "8901095",
-        "
+          "wmo_id" : "8901095"
         }
       },
       "time_qc" : {
