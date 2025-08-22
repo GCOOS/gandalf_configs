@@ -19,8 +19,8 @@
       "longitude" : "lon"
     },
       "ctd" : {
-      "ctd_serial_number": "0355",
-      "ctd_calib_date" : "2024-02-02T00:00:00Z",
+      "ctd_serial_number": "0354",
+      "ctd_calib_date" : "2024-01-24T00:00:00Z",
       "ctd_type" : "thermosalinograph",
       "instrument_ctd" : "Seabird SBE41"
     },
