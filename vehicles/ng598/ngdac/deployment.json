@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "vehicle" : "ng735",
+        "vehicle" : "ng598",
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
@@ -13,8 +13,8 @@
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/navy/ng735",
-        "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng735/processed_data/sensors.csv",
+        "deployed_data_dir": "/data/gandalf/deployments/navy/ng598",
+        "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng598/processed_data/sensors.csv",
         "deployment_date": "2025-06-11 14:20",
         "data_start_date" : "20250819T0000",
         "data_end_date" : "20251231T1200",
@@ -31,10 +31,10 @@
             "gps_longitude"
         ],
         "ftp_send": false,
-        "gdac_json_dir": "/data/gandalf/deployments/navy/ng735/json",
+        "gdac_json_dir": "/data/gandalf/deployments/navy/ng598/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng735-20250611T0000.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-08-19T00%3A00%3A00Z",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng598-20250611T0000.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-08-19T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -50,8 +50,8 @@
             "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/navy/ng735/plots",
-            "deployed_plot_url": "/plots/ng735",
+            "deployed_plot_dir": "/data/gandalf/deployments/navy/ng598/plots",
+            "deployed_plot_url": "/plots/ng598",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/usn_logo.png",
             "logo_loc": [
@@ -65,21 +65,21 @@
               "density"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/ng735/plots/",
-            "postprocess_plot_dir": "/data/gandalf/navy/ng735/2025/2025_06_11/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/ng598/plots/",
+            "postprocess_plot_dir": "/data/gandalf/navy/ng598/2025/2025_06_11/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/navy/ng735/2025/2025_06_11",
-        "post_sensors_csv": "/data/gandalf/navy/ng735/2025/2025_06_11",
+        "post_data_dir_root": "/data/gandalf/navy/ng598/2025/2025_06_11",
+        "post_sensors_csv": "/data/gandalf/navy/ng598/2025/2025_06_11",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
         ],
         "postprocess_science_sensor_list": [
         ],
         "project": "Navy Hurricane Gliders",
-        "public_name": "ng735",
+        "public_name": "ng598",
         "science_sensor_list": [
           "density",
           "pressure",
@@ -93,19 +93,19 @@
         },
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "ng735",
+    "glider": "ng598",
     "global_attributes": {
-        "deployment": "ng735-20250518T1200",
+        "deployment": "ng598-20250518T1200",
         "wmo_id": ""
     },
     "platform": {
         "comment": "",
-        "id": "ng735",
+        "id": "ng598",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider ng735",
+        "long_name": "Slocum Glider ng598",
         "type": "platform",
         "wmo_id": ""
     },
     "trajectory_datetime": "20250611T1425",
-    "trajectory_name": "ng735-20250611T1425"
+    "trajectory_name": "ng598-20250611T1425"
 }
