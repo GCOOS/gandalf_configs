@@ -82,6 +82,7 @@
             "opacity": 1,
             "weight": 2
         },
+	"wpIcon": "/static/images/wp_icon_yellow.png",
         "teleport_zoom" : 8
     },
     "global_attributes": {
