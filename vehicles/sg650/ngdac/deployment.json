@@ -11,7 +11,7 @@
         "status" : "deployed",
         "PI": "GMOG-CICESE",
         "currPosIcon": "/static/images/seaglider_icon.png",
-        "dash_status": "Recovered",
+        "dash_status": "Deployed",
         "data_source": "Cicese",
         "debug": true,
         "dockserver" : "gliders.cicese.mx",
@@ -73,7 +73,8 @@
                     "ctd_depth",
                     "temperature",
                     "salinity",
-                    "density"
+                    "density",
+                    "waypoint"
                     ]
             }
         },

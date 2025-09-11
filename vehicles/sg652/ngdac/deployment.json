@@ -72,7 +72,8 @@
                     "ctd_depth",
                     "temperature",
                     "salinity",
-                    "density"
+                    "density",
+                    "waypoint"
                     ]
             }
         },
