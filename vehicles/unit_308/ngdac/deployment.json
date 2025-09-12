@@ -106,7 +106,7 @@
     "glider": "unit_308",
     "global_attributes": {
         "deployment": "unit_308-20250414T0000",
-        "wmo_id": "4801915"
+        "wmo_id": ""
     },
     "platform": {
         "comment": "",
@@ -114,7 +114,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider unit_308",
         "type": "platform",
-        "wmo_id": "4801915"
+        "wmo_id": ""
     },
     "trajectory_datetime": "20250414T0000",
     "trajectory_name": "unit_308-20250414T0000"

@@ -1,23 +1,4 @@
 [
-
-  {
-    "sensor" :  "legato_temperature",
-    "unit_string" : "($^oC$)",
-    "sensor_name" : "Water Temperature",
-    "sensor_plot_min" : 5,
-    "sensor_plot_max" : 40,
-    "alt_colormap" : "thermal",
-    "log_scale" : "False"
-  },
-  {
-    "sensor" :  "legato_salinity",
-    "unit_string" : "PPT (10$^{-3}$)",
-    "sensor_name" : "Salinity",
-    "sensor_plot_min" : 31.5,
-    "sensor_plot_max" :  37.5,
-    "alt_colormap" : "haline",
-    "log_scale" : "False"
-  },
   {
     "sensor" :  "temperature",
     "unit_string" : "($^oC$)",
@@ -31,14 +12,14 @@
     "sensor" :  "salinity",
     "unit_string" : "PPT (10$^{-3}$)",
     "sensor_name" : "Salinity",
-    "sensor_plot_min" : 600,
-    "sensor_plot_max" : 1000,
+    "sensor_plot_min" : 31.5,
+    "sensor_plot_max" :  37.5,
     "alt_colormap" : "haline",
     "log_scale" : "False"
   },
   {
     "sensor" :  "density",
-    "unit_string" : "",
+    "unit_string" : "(kg/m$^{3}$)",
     "sensor_name" : "Density",
     "sensor_plot_min" : 1000,
     "sensor_plot_max" : 1030,
@@ -56,7 +37,7 @@
     "log_scale" : false
   },
   {
-    "sensor" :  "calc_soundvel",
+    "sensor" :  "sound_velocity",
     "unit_string" : "(m/s)",
     "sensor_name" : "Sound Velocity",
     "sensor_plot_min" : 1400,
@@ -92,11 +73,11 @@
     "log_scale" : "False"
   },
   {
-    "sensor" :  "chlorophyll_a",
+    "sensor" :  "eng_wlbbfl2_FL1sig",
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.0,
-    "sensor_plot_max" :  3.0,
+    "sensor_plot_max" :  100,
     "alt_colormap" : "algae",
     "log_scale" : "False"
   },
@@ -110,7 +91,7 @@
     "log_scale" : "False"
   },
   {
-    "sensor" : "dissolved_oxygen",
+    "sensor" : "aanderaa4831_instrument_dissolved_oxygen",
     "unit_string" : "($_u mol/L$)",
     "sensor_name" : "Dissolved Oxygen",
     "sensor_plot_min" : 100.0,
