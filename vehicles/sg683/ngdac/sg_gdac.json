@@ -1,11 +1,11 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg670-20250822T0000",
-    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/aoml/sg670/binary_files/nc/",
-    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/aoml/sg670/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/aoml/sg670/2025/2025_08_22/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/aoml/sg670/2025/2025_08_22/processed_data/nc_files"
+    "trajectory_name": "sg683-20250822T0000",
+    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/aoml/sg683/binary_files/nc/",
+    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/aoml/sg683/processed_data/nc_files",
+    "recovered_sg_nc_files_in"  : "/data/gandalf/aoml/sg683/2025/2025_08_22/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/aoml/sg683/2025/2025_08_22/processed_data/nc_files"
     },
     "validate_dims" : [
       "sg_data_point"
@@ -19,8 +19,8 @@
       "longitude" : "lon"
     },
       "ctd" : {
-      "ctd_serial_number": "0313",
-      "ctd_calib_date" : "2024-04-17T00:00:00Z",
+      "ctd_serial_number": "0347",
+      "ctd_calib_date" : "2023-01-29T00:00:00Z",
       "ctd_type" : "thermosalinograph",
       "instrument_ctd" : "Seabird SBE41"
     },
@@ -65,7 +65,7 @@
       "history" : "",
       "platform" : 0,
       "instrument_ctd" : "Seabird SBE41",
-      "wmo_id" : "4802954"
+      "wmo_id" : "4803960"
     },
     "sg_variables" : {
       "time" : {
@@ -421,11 +421,11 @@
         },
         "var_keys" : {
           "comment" : "Seaglider SGX",
-          "id" : "sg670",
+          "id" : "sg683",
           "instrument" : "instrument_ctd",
-          "long_name" : "Seaglider SGX sg670",
+          "long_name" : "Seaglider SGX sg683",
           "type" : "glider",
-          "wmo_id" : "4802954"
+          "wmo_id" : "4803960"
         }
       },
       "time_qc" : {

@@ -4,7 +4,7 @@
            "ctd_time",
            "ctd_depth"
         ],
-        "vehicle" : "sg670",
+        "vehicle" : "sg683",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
@@ -18,11 +18,11 @@
         "dockuser" : "gcoos_dmac",
         "dockpass" : "",
         "dockport" : 22,
-        "dockfrompath": "/home/jails/aoml/gliderjail/home/sg670",
+        "dockfrompath": "/home/jails/aoml/gliderjail/home/sg683",
         "dockfromfilter" : "p*.nc",
-        "deployed_data_dir": "/data/gandalf/deployments/aoml/sg670/",
-        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg670/processed_data/sensors.csv",
-        "deployment_date": "2025-09-11 00:00",
+        "deployed_data_dir": "/data/gandalf/deployments/aoml/sg683/",
+        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg683/processed_data/sensors.csv",
+        "deployment_date": "2025-09-10 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : false,
@@ -45,7 +45,7 @@
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg670/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg683/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/miami_logo.png",
             "logo_loc": [
                 175,
@@ -58,14 +58,14 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/aoml/sg670/2025/2025_09_11/plots",
+            "postprocess_plot_dir": "/data/gandalf/aoml/sg683/2025/2025_09_10/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/aoml/sg670/2025/2025_09_11",
-        "post_sensors_csv": "/data/gandalf/aoml/sg670/2025/2025_09_11/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/aoml/sg683/2025/2025_09_10",
+        "post_sensors_csv": "/data/gandalf/aoml/sg683/2025/2025_09_10/processed_data/sensors.csv",
         "project": "Hurricane Gliders",
-        "public_name": "sg670",
+        "public_name": "sg683",
         "dims" : {
             "sg_data_point" : {
                 "sensors" : [
@@ -87,17 +87,17 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg670-20250911T0000",
-        "wmo_id": "4802954"
+        "deployment": "sg683-20250910T0000",
+        "wmo_id": "4803960"
     },
     "platform": {
         "comment": " ",
-        "id": "sg670",
+        "id": "sg683",
         "instruments": "instrument_ctd",
-        "long_name": "AOML Seaglider 670",
+        "long_name": "AOML Seaglider 683",
         "type": "platform",
-        "wmo_id": "4802954"
+        "wmo_id": "4803960"
     },
-    "trajectory_datetime": "20250911T0000",
-    "trajectory_name": "sg670-20250911T0000"
+    "trajectory_datetime": "20250910T0000",
+    "trajectory_name": "sg683-20250910T0000"
 }
