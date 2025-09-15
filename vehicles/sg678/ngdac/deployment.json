@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Morell J",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -19,7 +19,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/caracoos/sg678",
         "deployed_nc_dir" : "/data/gandalf/deployments/caracoos/sg678/processed_data/nc_files",
         "deployed_sensors_csv": "/data/gandalf/deployments/caracoos/sg678/processed_data/sensors.csv",
-        "deployment_date": "2025-08-15 00:00",
+        "deployment_date": "2025-09-11 00:00",
         "drop_legato_data" : true,
         "drop_sg_data" : true,
         "ftp_send": true,
@@ -27,7 +27,7 @@
         "gdac_user" : "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/SG678-20250624T1621.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-08-15T00%3A00%3A00Z",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/SG678-20250911T1609.json?trajectory%2Cwmo_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-09-08T00%3A00%3A00Z",
         "harvest_method" : "rsync",
         "iconSize": [
             40,
@@ -52,14 +52,14 @@
                 "temperature",
                 "salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/caracoos/sg678/2025/2025_08_15/plots",
+            "postprocess_plot_dir": "/data/gandalf/caracoos/sg678/2025/2025_09_11/plots",
             "use_26d": false,
             "use_max_plot_depth": false
         },
-        "post_data_dir": "/data/gandalf/caracoos/sg678/2025/2025_08_15",
-        "post_data_dir_root": "/data/gandalf/caracoos/sg678/2025/2025_08_15",
-        "post_nc_dir" : "/data/gandalf/caracoos/sg678/2025/2025_08_15/processed_data/nc_files",
-        "post_sensors_csv": "/data/gandalf/caracoos/sg678/2025/2025_08_15/processed_data/sensors.csv",
+        "post_data_dir": "/data/gandalf/caracoos/sg678/2025/2025_09_11",
+        "post_data_dir_root": "/data/gandalf/caracoos/sg678/2025/2025_09_11",
+        "post_nc_dir" : "/data/gandalf/caracoos/sg678/2025/2025_09_11/processed_data/nc_files",
+        "post_sensors_csv": "/data/gandalf/caracoos/sg678/2025/2025_09_11/processed_data/sensors.csv",
         "project": "CARACOOS",
         "public_name": "sg678",
         "dims" : {
@@ -83,7 +83,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg678-20250815T0000",
+        "deployment": "sg678-20250911T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -94,6 +94,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20250815T0000",
-    "trajectory_name": "sg678-20250815T0000"
+    "trajectory_datetime": "20250911T0000",
+    "trajectory_name": "sg678-20250911T0000"
 }
