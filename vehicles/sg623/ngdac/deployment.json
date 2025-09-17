@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "vehicle" : "sg622",
+        "vehicle" : "sg623",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
@@ -13,11 +13,11 @@
         "dockserver" : "gliders.cicese.mx",
         "dockuser" : "gandalfGMOG",
         "dockpass" : "bcurrier2022",
-        "dockfrompath": "ftp/gandalf/0045",
-        "dockfromfilter" : "p622*.nc",
-        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg622",
-        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg622/processed_data/sensors.csv",
-        "deployment_date": "2025-09-10 00:00",
+        "dockfrompath": "ftp/gandalf/0046",
+        "dockfromfilter" : "p623*.nc",
+        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg623",
+        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg623/processed_data/sensors.csv",
+        "deployment_date": "2025-09-11 00:00",
         "drop_legato_data" : false,
         "drop_sg_data" : false,
         "ftp_send": true,
@@ -39,7 +39,7 @@
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg622/plots",
+            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg623/plots",
             "logo_file": "/data/gandalf/gandalf_configs/images/logos/cicese_logo.png",
             "logo_loc": [
                 175,
@@ -52,14 +52,14 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg622/2024/2025_09_10/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg623/2024/2025_09_11/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg622/2024/2025_09_10",
-        "post_sensors_csv": "/data/gandalf/cicese/sg622/2024/2025_09_10/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/cicese/sg623/2024/2025_09_11",
+        "post_sensors_csv": "/data/gandalf/cicese/sg623/2024/2025_09_11/processed_data/sensors.csv",
         "project": "APIXQUI / SECIHTI",
-        "public_name": "sg622",
+        "public_name": "sg623",
 	"dims" : {
             "sg_data_point" : {
                 "sensors" : [
@@ -83,17 +83,17 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg622-20250910T0000",
-        "wmo_id": "8901009"
+        "deployment": "sg623-20250911T0000",
+        "wmo_id": "8901007"
     },
     "platform": {
         "comment": " ",
-        "id": "sg622",
+        "id": "sg623",
         "instruments": "instrument_ctd",
-        "long_name": "Cicese Seaglider 622",
+        "long_name": "CICESE SG 623",
         "type": "platform",
-        "wmo_id": "8901009"
+        "wmo_id": "8901007"
     },
-    "trajectory_datetime": "20250910T0000",
-    "trajectory_name": "sg622-20250910T0000"
+    "trajectory_datetime": "20250911T0000",
+    "trajectory_name": "sg623-20250911T0000"
 }

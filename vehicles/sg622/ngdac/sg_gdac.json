@@ -1,11 +1,11 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg622-20250514T0000",
+    "trajectory_name": "sg622-20250910T0000",
     "deployed_sg_nc_files_in" : "/data/gandalf/deployments/cicese/sg622/binary_files/nc",
     "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/cicese/sg622/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/cicese/sg622/2025/2025_05_14/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/cicese/sg622/2025/2025_05_14/processed_data/nc_files",
+    "recovered_sg_nc_files_in"  : "/data/gandalf/cicese/sg622/2025/2025_09_10/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/cicese/sg622/2025/2025_09_10/processed_data/nc_files",
     "drop_sg_data" : true,
     "drop_legato_data" : true
     },
@@ -52,7 +52,7 @@
       "platform_type" : "Seaglider",
       "processing_level" : "Data provided as is with no expressed or implied assurance of quality assurance or quality control.",
       "program" : "Understanding the Gulf Ocean Systems",
-      "project" : "MASTR-UGOS3 Gulf Consortium for Offshore Risk Reduction Engaging Stakeholders (GulfCORES)",
+      "project" : "APIXQUI / SECIHTI",
       "publisher_email" : "bob.currier@gcoos.org",
       "publisher_name" : "Bob Currier",
       "publisher_url" : "https://gandalf.gcoos.org",

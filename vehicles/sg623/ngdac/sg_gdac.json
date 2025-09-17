@@ -1,11 +1,11 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg651-20250429T0000",
-    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/cicese/sg651/binary_files/nc",
-    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/cicese/sg651/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/cicese/sg651/2025/2025_04_29/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/cicese/sg651/2025/2025_04_29/processed_data/nc_files",
+    "trajectory_name": "sg623-20250910T0000",
+    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/cicese/sg623/binary_files/nc",
+    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/cicese/sg623/processed_data/nc_files",
+    "recovered_sg_nc_files_in"  : "/data/gandalf/cicese/sg623/2025/2025_09_11/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/cicese/sg623/2025/2025_09_11/processed_data/nc_files",
     "drop_sg_data" : true,
     "drop_legato_data" : true
     },
@@ -51,8 +51,8 @@
       "naming_authority" : "None",
       "platform_type" : "Seaglider",
       "processing_level" : "Data provided as is with no expressed or implied assurance of quality assurance or quality control.",
-      "program" : "GRASE-UGOS3 GulfCORES",
-      "project" : "GRASE-UGOS3 Gulf Consortium for Offshore Risk Reduction Engaging Stakeholders (GulfCORES)",
+      "program" : "Understanding the Gulf Ocean Systems",
+      "project" : "APIXQUI / SECIHTI",
       "publisher_email" : "bob.currier@gcoos.org",
       "publisher_name" : "Bob Currier",
       "publisher_url" : "https://gandalf.gcoos.org",
@@ -68,7 +68,7 @@
       "history" : "",
       "platform" : 0,
       "instrument_ctd" : "APL Glider CT",
-      "wmo_id" : "8901006"
+      "wmo_id" : "8901007"
     },
     "sg_variables" : {
       "time" : {
@@ -424,11 +424,11 @@
         },
         "var_keys" : {
           "comment" : "Seaglider",
-          "id" : "sg651",
+          "id" : "sg623",
           "instrument" : "instrument_ctd",
-          "long_name" : "CICESE sg651",
+          "long_name" : "CICESE SG 623",
           "type" : "glider",
-          "wmo_id" : "8901006"
+          "wmo_id" : "8901007"
         }
       },
       "time_qc" : {

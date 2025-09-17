@@ -64,7 +64,7 @@
         },
         "post_data_dir_root": "/data/gandalf/cicese/sg650/2022/2025_08_17",
         "post_sensors_csv": "/data/gandalf/cicese/sg650/2022/2025_08_17/processed_data/sensors.csv",
-        "project": "CICESE CONACyT GMOGline",
+        "project": "GRASE-UGOS3 GulfCORES",
         "public_name": "sg650",
 	"dims" : {
             "sg_data_point" : {
