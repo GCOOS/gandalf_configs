@@ -34,7 +34,7 @@
         "gdac_json_dir": "/data/gandalf/deployments/rutgers/ru38/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru38-20250722T1538.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Coxy4_saturation%2Cpressure%2Csalinity%2Csound_speed%2Ctemperature&time%3E=2025-07-21T00%3A00%3A00Z",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ru38-20250722T1538.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-07-21T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
