@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "hefring",
         "vehicle_model" : "",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Howden S, Martin K",
         "currPosIcon": "/static/images/oceanscout_icon.png",
         "dash_status": "Deployed",
@@ -19,7 +19,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/usm/ori/binary_files/nc",
         "deployed_sensors_csv": "/data/gandalf/deployments/usm/ori/processed_data/sensors.csv",
         "deployed_nc_dir" : "/data/gandalf/deployments/usm/ori/binary_files/nc",
-        "deployment_date": "2025-07-29 00:00",
+        "deployment_date": "2025-10-01 00:00",
         "drop_legato_data" : false,
         "drop_sg_data" : false,
         "ftp_send": true,
@@ -27,7 +27,7 @@
         "gdac_user" : "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ori-20250729T0000.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-06-04T00%3A00%3A00Z",
+        "gdac_url" : "",
         "harvest_method" : "rsync",
         "iconSize": [
             40,
@@ -53,14 +53,14 @@
                 "temperature",
                 "salinity"
             ],
-            "postprocess_plot_dir": "/data/gandalf/usm/ori/2025/2025_07_29/plots",
+            "postprocess_plot_dir": "/data/gandalf/usm/ori/2025/2025_10_01/plots",
             "use_26d": false,
             "use_max_plot_depth": true
         },
-        "post_data_dir": "/data/gandalf/usm/ori/2025/2025_07_29",
-        "post_data_dir_root": "/data/gandalf/usm/ori/2025/2025_07_29",
-        "post_nc_dir" : "/data/gandalf/usm/ori/2025/2025_07_29/processed_data/nc_files",
-        "post_sensors_csv": "/data/gandalf/usm/ori/2025/2025_07_29/processed_data/sensors.csv",
+        "post_data_dir": "/data/gandalf/usm/ori/2025/2025_10_01",
+        "post_data_dir_root": "/data/gandalf/usm/ori/2025/2025_10_01",
+        "post_nc_dir" : "/data/gandalf/usm/ori/2025/2025_10_01/processed_data/nc_files",
+        "post_sensors_csv": "/data/gandalf/usm/ori/2025/2025_10_01/processed_data/sensors.csv",
         "project": "Hurricane Glider Picket Line",
         "public_name": "ori",
         "style": {
@@ -71,7 +71,7 @@
     },
     "teleport_zoom" : 8,
     "global_attributes": {
-        "deployment": "ori-20250729T0000",
+        "deployment": "ori-20251001T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -82,6 +82,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20250729T0000",
-    "trajectory_name": "ori-20250729T0000"
+    "trajectory_datetime": "20251001T0000",
+    "trajectory_name": "ori-20251001T0000"
 }

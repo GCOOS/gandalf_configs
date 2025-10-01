@@ -4,7 +4,7 @@
         "vehicle" : "franklin",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Edwards, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,8 +16,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/franklin",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/franklin/processed_data/sensors.csv",
-        "deployment_date": "2025-07-15 12:00",
-        "data_start_date" : "20250715T0000",
+        "deployment_date": "2025-09-19 12:00",
+        "data_start_date" : "20250919T0000",
         "data_end_date" : "20251231T1200",
         "dockfrompath" : "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/franklin/logs",
@@ -70,7 +70,7 @@
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/skio/franklin/2025/2025_07_15",
+        "post_data_dir_root": "/data/gandalf/skio/franklin/2025/2025_09_19",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -117,7 +117,7 @@
     },
     "glider": "franklin",
     "global_attributes": {
-        "deployment": "franklin-20250715T0000",
+        "deployment": "franklin-20250919T0000",
         "wmo_id": "4802956"
     },
     "platform": {
@@ -128,6 +128,6 @@
         "type": "platform",
         "wmo_id": "4802956"
     },
-    "trajectory_datetime": "20250715T0000",
-    "trajectory_name": "franklin-20250715T0000"
+    "trajectory_datetime": "20250919T0000",
+    "trajectory_name": "franklin-20250919T0000"
 }
