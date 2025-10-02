@@ -27,7 +27,7 @@
         "gdac_user" : "gcoos_dmac",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url" : "",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ori-20251001T0000.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-09-24T00%3A00%3A00Z",
         "harvest_method" : "rsync",
         "iconSize": [
             40,
