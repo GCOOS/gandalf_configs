@@ -2,7 +2,7 @@
     "gandalf": {
         "vehicle" : "PC7",
         "vehicle_data" : "erddap",
-        "vehicle_type" : "Oshen C-Star",
+        "vehicle_type" : "USV",
         "vehicle_model" : "Oshen C-Star",
         "status" : "deployed",
         "PI": "NOAA AOML",
@@ -59,7 +59,14 @@
                 91
             ],
             "max_plot_depth": 0,
-            "plot_sensor_list": [
+	    "plot_sensor_list": [
+                "wind_speed_mean",
+                "wind_speed_of_gust",
+                "wind_from_direction_mean",
+                "air_pressure_mean",
+                "air_temperature_mean",
+                "relative_humidity_mean",
+                "sea_surface_temperature_mean"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/aoml/PC7/plots/",
