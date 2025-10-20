@@ -1,5 +1,36 @@
 [
 
+{
+     "pi" : "Langan J",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G3",
+     "operator" : "Mote",
+     "project" : "FWRI Gulf Survey",
+     "deployed" : "2025-10-01",
+     "recovered" : "2025-10-14",
+     "days_wet" : 13,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2025/2025_08_05",
+     "data_url" : "/data/gandalf/mote/mote-dora/2025/2025_10_01/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2025/2025_10_01/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2025/2025_10_01/kmz/mote-dora.kml"
+ },
+
+{   "pi" : "Elipot S",
+    "vehicle" : "sg668",
+    "type" : "Seaglider",
+    "operator" : "AOML",
+    "project" : "Hurricane Gliders",
+    "deployed" : "2025-06-25",
+    "recovered" : "2025-10-09",
+    "days_wet" : 106,
+    "distance" : 0,
+    "map_url" : "/aoml/sg668/2025/2025_06_25",
+    "data_url" : "/data/gandalf/aoml/sg668/2025/2025_06_25",
+    "plot_url" : "/data/gandalf/aoml/sg668/2025/2025_06_25/plots",
+    "kmz_url" : ""
+  },
+
 
 {
     "pi" : "GMOG-CICESE",
