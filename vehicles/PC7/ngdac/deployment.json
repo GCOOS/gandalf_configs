@@ -60,9 +60,6 @@
             ],
             "max_plot_depth": 0,
             "plot_sensor_list": [
-              "temperature",
-              "salinity",
-              "density"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/aoml/PC7/plots/",
