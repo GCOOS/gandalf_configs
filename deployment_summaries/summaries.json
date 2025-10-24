@@ -1,5 +1,35 @@
 [
 
+{   "pi" : "Morell J",
+    "vehicle" : "sg678",
+    "type" : "Seaglider",
+    "operator" : "CARACOOS",
+    "project" : "CARACOOS",
+    "deployed" : "2025-09-11",
+    "recovered" : "2025-10-19",
+    "days_wet" : 38,
+    "distance" : 0,
+    "map_url" : "/caracoos/sg678/2025/2025_09_11",
+    "data_url" : "/data/gandalf/caracoos/sg678/2025/2025_09_11",
+    "plot_url" : "/data/gandalf/caracoos/sg678/2025/2025_09_11/plots",
+    "kmz_url" : ""
+  },
+
+{
+   "pi" : "Martin, K",
+   "vehicle" : "Ori",
+   "type" : "SeaScout",
+   "operator" : "USM",
+   "project" : "Hurricane Glider Picket Line",
+   "deployed" : "2025-10-01",
+   "recovered" : "2025-10-22",
+   "days_wet" : 21,
+   "distance" : 0,
+   "map_url" : "",
+   "data_url" : "",
+   "plot_url" : "/data/gandalf/usm/ori/2025/2025_10_01/plots",
+   "kmz_url" : ""
+ },
  {
      "pi" : "Miles, Glenn, DiMarco, Mahmud",
      "vehicle" : "ru38",
