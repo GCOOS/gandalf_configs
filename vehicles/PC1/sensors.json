@@ -1,0 +1,59 @@
+[
+  {
+    "sensor" :  "wind_speed_mean",
+    "gdac_sensor" : "",
+    "unit_string" : "(knots)",
+    "sensor_name" : "Mean Wind Speed",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 200
+  },
+  {
+    "sensor" :  "wind_speed_of_gust",
+    "gdac_sensor" : "",
+    "unit_string" : "(knots)",
+    "sensor_name" : "Mean Wind Gust",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 200
+  },
+  {
+    "sensor" :  "air_temperature_mean",
+    "gdac_sensor" : "",
+    "unit_string" : "($^oC$)",
+    "sensor_name" : "Mean Air Temperature",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 40
+  },
+  {
+    "sensor" :  "air_pressure_mean",
+    "gdac_sensor" : "",
+    "unit_string" : "(mbar)",
+    "sensor_name" : "Mean Barometric Pressure",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 4000
+  },
+  {
+    "sensor" :  "wind_from_direction_mean",
+    "gdac_sensor" : "",
+    "unit_string" : "($^oC$)",
+    "sensor_name" : "Mean Wind Direction",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 360
+  },
+  {
+    "sensor" :  "sea_surface_temperature_mean",
+    "gdac_sensor" : "",
+    "unit_string" : "($^oC$)",
+    "sensor_name" : "Mean Sea Surface Temperature",
+    "sensor_plot_min" : 15,
+    "sensor_plot_max" : 40
+  },
+  {
+    "sensor" :  "relative_humidity_mean",
+    "gdac_sensor" : "",
+    "unit_string" : "(%)",
+    "sensor_name" : "Mean Relative Humidity",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 100
+  }
+
+]

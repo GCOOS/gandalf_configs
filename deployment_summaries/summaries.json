@@ -1,5 +1,20 @@
 [
 
+{   "pi" : "Le Henaff M",
+    "vehicle" : "sg663",
+    "type" : "Seaglider",
+    "operator" : "AOML",
+    "project" : "AOML",
+    "deployed" : "2025-08-22",
+    "recovered" : "2025-10-28",
+    "days_wet" : 66,
+    "distance" : 0,
+    "map_url" : "/aoml/sg663/2025/2025_08_22",
+    "data_url" : "/data/gandalf/aoml/sg663/2025/2025_08_22",
+    "plot_url" : "/data/gandalf/aoml/sg663/2025/2025_08_22/plots",
+    "kmz_url" : ""
+  },
+
 {   "pi" : "Morell J",
     "vehicle" : "sg678",
     "type" : "Seaglider",
