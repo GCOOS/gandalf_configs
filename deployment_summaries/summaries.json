@@ -1,5 +1,19 @@
 [
 
+{
+     "pi" : "Martin K",
+     "vehicle" : "ng264",
+     "type" : "Slocum G2",
+     "operator" : "US Navy",
+     "project" : "Navy Hurricane Gliders",
+     "deployed" : "2025-06-11",
+     "recovered" : "2025-11-08",
+     "days_wet" : 150,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/navy/ng264/2025/2025_06_11",
+     "plot_url" : "/data/gandalf/navy/ng264/2025/2025_06_11/plots"
+},
 {   "pi" : "Le Henaff M",
     "vehicle" : "sg663",
     "type" : "Seaglider",
