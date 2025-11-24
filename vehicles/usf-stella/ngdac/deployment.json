@@ -3,7 +3,7 @@
         "vehicle" : "usf-stella",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke, C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -15,8 +15,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-stella",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-stella/processed_data/sensors.csv",
-        "deployment_date": "2025-02-06 00:00",
-        "data_start_date" : "20250206T0000",
+        "deployment_date": "2025-11-14 00:00",
+        "data_start_date" : "20251114T0000",
         "data_end_date" : "20251232T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-stella/logs",
@@ -69,11 +69,11 @@
             "use_bottom": true,
             "use_max_plot_depth": false,
             "plot_url": "/data/gandalf/deployments/mote/usf-stella/plots/",
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2025/2025_02_06/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-stella/2025/2025_11_14/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2025_02_06",
-        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2025_02_06",
-        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2025_02_06/kmz/usf-stella.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-stella/2020/2025_11_14",
+        "post_sensors_csv": "/data/gandalf/usf/usf-stella/2020/2025_11_14",
+        "post_kml_file": "/data/gandalf/usf/usf-stella/2020/2025_11_14/kmz/usf-stella.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -92,7 +92,7 @@
           "sci_flbbcd_chlor_units",
           "sci_oxy3835_oxygen"
         ],
-        "project": "GCOOS Observatory",
+        "project": "FLRACEP",
         "public_name": "usf-stella",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -124,7 +124,7 @@
     },
     "glider": "usf-stella",
     "global_attributes": {
-        "deployment": "usf-stella-20250206T0000",
+        "deployment": "usf-stella-20251114T0000",
         "wmo_id": "4802970"
     },
     "platform": {
@@ -135,6 +135,6 @@
         "type": "platform",
         "wmo_id": "4802970"
     },
-    "trajectory_datetime": "20250206T0000",
-    "trajectory_name": "usf-stella-20250206T0000"
+    "trajectory_datetime": "20251114T0000",
+    "trajectory_name": "usf-stella-20251114T0000"
 }
