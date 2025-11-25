@@ -2,6 +2,21 @@
 
 {
     "pi" : "GMOG-CICESE",
+    "vehicle" : "SG72",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "APIXQUI / SECIHTI",
+    "deployed" : "2025-07-31",
+    "recovered" : "2025-11-24",
+    "days_wet" : 116,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/cicese/sg672/2025/2025_07_31",
+    "plot_url" : "/data/gandalf/cicese/sg672/2025/2025_07_31/plots",
+    "kmz_url" : ""
+},
+{
+    "pi" : "GMOG-CICESE",
     "vehicle" : "SG651",
     "type" : "SeaGlider",
     "operator" : "CICESE",

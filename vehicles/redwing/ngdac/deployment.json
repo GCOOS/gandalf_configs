@@ -1,0 +1,117 @@
+{
+    "gandalf": {
+        "vehicle" : "redwing",
+        "vehicle_data" : "erddap",
+        "vehicle_type" : "slocum",
+        "vehicle_model" : "Slocum Sentinel",
+        "status" : "deployed",
+        "PI": "Miles, Glenn",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "deployed",
+        "data_source": "IOOS GDAC",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/rutgers/redwing",
+        "deployed_sensors_csv": "/data/gandalf/deployments/rutgers/redwing/processed_data/sensors.csv",
+        "deployment_date": "2025-10-11 00:00",
+        "data_start_date" : "20251011T1511",
+        "data_end_date" : "20301231T1538",
+        "dockfrompath": "",
+        "docklogpath": "",
+        "dockserver": "",
+        "dockuser": "",
+        "flight_sensor_list": [
+          "time",
+          "latitude",
+          "longitude",
+          "depth",
+          "gps_latitude",
+          "gps_longitude",
+          "measured_battery",
+          "measured_water_depth"
+        ],
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/rutgers/redwing/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_user": "gcoos_dmac",
+        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/redwing-20251011T1511.json?trajectory%2Cwmo_id%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Ccommanded_alt_time%2Ccommanded_ballast_pumped%2Ccommanded_battpos%2Ccommanded_climb_bpump%2Ccommanded_de_oil_vol%2Ccommanded_dive_bpump%2Ccommanded_fin%2Ccommanded_heading%2Ccommanded_pitch%2Ccommanded_profile_on%2Ccommanded_wpt_lat%2Ccommanded_wpt_lon%2Cconductivity%2Ccrs%2Cdensity%2Cdr_latitude%2Cdr_longitude%2Cgps_latitude%2Cgps_longitude%2Cinstrument_ctd%2Cinstrument_vmt%2Clat_uv%2Clon_uv%2Cmeasured_altitude%2Cmeasured_argos_is_xmitting%2Cmeasured_argos_on%2Cmeasured_avg_climb_rate%2Cmeasured_avg_depth_rate%2Cmeasured_avg_dive_rate%2Cmeasured_ballast_pumped%2Cmeasured_battery%2Cmeasured_battpos%2Cmeasured_de_oil_vol%2Cmeasured_depth%2Cmeasured_depth_rate_avg_final%2Cmeasured_digifin_leakdetect_reading%2Cmeasured_dist_to_wpt%2Cmeasured_fin%2Cmeasured_heading%2Cmeasured_iridium_on%2Cmeasured_iridium_status%2Cmeasured_leakdetect_voltage%2Cmeasured_leakdetect_voltage_forward%2Cmeasured_leakdetect_voltage_science%2Cmeasured_leakdetect_voltage_stack_on%2Cmeasured_pitch%2Cmeasured_present_secs_into_mission%2Cmeasured_present_time%2Cmeasured_raw_altitude%2Cmeasured_roll%2Cmeasured_vacuum%2Cmeasured_veh_temp%2Cmeasured_vmg_to_wpt%2Cmeasured_water_depth%2Cmeasured_water_vx%2Cmeasured_water_vy%2Cplatform%2Cpotential_temperature%2Cprecise_lat%2Cprecise_lon%2Cprecise_time%2Cpressure%2Csalinity%2Csci_m_present_secs_into_mission%2Cscience_timestamp%2Csound_speed%2Csource_file%2Ctemperature%2Ctime_uv%2Cu%2Cv%2Cx_de_oil_flux%2Cx_low_power_status%2Cx_surface_active",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/redwing_image.png",
+        "post_kml_file": "",
+        "kml_file": "/data/gandalf/deployments/rutgers/redwing/kmz/redwing.kml",
+        "kmz_file": "/data/gandalf/deployments/rutgers/redwing/kmz/redwing.kml",
+        "kmz_url": "",
+        "operator": "Rutgers",
+        "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/rutgers/redwing/plots",
+            "deployed_plot_url": "/plots/redwing",
+            "log_mult": 100,
+            "logo_file": "/data/gandalf/static/images/logos/rutgers_logo.jpg",
+            "logo_loc": [
+                178,
+                91
+            ],
+            "max_plot_depth": 5000,
+            "plot_sensor_list": [
+              "temperature",
+              "salinity",
+              "density"
+            ],
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/rutgers/redwing/plots/",
+            "postprocess_plot_dir": "/data/gandalf/rutgers/redwing/2025/2025_05_20/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
+        },
+        "post_data_dir_root": "/data/gandalf/rutgers/redwing/2025/2025_05_20",
+        "post_sensors_csv": "/data/gandalf/rutgers/redwing/2025/2025_05_20",
+        "post_kml_file": "",
+        "postprocess_flight_sensor_list": [
+
+        ],
+        "postprocess_science_sensor_list": [
+
+        ],
+        "project": "Sentinel Mission",
+        "public_name": "redwing",
+        "science_sensor_list": [
+          "density",
+          "pressure",
+          "salinity",
+          "temperature",
+          "sound_speed"
+        ],
+        "style": {
+            "color": "#FF0000",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "redwing",
+    "global_attributes": {
+        "deployment": "redwing-20250518T1538",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": "",
+        "id": "redwing",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider redwing",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20251011T1511",
+    "trajectory_name": "redwing-20251011T1511"
+}
