@@ -2,7 +2,38 @@
 
 {
     "pi" : "GMOG-CICESE",
-    "vehicle" : "SG72",
+    "vehicle" : "SG623",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "APIXQUI / SECIHTI",
+    "deployed" : "2025-09-11",
+    "recovered" : "2025-11-26",
+    "days_wet" : 76,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/cicese/sg623/2025/2025_09_11",
+    "plot_url" : "/data/gandalf/cicese/sg623/2025/2025_09_11/plots",
+    "kmz_url" : ""
+},
+
+{
+    "pi" : "GMOG-CICESE",
+    "vehicle" : "SG622",
+    "type" : "SeaGlider",
+    "operator" : "CICESE",
+    "project" : "APIXQUI / SECIHTI",
+    "deployed" : "2025-09-10",
+    "recovered" : "2025-11-26",
+    "days_wet" : 77,
+    "distance" : 0,
+    "map_url" : "",
+    "data_url" : "/data/gandalf/cicese/sg622/2025/2025_09_10",
+    "plot_url" : "/data/gandalf/cicese/sg622/2025/2025_09_10/plots",
+    "kmz_url" : ""
+},
+{
+    "pi" : "GMOG-CICESE",
+    "vehicle" : "SG672",
     "type" : "SeaGlider",
     "operator" : "CICESE",
     "project" : "APIXQUI / SECIHTI",
