@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "USV",
         "vehicle_model" : "Oshen C-Star",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "NOAA AOML",
         "currPosIcon": "/static/images/oshen-cstar.png",
         "dash_status": "deployed",
