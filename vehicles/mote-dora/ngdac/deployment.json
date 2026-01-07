@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Langan J",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/mote/mote-dora",
         "deployed_sensors_csv": "/data/gandalf/deployments/mote/mote-dora/processed_data/sensors.csv",
-        "deployment_date": "2025-10-01 00:00",
-        "data_start_date" : "20251001T0000",
-        "data_end_date" : "20251231T1200",
+        "deployment_date": "2026-01-07 00:00",
+        "data_start_date" : "20260107T0000",
+        "data_end_date" : "20261231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/mote/gliders/unit_839/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -65,25 +65,25 @@
             ],
             "max_plot_depth": 100,
             "plot_sensor_list": [
-                "sci_water_temp",
-                "calc_density",
-                "sci_water_cond",
-                "calc_salinity",
-                "sci_flbbcd_cdom_units",
-                "sci_flbbcd_chlor_units",
-                "sci_oxy4_oxygen",
-                "sci_flbbcd_bb_units"
+                 "temperature",
+                 "salinity",
+                 "density",
+                 "sci_oxy4_oxygen",
+                 "sci_rbrtridente_ch2_sig",
+		 "sci_flbbcd_bb_units",
+		 "sci_flbbcd_cdom_units",
+                 "sci_flbbcd_chlor_units"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
-            "postprocess_plot_dir": "/data/gandalf/mote/mote-dora/2025/2025_10_01/plots",
+            "postprocess_plot_dir": "/data/gandalf/mote/mote-dora/2026/2026_01_07/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/mote/mote-dora/2025/2025_10_01",
-        "post_sensors_csv": "/data/gandalf/mote/mote-dora/2025/2025_10_01",
-        "post_kml_file": "/data/gandalf/mote/mote-dora/2025/2025_10_01/kmz/mote-dora.kml",
+        "post_data_dir_root": "/data/gandalf/mote/mote-dora/2026/2026_01_07",
+        "post_sensors_csv": "/data/gandalf/mote/mote-dora/2026/2026_01_07",
+        "post_kml_file": "/data/gandalf/mote/mote-dora/2026/2026_01_07/kmz/mote-dora.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -117,11 +117,13 @@
             "sci_water_temp",
             "sci_water_cond",
             "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
+            "sci_flbb_bb_units",
+            "sci_flbb_chlor_units",
             "sci_oxy4_oxygen",
-            "sci_flbbcd_bb_units"
-        ],
+            "sci_bsipar_par",
+            "sci_rbrtridente_ch2_sig",
+            "sci_rbrtridente_ch3_sig"
+	],
         "style": {
             "color": "#500000",
             "opacity": 1,
@@ -132,7 +134,7 @@
     },
     "glider": "mote-dora",
     "global_attributes": {
-        "deployment": "mote-dora-20251001T0000",
+        "deployment": "mote-dora-20260107T0000",
         "wmo_id": "4802994"
     },
     "platform": {
@@ -143,6 +145,6 @@
         "type": "platform",
         "wmo_id": "4802994"
     },
-    "trajectory_datetime": "20251001T0000",
-    "trajectory_name": "mote-dora-20251001T0000"
+    "trajectory_datetime": "20260107T0000",
+    "trajectory_name": "mote-dora-20260107T0000"
 }
