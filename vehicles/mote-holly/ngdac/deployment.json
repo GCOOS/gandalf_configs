@@ -65,12 +65,15 @@
             ],
             "max_plot_depth": 100,
             "plot_sensor_list": [
-                    "temperature",
-                    "salinity",
-                    "density",
-                    "sci_bsipar_par",
-                    "sci_oxy4_oxygen",
-                    "sci_rbrtridente_ch2_sig"
+		"sci_water_temp",
+		"sci_oxy4_oxygen",
+		"calc_salinity",
+		"calc_density",
+		"sci_flbbcd_chlor_units",
+		"sci_flbbcd_cdom_units",
+		"sci_flbbcd_bb_units",
+		"sci_water_cond",
+		"sci_water_pressure"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-holly/plots/",

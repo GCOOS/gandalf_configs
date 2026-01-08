@@ -65,15 +65,16 @@
             ],
             "max_plot_depth": 100,
             "plot_sensor_list": [
-                 "temperature",
-                 "salinity",
-                 "density",
-                 "sci_oxy4_oxygen",
-                 "sci_rbrtridente_ch2_sig",
-		 "sci_flbbcd_bb_units",
-		 "sci_flbbcd_cdom_units",
-                 "sci_flbbcd_chlor_units"
-            ],
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "calc_salinity",
+            "calc_density",
+            "sci_oxy4_oxygen",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units"
+        ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/mote/mote-dora/plots/",
             "postprocess_plot_dir": "/data/gandalf/mote/mote-dora/2026/2026_01_07/plots",
@@ -110,19 +111,17 @@
             "sci_flbbcd_chlor_units",
             "sci_flbbcd_bb_units"
         ],
-        "project": "FWRI Gulf Survey",
+        "project": "GOA Gulf Survey",
         "public_name": "mote-dora",
         "science_sensor_list": [
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbb_bb_units",
-            "sci_flbb_chlor_units",
             "sci_oxy4_oxygen",
-            "sci_bsipar_par",
-            "sci_rbrtridente_ch2_sig",
-            "sci_rbrtridente_ch3_sig"
+            "sci_water_pressure",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units"
 	],
         "style": {
             "color": "#500000",
