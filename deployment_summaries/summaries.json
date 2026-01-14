@@ -1,5 +1,19 @@
 [
-
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-stella",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "FLRCACEP",
+   "deployed" : "2025-11-14",
+   "recovered" : "2026-01-08",
+   "days_wet" : 56,
+   "distance" : 0,
+   "map_url" : "/usf/usf-stella/2025/2025_02_06",
+   "data_url" : "/data/gandalf/usf/usf-stella/2025/2025_11_14",
+   "plot_url" : "/data/gandalf/usf/usf-stella/2025/2025_11_14/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-stella/2025/2025_11_14/kmz/usf-jaialai.kml"
+},
 {   "pi" : "Le Henaff M",
     "vehicle" : "sg683",
     "type" : "Seaglider",

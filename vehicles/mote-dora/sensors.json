@@ -91,7 +91,7 @@
     "unit_string" : "($_u gm/L$)",
     "sensor_name" : "Chlorophyll",
     "sensor_plot_min" : 0.01,
-    "sensor_plot_max" : 5.0,
+    "sensor_plot_max" : 2.0,
     "alt_colormap" : "algae",
     "log_scale" : false
   },
