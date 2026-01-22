@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum Sentinel",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Miles, Glenn",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",

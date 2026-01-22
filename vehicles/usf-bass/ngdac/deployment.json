@@ -4,10 +4,10 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G1",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
-        "dash_status": "Recovered",
+        "dash_status": "Deployed",
         "data_source": "USF Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
@@ -16,9 +16,9 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-bass/processed_data/sensors.csv",
-        "deployment_date": "2025-11-24 00:00",
-        "data_start_date" : "20251124T0000",
-        "data_end_date" : "20251231T1200",
+        "deployment_date": "2026-11-24 00:00",
+        "data_start_date" : "20260122T0000",
+        "data_end_date" : "20261231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -71,11 +71,11 @@
             "plot_depth_padding": 5,
             "use_bottom": true,
             "use_max_plot_depth": false,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2025/2025_11_24/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2026/2026_01_22/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2025/2025_11_24",
-        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2025/2025_11_24",
-        "post_kml_file": "/data/gandalf/usf/usf-bass/2025/2025_11_24/kmz/usf-bass.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2026/2026_01_22",
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2026/2026_01_22",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2026/2026_01_22/kmz/usf-bass.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -116,7 +116,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20251124T0000",
+        "deployment": "usf-bass-20260122T0000",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -127,6 +127,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20251124T0000",
-    "trajectory_name": "usf-bass-20251124T0000"
+    "trajectory_datetime": "20260122T0000",
+    "trajectory_name": "usf-bass-20260122T0000"
 }
