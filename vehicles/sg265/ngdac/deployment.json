@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Elipot S",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -17,7 +17,8 @@
         "dockserver" : "seaglider.pub",
         "dockuser" : "gcoos_dmac",
         "dockpass" : "",
-        "dockfrompath": "/home/jails/aoml/gliderjail/home/sg265",
+        "dockport" : 22,
+        "dockfrompath": "/home/jails/mocha/gliderjail/home/sg265/M03JAN2026/p*.nc",
         "dockfromfilter" : "p*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg265",
         "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg265/processed_data/sensors.csv",
@@ -31,7 +32,7 @@
         "gdac_server": "gliders.ioos.us",
         "gdac_user": "gcoos_dmac",
         "gdac_url": "",
-        "harvest_method" : "ftp",
+        "harvest_method" : "rsync",
         "iconSize": [
             40,
             15
@@ -72,7 +73,8 @@
                     "ctd_depth",
                     "temperature",
                     "salinity",
-                    "density"
+                    "density",
+                    "waypoint"
                     ]
             }
         },
@@ -81,6 +83,7 @@
             "opacity": 1,
             "weight": 2
         },
+        "wpIcon": "/static/images/wp_icon_yellow.png",
         "teleport_zoom" : 8
     },
     "global_attributes": {
