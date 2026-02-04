@@ -425,7 +425,7 @@
           "instrument" : "instrument_ctd",
           "long_name" : "Seaglider SGX sg265",
           "type" : "glider",
-          "wmo_id" : "4802999"
+          "wmo_id" : "8901095"
         }
       },
       "time_qc" : {

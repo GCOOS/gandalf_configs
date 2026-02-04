@@ -18,7 +18,7 @@
         "dockuser" : "gcoos_dmac",
         "dockpass" : "",
         "dockport" : 22,
-        "dockfrompath": "/home/jails/mocha/gliderjail/home/sg265/M03JAN2026/p*.nc",
+        "dockfrompath": "/home/jails/mocha/gliderjail/home/sg265/M03JAN2026",
         "dockfromfilter" : "p*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg265",
         "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg265/processed_data/sensors.csv",
