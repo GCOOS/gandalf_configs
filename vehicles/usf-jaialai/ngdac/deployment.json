@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G3",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -13,12 +13,11 @@
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": true,
-        "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-jaialai",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-jaialai/processed_data/sensors.csv",
-        "deployment_date": "2025-11-14 00:00",
-        "data_start_date" : "20250101T0000",
-        "data_end_date" : "20251231T1200",
+        "deployment_date": "2026-02-10 00:00",
+        "data_start_date" : "20260210T0000",
+        "data_end_date" : "20261231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-jaialai/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -37,7 +36,8 @@
             "m_battpos",
             "m_coulomb_amphr",
             "m_water_vx",
-            "m_water_vy"
+            "m_water_vy",
+            "m_vacuum"
         ],
         "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
@@ -74,7 +74,6 @@
             "sci_flbbcd_cdom_units",
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen", 
-            "sci_suna_nitrate_concentration",
             "depth_avg_curr"
             ],
             "plot_flight_sensor_list" : [
@@ -86,9 +85,9 @@
             "use_bottom": "True",
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2025/2025_11_14",
-        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2025/2025_11_14",
-        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2025/2025_11_14/kmz/usf-jaialai.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-jaialai/2026/2026_11_14",
+        "post_sensors_csv": "/data/gandalf/usf/usf-jaialai/2026/2026_11_14",
+        "post_kml_file": "/data/gandalf/usf/usf-jaialai/2026/2026_11_14/kmz/usf-jaialai.kml",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -109,7 +108,7 @@
             "sci_flbbcd_chlor_units",
             "sci_oxy4_oxygen"
           ],
-        "project": "FWRI Red Tide Survey",
+        "project": "Gulf Basin Ecosystem",
         "public_name": "usf-jaialai",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -133,7 +132,7 @@
     },
     "glider" : "usf-jaialai",
     "global_attributes": {
-        "deployment": "usf-jaialai-20251114T0000",
+        "deployment": "usf-jaialai-20260210T0000",
         "wmo_id": "4803937"
     },
     "platform": {
@@ -144,6 +143,6 @@
         "type": "platform",
         "wmo_id": "4803937"
     },
-    "trajectory_datetime": "20251114T0000",
-    "trajectory_name": "usf-jaialai-20251114T0000"
+    "trajectory_datetime": "20260210T0000",
+    "trajectory_name": "usf-jaialai-20260210T0000"
 }

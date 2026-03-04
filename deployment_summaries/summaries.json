@@ -1,4 +1,20 @@
 [
+
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-bass",
+   "type" : "Slocum G1",
+   "operator" : "USF",
+   "project" : "FL Red Tide Observatory",
+   "deployed" : "2026-01-22",
+   "recovered" : "2026-02-13",
+   "days_wet" : 22,
+   "distance" : 0,
+   "map_url" : "/usf/usf-bass/2026/2026_01_22",
+   "data_url" : "/data/gandalf/usf/usf-bass/2026/2026_01_22",
+   "plot_url" : "/data/gandalf/usf/usf-bass/2026/2026_01_22/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-bass/2026/2026_01_22/kmz/usf-bass.kml"
+},
 {
    "pi" : "Lembke, C",
    "vehicle" : "usf-stella",
