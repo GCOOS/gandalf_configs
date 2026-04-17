@@ -5,7 +5,7 @@
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
         "status" : "recovered",
-        "PI": "Knap, A Nwankwo, U",
+        "PI": "Mahmud S, Nwankwo U, DiMarco S",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
         "data_source": "TWR Dockserver",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
-        "deployment_date": "2024-08-11 00:00",
-        "data_start_date" : "20240812T0000",
-        "data_end_date" : "20241231T0000",
+        "deployment_date": "2026-03-25 00:00",
+        "data_start_date" : "20260812T0000",
+        "data_end_date" : "20261231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/logs",
         "dockserver": "sfmc.webbresearch.com",
@@ -40,7 +40,7 @@
             "sci_water_cond",
             "sci_water_pressure"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_json_dir": "/data/gandalf/deployments/tamu/unit_541/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
@@ -99,13 +99,13 @@
             "m_water_vy"
         ],
         "postprocess_science_sensor_list": [
-	"sci_m_present_time",                                                                                                                                                               
-            "sci_water_temp",                                                                                                                                                                   
-            "sci_water_cond",                                                                                                                                                                   
-            "sci_water_pressure",                                                                                                                                                               
-            "sci_flbbcd_cdom_units",                                                                                                                                                            
-            "sci_flbbcd_chlor_units",                                                                                                                                                           
-            "sci_oxy4_oxygen"   
+	        "sci_m_present_time",
+                "sci_water_temp",
+                "sci_water_cond",
+                "sci_water_pressure",
+                "sci_flbbcd_cdom_units",
+                "sci_flbbcd_chlor_units",
+                "sci_oxy4_oxygen"   
         ],
         "project": "TAMU Hurricane Gliders",
         "public_name": "Sverdrup",
@@ -119,7 +119,7 @@
     },
     "glider": "unit_541",
     "global_attributes": {
-        "deployment": "unit_541-20240811T0000",
+        "deployment": "unit_541-20260325T0000",
         "wmo_id": "4801924"
     },
     "platform": {
@@ -130,6 +130,6 @@
         "type": "platform",
         "wmo_id": "4801924"
     },
-    "trajectory_datetime": "20240811T0000",
-    "trajectory_name": "unit_541-20240811T0000"
+    "trajectory_datetime": "20260325T0000",
+    "trajectory_name": "unit_541-20260325T0000"
 }

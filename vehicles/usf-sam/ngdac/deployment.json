@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -16,9 +16,9 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-sam",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-sam/processed_data/sensors.csv",
-        "deployment_date": "2025-04-11 12:00",
-        "data_start_date" : "20250411T1200",
-        "data_end_date" : "20251231T1200",
+        "deployment_date": "2026-04-17 12:00",
+        "data_start_date" : "20260417T1200",
+        "data_end_date" : "20261231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-sam/logs",
         "dockserver": "usfgliderserver.marine.usf.edu",
@@ -43,7 +43,7 @@
         ],
         "infoBoxImage": "/static/images/slocum_infobox.png",
         "kml_file": "/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kml",
-        "post_kml_file": "/data/gandalf/usf/usf-sam/2025/2025_10_14/kmz/usf-sam.kml",
+        "post_kml_file": "/data/gandalf/usf/usf-sam/2026/2026_10_14/kmz/usf-sam.kml",
         "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/usf/usf-sam/kmz/usf-sam.kmz",
         "logo_file": "/data/gandalf/static/images/logos/usf_logo.png",
         "operator": "USF",
@@ -66,16 +66,17 @@
               "sci_flbbcd_bb_units",
               "sci_flbbcd_cdom_units",
               "sci_flbbcd_chlor_units",
-              "sci_oxy3835_oxygen"
+              "sci_oxy3835_oxygen",
+              "sci_suna_nitrate_concentration"
             ],
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/usf/usf-sam/plots/",
             "plot_depth_padding": 5,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2025/2025_10_14/plots",
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-sam/2026/2026_10_14/plots",
             "use_bottom": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2025/2025_10_14",
-        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2025/2025_10_14",
+        "post_data_dir_root": "/data/gandalf/usf/usf-sam/2026/2026_10_14",
+        "post_sensors_csv": "/data/gandalf/usf/usf-sam/2026/2026_10_14",
         "postprocess_flight_sensor_list": [
             "m_present_time",
             "m_water_depth",
@@ -107,7 +108,8 @@
           "sci_flbbcd_bb_units",
           "sci_flbbcd_cdom_units",
           "sci_flbbcd_chlor_units",
-          "sci_oxy3835_oxygen"
+          "sci_oxy3835_oxygen",
+          "sci_suna_nitrate_concentration"
         ],
         "style": {
             "color": "#FFFF00",
@@ -119,7 +121,7 @@
     },
     "glider": "usf-sam",
     "global_attributes": {
-        "deployment": "usf-sam-20250411T0000",
+        "deployment": "usf-sam-20260417T0000",
         "wmo_id": "4801942"
     },
     "platform": {
@@ -130,6 +132,6 @@
         "type": "platform",
         "wmo_id": "4801942"
     },
-    "trajectory_datetime": "20250411T0000",
-    "trajectory_name": "usf-sam-20250411T0000"
+    "trajectory_datetime": "20260417T0000",
+    "trajectory_name": "usf-sam-20260417T0000"
 }
