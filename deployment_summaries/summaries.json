@@ -16,6 +16,21 @@
    "kmz_url" : "/data/gandalf/usf/usf-bass/2026/2026_01_22/kmz/usf-bass.kml"
 },
 {
+     "pi" : "Langan J",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "FWRI Gulf Survey",
+     "deployed" : "2026-01-06",
+     "recovered" : "2026-02-04",
+     "days_wet" : 39,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2025/2025_11_06",
+     "data_url" : "/data/gandalf/mote/mote-dora/2026/2026_01_06/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2026/2026_01_06/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2026/2026_01_06/kmz/mote-dora.kml"
+ },
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-stella",
    "type" : "Slocum G3",

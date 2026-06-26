@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
@@ -28,7 +28,13 @@
             "m_depth",
             "m_gps_lat",
             "m_gps_lon",
-            "m_water_depth"
+            "m_water_depth",
+            "m_battery",
+            "m_coulomb_amphr",
+            "m_coulomb_amphr_total",
+            "m_vacuum",
+            "m_vehicle_temp",
+            "m_avg_speed"
         ],
         "ftp_send": true,
         "gdac_pw": "0c3ansc13nc3!",
