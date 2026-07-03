@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
@@ -45,7 +45,7 @@
         "post_kml_file": "",
         "kml_file": "",
         "kmz_url": "",
-        "operator": "USM",
+        "operator": "USF",
         "plots": {
             "use_26d" : true,
             "alt_colormap": true,

@@ -58,6 +58,7 @@
             "plot_depth_padding": 5,
             "plot_sensor_list": [
               "sci_water_temp",
+              "sci_water_cond",
               "calc_density",
               "calc_sigma",
               "calc_salinity",

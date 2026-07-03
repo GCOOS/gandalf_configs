@@ -4,8 +4,8 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G2",
-        "status" : "recovered",
-        "PI": "Martin K",
+        "status" : "deployed",
+        "PI": "GOC",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "deployed",
         "data_source": "IOOS GDAC",
@@ -15,9 +15,9 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/navy/ng598",
         "deployed_sensors_csv": "/data/gandalf/deployments/navy/ng598/processed_data/sensors.csv",
-        "deployment_date": "2025-06-11 14:20",
-        "data_start_date" : "20250819T0000",
-        "data_end_date" : "20251231T1200",
+        "deployment_date": "2026-06-11 14:20",
+        "data_start_date" : "20260624T0000",
+        "data_end_date" : "20261231T1200",
         "dockfrompath": "",
         "docklogpath": "",
         "dockserver": "",
@@ -34,8 +34,8 @@
         "gdac_json_dir": "/data/gandalf/deployments/navy/ng598/json",
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url" : "https://gliders.ioos.us/erddap/tabledap/ng598-20250611T0000.json?trajectory%2Cprofile_id%2Ctime%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2025-08-19T00%3A00%3A00Z",
         "gdac_user": "gcoos_dmac",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/ng598-20250611T0000.json?time%2Clatitude%2Clongitude%2Cdepth%2Cconductivity%2Cdensity%2Cpressure%2Csalinity%2Ctemperature&time%3E=2026-06-24T00%3A00%3A00Z",
         "harvest_method": "rsync",
         "iconSize": [
             20,
@@ -45,7 +45,7 @@
         "post_kml_file": "",
         "kml_file": "",
         "kmz_url": "",
-        "operator": "USM",
+        "operator": "USN",
         "plots": {
             "use_26d" : true,
             "alt_colormap": true,
@@ -66,13 +66,13 @@
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/navy/ng598/plots/",
-            "postprocess_plot_dir": "/data/gandalf/navy/ng598/2025/2025_06_11/plots",
+            "postprocess_plot_dir": "/data/gandalf/navy/ng598/2026/2026_06_11/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/navy/ng598/2025/2025_06_11",
-        "post_sensors_csv": "/data/gandalf/navy/ng598/2025/2025_06_11",
+        "post_data_dir_root": "/data/gandalf/navy/ng598/2026/2026_06_11",
+        "post_sensors_csv": "/data/gandalf/navy/ng598/2026/2026_06_11",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
         ],
@@ -95,7 +95,7 @@
     },
     "glider": "ng598",
     "global_attributes": {
-        "deployment": "ng598-20250518T1200",
+        "deployment": "ng598-20260518T1200",
         "wmo_id": ""
     },
     "platform": {
@@ -106,6 +106,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20250611T1425",
-    "trajectory_name": "ng598-20250611T1425"
+    "trajectory_datetime": "20260624T0000",
+    "trajectory_name": "ng598-20260624T0000"
 }

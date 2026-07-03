@@ -35,6 +35,15 @@
     "alt_colormap" : "thermal",
     "log_scale" : false
   },
+{
+    "sensor" :  "sci_water_cond",
+    "unit_string" : "($S\\ m^{-1}$)",
+    "sensor_name" : "Conductivity",
+    "sensor_plot_min" : 3,
+    "sensor_plot_max" : 7,
+    "alt_colormap" : "haline",
+    "log_scale" : false
+ },
   {
     "sensor" :  "calc_salinity",
     "unit_string" : "PPT (10$^{-3}$)",
@@ -49,7 +58,7 @@
     "unit_string" : "",
     "sensor_name" : "Density",
     "sensor_plot_min" : 1000,
-    "sensor_plot_max" : 1030,
+    "sensor_plot_max" : 1035,
     "alt_colormap" : "dense",
     "log_scale" : false
   },
