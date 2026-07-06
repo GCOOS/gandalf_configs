@@ -16,7 +16,7 @@
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_541",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_541/processed_data/sensors.csv",
         "deployment_date": "2026-06-30 00:00",
-        "data_start_date" : "20260630T0000",
+        "data_start_date" : "20260702T0000",
         "data_end_date" : "20261231T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_541/logs",
