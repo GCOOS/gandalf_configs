@@ -1,6 +1,52 @@
 [
 
 {
+     "pi" : "Langan J",
+     "vehicle" : "mote-holly",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "GCOOS Gulf Survey",
+     "deployed" : "2025-12-05",
+     "recovered" : "2026-01-02",
+     "days_wet" : 28,
+     "distance" : 0,
+     "map_url" : "/mote/mote-holly/2025/2025_12_05",
+     "data_url" : "/data/gandalf/mote/mote-holly/2025/2025_12_05/",
+     "plot_url" : "/data/gandalf/mote/mote-holly/2025/2025_12_05/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-holly/2025/2025_12_05/kmz/mote-holly.kml"
+ },
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G1",
+   "operator" : "USF",
+   "project" : "FL Red Tide Observatory",
+   "deployed" : "2026-04-17",
+   "recovered" : "2026-05-04",
+   "days_wet" : 18,
+   "distance" : 0,
+   "map_url" : "/usf/usf-sam/2026/2026_04_17",
+   "data_url" : "/data/gandalf/usf/usf-sam/2026/2026_04_17",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2026/2026_04_17/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2026/2026_04_17/kmz/usf-stella.kml"
+},
+{
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-stella",
+   "type" : "Slocum G3",
+   "operator" : "USF",
+   "project" : "FLRACEP",
+   "deployed" : "2026-06-26",
+   "recovered" : "2026-07-08",
+   "days_wet" : 12,
+   "distance" : 0,
+   "map_url" : "/usf/usf-bass/2026/2026_06_26",
+   "data_url" : "/data/gandalf/usf/usf-stella/2026/2026_06_26",
+   "plot_url" : "/data/gandalf/usf/usf-stella/2026/2026_06_26/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-stella/2026/2026_06_26/kmz/usf-stella.kml"
+},
+
+{
    "pi" : "Lembke, C",
    "vehicle" : "usf-bass",
    "type" : "Slocum G1",

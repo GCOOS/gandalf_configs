@@ -1,11 +1,11 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg663-20250822T0000",
+    "trajectory_name": "sg663-20260730T0000",
     "deployed_sg_nc_files_in" : "/data/gandalf/deployments/aoml/sg663/binary_files/nc/",
     "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/aoml/sg663/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/aoml/sg663/2025/2025_08_22/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/aoml/sg663/2025/2025_08_22/processed_data/nc_files"
+    "recovered_sg_nc_files_in"  : "/data/gandalf/aoml/sg663/2026/2026_07_30/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/aoml/sg663/2026/2026_07_30/processed_data/nc_files"
     },
     "validate_dims" : [
       "sg_data_point"
