@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "Le Henaff M",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -40,7 +40,7 @@
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
         "logo_file": "/data/gandalf/static/images/logos/miami_logo.png",
-        "operator": "AOML",
+        "operator": "NOAA/AOML & UMiami/CIMAS ",
         "plot_url": "",
         "plots": {
             "alt_colormap": true,

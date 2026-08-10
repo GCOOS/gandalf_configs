@@ -1,6 +1,21 @@
 [
 
 {
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G1",
+   "operator" : "USF",
+   "project" : "FL Red Tide Observatory",
+   "deployed" : "2026-07-08",
+   "recovered" : "2026-08-04",
+   "days_wet" : 27,
+   "distance" : 0,
+   "map_url" : "/usf/usf-sam/2026/2026_07_08",
+   "data_url" : "/data/gandalf/usf/usf-sam/2026/2026_07-08",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2026/2026_07_08/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2026/2026_07_08/kmz/usf-sam.kml"
+},
+{
      "pi" : "Langan J",
      "vehicle" : "mote-holly",
      "type" : "Slocum G2",
@@ -28,7 +43,7 @@
    "map_url" : "/usf/usf-sam/2026/2026_04_17",
    "data_url" : "/data/gandalf/usf/usf-sam/2026/2026_04_17",
    "plot_url" : "/data/gandalf/usf/usf-sam/2026/2026_04_17/plots",
-   "kmz_url" : "/data/gandalf/usf/usf-sam/2026/2026_04_17/kmz/usf-stella.kml"
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2026/2026_04_17/kmz/usf-sam.kml"
 },
 {
    "pi" : "Lembke, C",
