@@ -4,7 +4,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "GMOG-CICESE",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -13,11 +13,11 @@
         "dockserver" : "gliders.cicese.mx",
         "dockuser" : "gandalfGMOG",
         "dockpass" : "bcurrier2022",
-        "dockfrompath": "ftp/gandalf/0046",
+        "dockfrompath": "ftp/gandalf/0050",
         "dockfromfilter" : "p623*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg623",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg623/processed_data/sensors.csv",
-        "deployment_date": "2025-09-11 00:00",
+        "deployment_date": "2026-07-07 00:00",
         "drop_legato_data" : false,
         "drop_sg_data" : false,
         "ftp_send": true,
@@ -52,26 +52,24 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg623/2024/2025_09_11/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg623/2024/2026_07_07/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg623/2024/2025_09_11",
-        "post_sensors_csv": "/data/gandalf/cicese/sg623/2024/2025_09_11/processed_data/sensors.csv",
-        "project": "APIXQUI / SECIHTI",
+        "post_data_dir_root": "/data/gandalf/cicese/sg623/2024/2026_07_07",
+        "post_sensors_csv": "/data/gandalf/cicese/sg623/2024/2026_07_07/processed_data/sensors.csv",
+        "project": "APIXQUI/SECIHTI*",
         "public_name": "sg623",
 	"dims" : {
             "sg_data_point" : {
                 "sensors" : [
                     "ctd_time",
                     "ctd_depth",
-                    "latitude",
-                    "longitude",
                     "temperature",
                     "salinity",
                     "density",
                     "waypoint"
-                ]
+                    ]
             }
         },
         "style": {
@@ -83,7 +81,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg623-20250911T0000",
+        "deployment": "sg623-20260707T0000",
         "wmo_id": "8901007"
     },
     "platform": {
@@ -94,6 +92,6 @@
         "type": "platform",
         "wmo_id": "8901007"
     },
-    "trajectory_datetime": "20250911T0000",
-    "trajectory_name": "sg623-20250911T0000"
+    "trajectory_datetime": "20260707T0000",
+    "trajectory_name": "sg623-20260707T0000"
 }

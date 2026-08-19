@@ -112,7 +112,7 @@
     "glider": "usf-stella",
     "global_attributes": {
         "deployment": "usf-stella-20210702T1200",
-        "wmo_id": "4802970"
+        "wmo_id": ""
     },
     "platform": {
         "comment": " ",
@@ -120,7 +120,7 @@
         "instruments": "instrument_ctd",
         "long_name": "Slocum Glider usf-stella",
         "type": "platform",
-        "wmo_id": "4802970"
+        "wmo_id": ""
     },
     "trajectory_datetime": "20210702T1200",
     "trajectory_name": "usf-stella-20210702T1200"

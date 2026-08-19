@@ -45,7 +45,6 @@
             "alt_colormap": true,
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/noaa/sd1069/plots",
-            "deployed_plot_url": "/plots/sd1069",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/noaa_logo.png",
             "logo_loc": [
@@ -54,10 +53,12 @@
             ],
             "max_plot_depth": 5000, 
             "plot_sensor_list": [
-                "WIND_SPEED_MEAN",
-                "TEMP_AIR_MEAN",
-                "WAVE_SIGNIFICANT_HEIGHT",
-		"BARO_PRES_MEAN"
+                "wind_direction_world_filtered",
+                "wind_speed_world_filtered",
+                "wind_gust_filtered",
+                "air_temperature_filtered",
+                "wave_significant_height",
+		"baro_pressure_filtered"
             ],
             "plot_depth_padding": 5,
             "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/noaa/sd1069/plots/",
