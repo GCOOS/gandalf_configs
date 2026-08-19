@@ -1,6 +1,6 @@
 [
   {
-    "sensor" :  "wind_speed_mean",
+    "sensor" :  "wind_speed_mean_motion_corrected",
     "gdac_sensor" : "",
     "unit_string" : "(knots)",
     "sensor_name" : "Mean Wind Speed",
@@ -8,7 +8,7 @@
     "sensor_plot_max" : 200
   },
   {
-    "sensor" :  "wind_speed_of_gust",
+    "sensor" :  "wind_speed_max_motion_corrected",
     "gdac_sensor" : "",
     "unit_string" : "(knots)",
     "sensor_name" : "Mean Wind Gust",
@@ -32,7 +32,7 @@
     "sensor_plot_max" : 4000
   },
   {
-    "sensor" :  "wind_from_direction_mean",
+    "sensor" :  "wind_from_direction_mean_motion_corrected",
     "gdac_sensor" : "",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Mean Wind Direction",
@@ -40,7 +40,7 @@
     "sensor_plot_max" : 360
   },
   {
-    "sensor" :  "sea_surface_temperature_mean",
+    "sensor" :  "sst_mean",
     "gdac_sensor" : "",
     "unit_string" : "($^oC$)",
     "sensor_name" : "Mean Sea Surface Temperature",

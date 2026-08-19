@@ -1,0 +1,115 @@
+{
+    "gandalf": {
+        "vehicle" : "PD12",
+        "vehicle_data" : "erddap",
+        "vehicle_type" : "USV",
+        "vehicle_model" : "Oshen C-Star",
+        "status" : "deployed",
+        "PI": "NOAA AOML",
+        "currPosIcon": "/static/images/oshen-cstar.png",
+        "dash_status": "deployed",
+        "data_source": "PMEL",
+        "dba_merge": "",
+        "dba_sensor_filter": "",
+        "dbd2asc": "",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/aoml/PD12",
+        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/PD12/processed_data/sensors.csv",
+        "deployment_date": "2026-08-12 00:00",
+        "data_start_date" : "20260812T0000",
+        "data_end_date" : "20261231T2359",
+        "dockfrompath": "",
+        "docklogpath": "",
+        "dockserver": "",
+        "dockuser": "",
+        "flight_sensor_list": [
+            "time",
+            "latitude",
+            "longitude",
+            "depth",
+            "gps_latitude",
+            "gps_longitude"
+        ],
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/aoml/PD12/json",
+        "gdac_pw": "",
+        "gdac_server": "",
+        "gdac_user": "",
+        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/oshenPD12_hurricane_2026.json?time%2Clatitude%2Clongitude%2Ctrajectory%2Cwind_speed_mean_motion_corrected%2Cwind_speed_max_motion_corrected%2Cwind_from_direction_mean_motion_corrected%2Cair_pressure_mean%2Cair_temperature_mean%2Crelative_humidity_mean%2Csst_mean&time%3E=2026-08-12T00%3A00%3A00Z",
+        "harvest_method": "",
+        "iconSize": [
+            30,
+            30
+        ],
+        "infoBoxImage": "/static/images/oshen-cstar.png",
+        "post_kml_file": "",
+        "kml_file": "",
+        "kmz_url": "",
+        "operator": "AOML/PMEL",
+        "plots": {
+            "use_26d" : true,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/aoml/PD12/plots",
+            "deployed_plot_url": "/plots/PD12",
+            "log_mult": 100,
+            "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
+            "logo_loc": [
+                178,
+                91
+            ],
+            "max_plot_depth": 0,
+	    "plot_sensor_list": [
+            	"wind_speed_mean_motion_corrected",
+                "wind_speed_max_motion_corrected",
+                "wind_from_direction_mean_motion_corrected",
+                "air_pressure_mean",
+                "air_temperature_mean",
+                "relative_humidity_mean",
+                "sst_mean"
+            ],
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/aoml/PD12/plots/",
+            "postprocess_plot_dir": "/data/gandalf/aoml/PD12/2026/2026_06_11/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
+        },
+        "post_data_dir_root": "/data/gandalf/aoml/PD12/2026/2026_06_11",
+        "post_sensors_csv": "/data/gandalf/aoml/PD12/2026/2026_06_11",
+        "post_kml_file": "",
+        "postprocess_flight_sensor_list": [
+        ],
+        "postprocess_science_sensor_list": [
+        ],
+        "project": "NOAA AOML PMEL Hurricane Monitoring 2026",
+        "public_name": "PD12",
+        "science_sensor_list": [
+          "density",
+          "pressure",
+          "salinity",
+          "temperature"
+        ],
+        "style": {
+            "color": "#500000",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "PD12",
+    "global_attributes": {
+        "deployment": "",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": "",
+        "id": "PD12",
+        "instruments": "",
+        "long_name": "",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20260812T0000",
+    "trajectory_name": ""
+}

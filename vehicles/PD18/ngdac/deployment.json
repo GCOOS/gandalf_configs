@@ -1,10 +1,10 @@
 {
     "gandalf": {
-        "vehicle" : "PC10",
+        "vehicle" : "PD18",
         "vehicle_data" : "erddap",
         "vehicle_type" : "USV",
         "vehicle_model" : "Oshen C-Star",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "NOAA AOML",
         "currPosIcon": "/static/images/oshen-cstar.png",
         "dash_status": "deployed",
@@ -13,11 +13,11 @@
         "dba_sensor_filter": "",
         "dbd2asc": "",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/aoml/PC10",
-        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/PC10/processed_data/sensors.csv",
-        "deployment_date": "2025-10-10 00:00",
-        "data_start_date" : "20251010T0000",
-        "data_end_date" : "20251231T2359",
+        "deployed_data_dir": "/data/gandalf/deployments/aoml/PD18",
+        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/PD18/processed_data/sensors.csv",
+        "deployment_date": "2026-08-12 00:00",
+        "data_start_date" : "20260812T0000",
+        "data_end_date" : "20261231T2359",
         "dockfrompath": "",
         "docklogpath": "",
         "dockserver": "",
@@ -31,11 +31,11 @@
             "gps_longitude"
         ],
         "ftp_send": false,
-        "gdac_json_dir": "/data/gandalf/deployments/aoml/PC10/json",
+        "gdac_json_dir": "/data/gandalf/deployments/aoml/PD18/json",
         "gdac_pw": "",
         "gdac_server": "",
-        "gdac_url" : "https://data.pmel.noaa.gov/pmel/erddap/tabledap/oshenPC10_hurricane_2025.json?time%2CtrajectoryID%2Cwmo_id%2Clatitude%2Clongitude%2Cwind_speed_mean%2Cwind_speed_of_gust%2Cwind_from_direction_mean%2Cair_pressure_mean%2Cair_temperature_mean%2Crelative_humidity_mean%2Csea_surface_temperature_mean%2Cmet_averaging_period&time%3E=2025-10-10T00%3A00%3A00Z",
         "gdac_user": "",
+        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/oshenPD18_hurricane_2026.json?time%2Clatitude%2Clongitude%2Ctrajectory%2Cwind_speed_mean_motion_corrected%2Cwind_speed_max_motion_corrected%2Cwind_from_direction_mean_motion_corrected%2Cair_pressure_mean%2Cair_temperature_mean%2Crelative_humidity_mean%2Csst_mean&time%3E=2026-08-12T00%3A00%3A00Z",
         "harvest_method": "",
         "iconSize": [
             30,
@@ -50,8 +50,8 @@
             "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/aoml/PC10/plots",
-            "deployed_plot_url": "/plots/PC10",
+            "deployed_plot_dir": "/data/gandalf/deployments/aoml/PD18/plots",
+            "deployed_plot_url": "/plots/PD18",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
             "logo_loc": [
@@ -60,30 +60,30 @@
             ],
             "max_plot_depth": 0,
 	    "plot_sensor_list": [
-            	"wind_speed_mean",
-                "wind_speed_of_gust",
-                "wind_from_direction_mean",
+            	"wind_speed_mean_motion_corrected",
+                "wind_speed_max_motion_corrected",
+                "wind_from_direction_mean_motion_corrected",
                 "air_pressure_mean",
                 "air_temperature_mean",
                 "relative_humidity_mean",
-                "sea_surface_temperature_mean"
+                "sst_mean"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/aoml/PC10/plots/",
-            "postprocess_plot_dir": "/data/gandalf/aoml/PC10/2025/2025_06_11/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/aoml/PD18/plots/",
+            "postprocess_plot_dir": "/data/gandalf/aoml/PD18/2026/2026_06_11/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/aoml/PC10/2025/2025_06_11",
-        "post_sensors_csv": "/data/gandalf/aoml/PC10/2025/2025_06_11",
+        "post_data_dir_root": "/data/gandalf/aoml/PD18/2026/2026_06_11",
+        "post_sensors_csv": "/data/gandalf/aoml/PD18/2026/2026_06_11",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
         ],
         "postprocess_science_sensor_list": [
         ],
-        "project": "NOAA AOML PMEL Hurricane Monitoring 2025",
-        "public_name": "PC10",
+        "project": "NOAA AOML PMEL Hurricane Monitoring 2026",
+        "public_name": "PD18",
         "science_sensor_list": [
           "density",
           "pressure",
@@ -97,19 +97,19 @@
         },
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "PC10",
+    "glider": "PD18",
     "global_attributes": {
         "deployment": "",
         "wmo_id": ""
     },
     "platform": {
         "comment": "",
-        "id": "PC10",
+        "id": "PD18",
         "instruments": "",
         "long_name": "",
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20251010T0000",
+    "trajectory_datetime": "20260812T0000",
     "trajectory_name": ""
 }
