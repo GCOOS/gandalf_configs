@@ -1,0 +1,107 @@
+{
+    "gandalf": {
+        "vehicle" : "sd1057",
+        "vehicle_data" : "erddap",
+        "vehicle_type" : "saildrone",
+        "vehicle_model" : "Saildrone",
+        "status" : "deployed",
+        "PI": "NOAA",
+        "currPosIcon": "/static/images/saildrone_icon.png",
+        "dash_status": "Deployed",
+        "data_source": "PMEL",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed_data_dir": "/data/gandalf/deployments/noaa/sd1057",
+        "deployed_sensors_csv": "/data/gandalf/deployments/noaa/sd1057/processed_data/sensors.csv",
+        "deployment_date": "2026-08-03 00:00",
+        "data_start_date" : "20260803T0000",
+        "data_end_date" : "20261231T0000",
+        "dockfrompath": "",
+        "docklogpath": "",
+        "dockserver": "",
+        "dockuser": "",
+        "flight_sensor_list": [
+        ],
+        "ftp_send": false,
+        "gdac_json_dir": "/data/gandalf/deployments/noaa/sd1057/json",
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/sd1057_hurricane_2026.json?time%2Cdrone_id%2Clatitude%2Clongitude%2Cbaro_pressure_filtered%2Cair_temperature_filtered%2Crelative_humidity_filtered%2Cwind_direction_world_filtered%2Cwind_speed_world_filtered%2Cwind_gust_filtered%2Csbe37_practical_salinity_filtered%2Csbe37_temperature_filtered%2Cwater_current_speed_filtered%2Cwater_current_direction_filtered%2Cwave_dominant_period%2Cwave_significant_height&time%3E=2026-08-12T00%3A00%3A00.000Z",
+        "iconSize": [
+            30,
+            30
+        ],
+        "infoBoxImage": "/static/images/saildrone_infobox.png",
+        "post_kml_file": "",
+        "kml_file": "",
+        "kmz_url": "",
+        "operator": "NOAA",
+        "plots": {
+            "use_26d" : false,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/noaa/sd1057/plots",
+            "log_mult": 100,
+            "logo_file": "/data/gandalf/static/images/logos/noaa_logo.png",
+            "logo_loc": [
+                178,
+                91
+            ],
+            "max_plot_depth": 5000, 
+            "plot_sensor_list": [
+                "wind_direction_world_filtered",
+                "wind_speed_world_filtered",
+                "wind_gust_filtered",
+                "air_temperature_filtered",
+                "wave_significant_height",
+		"baro_pressure_filtered"
+            ],
+            "plot_depth_padding": 5,
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/noaa/sd1057/plots/",
+            "postprocess_plot_dir": "/data/gandalf/noaa/sd1057/2026/2026_08_01/plots",
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "vmin": 0.01
+        },
+        "post_data_dir_root": "/data/gandalf/noaa/sd1057/2026/2026_08_01",
+        "post_sensors_csv": "/data/gandalf/noaa/sd1057/2026/2026_08_01",
+        "post_kml_file": "",
+        "postprocess_flight_sensor_list": [
+
+        ],
+        "postprocess_science_sensor_list": [
+
+        ],
+        "project": "NOAA Hurricane Saildrones",
+        "public_name": "sd1057",
+        "science_sensor_list": [
+          "salinity",
+          "temperature"
+        ],
+        "style": {
+            "color": "#F92008",
+            "opacity": 1,
+            "weight": 2
+        },
+        "wpIcon": "/static/images/wp_icon.png"
+    },
+    "glider": "sd1057",
+    "global_attributes": {
+        "deployment": "sd1057-20260803T0000",
+        "wmo_id": ""
+    },
+    "platform": {
+        "comment": "",
+        "id": "sd1057",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider sd1057",
+        "type": "platform",
+        "wmo_id": ""
+    },
+    "trajectory_datetime": "20260803T0000",
+    "trajectory_name": "sd1057-20260803T0000"
+}

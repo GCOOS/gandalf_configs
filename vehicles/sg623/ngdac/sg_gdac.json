@@ -60,7 +60,7 @@
       "sea_name" : "Mexican Pacific Ocean",
       "source" : "Observational data from a profiling underwater glider",
       "standard_name_vocabulary" : "CF-v25",
-      "summary" : "",
+      "summary" : "High-resolution vertical profiles of ocean temperature, conductivity, salinity and pressure collected by autonomous underwater glider in the Mexican Pacific Tropical. Data is distributed along a saw-tooth trajectory from the surface down to 1000 meters depth",
       "qc_val" : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9],
       "title" : "",
       "date_issued" : "# set as YYYY-mm-ddTHH:MM:SSZ",

@@ -1,0 +1,69 @@
+[
+
+  {
+    "sensor" :  "wind_gust_filtered",
+    "gdac_sensor" : "",
+    "unit_string" : "(m_per_sec)",
+    "sensor_name" : "Wind Gust",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 200
+  },
+
+  {
+    "sensor" :  "wind_direction_world_filtered",
+    "gdac_sensor" : "",
+    "unit_string" : "(degrees)",
+    "sensor_name" : "Wind Direction",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 360
+  },
+
+  {
+    "sensor" :  "wind_speed_world_filtered",
+    "gdac_sensor" : "",
+    "unit_string" : "(m_per_sec)",
+    "sensor_name" : "Mean Wind Speed",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 200
+  },
+  {
+    "sensor" :  "air_temperature_filtered",
+    "gdac_sensor" : "",
+    "unit_string" : "($^oC$)",
+    "sensor_name" : "Mean Air Temperature",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 40
+  },
+  {
+    "sensor" :  "wave_significant_height",
+    "gdac_sensor" : "",
+    "unit_string" : "(m)",
+    "sensor_name" : "Signficant Wave Height",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 200
+  },
+  {
+    "sensor" :  "baro_pressure_filtered",
+    "gdac_sensor" : "",
+    "unit_string" : "(mbar)",
+    "sensor_name" : "Mean Barometric Pressure",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 200
+  },
+  {
+    "sensor" :  "sbe37_temperature_filtered",
+    "gdac_sensor" : "",
+    "unit_string" : "($^oC$)",
+    "sensor_name" : "Mean Water Temperature",
+    "sensor_plot_min" : 0,
+    "sensor_plot_max" : 40
+  },
+  {
+    "sensor" :  "sbe37_practical_salinity_filtered",
+    "gdac_sensor" : "",
+    "unit_string" : "PSU(10$^{-3}$)",
+    "sensor_name" : "Practical Salinity",
+    "sensor_plot_min" : 30,
+    "sensor_plot_max" : 38
+  }
+]
