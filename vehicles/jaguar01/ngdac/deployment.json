@@ -1,0 +1,141 @@
+{
+    "gandalf": {
+        "vehicle" : "jaguar01",
+        "vehicle_data" : "local",
+        "vehicle_type" : "slocum",
+        "status" : "recovered",
+        "PI": "Dzwonkowski B",
+        "currPosIcon": "/static/images/slocum_stop.png",
+        "dash_status": "Recovered",
+        "data_source": "TWR Dockserver",
+        "dba_merge": "/opt/dinkum/dba_merge",
+        "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
+        "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
+        "debug": true,
+        "deployed": true,
+        "deployed_data_dir": "/data/gandalf/deployments/disl/jaguar01",
+        "deployed_sensors_csv": "/data/gandalf/deployments/disl/jaguar01/processed_data/sensors.csv",
+        "deployment_date": "2026-06-26 00:00",
+        "data_start_date" : "20260626T0000",
+        "data_end_date" : "20261231T0000",
+        "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/jaguar01/from-glider",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/jaguar01/logs",
+        "dockserver": "dislgliderserver.marine.disl.edu",
+        "dockuser": "gcoos",
+        "flight_sensor_list": [
+            "m_present_time",
+            "m_depth",
+            "m_water_depth",
+            "m_gps_lat",
+            "m_gps_lon"
+        ],
+        "ftp_send": true,
+        "gdac_pw": "0c3ansc13nc3!",
+        "gdac_server": "gliders.ioos.us",
+        "gdac_url": "",
+        "gdac_user": "gcoos_dmac",
+        "harvest_method": "rsync",
+        "iconSize": [
+            20,
+            20
+        ],
+        "infoBoxImage": "/static/images/slocum_infobox.png",
+        "kml_file": "/data/gandalf/deployments/disl/jaguar01/kmz/jaguar01.kml",
+        "kmz_url": "https://gandalf.gcoos.org:/data/gandalf/deployments/disl/jaguar01/kmz/jaguar01.kml",
+        "logo_file": "/data/gandalf/static/images/logos/disl_logo.png",
+        "operator": "TWR",
+        "plots": {
+            "use_26d" : false,
+            "alt_colormap": true,
+            "cmap": "jet",
+            "deployed_plot_dir": "/data/gandalf/deployments/disl/jaguar01/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/disl_logo.png",
+            "logo_loc": [
+                175,
+                90
+            ],
+            "max_plot_depth": 100,
+            "plot_depth_padding": 5,
+            "plot_sensor_list": [
+              "sci_water_temp",
+              "sci_water_cond",
+              "calc_density",
+              "calc_sigma",
+              "calc_salinity",
+	      "sci_flbbcd_bb_units",
+              "sci_flbbcd_cdom_units",
+              "sci_flbbcd_chlor_units",
+              "sci_oxy3835_oxygen"
+            ],
+            "use_bottom": true,
+            "use_max_plot_depth": false,
+            "plot_url": "/data/gandalf/deployments/mote/jaguar01/plots/",
+            "postprocess_plot_dir": "/data/gandalf/disl/jaguar01/2026/2026_06_26/plots"
+        },
+        "post_data_dir_root": "/data/gandalf/disl/jaguar01/2020/2026_06_26",
+        "post_sensors_csv": "/data/gandalf/disl/jaguar01/2020/2026_06_26",
+        "post_kml_file": "/data/gandalf/disl/jaguar01/2020/2026_06_26/kmz/jaguar01.kml",
+        "postprocess_flight_sensor_list": [
+          "m_present_time",
+          "m_depth",
+          "m_water_depth",
+          "m_gps_lat",
+          "m_gps_lon",
+          "m_tot_horz_dist"
+        ],
+        "postprocess_science_sensor_list": [
+          "sci_m_present_time",
+          "sci_water_temp",
+          "sci_water_cond",
+          "sci_water_pressure",
+          "sci_flbbcd_bb_units",
+          "sci_flbbcd_cdom_units",
+          "sci_flbbcd_chlor_units",
+          "sci_oxy3835_oxygen"
+        ],
+        "project": "",
+        "public_name": "jaguar01",
+        "science_sensor_list": [
+            "sci_m_present_time",
+            "sci_water_temp",
+            "sci_water_cond",
+            "sci_water_pressure",
+            "sci_flbbcd_bb_units",
+            "sci_flbbcd_cdom_units",
+            "sci_flbbcd_chlor_units",
+            "sci_oxy3835_oxygen",
+            "sci_echodroid_sv",
+            "sci_echodroid_propocc",
+            "sci_echodroid_aggindex",
+            "sci_echodroid_sa",
+            "sci_echodroid_ctrmass",
+            "sci_echodroid_inertia",
+            "sci_echodroid_eqarea"
+        ],
+        "sensors_csv": "/data/gandalf/deployments/disl/jaguar01/processed_data/sensors.csv",
+        "style": {
+            "color": "#FF00FF",
+            "opacity": 1,
+            "weight": 2
+        },
+        "vehicle": "jaguar01",
+        "vehicle_type": "slocum",
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
+    },
+    "glider": "jaguar01",
+    "global_attributes": {
+        "deployment": "jaguar01-20260626T0000",
+        "wmo_id": "8901235"
+    },
+    "platform": {
+        "comment": " ",
+        "id": "jaguar01",
+        "instruments": "instrument_ctd",
+        "long_name": "Slocum Glider jaguar01",
+        "type": "platform",
+        "wmo_id": "8901235"
+    },
+    "trajectory_datetime": "20260626T0000",
+    "trajectory_name": "jaguar01-20260626T0000"
+}

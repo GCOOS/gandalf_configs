@@ -36,7 +36,7 @@
         "gdac_server": "",
         "gdac_user": "",
         "harvest_method": "",
-        "gdac_url" : "",
+        "gdac_url" : "https://data.pmel.noaa.gov/generic/erddap/tabledap/oshenPD14_hurricane_2026.json?time%2Clatitude%2Clongitude%2Ctrajectory%2Cwind_speed_mean_motion_corrected%2Cwind_speed_max_motion_corrected%2Cwind_from_direction_mean_motion_corrected%2Cair_pressure_mean%2Cair_temperature_mean%2Crelative_humidity_mean%2Csst_mean&time%3E=2026-08-25T00%3A00%3A00Z",
         "iconSize": [
             30,
             30
