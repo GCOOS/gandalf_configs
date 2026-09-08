@@ -18,7 +18,7 @@
         "deployed_sensors_csv": "/data/gandalf/deployments/louisiana/sedna/processed_data/sensors.csv",
         "deployment_date": "2026-09-02 00:00",
         "data_start_date" : "20260902T0000",
-        "data_end_date" : "20261241T0000",
+        "data_end_date" : "202612311T0000",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/louisiana/gliders/sedna/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/louisiana/gliders/sedna/logs",
         "dockserver": "sfmc.webbresearch.com",

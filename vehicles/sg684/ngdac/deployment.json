@@ -4,24 +4,25 @@
            "ctd_time",
            "ctd_depth"
         ],
-        "vehicle" : "sg652",
+        "vehicle" : "sg684",
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
-        "PI": "GMOG-CICESE",
+        "status" : "deployed",
+        "PI": "Le Henaff M",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
-        "data_source": "Cicese",
+        "data_source": "AOML",
         "debug": true,
-        "dockserver" : "gliders.cicese.mx",
-        "dockuser" : "gandalfGMOG",
-        "dockpass" : "bcurrier2022",
-        "dockfrompath": "ftp/gandalf/0041",
-        "dockfromfilter" : "p652*.nc",
-        "deployed_data_dir": "/data/gandalf/deployments/cicese/sg652",
-        "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg652/processed_data/sensors.csv",
-        "deployment_date": "2026-07-03 00:00",
+        "dockserver" : "seaglider.pub",
+        "dockuser" : "gcoos_dmac",
+        "dockpass" : "",
+        "dockport" : 22,
+        "dockfrompath": "/home/jails/aoml/gliderjail/home/sg684/M16SEP2026",
+        "dockfromfilter" : "p*.nc",
+        "deployed_data_dir": "/data/gandalf/deployments/aoml/sg684/",
+        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg684/processed_data/sensors.csv",
+        "deployment_date": "2026-09-02 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : false,
@@ -31,21 +32,21 @@
         "gdac_server": "gliders.ioos.us",
         "gdac_user": "gcoos_dmac",
         "gdac_url": "",
-        "harvest_method" : "ftp",
+        "harvest_method" : "rsync",
         "iconSize": [
             40,
             15
         ],
         "infoBoxImage": "/static/images/seaglider_infobox.jpg",
         "kmz_url": "",
-        "logo_file": "/data/gandalf/static/images/logos/cicese_logo.png",
-        "operator": "CICESE",
+        "logo_file": "/data/gandalf/static/images/logos/miami_logo.png",
+        "operator": "NOAA/AOML & UMiami/CIMAS ",
         "plot_url": "",
         "plots": {
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/cicese/sg652/plots",
-            "logo_file": "/data/gandalf/gandalf_configs/images/logos/cicese_logo.png",
+            "deployed_plot_dir": "/data/gandalf/deployments/aoml/sg684/plots",
+            "logo_file": "/data/gandalf/gandalf_configs/images/logos/miami_logo.png",
             "logo_loc": [
                 175,
                 90
@@ -57,14 +58,14 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg652/2026/2026_07_03/plots",
+            "postprocess_plot_dir": "/data/gandalf/aoml/sg684/2026/2026_09_02/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg652/2026/2026_07_03",
-        "post_sensors_csv": "/data/gandalf/cicese/sg652/2026/2026_07_03/processed_data/sensors.csv",
-        "project": "UGOS3/GulfCORES",
-        "public_name": "sg652",
+        "post_data_dir_root": "/data/gandalf/aoml/sg684/2026/2026_09_02",
+        "post_sensors_csv": "/data/gandalf/aoml/sg684/2026/2026_09_02/processed_data/sensors.csv",
+        "project": "Hurricane Gliders",
+        "public_name": "sg684",
         "dims" : {
             "sg_data_point" : {
                 "sensors" : [
@@ -86,17 +87,17 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg652-20260703T0000",
-        "wmo_id": "8901010"
+        "deployment": "sg684-20260902T0000",
+        "wmo_id": "4803961"
     },
     "platform": {
         "comment": " ",
-        "id": "sg652",
+        "id": "sg684",
         "instruments": "instrument_ctd",
-        "long_name": "Cicese Seaglider 652",
+        "long_name": "AOML Seaglider 684",
         "type": "platform",
-        "wmo_id": "8901010"
+        "wmo_id": "4803961"
     },
-    "trajectory_datetime": "20260703T0000",
-    "trajectory_name": "sg652-20260703T0000"
+    "trajectory_datetime": "20260902T0000",
+    "trajectory_name": "sg684-20260902T0000"
 }

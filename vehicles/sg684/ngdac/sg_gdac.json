@@ -1,11 +1,11 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg649-20260702T0000",
-    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/aoml/sg649/binary_files/nc/",
-    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/aoml/sg649/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/aoml/sg649/2026/2026_07_02/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/aoml/sg649/2026/2026_07_02/processed_data/nc_files"
+    "trajectory_name": "sg684-20260902T0000",
+    "deployed_sg_nc_files_in" : "/data/gandalf/deployments/aoml/sg684/binary_files/nc/",
+    "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/aoml/sg684/processed_data/nc_files",
+    "recovered_sg_nc_files_in"  : "/data/gandalf/aoml/sg684/2026/2026_09_02/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/aoml/sg684/2026/2026_09_02/processed_data/nc_files"
     },
     "validate_dims" : [
       "sg_data_point"
@@ -39,7 +39,7 @@
       "date_modified" : "",
       "format_version" : "gandalf_sg2gdac_DIM.py V1",
       "history" : "",
-      "id" : "SG649",
+      "id" : "SG684",
       "title" : "",
       "institution" : "University of Miami",
       "keywords" : "AUVS > Autonomous Underwater Vehicles, Oceans > Ocean Pressure > Water Pressure, Oceans > Ocean Temperature > Water Temperature, Oceans > Salinity/Density > Conductivity, Oceans > Salinity/Density > Density, Oceans > Salinity/Density > Salinity",
@@ -65,7 +65,7 @@
       "history" : "",
       "platform" : 0,
       "instrument_ctd" : "Seabird SBE41",
-      "wmo_id" : "4800931"
+      "wmo_id" : "4803961"
     },
     "sg_variables" : {
       "time" : {
@@ -421,11 +421,11 @@
         },
         "var_keys" : {
           "comment" : "Seaglider SGX",
-          "id" : "sg649",
+          "id" : "sg684",
           "instrument" : "instrument_ctd",
-          "long_name" : "Seaglider SGX sg649",
+          "long_name" : "Seaglider SGX sg684",
           "type" : "glider",
-          "wmo_id" : "4800931"
+          "wmo_id" : "4803961"
         }
       },
       "time_qc" : {
