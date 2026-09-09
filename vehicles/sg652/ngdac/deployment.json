@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "GMOG-CICESE",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -17,11 +17,11 @@
         "dockserver" : "gliders.cicese.mx",
         "dockuser" : "gandalfGMOG",
         "dockpass" : "bcurrier2022",
-        "dockfrompath": "ftp/gandalf/0041",
+        "dockfrompath": "ftp/gandalf/0051",
         "dockfromfilter" : "p652*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg652",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg652/processed_data/sensors.csv",
-        "deployment_date": "2026-07-03 00:00",
+        "deployment_date": "2026-09-03 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : false,
@@ -57,12 +57,12 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/cicese/sg652/2026/2026_07_03/plots",
+            "postprocess_plot_dir": "/data/gandalf/cicese/sg652/2026/2026_09_03/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/cicese/sg652/2026/2026_07_03",
-        "post_sensors_csv": "/data/gandalf/cicese/sg652/2026/2026_07_03/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/cicese/sg652/2026/2026_09_03",
+        "post_sensors_csv": "/data/gandalf/cicese/sg652/2026/2026_09_03/processed_data/sensors.csv",
         "project": "UGOS3/GulfCORES",
         "public_name": "sg652",
         "dims" : {
@@ -86,7 +86,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg652-20260703T0000",
+        "deployment": "sg652-20260903T0000",
         "wmo_id": "8901010"
     },
     "platform": {
@@ -97,6 +97,6 @@
         "type": "platform",
         "wmo_id": "8901010"
     },
-    "trajectory_datetime": "20260703T0000",
-    "trajectory_name": "sg652-20260703T0000"
+    "trajectory_datetime": "20260903T0000",
+    "trajectory_name": "sg652-20260903T0000"
 }

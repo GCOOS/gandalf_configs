@@ -1,14 +1,14 @@
 {
     "gandalf": {
         "vehicle" : "usf-bass",
-        "vehicle_data" : "local",
+        "vehicle_data" : "erddap",
         "vehicle_type" : "slocum",
         "vehicle_model" : "Slocum G1",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Lembke C",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
-        "data_source": "USF Dockserver",
+        "data_source": "IOOS GDAC",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
@@ -16,8 +16,8 @@
         "deployed": false,
         "deployed_data_dir": "/data/gandalf/deployments/usf/usf-bass",
         "deployed_sensors_csv": "/data/gandalf/deployments/usf/usf-bass/processed_data/sensors.csv",
-        "deployment_date": "2026-03-04 00:00",
-        "data_start_date" : "20260304T0000",
+        "deployment_date": "2026-09-07 00:00",
+        "data_start_date" : "20260907T0000",
         "data_end_date" : "20261231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/usf-bass/logs",
@@ -32,11 +32,11 @@
             "m_gps_lon",
             "m_water_depth"
         ],
-        "ftp_send": true,
+        "ftp_send": false,
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
-        "gdac_url": "",
-        "gdac_json_dir" : "/data/gandalf/deployments/json",
+        "gdac_url": "https://gliders.ioos.us/erddap/tabledap/bass-20260907T0000.json?time%2Clatitude%2Clongitude%2Cdepth%2Cdensity%2Cpressure%2Csalinity%2Csci_flbbcd_bb_units%2Csci_flbbcd_cdom_units%2Csci_flbbcd_chlor_units%2Csci_oxy3835_oxygen%2Ctemperature&time%3E=2026-09-02T00%3A00%3A00Z",
+        "gdac_json_dir" : "/data/gandalf/deployments/usf/usf-bass/json",
         "gdac_user": "gcoos_dmac",
         "harvest_method": "rsync",
         "iconSize": [
@@ -59,10 +59,8 @@
             ],
             "max_plot_depth": 100,
             "plot_sensor_list": [
-                "sci_water_temp",
-                "calc_density",
-                "calc_sigma",
-                "calc_salinity",
+                "salinity",
+                "temperature",
                 "sci_flbbcd_chlor_units",
                 "sci_flbbcd_bb_units",
                 "sci_flbbcd_cdom_units",
@@ -71,11 +69,11 @@
             "plot_depth_padding": 5,
             "use_bottom": true,
             "use_max_plot_depth": false,
-            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2026/2026_03_04/plots"
+            "postprocess_plot_dir": "/data/gandalf/usf/usf-bass/2026/2026_09_07/plots"
         },
-        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2026/2026_03_04",
-        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2026/2026_03_04",
-        "post_kml_file": "/data/gandalf/usf/usf-bass/2026/2026_03_04/kmz/usf-bass.kml",
+        "post_data_dir_root": "/data/gandalf/usf/usf-bass/2026/2026_09_07",
+        "post_sensors_csv": "/data/gandalf/usf/usf-bass/2026/2026_09_07",
+        "post_kml_file": "/data/gandalf/usf/usf-bass/2026/2026_09_07/kmz/usf-bass.kml",
         "postprocess_flight_sensor_list": [
           "m_present_time",
           "m_depth",
@@ -93,7 +91,7 @@
           "sci_bbfl2s_cdom_units",
           "sci_oxy3835_oxygen"
         ],
-        "project": "GCOOS Glider Observatory",
+        "project": "SECOORA Hurricane Gliders",
         "public_name": "usf-bass",
         "science_sensor_list": [
             "sci_m_present_time",
@@ -116,7 +114,7 @@
     },
     "glider": "usf-bass",
     "global_attributes": {
-        "deployment": "usf-bass-20260304T0000",
+        "deployment": "usf-bass-20260907T0000",
         "wmo_id": "4801918"
     },
     "platform": {
@@ -127,6 +125,6 @@
         "type": "platform",
         "wmo_id": "4801918"
     },
-    "trajectory_datetime": "20260304T0000",
-    "trajectory_name": "usf-bass-20260304T0000"
+    "trajectory_datetime": "20260907T0000",
+    "trajectory_name": "usf-bass-20260907T0000"
 }
