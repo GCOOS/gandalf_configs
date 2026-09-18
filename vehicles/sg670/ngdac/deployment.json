@@ -8,7 +8,7 @@
         "vehicle_data" : "local",
         "vehicle_type" : "seaglider",
         "vehicle_model" : "Seaglider",
-        "status" : "recovered",
+        "status" : "deployed",
         "PI": "Le Henaff M",
         "currPosIcon": "/static/images/seaglider_icon.png",
         "dash_status": "Deployed",
@@ -18,11 +18,11 @@
         "dockuser" : "gcoos_dmac",
         "dockpass" : "",
         "dockport" : 22,
-        "dockfrompath": "/home/jails/aoml/gliderjail/home/sg670",
-        "dockfromfilter" : "p*.nc",
+        "dockfrompath": "/home/jails/aoml/gliderjail/home/sg670/current",
+        "dockfromfilter" : "p670*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/aoml/sg670/",
         "deployed_sensors_csv": "/data/gandalf/deployments/aoml/sg670/processed_data/sensors.csv",
-        "deployment_date": "2025-09-11 00:00",
+        "deployment_date": "2026-09-15 00:00",
         "drop_sg_data" : false,
         "drop_legato_data" : false,
         "drop_aa4831_data" : false,
@@ -58,12 +58,12 @@
                 "salinity",
                 "density"
             ],
-            "postprocess_plot_dir": "/data/gandalf/aoml/sg670/2025/2025_09_11/plots",
+            "postprocess_plot_dir": "/data/gandalf/aoml/sg670/2026/2026_09_15/plots",
             "use_26d": true,
             "use_max_plot_depth": false
         },
-        "post_data_dir_root": "/data/gandalf/aoml/sg670/2025/2025_09_11",
-        "post_sensors_csv": "/data/gandalf/aoml/sg670/2025/2025_09_11/processed_data/sensors.csv",
+        "post_data_dir_root": "/data/gandalf/aoml/sg670/2026/2026_09_15",
+        "post_sensors_csv": "/data/gandalf/aoml/sg670/2026/2026_09_15/processed_data/sensors.csv",
         "project": "Hurricane Gliders",
         "public_name": "sg670",
         "dims" : {
@@ -87,7 +87,7 @@
         "teleport_zoom" : 8
     },
     "global_attributes": {
-        "deployment": "sg670-20250911T0000",
+        "deployment": "sg670-20260915T0000",
         "wmo_id": "4802954"
     },
     "platform": {
@@ -98,6 +98,6 @@
         "type": "platform",
         "wmo_id": "4802954"
     },
-    "trajectory_datetime": "20250911T0000",
-    "trajectory_name": "sg670-20250911T0000"
+    "trajectory_datetime": "20260915T0000",
+    "trajectory_name": "sg670-20260915T0000"
 }

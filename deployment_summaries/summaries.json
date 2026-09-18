@@ -1,5 +1,20 @@
 [
 
+{
+     "pi" : "Mote OTP",
+     "vehicle" : "mote-dora",
+     "type" : "Slocum G2",
+     "operator" : "Mote",
+     "project" : "FWRI Gulf Survey",
+     "deployed" : "2026-08-31",
+     "recovered" : "2026-09-16",
+     "days_wet" : 17,
+     "distance" : 0,
+     "map_url" : "/mote/mote-dora/2026/2026_08_31",
+     "data_url" : "/data/gandalf/mote/mote-dora/2026/2026_0831/",
+     "plot_url" : "/data/gandalf/mote/mote-dora/2026/2026_08_31/plots",
+     "kmz_url" : "/data/gandalf/mote/mote-dora/2026/2026_08_31/kmz/mote-dora.kml"
+ },
  {
      "pi" : "Edwards, C",
      "vehicle" : "salacia",
