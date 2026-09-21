@@ -1,11 +1,11 @@
 {
   "config_settings" : {
     "status" : "deployed",
-    "trajectory_name": "sg677-20250821T0000",
+    "trajectory_name": "sg677-20260821T0000",
     "deployed_sg_nc_files_in" : "/data/gandalf/deployments/usm/sg677/binary_files/nc/",
     "deployed_gdac_nc_files_out" : "/data/gandalf/deployments/usm/sg677/processed_data/nc_files",
-    "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2025/2025_08_21/binary_files/nc",
-    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2025/2025_08_21/processed_data/nc_files"
+    "recovered_sg_nc_files_in"  : "/data/gandalf/usm/sg677/2026/2026_08_21/binary_files/nc",
+    "recovered_gdac_nc_files_out" : "/data/gandalf/usm/sg677/2026/2026_08_21/processed_data/nc_files"
     },
     "validate_dims" : [
       "sg_data_point"
@@ -29,8 +29,8 @@
       "Metadata_Conventions" : "CF-1.6, Unidata Dataset Discovery v1.0",
       "acknowledgment" : "This project is funded by Gulf of America Coastal Ocean Observing System (GCOOS)",
       "comment" : "Underwater glider temperature and salinity profiles",
-      "contributor_name" : "Stephan Howden, Kevin Martin, Olivia Braswell",
-      "contributor_role" : "Principal Investigator, Data Manager, Data Manager",
+      "contributor_name" : "Stephan Howden, Kevin Martin",
+      "contributor_role" : "Principal Investigator, Data Manager",
       "creator_email" : "bob.currier@gcoos.org",
       "creator_name" : "Bob Currier",
       "creator_url" : "https://gandalf.gcoos.org",
