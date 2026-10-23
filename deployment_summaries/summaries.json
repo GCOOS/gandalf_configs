@@ -1,6 +1,36 @@
 [
 
 {
+   "pi" : "Lembke, C",
+   "vehicle" : "usf-sam",
+   "type" : "Slocum G1",
+   "operator" : "USF",
+   "project" : "FL Red Tide Observatory",
+   "deployed" : "2026-09-08",
+   "recovered" : "2026-09-24",
+   "days_wet" : 16,
+   "distance" : 0,
+   "map_url" : "/usf/usf-sam/2026/2026_09_08",
+   "data_url" : "/data/gandalf/usf/usf-sam/2026/2026_09-08",
+   "plot_url" : "/data/gandalf/usf/usf-sam/2026/2026_09_08/plots",
+   "kmz_url" : "/data/gandalf/usf/usf-sam/2026/2026_09_08/kmz/usf-sam.kml"
+},
+ {
+     "pi" : "Edwards, C",
+     "vehicle" : "unit_1091",
+     "type" : "Slocum G3",
+     "operator" : "SKIO",
+     "project" : "SECOORA Hurricane Gliders",
+     "deployed" : "2026-08-27",
+     "recovered" : "2026-09-23",
+     "days_wet" : 26,
+     "distance" : 0,
+     "map_url" : "",
+     "data_url" : "/data/gandalf/skio/unit_1091/2026/2026_08_27",
+     "plot_url" : "/data/gandalf/skio/unit_1091/2026/2026_08_27/plots",
+     "kmz_url" : "/data/gandalf/skio/unit_1091/2026/2026_08_27/kmz/unit_1091.kml"
+ },
+{
      "pi" : "Mote OTP",
      "vehicle" : "mote-dora",
      "type" : "Slocum G2",

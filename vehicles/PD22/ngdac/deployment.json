@@ -4,7 +4,7 @@
         "vehicle_data" : "erddap",
         "vehicle_type" : "USV",
         "vehicle_model" : "Oshen C-Star",
-        "status" : "deployed",
+        "status" : "recovered",
         "PI": "NOAA AOML",
         "currPosIcon": "/static/images/oshen-cstar.png",
         "dash_status": "deployed",
@@ -96,7 +96,7 @@
         },
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "PD22",
+    "glider": "",
     "global_attributes": {
         "deployment": "",
         "wmo_id": ""

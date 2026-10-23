@@ -1,6 +1,6 @@
 {
     "gandalf": {
-        "vehicle" : "PD22",
+        "vehicle" : "PD14",
         "vehicle_data" : "erddap",
         "vehicle_type" : "USV",
         "vehicle_model" : "Oshen C-Star",
@@ -13,8 +13,8 @@
         "dba_sensor_filter": "",
         "dbd2asc": "",
         "debug": true,
-        "deployed_data_dir": "/data/gandalf/deployments/aoml/PD22",
-        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/PD22/processed_data/sensors.csv",
+        "deployed_data_dir": "/data/gandalf/deployments/aoml/PD14",
+        "deployed_sensors_csv": "/data/gandalf/deployments/aoml/PD14/processed_data/sensors.csv",
         "deployment_date": "2026-08-24 00:00",
         "data_start_date" : "20260824T0000",
         "data_end_date" : "20261231T2359",
@@ -31,7 +31,7 @@
             "gps_longitude"
         ],
         "ftp_send": false,
-        "gdac_json_dir": "/data/gandalf/deployments/aoml/PD22/json",
+        "gdac_json_dir": "/data/gandalf/deployments/aoml/PD14/json",
         "gdac_pw": "",
         "gdac_server": "",
         "gdac_user": "",
@@ -50,8 +50,8 @@
             "use_26d" : true,
             "alt_colormap": true,
             "cmap": "jet",
-            "deployed_plot_dir": "/data/gandalf/deployments/aoml/PD22/plots",
-            "deployed_plot_url": "/plots/PD22",
+            "deployed_plot_dir": "/data/gandalf/deployments/aoml/PD14/plots",
+            "deployed_plot_url": "/plots/PD14",
             "log_mult": 100,
             "logo_file": "/data/gandalf/static/images/logos/aoml_logo.png",
             "logo_loc": [
@@ -68,21 +68,21 @@
                 "relative_humidity_mean"
             ],
             "plot_depth_padding": 5,
-            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/aoml/PD22/plots/",
-            "postprocess_plot_dir": "/data/gandalf/aoml/PD22/2026/2026_08_24/plots",
+            "plot_url": "https://gandalf.gcoos.org/data/gandalf/deployments/aoml/PD14/plots/",
+            "postprocess_plot_dir": "/data/gandalf/aoml/PD14/2026/2026_08_24/plots",
             "use_bottom": true,
             "use_max_plot_depth": false,
             "vmin": 0.01
         },
-        "post_data_dir_root": "/data/gandalf/aoml/PD22/2026/2026_08_24",
-        "post_sensors_csv": "/data/gandalf/aoml/PD22/2026/2026_08_24",
+        "post_data_dir_root": "/data/gandalf/aoml/PD14/2026/2026_08_24",
+        "post_sensors_csv": "/data/gandalf/aoml/PD14/2026/2026_08_24",
         "post_kml_file": "",
         "postprocess_flight_sensor_list": [
         ],
         "postprocess_science_sensor_list": [
         ],
         "project": "NOAA AOML PMEL Hurricane Monitoring 2026",
-        "public_name": "PD22",
+        "public_name": "PD14",
         "science_sensor_list": [
           "density",
           "pressure",
@@ -96,14 +96,14 @@
         },
         "wpIcon": "/static/images/wp_icon.png"
     },
-    "glider": "PD22",
+    "glider": "PD14",
     "global_attributes": {
         "deployment": "",
         "wmo_id": ""
     },
     "platform": {
         "comment": "",
-        "id": "PD22",
+        "id": "PD14",
         "instruments": "",
         "long_name": "",
         "type": "platform",

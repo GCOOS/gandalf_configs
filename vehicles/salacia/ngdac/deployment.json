@@ -16,8 +16,8 @@
         "deployed": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/salacia",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/salacia/processed_data/sensors.csv",
-        "deployment_date": "2026-07-31 00:00",
-        "data_start_date" : "20260731T1200",
+        "deployment_date": "2026-09-30 00:00",
+        "data_start_date" : "20260930T0000",
         "data_end_date" : "20261231T1200",
         "dockfrompath": "/var/opt/sfmc-dockserver/stations/default/gliders/salacia/from-glider/",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/salacia/logs/",
@@ -105,7 +105,7 @@
     },
     "glider": "salacia",
     "global_attributes": {
-        "deployment": "salacia-20260731T0000",
+        "deployment": "salacia-20260930T0000",
         "wmo_id": ""
     },
     "platform": {
@@ -116,6 +116,6 @@
         "type": "platform",
         "wmo_id": ""
     },
-    "trajectory_datetime": "20260731T0000",
-    "trajectory_name": "salacia-20260731T0000"
+    "trajectory_datetime": "20260930T0000",
+    "trajectory_name": "salacia-20260930T0000"
 }

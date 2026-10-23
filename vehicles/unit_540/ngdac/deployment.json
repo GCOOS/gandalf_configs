@@ -3,26 +3,24 @@
         "vehicle" : "unit_540",
         "vehicle_data" : "local",
         "vehicle_type" : "slocum",
-        "status" : "recovered",
-        "PI": "DiMarco S, Whilden  K",
+        "status" : "deployed",
+        "PI": "DiMarco S, Knapp T",
         "currPosIcon": "/static/images/slocum_stop.png",
         "dash_status": "Deployed",
-        "data_source": "TAMU Dockserver",
+        "data_source": "TWR Dockserver",
         "dba_merge": "/opt/dinkum/dba_merge",
         "dba_sensor_filter": "/opt/dinkum/dba_sensor_filter",
         "dbd2asc": "/opt/dinkum/dbd2asc -c /data/gandalf/gandalf_configs/cache",
         "debug": "True",
         "deployed_data_dir": "/data/gandalf/deployments/tamu/unit_540",
         "deployed_sensors_csv": "/data/gandalf/deployments/tamu/unit_540/processed_data/sensors.csv",
-        "deployment_date": "2020-08-13 12:00",
-        "data_start_date" : "20200813T1200",
-        "data_end_date" : "20201231T1200",
-        "dockserver": "http://tabs-os.geos.tamu.edu",
-        "dockuser" : "",
-        "docklogpath" : "~woody/glider_540",
-        "docklogfilter": "unit_540_network_net_0_2020*",
-        "dockfromfilter" : "unit_540-2020*",
-        "dockfrompath" : "~woody/glider_540",
+        "deployment_date": "2026-10-22 00:00",
+        "data_start_date" : "20261022T0000",
+        "data_end_date" : "20261231T0000",
+	"dockfrompath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_540/from-glider/",
+        "docklogpath": "/var/opt/sfmc-dockserver/stations/tamu/gliders/unit_540/logs",
+        "dockserver": "sfmc.webbresearch.com",
+        "dockuser": "rcurrier",
         "flight_sensor_list": [
             "m_present_time",
             "m_depth",
@@ -34,7 +32,7 @@
         "gdac_pw": "0c3ansc13nc3!",
         "gdac_server": "gliders.ioos.us",
         "gdac_user": "gcoos_dmac",
-        "harvest_method": "wget",
+        "harvest_method": "rsync",
         "gdac_url": "",
         "gdac_json_dir" : "/data/gandalf/deployments/json",
         "iconSize": [
@@ -47,6 +45,7 @@
         "operator": "TAMU GERG",
         "plot_url": "",
         "plots": {
+            "use_26d" : false,
             "alt_colormap": "True",
             "cmap": "jet",
             "deployed_plot_dir": "/data/gandalf/deployments/tamu/unit_540/plots",
@@ -59,10 +58,7 @@
                 "sci_water_temp",
                 "calc_density",
                 "calc_sigma",
-                "calc_salinity",
-                "sci_flbbcd_chlor_units",
-                "sci_flbbcd_cdom_units",
-                "sci_oxy4_oxygen"
+                "calc_salinity"
             ],
             "postprocess_plot_dir": "/data/gandalf/tamu/unit_540/2015/2015_08_05/plots",
             "post_sensors_csv": "/data/gandalf/tamu/unit_540/2015/2015_08_05/processed_data/sensors.csv",
@@ -102,10 +98,7 @@
             "sci_m_present_time",
             "sci_water_temp",
             "sci_water_cond",
-            "sci_water_pressure",
-            "sci_flbbcd_cdom_units",
-            "sci_flbbcd_chlor_units",
-            "sci_oxy4_oxygen"
+            "sci_water_pressure"
         ],
         "style": {
             "color": "#500000",
@@ -113,22 +106,22 @@
             "weight": 2
         },
         "vehicle": "unit_540",
-        "vehicle_type": "Slocum G2",
-        "wpIcon": "/static/images/wp_icon.png"
+        "wpIcon": "/static/images/wp_icon.png",
+        "teleport_zoom" : 8
     },
     "glider": "unit_540",
     "global_attributes": {
-        "deployment": "Stommel-20200813T1200",
+        "deployment": "unit_540-20261022T0000",
         "wmo_id": "4801916"
     },
     "platform": {
         "comment": " ",
-        "id": "Stommel",
+        "id": "unit_540",
         "instruments": "instrument_ctd",
-        "long_name": "Slocum Glider Stommel",
+        "long_name": "Slocum Glider unit_540",
         "type": "platform",
         "wmo_id": "4801916"
     },
-    "trajectory_datetime": "20200813T1200",
-    "trajectory_name": "Stommel-20200813T1200"
+    "trajectory_datetime": "20261022T0000",
+    "trajectory_name": "unit_540-20261022T0000"
 }

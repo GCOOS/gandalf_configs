@@ -15,8 +15,8 @@
         "debug": true,
         "deployed_data_dir": "/data/gandalf/deployments/skio/unit_1091",
         "deployed_sensors_csv": "/data/gandalf/deployments/skio/unit_1091/processed_data/sensors.csv",
-        "deployment_date": "2026-08-27 12:00",
-        "data_start_date" : "20260827T1200",
+        "deployment_date": "2026-09-30 00:00",
+        "data_start_date" : "20260930T000",
         "data_end_date" : "20261231T1200",
         "dockfrompath" : "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/from-glider",
         "docklogpath": "/var/opt/sfmc-dockserver/stations/default/gliders/unit_1091/logs",
@@ -116,7 +116,7 @@
     },
     "glider": "unit_1091",
     "global_attributes": {
-        "deployment": "unit_1091-20260827T0000",
+        "deployment": "unit_1091-20260930T0000",
         "wmo_id": "8901043"
     },
     "platform": {
@@ -127,6 +127,6 @@
         "type": "platform",
         "wmo_id": "8901043"
     },
-    "trajectory_datetime": "20260827T0000",
-    "trajectory_name": "unit_1091-20260827T0000"
+    "trajectory_datetime": "20260930T0000",
+    "trajectory_name": "unit_1091-20260930T0000"
 }

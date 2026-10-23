@@ -17,7 +17,7 @@
         "dockserver" : "gliders.cicese.mx",
         "dockuser" : "gandalfGMOG",
         "dockpass" : "bcurrier2022",
-        "dockfrompath": "ftp/gandalf/0051",
+        "dockfrompath": "/ftp/gandalf/0051",
         "dockfromfilter" : "p652*.nc",
         "deployed_data_dir": "/data/gandalf/deployments/cicese/sg652",
         "deployed_sensors_csv": "/data/gandalf/deployments/cicese/sg652/processed_data/sensors.csv",
